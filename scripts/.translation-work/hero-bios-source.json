@@ -1,0 +1,974 @@
+{
+  "achlys-alice": {
+    "name": "Achlys Alice",
+    "description": "Despite her charming look, the Blood Queen harbored the ambition of destroying the world. With Apostae's guidance, Alice found a new purpose in life-to achieve the goal of the Lord of the Abyss and turn the world into an empty void again.",
+    "story": "Despite her charming look, the Blood Queen harbored the ambition of destroying the world. With Apostae's guidance, Alice found a new purpose in life-to achieve the goal of the Lord of the Abyss and turn the world into an empty void again.",
+    "capabilities": "A Mage with impressive durability, damage, and control abilites, capable of dealing AoE damage, Weakening enemies so that they can't deal damage, and stopping them from targeting her when she's about to die"
+  },
+  "aeltara": {
+    "name": "Aeltara",
+    "description": "Radiant Eversol Aeltara stands as the chosen one of the Lord of Light. She inherits not only the title of The Flawless One but also the sacred duty of guiding Aelfir, the source of life. As the new Flawless One, what revelations and salvation will she bring to this world?",
+    "story": "Radiant Eversol Aeltara stands as the chosen one of the Lord of Light. She inherits not only the title of The Flawless One but also the sacred duty of guiding Aelfir, the source of life. As the new Flawless One, what revelations and salvation will she bring to this world?",
+    "capabilities": ""
+  },
+  "aeon-rista": {
+    "name": "Aeon Rista",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "TBA"
+  },
+  "agnes": {
+    "name": "Agnes",
+    "description": "From the depths of the abyss, a withered blossom transformed into a winged fae maiden. Her power, beyond even the abyss's reach, led to eternal darkness. A forgotten promise from her past life awakened, igniting an unbreakable resolve to fulfill it at any cost... hero introduction",
+    "story": "From the depths of the abyss, a withered blossom transformed into a winged fae maiden. Her power, beyond even the abyss's reach, led to eternal darkness. A forgotten promise from her past life awakened, igniting an unbreakable resolve to fulfill it at any cost... hero introduction",
+    "capabilities": "A Marksman with high DPS potential, capable of dealing massive damage with Basic Attacks and triggering additional damage when allies cast Ultimates."
+  },
+  "ais": {
+    "name": "Ais",
+    "description": "\"As one of the best adventurers in the Loki Familia, Ais Wallenstein is an extraordinarily skilled swordswoman with breathtaking beauty. She's known as the Sword Princess in Orario and admired by Bell Cranel.\" (Skin Overview)",
+    "story": "\"As one of the best adventurers in the Loki Familia, Ais Wallenstein is an extraordinarily skilled swordswoman with breathtaking beauty. She's known as the Sword Princess in Orario and admired by Bell Cranel.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "akai": {
+    "name": "Akai",
+    "description": "Akai is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "akashic": {
+    "name": "Akashic",
+    "description": "\"A legendary warlock of the Moniyan Empire, surrounded by myriad riddles and mystique. It's said that he is truly omniscient, and that he recorded his boundless knowledge in note form.\" (Skin Overview)",
+    "story": "\"A legendary warlock of the Moniyan Empire, surrounded by myriad riddles and mystique. It's said that he is truly omniscient, and that he recorded his boundless knowledge in note form.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "aldous": {
+    "name": "Aldous",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "alice": {
+    "name": "Alice",
+    "description": "Alice is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "alpha": {
+    "name": "Alpha",
+    "description": "As a creation of Laboratory 1718 after Saber, Alpha has a body made of more sophisticated and rarer materials. Together with aircraft Beta, Alpha is considered as the \"ultimate weapon\".",
+    "story": "As a creation of Laboratory 1718 after Saber, Alpha has a body made of more sophisticated and rarer materials. Together with aircraft Beta, Alpha is considered as the \"ultimate weapon\".",
+    "capabilities": ""
+  },
+  "alucard": {
+    "name": "Alucard",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "amaterasu": {
+    "name": "Amaterasu",
+    "description": "The Sun Goddess that once ruled over the Cadia Riverlands, with the Onmyouji Masters serving as her most loyal companions. Now the goddess has returned, in the form of a young maiden.",
+    "story": "The Sun Goddess that once ruled over the Cadia Riverlands, with the Onmyouji Masters serving as her most loyal companions. Now the goddess has returned, in the form of a young maiden.",
+    "capabilities": ""
+  },
+  "angela": {
+    "name": "Angela",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "anna": {
+    "name": "Anna",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "apexis-cluster": {
+    "name": "Apexis Cluster",
+    "description": "An ancient human from the early Endless War, Cluster vanished mysteriously, only to return millennia later. Ravaged by body modification experiments, he retreated into a high-tech suit, pursuing life reconstruction research. Unlocking the light giant's secrets, Cluster mastered life evolution, recreating his perfect form, and raising a clone army. His journey culminated in seizing the Celestial Palace and founding the Gray Hawk Kingdom, evolving from a decaying mortal to the architect of a new world",
+    "story": "An ancient human from the early Endless War, Cluster vanished mysteriously, only to return millennia later. Ravaged by body modification experiments, he retreated into a high-tech suit, pursuing life reconstruction research. Unlocking the light giant's secrets, Cluster mastered life evolution, recreating his perfect form, and raising a clone army. His journey culminated in seizing the Celestial Palace and founding the Gray Hawk Kingdom, evolving from a decaying mortal to the architect of a new world",
+    "capabilities": "A Support hero who can summon puppets. Ultimate transfers damage from allies to enemies, while Realm Skills converts fallen enemies into puppets."
+  },
+  "apostae": {
+    "name": "Apostae",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "arcus-miya": {
+    "name": "Arcus Miya",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "A Marksman with incredibly high damage against front-row enemies. Can summon 2 units during battle, making the enemy's front row suffer the same damage and control effects as her summoned units."
+  },
+  "argus": {
+    "name": "Argus",
+    "description": "Everything is born with sin. It's Argus's duty to discipline everything. After the sword Demise has fallen, it is unclear whether Argus is seeking discipline or simply taking lives.",
+    "story": "Everything is born with sin. It's Argus's duty to discipline everything. After the sword Demise has fallen, it is unclear whether Argus is seeking discipline or simply taking lives.",
+    "capabilities": ""
+  },
+  "astraia-sipra": {
+    "name": "Astraia Sipra",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "atlas": {
+    "name": "Atlas",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "aurora": {
+    "name": "Aurora",
+    "description": "What's the coldest thing in this world? Aurora's answer would be \"A heart that's lost in time\". On the throne of the Nost Gal, Aurora is asleep with her loved one. (Skin Overview)",
+    "story": "What's the coldest thing in this world? Aurora's answer would be \"A heart that's lost in time\". On the throne of the Nost Gal, Aurora is asleep with her loved one. (Skin Overview)",
+    "capabilities": "An excellent crowd control Hero, capable of freezing enemies multiple times while greatly reducing their shields."
+  },
+  "automatic-turret": {
+    "name": "Automatic Turret",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "badang": {
+    "name": "Badang",
+    "description": "\"Badang, the hero with mighty strength, once defeated a sea monster on his own. His regenerated arms and gem-like tattoos are his trophies of victory.\" (Skin Overview)",
+    "story": "\"Badang, the hero with mighty strength, once defeated a sea monster on his own. His regenerated arms and gem-like tattoos are his trophies of victory.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "bai": {
+    "name": "Bai",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "balmond": {
+    "name": "Balmond",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "bane": {
+    "name": "Bane",
+    "description": "Get out of the way! You don't stand a chance against the Lord of the Seven Seas.",
+    "story": "Get out of the way! You don't stand a chance against the Lord of the Seven Seas.",
+    "capabilities": ""
+  },
+  "beatrice": {
+    "name": "Beatrice",
+    "description": "Beatrice is an Astral hero from Mobile Legends: Adventure, released on with a dedicated Tinted Mirage event.",
+    "story": "Beatrice is an Astral hero from Mobile Legends: Adventure, released on with a dedicated Tinted Mirage event.",
+    "capabilities": ""
+  },
+  "belerick": {
+    "name": "Belerick",
+    "description": "\"As one of the surviving Contract Beings on the Land of Dawn, Belerick heard the whispers of the Ancient Ones and awakened. He watched the ruined world with bewilderment, trying to fulfill his duty once again.\" (Skin Overview)",
+    "story": "\"As one of the surviving Contract Beings on the Land of Dawn, Belerick heard the whispers of the Ancient Ones and awakened. He watched the ruined world with bewilderment, trying to fulfill his duty once again.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "bell": {
+    "name": "Bell",
+    "description": "\"Bell Cranel is not only an adventurer who aspires to become a hero but also a member of the Hestia Familia in Labyrinth City Orario, where gods and goddesses live amongst mankind.\" (Skin Overview)",
+    "story": "\"Bell Cranel is not only an adventurer who aspires to become a hero but also a member of the Hestia Familia in Labyrinth City Orario, where gods and goddesses live amongst mankind.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "blue-eyed-raven": {
+    "name": "Blue-eyed Raven",
+    "description": "He has pale red skin, blonde hair and light blue eyes. He has deer ears and has a green hood with a light green triangle sign printed on it. He wears a green coat with blue sleeves and a light green scarf. He has white pants and brown boots.",
+    "story": "He has pale red skin, blonde hair and light blue eyes. He has deer ears and has a green hood with a light green triangle sign printed on it. He wears a green coat with blue sleeves and a light green scarf. He has white pants and brown boots.",
+    "capabilities": ""
+  },
+  "bruno": {
+    "name": "Bruno",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "chang-e": {
+    "name": "Chang'e",
+    "description": "Chang'e is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "claude": {
+    "name": "Claude",
+    "description": "Claude is the most infamous thief in the Eruditio and even in the Land of Dawn. There's no wall high enough to stop him and Dexter from breaking in.",
+    "story": "Claude is the most infamous thief in the Eruditio and even in the Land of Dawn. There's no wall high enough to stop him and Dexter from breaking in.",
+    "capabilities": ""
+  },
+  "clint": {
+    "name": "Clint",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "crocell": {
+    "name": "Crocell",
+    "description": "As incarnation power of Insight, Crocell is enthusiastic about trying all the new food in Land of Dawn. She is always energetic and curious about everything.",
+    "story": "As incarnation power of Insight, Crocell is enthusiastic about trying all the new food in Land of Dawn. She is always energetic and curious about everything.",
+    "capabilities": ""
+  },
+  "cyclops": {
+    "name": "Cyclops",
+    "description": "Well... I know what you are going to ask. Yes, in Cyclops planet, he's really called the \"One-eyed Giant\".",
+    "story": "Well... I know what you are going to ask. Yes, in Cyclops planet, he's really called the \"One-eyed Giant\".",
+    "capabilities": ""
+  },
+  "darksteel-dullahan": {
+    "name": "Darksteel Dullahan",
+    "description": "\"An epic hidden in the darkness, a hero guarding the dawn, destined to sound the horn of battle at daybreak.\"",
+    "story": "\"An epic hidden in the darkness, a hero guarding the dawn, destined to sound the horn of battle at daybreak.\"",
+    "capabilities": "A powerful Tank whose Umbral Aegis blocks massive single hits. She also excels in Damage Reduction, Control Immunity, and Energy Restoration."
+  },
+  "diggie": {
+    "name": "Diggie",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "eclipse-arlott": {
+    "name": "Eclipse Arlott",
+    "description": "Half-Demon. A tragic figure with white hair and eyes of mismatched colors. An outsider to both demons and humans. Arlott, born of human and demon blood, was betrayed by both races. At death's door, he was saved by a human girl named Mila and found peace in a quiet life. But their happiness was short-lived. When the Church of Light executed Mila for helping him, Arlott, consumed by rage, broke through the ranks of knights in the church and laid Mila to rest in a place filled with their shared memories... (official introduction)",
+    "story": "Half-Demon. A tragic figure with white hair and eyes of mismatched colors. An outsider to both demons and humans. Arlott, born of human and demon blood, was betrayed by both races. At death's door, he was saved by a human girl named Mila and found peace in a quiet life. But their happiness was short-lived. When the Church of Light executed Mila for helping him, Arlott, consumed by rage, broke through the ranks of knights in the church and laid Mila to rest in a place filled with their shared memories... (official introduction)",
+    "capabilities": "A durable Fighter hero with strong Control, excels at countering enemy Mages and Marksmen. Deals high DMG and inflicts Control when enemies gather."
+  },
+  "edith": {
+    "name": "Edith",
+    "description": "A tank hero that possesses immense durability and the ability to control enemies. In mecha form, she can absorb large amounts of damage; in human form, she trades this durability for continuous damage and the ability to inflict debuffs against her enemies.",
+    "story": "A tank hero that possesses immense durability and the ability to control enemies. In mecha form, she can absorb large amounts of damage; in human form, she trades this durability for continuous damage and the ability to inflict debuffs against her enemies.",
+    "capabilities": ""
+  },
+  "ember-irithel": {
+    "name": "Ember Irithel",
+    "description": "(In-game Info) To any outsider, it was the most disastrous fire in history. Just when all seemed lost, with the forest on the verge of consuming Irithel and her tiger, a rainstorm hit without any warning, quenching the unprecedented flames. As the scorched wood cracked and fell away, Irithel rose slowly from the dissipating smoke and smoldering embers. Her head hung low, marked by ghastly wounds, and the crimson glow of her horn signaled imminent danger. Beside her, Leo emerged from the charred timber, vigorously shaking off dirt and ash. The tempered steel scales on the back of his neck unfurled one by one, gleaming with an eerie chill. He took a deliberate step forward, stretching, as flames danced from his tail.",
+    "story": "(In-game Info) To any outsider, it was the most disastrous fire in history. Just when all seemed lost, with the forest on the verge of consuming Irithel and her tiger, a rainstorm hit without any warning, quenching the unprecedented flames. As the scorched wood cracked and fell away, Irithel rose slowly from the dissipating smoke and smoldering embers. Her head hung low, marked by ghastly wounds, and the crimson glow of her horn signaled imminent danger. Beside her, Leo emerged from the charred timber, vigorously shaking off dirt and ash. The tempered steel scales on the back of his neck unfurled one by one, gleaming with an eerie chill. He took a deliberate step forward, stretching, as flames danced from his tail.",
+    "capabilities": "A powerful single-target DPS Marksman, capable of enhancing the whole team's Basic Attacks and launching Multi Basic Attacks. Upon entering the Cannon Mode, can greatly boost durability and damage output."
+  },
+  "eos-silvanna": {
+    "name": "Eos Silvanna",
+    "description": "(In-game Info) After Silvanna's father fell ill, she took over as the ruler of the Moniyan Empire. However, the weight of her new responsibility lef her lost and confused, unsure of what the future held. When caught in a web of intrigue, it can be difficult to know what you truly want. Silvanna was no exception. As she began to navigate the unfamiliar world of politics and deal with outspoken officials, she had to find her own way of doing things. But as we know, Silvanna is a fighter. A moment of confusion won't make her give up or lose faith. When the empire is faced with internal and external crises, Silvanna will always be at the forefront, leading of charge. \"I am the very symbol of Moniyan,\" Silvanna declared. Her promise to protect her country is a commitment that can never be broken. With the flag held high in her hand, she will defend Moniyan until the end of time.",
+    "story": "(In-game Info) After Silvanna's father fell ill, she took over as the ruler of the Moniyan Empire. However, the weight of her new responsibility lef her lost and confused, unsure of what the future held. When caught in a web of intrigue, it can be difficult to know what you truly want. Silvanna was no exception. As she began to navigate the unfamiliar world of politics and deal with outspoken officials, she had to find her own way of doing things. But as we know, Silvanna is a fighter. A moment of confusion won't make her give up or lose faith. When the empire is faced with internal and external crises, Silvanna will always be at the forefront, leading of charge. \"I am the very symbol of Moniyan,\" Silvanna declared. Her promise to protect her country is a commitment that can never be broken. With the flag held high in her hand, she will defend Moniyan until the end of time.",
+    "capabilities": "An impressive Fighter that relies on both durability and damage, capable of gaining extra Attack based on the total shield gained and dealing more damage based on the current shield."
+  },
+  "eruditio-guard": {
+    "name": "Eruditio Guard",
+    "description": "Eruditio Guard is a human, part of the Moniyan Soldiers Force. She alongside other guards fight against The Light's Order Team in order to imprison Tigreal thinking he is the one behind the crimes committed against the Moniyan Empire. She has white hair ended on a pony tail which is supported by a steel hairband. wears a knight eyes cover and a neck armor that covers part of her left shoulder; on body a black combat full body suit, which the end of the sleeves are blue; under it has a gray blouse and blue pants; on her head wears a navy vibes hat; one of her arms is a tech arm in which carries a long sword.",
+    "story": "Eruditio Guard is a human, part of the Moniyan Soldiers Force. She alongside other guards fight against The Light's Order Team in order to imprison Tigreal thinking he is the one behind the crimes committed against the Moniyan Empire. She has white hair ended on a pony tail which is supported by a steel hairband. wears a knight eyes cover and a neck armor that covers part of her left shoulder; on body a black combat full body suit, which the end of the sleeves are blue; under it has a gray blouse and blue pants; on her head wears a navy vibes hat; one of her arms is a tech arm in which carries a long sword.",
+    "capabilities": ""
+  },
+  "erza": {
+    "name": "Erza",
+    "description": "(in-game info) Erza, an extraordinary S-Class Mage in the renowned guild Fairy Tail, is revered as the formidable \"Titania.\" Her mastery of Requip: The Knight grants her the ability to seamlessly swap weapons, armor, and attire at will. Those close to Erza show her their unwavering trust. With a steadfast commitment to justice, and though she may be serious, Erza has quite a fondness for sweets. What sort of wonders await Erza, who found herself in the Land of Dawn after being drawn into a space-time rift during a full moon?",
+    "story": "(in-game info) Erza, an extraordinary S-Class Mage in the renowned guild Fairy Tail, is revered as the formidable \"Titania.\" Her mastery of Requip: The Knight grants her the ability to seamlessly swap weapons, armor, and attire at will. Those close to Erza show her their unwavering trust. With a steadfast commitment to justice, and though she may be serious, Erza has quite a fondness for sweets. What sort of wonders await Erza, who found herself in the Land of Dawn after being drawn into a space-time rift during a full moon?",
+    "capabilities": "A Fighter with exceptional durability, whose damage output greatly increase with each defeated hero, whether ally or enemy."
+  },
+  "esmeralda": {
+    "name": "Esmeralda",
+    "description": "\"As the greatest astrologer of her generation, Esmeralda is endowed with the ability to command stars and the moon, and sometimes she lets her imagination run wild... Nobody knows what new revelations she has discovered.\" (Skin Overview)",
+    "story": "\"As the greatest astrologer of her generation, Esmeralda is endowed with the ability to command stars and the moon, and sometimes she lets her imagination run wild... Nobody knows what new revelations she has discovered.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "estarith": {
+    "name": "Estarith",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": ""
+  },
+  "estes": {
+    "name": "Estes",
+    "description": "\"Estes awoke in the Tree of Life. He reawakened the power of the Moon God. With the Code of the Moon, the Moon Elf King is inviolable.\" (Skin Overview)",
+    "story": "\"Estes awoke in the Tree of Life. He reawakened the power of the Moon God. With the Code of the Moon, the Moon Elf King is inviolable.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "ethereal-zhuxin": {
+    "name": "Ethereal Zhuxin",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "Mage dealing massive AoE Damage and knocking enemies airborne. Pairs with Elemental/Dark allies frequently knock enemies airborne and deal massive damage."
+  },
+  "eudora": {
+    "name": "Eudora",
+    "description": "Eudora is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "everblight-shah-torre": {
+    "name": "Everblight Shah Torre",
+    "description": "\"A timeless, wicked essence inhabits this unnaturally pale young man, its forbidden nature at odds with his seemingly innocent appearance.\" (Skin Overview)",
+    "story": "\"A timeless, wicked essence inhabits this unnaturally pale young man, its forbidden nature at odds with his seemingly innocent appearance.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "eviscerater": {
+    "name": "Eviscerater",
+    "description": "Eviscerater is an orc under the charge of Balmond, leader of the Orcs tribe, who is working alongside with Alice in a chance to change the Orcs fate. In the campaign she is not mentioned directly, but Tigreal and Layla just consider her as one of Alice's demons, despite being an orc, all due to the alliance between Orcs and Blood Demons. As all the Orcs in the game, Eviscerater has a pale red skin, red long hair and white tattoos on her face, shoulder and right leg; her eyes are cat-like and yellow with a dense black eyeliner; she wears rudimentary clothes, those being a grey top and skirt which have white fur finishes; a brown leather cap with horns and brown wristbands; her boots are from brown leather too; and she fights with two stone knives.",
+    "story": "Eviscerater is an orc under the charge of Balmond, leader of the Orcs tribe, who is working alongside with Alice in a chance to change the Orcs fate. In the campaign she is not mentioned directly, but Tigreal and Layla just consider her as one of Alice's demons, despite being an orc, all due to the alliance between Orcs and Blood Demons. As all the Orcs in the game, Eviscerater has a pale red skin, red long hair and white tattoos on her face, shoulder and right leg; her eyes are cat-like and yellow with a dense black eyeliner; she wears rudimentary clothes, those being a grey top and skirt which have white fur finishes; a brown leather cap with horns and brown wristbands; her boots are from brown leather too; and she fights with two stone knives.",
+    "capabilities": ""
+  },
+  "fanny": {
+    "name": "Fanny",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "feng": {
+    "name": "Feng",
+    "description": "Rising swordmaster of the new generation from Skyhide Palace in Cadia Riverlands. Turning eighteen, she went down the mountain following the Sword Sect's tradition to embark on her adventure.",
+    "story": "Rising swordmaster of the new generation from Skyhide Palace in Cadia Riverlands. Turning eighteen, she went down the mountain following the Sword Sect's tradition to embark on her adventure.",
+    "capabilities": ""
+  },
+  "florence": {
+    "name": "Florence",
+    "description": "The mysterious President of the Moniyan Chamber of Commerce, who holds high esteem among merchants.",
+    "story": "The mysterious President of the Moniyan Chamber of Commerce, who holds high esteem among merchants.",
+    "capabilities": ""
+  },
+  "forseti": {
+    "name": "Forseti",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "franco": {
+    "name": "Franco",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "freya": {
+    "name": "Freya",
+    "description": "Freya, the Valkyrie of Nost Gal, is a legendary goddess. When she descends, it means a great soul has escaped the mortal life.",
+    "story": "Valkyrie Paragraph 1:In the far northern reaches of Nost Gal, there is a legend: when a warrior dies on the battlefield, the goddess of war Freya will come down from heaven, kiss the spirit of the fallen, and lead it to the Temple of Heroes, where former warriors can have a new life.Valkyrie Paragraph 2:Freya herself is an outstanding warrior. She can both attack and defend with her sword and shield, and at a critical moment in battle she can transform into a halberd and smash the enemy formation. --------------------------------------------Dark Rose:As a chosen one with the ability to see into the future, Freya foresaw a rebirth of the Land of Dawn at an early age. Paragraph 2: Realizing that she had been given a duty, she gathered the heroes of the different planes to form a community named \"Scarlet Blad\". Together with other chosen ones, Freya fought against the scourge of the future. The spirit of \"Scarlet Blade\" has been passed down to the present day, and will be passed down to the next generation, inspiring descendants. --------------------------------------------Dragon Slayer:No one alive remembers her true name, yet her existence has been passed on in folk tales and legends through many ages. She is said to have slain a mighty dragon of the past, and in awe they call her the 'Dragon Slayer'.Paragraph 2:She wields a blade of darkness, an enchanted shield, and from her back protrude the wings of the ancient beast she once slew. Some scholars believe she has the ability to assimilate the powers of those she slays; while others she is a terrible, wicked dragon herself.",
+    "capabilities": ""
+  },
+  "gatotkaca": {
+    "name": "Gatotkaca",
+    "description": "The mighty warrior, strong as steel, swift as lightning.",
+    "story": "The mighty warrior, strong as steel, swift as lightning.",
+    "capabilities": ""
+  },
+  "gavana": {
+    "name": "Gavana",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "genesis-shar": {
+    "name": "Genesis Shar",
+    "description": "\"Praised be her sacred name — the primordial universe, Goddess of the Stars, Mother of Dragons, the Eternal Cradle, the Primordial Star — Sharana. This is no mere legend; she is the very essence of legend itself. We are born from her blood, slumbering within her boundless dreams.\" Skin overview",
+    "story": "\"Praised be her sacred name — the primordial universe, Goddess of the Stars, Mother of Dragons, the Eternal Cradle, the Primordial Star — Sharana. This is no mere legend; she is the very essence of legend itself. We are born from her blood, slumbering within her boundless dreams.\" Skin overview",
+    "capabilities": "Support Hero with strong control abilities, capable of inflicting various control effects and cloning enemies to turn them into allies."
+  },
+  "gord": {
+    "name": "Gord",
+    "description": "\"Professor Gord's body is half red, half green. His skin color and his eye-catching surfboard are always among the hot topics in the Magic Academy.\" (Skin Overview)",
+    "story": "\"Professor Gord's body is half red, half green. His skin color and his eye-catching surfboard are always among the hot topics in the Magic Academy.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "granger": {
+    "name": "Granger",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "grock": {
+    "name": "Grock",
+    "description": "\"Grock carries the ancient castle on his back. He has been carrying it for so long that you can hardly distinguish it from his own body.\" (Skin Overview)",
+    "story": "\"Grock carries the ancient castle on his back. He has been carrying it for so long that you can hardly distinguish it from his own body.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "guinevere": {
+    "name": "Guinevere",
+    "description": "The Baroque family is one of the few nobles on the Land of Dawn. The most prestigious skill of theirs, fencing, the family's forte, discourages countless opponts from even thinking about attacking. In addition, beauty and wisdom are also the most perfect genetic signs of the Baroque family, just like the eternal beauty and love of Violet. World-famous as Baroque family|s fencing is, young Guinevere doesnt't like it at all. Just like other girls, she is naturally fond of gorgeous things. From youth, she was sent to the Magic Academy. Relying anti-gravity magic, when Guinevere was 10 years old, she successfully combined mental perception with super energy and invented multiple magic effects - magic superpower. Such a breakthrough made Guinevere more passionate about magic, and she often experimented with her new magic on her brother Lancelot. No matter hom Lancelot hid, he would always be found by his sister. Therefore, Lancelot was often caught in out of nowhere. During his childhood, his sister was always causing him headaches, but Lancelot still loves Guinevere. He always shows a smile to this beloved sister. But every time Lancelot thinks of his little sister's magic experiment, he would wear a bitter sm,ile. Recently, something has been plaguing Guinevere making her uneasy. It is said that the Paxley nobles who have a very high magical status have proposed marriage to the Baroque family. Guinevere is undoubtedly the most suitable choice and Guinevere's father seems to be very willing to go through with the marriage. But the reluctant Guinevere suddenly thinks of an idea - She hopes to find her brother Lanselot...",
+    "story": "The Baroque family is one of the few nobles on the Land of Dawn. The most prestigious skill of theirs, fencing, the family's forte, discourages countless opponts from even thinking about attacking. In addition, beauty and wisdom are also the most perfect genetic signs of the Baroque family, just like the eternal beauty and love of Violet. World-famous as Baroque family|s fencing is, young Guinevere doesnt't like it at all. Just like other girls, she is naturally fond of gorgeous things. From youth, she was sent to the Magic Academy. Relying anti-gravity magic, when Guinevere was 10 years old, she successfully combined mental perception with super energy and invented multiple magic effects - magic superpower. Such a breakthrough made Guinevere more passionate about magic, and she often experimented with her new magic on her brother Lancelot. No matter hom Lancelot hid, he would always be found by his sister. Therefore, Lancelot was often caught in out of nowhere. During his childhood, his sister was always causing him headaches, but Lancelot still loves Guinevere. He always shows a smile to this beloved sister. But every time Lancelot thinks of his little sister's magic experiment, he would wear a bitter sm,ile. Recently, something has been plaguing Guinevere making her uneasy. It is said that the Paxley nobles who have a very high magical status have proposed marriage to the Baroque family. Guinevere is undoubtedly the most suitable choice and Guinevere's father seems to be very willing to go through with the marriage. But the reluctant Guinevere suddenly thinks of an idea - She hopes to find her brother Lanselot...",
+    "capabilities": ""
+  },
+  "gusion": {
+    "name": "Gusion",
+    "description": "Let the old fogies see the true power! Gusion parted ways with his family and stunned the whole land with his unique swordsmanship. He is currently in a relationship with Lesley.",
+    "story": "Let the old fogies see the true power! Gusion parted ways with his family and stunned the whole land with his unique swordsmanship. He is currently in a relationship with Lesley.",
+    "capabilities": ""
+  },
+  "hanabi": {
+    "name": "Hanabi",
+    "description": "Hanabi's ninjutsu has no rival in the whole Scarlet Shadow. Her pretty figure is faintly discernible in the moonlight, only leaving the inky fragrance from miles away. She is Hayabusa's childhood sweetheart.",
+    "story": "Hanabi's ninjutsu has no rival in the whole Scarlet Shadow. Her pretty figure is faintly discernible in the moonlight, only leaving the inky fragrance from miles away. She is Hayabusa's childhood sweetheart.",
+    "capabilities": ""
+  },
+  "hanzo": {
+    "name": "Hanzo",
+    "description": "After unsealing the 7th ninja tool Ame no Habakiri, the genius ninja Hanzo ruthlessly killed Scarlet Sect and ran away from the Scarlet Shadow. He needs more flesh and blood to satisfy the endless hunger of Blood Demon.",
+    "story": "After unsealing the 7th ninja tool Ame no Habakiri, the genius ninja Hanzo ruthlessly killed Scarlet Sect and ran away from the Scarlet Shadow. He needs more flesh and blood to satisfy the endless hunger of Blood Demon.",
+    "capabilities": ""
+  },
+  "harley": {
+    "name": "Harley",
+    "description": "\"You may never figure out what Harley's thinking. His sister Lesley often worries about him, but Harley can always solve the problem effortlessly.\" (Skin Overview)",
+    "story": "\"You may never figure out what Harley's thinking. His sister Lesley often worries about him, but Harley can always solve the problem effortlessly.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "hayabusa": {
+    "name": "Hayabusa",
+    "description": "To people who know Hayabusa well, the genius ninja is actually a quiet, modest warrior. Without any haughtiness of a genius, he ensures peace in the Cadia Riverlands like a loyal, powerful and sharp blade. He is Hanabi's talented childhood friend and Kagura's protector.",
+    "story": "To people who know Hayabusa well, the genius ninja is actually a quiet, modest warrior. Without any haughtiness of a genius, he ensures peace in the Cadia Riverlands like a loyal, powerful and sharp blade. He is Hanabi's talented childhood friend and Kagura's protector.",
+    "capabilities": ""
+  },
+  "heartcore-angela": {
+    "name": "Heartcore Angela",
+    "description": "Heartcore Angela is a Hybrid hero (Chaos & Order) in Mobile Legends: Adventure. She was released on along with a Primal Zone event.",
+    "story": "Heartcore Angela is a Hybrid hero (Chaos & Order) in Mobile Legends: Adventure. She was released on along with a Primal Zone event.",
+    "capabilities": "A Mage who deals AoE damage and provides buffs. Her Ultimate also restores Energy for allies. Her Realm Skill allows an ally to instantly cast their Ultimate again."
+  },
+  "hel": {
+    "name": "Hel",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "helcurt": {
+    "name": "Helcurt",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "helia-karihmet": {
+    "name": "Helia Karihmet",
+    "description": "\"The sun blazes down on Karihmet's armor in shiny blood-red. Winning or losing, it matters not for this is her only chance. There's no turning back. But as long as she seizes it...\" (Skin Overview)",
+    "story": "\"The sun blazes down on Karihmet's armor in shiny blood-red. Winning or losing, it matters not for this is her only chance. There's no turning back. But as long as she seizes it...\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "hestia": {
+    "name": "Hestia",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": "Support with incredible healing and buffing abilities, capable of continuously healing multiple allies and providing them with damage buffs. Once defeated, stays in battle and cannot be targeted."
+  },
+  "hilda": {
+    "name": "Hilda",
+    "description": "Hilda is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "hwang-jini": {
+    "name": "Hwang Jini",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "hylos": {
+    "name": "Hylos",
+    "description": "\"Hylos, the Grand Warden of the Misty Mountains, understands that the secret his people try to protect would eventually be made public. He also understands that his mission is to protect history instead of changing it.\" (Skin Overview)",
+    "story": "\"Hylos, the Grand Warden of the Misty Mountains, understands that the secret his people try to protect would eventually be made public. He also understands that his mission is to protect history instead of changing it.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "imperial-arbalist": {
+    "name": "Imperial Arbalist",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "imperial-drillmaster": {
+    "name": "Imperial Drillmaster",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "imperial-sorcerer": {
+    "name": "Imperial Sorcerer",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "infinia-crocell": {
+    "name": "Infinia Crocell",
+    "description": "Infinia Crocell, a Legendary Mage who can become untargetable and adapt to various combat scenarios. The fall of the Black One rewrote the destiny of the Land of Dawn. At that moment, through humanity's power of \"insight\", Crocell awakened to a new form - Infinia Crocell. When the All-seeing Eye was shattered by a new power, the reborn Crocell gazed through its fragments and witnessed multiple visions of this land - she foresaw all possible futures.",
+    "story": "Infinia Crocell, a Legendary Mage who can become untargetable and adapt to various combat scenarios. The fall of the Black One rewrote the destiny of the Land of Dawn. At that moment, through humanity's power of \"insight\", Crocell awakened to a new form - Infinia Crocell. When the All-seeing Eye was shattered by a new power, the reborn Crocell gazed through its fragments and witnessed multiple visions of this land - she foresaw all possible futures.",
+    "capabilities": "A Mage with poweful damage output and durability. Cannot be targeted by enemies for a duration and can deal massive damage to enemies' shields."
+  },
+  "irithel": {
+    "name": "Irithel",
+    "description": "She's a child of the forest, a friend to nature. She's also an ally of the Elves and a compatriot of the animals. She's Irithel, also known as the “Heart of the Jungle“.",
+    "story": "She's a child of the forest, a friend to nature. She's also an ally of the Elves and a compatriot of the animals. She's Irithel, also known as the “Heart of the Jungle“.",
+    "capabilities": ""
+  },
+  "jawhead": {
+    "name": "Jawhead",
+    "description": "Jawhead is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "kadita": {
+    "name": "Kadita",
+    "description": "\"Kadita, the Queen who was saved by the Ocean Fairies, is the legend of the Southern Seas. If you see a mermaid or hear breathtaking melodies on the ocean, she's probably somewhere near you.\" (Skin Overview)",
+    "story": "\"Kadita, the Queen who was saved by the Ocean Fairies, is the legend of the Southern Seas. If you see a mermaid or hear breathtaking melodies on the ocean, she's probably somewhere near you.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "kagura": {
+    "name": "Kagura",
+    "description": "As the offspring of the most powerful onmyouji, Seimei, Kagura has the potential to connect Yin and Yang. She is Amaterasu's personal attendant.",
+    "story": "As the offspring of the most powerful onmyouji, Seimei, Kagura has the potential to connect Yin and Yang. She is Amaterasu's personal attendant.",
+    "capabilities": ""
+  },
+  "kaja": {
+    "name": "Kaja",
+    "description": "(In-game Info) \"The Celestial Palace, home of the gods, was once a bustling city patrolled by innumerable Nazar guardians. Any demon who dared approach the city would be overwhelmed by their peerless flying speed and bound by their fearsome lightning whips which would strip their victims of all magical abilities. No demon could escape when pursued by these divine warriors, and thus perpetual peace was maintained in the Celestial Palace. As their leader, Kaja was able to refine the power of lighting into pure energy to control as he so desired, inflicting catastrophic damage to all enemies who faced him, and was charged with directly protecting the ruler of the city. Countless eons ago, after the ruler completed the creation of the city's guardians and departed, the city gradually fell into a state of ruin. When Uranus was activated, the ruler of the Celestial Palace handed down new orders to the Nazar - to drive the evil demons from the city and rebuild the Celestial Palace in anticipation of the master's return.\"",
+    "story": "(In-game Info) \"The Celestial Palace, home of the gods, was once a bustling city patrolled by innumerable Nazar guardians. Any demon who dared approach the city would be overwhelmed by their peerless flying speed and bound by their fearsome lightning whips which would strip their victims of all magical abilities. No demon could escape when pursued by these divine warriors, and thus perpetual peace was maintained in the Celestial Palace. As their leader, Kaja was able to refine the power of lighting into pure energy to control as he so desired, inflicting catastrophic damage to all enemies who faced him, and was charged with directly protecting the ruler of the city. Countless eons ago, after the ruler completed the creation of the city's guardians and departed, the city gradually fell into a state of ruin. When Uranus was activated, the ruler of the Celestial Palace handed down new orders to the Nazar - to drive the evil demons from the city and rebuild the Celestial Palace in anticipation of the master's return.\"",
+    "capabilities": ""
+  },
+  "karihmet": {
+    "name": "Karihmet",
+    "description": "Bathed in the sublime holy-light, Karihmet held up her golden spear as if she held up the hope and pride of the people of the Northern Vale. She is the leader of all the Valkyries, an undefeated myth.",
+    "story": "Bathed in the sublime holy-light, Karihmet held up her golden spear as if she held up the hope and pride of the people of the Northern Vale. She is the leader of all the Valkyries, an undefeated myth.",
+    "capabilities": ""
+  },
+  "karina": {
+    "name": "Karina",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "karrie": {
+    "name": "Karrie",
+    "description": "Karrie is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "kimmy": {
+    "name": "Kimmy",
+    "description": "As the offspring of a merited Empire official, much expectation was placed upon Kimmy from a young age. She's every bit as calm and collected, disciplined, and confident as her father; an outstanding woman unwilling to stand in any man's shadow.",
+    "story": "As the offspring of a merited Empire official, much expectation was placed upon Kimmy from a young age. She's every bit as calm and collected, disciplined, and confident as her father; an outstanding woman unwilling to stand in any man's shadow.",
+    "capabilities": ""
+  },
+  "kryos-sinmara": {
+    "name": "Kryos Sinmara",
+    "description": "A frost giant sealed within an elven body, her brows bearing hatred and endurance toward the world.",
+    "story": "A frost giant sealed within an elven body, her brows bearing hatred and endurance toward the world.",
+    "capabilities": "A high-damage Marksman hero. She gains Primordial Frost stacks through Basic Attacks to enhance her Ultimate and inflicts debuffs on enemies through her Realm Skill."
+  },
+  "lancelot": {
+    "name": "Lancelot",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "lapu-lapu": {
+    "name": "Lapu-Lapu",
+    "description": "Lapu-Lapu is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "layla": {
+    "name": "Layla",
+    "description": "Layla is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "lesley": {
+    "name": "Lesley",
+    "description": "Like a phantom in the night, Lesley's bullet would end someone's life before they even know it. And she never feels guilty about ending so many lives. It's was his mistake to show up in front of me. She usually says.. She is the older sister of Harley and is in a relationship with Gusion.",
+    "story": "Like a phantom in the night, Lesley's bullet would end someone's life before they even know it. And she never feels guilty about ending so many lives. It's was his mistake to show up in front of me. She usually says.. She is the older sister of Harley and is in a relationship with Gusion.",
+    "capabilities": ""
+  },
+  "lionheart-sekhet": {
+    "name": "Lionheart Sekhet",
+    "description": "To be added...",
+    "story": "To be added...",
+    "capabilities": "A Tank provides massive Shield, Control Immunity, and other buffs to all allies. Her Realm Skill grants a shield when allies are controlled and silences enemies."
+  },
+  "lolita": {
+    "name": "Lolita",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "lucy": {
+    "name": "Lucy",
+    "description": "A Celestial Spirit Mage from the guild Fairy Tail. With her Celestial Spirit Gate Keys, Lucy can open gates from which she summons Celestial Spirits from other realms.",
+    "story": "A Celestial Spirit Mage from the guild Fairy Tail. With her Celestial Spirit Gate Keys, Lucy can open gates from which she summons Celestial Spirits from other realms.",
+    "capabilities": ""
+  },
+  "luna-amara": {
+    "name": "Luna Amara",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "lunox": {
+    "name": "Lunox",
+    "description": "The illusion of the past is already shattered. Lunox finally wakes up from her dream. She has accepted whatever destiny arranged for her--devote everything she has to this era.",
+    "story": "The illusion of the past is already shattered. Lunox finally wakes up from her dream. She has accepted whatever destiny arranged for her--devote everything she has to this era.",
+    "capabilities": ""
+  },
+  "lylia": {
+    "name": "Lylia",
+    "description": "Lylia is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "martis": {
+    "name": "Martis",
+    "description": "Martis is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "masha": {
+    "name": "Masha",
+    "description": "to be added",
+    "story": "to be added",
+    "capabilities": ""
+  },
+  "mecha-layla": {
+    "name": "Mecha Layla",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": "Capable of setting up a mecha that can never be targeted in the ally back row to deal continuous damage to enemies. Suitable for prolonged battles."
+  },
+  "medusa": {
+    "name": "Medusa",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": ""
+  },
+  "melodic-lunabelle": {
+    "name": "Melodic Lunabelle",
+    "description": "Lunabelle was once just a child from a Common craftsman's family in Eruditio. Though inspired by QUNN to develop an interest in music and performance, she kept this aspiration buried in her heart after all, such a dream seemed far too distant. Then she met Eris, a young agent who was the only one able to appreciate the charm of her singing. Eris accidentally discovered that Lunabelle's voice possessed a mysterious magical power that could even breathe life into machines, and she sincerely suggested that Lunabelle share her voice with more people. Will Lunabelle's long-buried dream shine once again?",
+    "story": "Lunabelle was once just a child from a Common craftsman's family in Eruditio. Though inspired by QUNN to develop an interest in music and performance, she kept this aspiration buried in her heart after all, such a dream seemed far too distant. Then she met Eris, a young agent who was the only one able to appreciate the charm of her singing. Eris accidentally discovered that Lunabelle's voice possessed a mysterious magical power that could even breathe life into machines, and she sincerely suggested that Lunabelle share her voice with more people. Will Lunabelle's long-buried dream shine once again?",
+    "capabilities": "A powerful AoE Mage hero capable of using her Energy to enhance her skills. The more times she casts her Ultimate, the faster her Energy regenerates."
+  },
+  "minsitthar": {
+    "name": "Minsitthar",
+    "description": "Minsitthar is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "miracle-clara": {
+    "name": "Miracle Clara",
+    "description": "A powerful buff Support, capable of buffing and healing all allies, while granting them brief immunity to death when they are dying. |-|Skills=",
+    "story": "A powerful buff Support, capable of buffing and healing all allies, while granting them brief immunity to death when they are dying. |-|Skills=",
+    "capabilities": ""
+  },
+  "miya": {
+    "name": "Miya",
+    "description": "Miya is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "morpheus": {
+    "name": "Morpheus",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": "A Mage with powerful control and damage dealing abilities, capable of controlling enemies with two Nonas until Nonas are defeated."
+  },
+  "moskov": {
+    "name": "Moskov",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "mystic-mystia": {
+    "name": "Mystic Mystia",
+    "description": "\"Mystia, the deity in charge of games, arrives at the Land of Dawn with a unique anticipation for the Commander. Hopefully, \"you\" can help alter the destined ending.\" (Skin Overview)",
+    "story": "\"Mystia, the deity in charge of games, arrives at the Land of Dawn with a unique anticipation for the Commander. Hopefully, \"you\" can help alter the destined ending.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "naiad-rafaela": {
+    "name": "Naiad Rafaela",
+    "description": "\"The angel awakens, once feeble wings now aglow with rejuvenation. The power of rejuvenation courses through Rafaela, as she bestows upon the world greater love, solace and warmth.\" (Skin Overview)",
+    "story": "\"The angel awakens, once feeble wings now aglow with rejuvenation. The power of rejuvenation courses through Rafaela, as she bestows upon the world greater love, solace and warmth.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "nana": {
+    "name": "Nana",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "natalia": {
+    "name": "Natalia",
+    "description": "Natalia walks the darkness of the night all year round, completing any missions assigned by the Monastery of Light and clearing all obstacles standing in the way of the Moniyan Empire.",
+    "story": "Natalia walks the darkness of the night all year round, completing any missions assigned by the Monastery of Light and clearing all obstacles standing in the way of the Moniyan Empire.",
+    "capabilities": ""
+  },
+  "natan": {
+    "name": "Natan",
+    "description": "Natan stood as Eruditio's leader, guiding the people in their search for hope in this world. Yet having faced numerous defeats he decided instead to cast his gaze not to the future, but to the past—by inventing a time machine. What future would the time-travelling savior bring to the world?",
+    "story": "Natan stood as Eruditio's leader, guiding the people in their search for hope in this world. Yet having faced numerous defeats he decided instead to cast his gaze not to the future, but to the past—by inventing a time machine. What future would the time-travelling savior bring to the world?",
+    "capabilities": ""
+  },
+  "natsu": {
+    "name": "Natsu",
+    "description": "Natsu, known as the Salamander, is a mage skilled in Fire Dragon Slayer Magic. He is capable of unleashing scathing attacks upon enemies.",
+    "story": "Natsu, known as the Salamander, is a mage skilled in Fire Dragon Slayer Magic. He is capable of unleashing scathing attacks upon enemies.",
+    "capabilities": ""
+  },
+  "night-blade": {
+    "name": "Night Blade",
+    "description": "Night Blade is a hero that presumably works as one of Alice's servants, since she appears on the campain levels as an enemy that tries to stop us to catch up to her, her race is unknown. In appearence she has short blue hair and blue pale skin, her eyes are magenta and wears a dark purple lipstick, on her ears diamond shaped earrings and on body a black suit composed by a black top that seems to be composed by black bandages and a long side skirt which is holded by a waistband with silver finishes; on her hands wears black wristbands and her feets are bare, but has some black bandages wrapped around; she uses two hook blades as weapons.",
+    "story": "Night Blade is a hero that presumably works as one of Alice's servants, since she appears on the campain levels as an enemy that tries to stop us to catch up to her, her race is unknown. In appearence she has short blue hair and blue pale skin, her eyes are magenta and wears a dark purple lipstick, on her ears diamond shaped earrings and on body a black suit composed by a black top that seems to be composed by black bandages and a long side skirt which is holded by a waistband with silver finishes; on her hands wears black wristbands and her feets are bare, but has some black bandages wrapped around; she uses two hook blades as weapons.",
+    "capabilities": ""
+  },
+  "night-drummer": {
+    "name": "Night Drummer",
+    "description": "He has light purple skin, except for his right hand and left foot that are light pink. His eyes are magenta and he covers his face with a piece of black fabric, he has rings made of metal on both his wrists and ankles. He wears a thorn piece of purple fabric and carries a drum in front of him. He plays the drum using two bones.",
+    "story": "He has light purple skin, except for his right hand and left foot that are light pink. His eyes are magenta and he covers his face with a piece of black fabric, he has rings made of metal on both his wrists and ankles. He wears a thorn piece of purple fabric and carries a drum in front of him. He plays the drum using two bones.",
+    "capabilities": ""
+  },
+  "nightseer-esmeralda": {
+    "name": "Nightseer Esmeralda",
+    "description": "TBA.",
+    "story": "TBA.",
+    "capabilities": "TBA."
+  },
+  "nimbus-eudora": {
+    "name": "Nimbus Eudora",
+    "description": "\"As the new dean of Ulturia, Eudora manipulates unparalleled lightning magic that commands all thunder and lightning.\" (Skin Overview)",
+    "story": "\"As the new dean of Ulturia, Eudora manipulates unparalleled lightning magic that commands all thunder and lightning.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "noctis-tokinibara": {
+    "name": "Noctis Tokinibara",
+    "description": "The pure Tokinibara flower, consumed by obsession, wanders along the River of Forgetfulness. Faced with Izanami's scheme of using rebirth as bait and implanting the spider lily to corrupt souls, how will Tokinibara choose?",
+    "story": "A noble soul wandering by The River of Three Crossings, a person of ill fate on a path of no return. Izanami's swelling ambition has reshaped this mortal flesh, yet cannot eliminate the chilling ghostly aura of the deceased.",
+    "capabilities": "A powerful Fighter with strong Debuff abilities. Can steal extra Energy gained by enemies and increase the Energy enemies need to consume when casting their Ultimate."
+  },
+  "oberon": {
+    "name": "Oberon",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "occult-sorcerer": {
+    "name": "Occult Sorcerer",
+    "description": "Occult Sorcerer is a mage part of the Alice's forces, her race is unknown, but in the context in which she first appears is possible for her to be an orc sorcerer. Her skin tone is a pale red, hair blonde and her eyes bright with a strong light blue bright; she has a tattoo in her forehead that brights just as her eyes; wears a green hood with the elemental sign printed on it, on her shoulders rest a long green cape with yellow leaf design inside and in her body wears a green dress which has a silver belt with a light blue shard in the center; she uses white globes and in her hands carries a spell book and her branch staff which holds a crystal sphere.",
+    "story": "Occult Sorcerer is a mage part of the Alice's forces, her race is unknown, but in the context in which she first appears is possible for her to be an orc sorcerer. Her skin tone is a pale red, hair blonde and her eyes bright with a strong light blue bright; she has a tattoo in her forehead that brights just as her eyes; wears a green hood with the elemental sign printed on it, on her shoulders rest a long green cape with yellow leaf design inside and in her body wears a green dress which has a silver belt with a light blue shard in the center; she uses white globes and in her hands carries a spell book and her branch staff which holds a crystal sphere.",
+    "capabilities": ""
+  },
+  "odette": {
+    "name": "Odette",
+    "description": "The stream flowing through the mountains forms the beautiful Swan Lake, and the most dazzling pearl is Odette, the Swan Princess.",
+    "story": "The stream flowing through the mountains forms the beautiful Swan Lake, and the most dazzling pearl is Odette, the Swan Princess.",
+    "capabilities": ""
+  },
+  "omniversal-akashic": {
+    "name": "Omniversal Akashic",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "TBA"
+  },
+  "phantom-drone": {
+    "name": "Phantom Drone",
+    "description": "Phantom Drone is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "pharsa": {
+    "name": "Pharsa",
+    "description": "Pharsa is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "rafaela": {
+    "name": "Rafaela",
+    "description": "Rafaela is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "rampant-rhino": {
+    "name": "Rampant Rhino",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "rista": {
+    "name": "Rista",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "ruby": {
+    "name": "Ruby",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "saber": {
+    "name": "Saber",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "sekhet": {
+    "name": "Sekhet",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "selena": {
+    "name": "Selena",
+    "description": "At the south of the Monian Empire, a bottomless abyss is carved into the desert landscape. The locals call this place the Abyss of Shadows. Few know that deep within the Dark Abyss, the most terrifying demon of the Dawn Earth is sealed — the Lord of the Abyss. Over the centuries, the seal of the Abyss has slowly faded, giving way to the ravenous will of the Abyss. The demons strengthened their control over the darkness. Many fanatics offered sacrifices to the Abyss, unknowingly feeding the demons formed from dark energy, always hiding within the shadows. Selena, a young dark elf, was offered to them as a sacrifice in exchange for dark energy. The Abyss Demon filled Selena with despair and pain, piercing every cell of her body. Just as Selena was nearly consumed by darkness, a miracle occurred. A mysterious warm blue light enveloped her and seemed to struggle with the dark abyss for control over her body. When Selena awoke, she found herself still lying in the Abyss, but her skin now emitted a strange blue glow, and her once lavender eyes were filled with a majestic crimson radiance — the Abyss Demon was resting inside her. Then the Will of the Abyss spoke: This girl is deeply loved, and that love protected her from being consumed by darkness. The Abyss and the Moon God, two opposing forces, have reached balance within her body. An ancient and deep voice echoed in the minds of the demons: Leave this girl to me. She will become the strongest warrior of the Abyss! The demons obeyed the command and left Selena. She forgot her past, but quickly discovered that she could manipulate the dark magic of the Abyss. She could absorb the power of the Abyss into her body to transform into a demoness capable of tearing enemies apart. The Will of the Abyss echoed in her voice, granting Selena unquestionable authority over the Abyss demons. Even Alice, the proud Queen of Blood Magic, felt uncertain when she looked at the dark young elf — not only because Alice could sense the terrifying power lying within this seemingly cute and mischievous girl named Selena.",
+    "story": "At the south of the Monian Empire, a bottomless abyss is carved into the desert landscape. The locals call this place the Abyss of Shadows. Few know that deep within the Dark Abyss, the most terrifying demon of the Dawn Earth is sealed — the Lord of the Abyss. Over the centuries, the seal of the Abyss has slowly faded, giving way to the ravenous will of the Abyss. The demons strengthened their control over the darkness. Many fanatics offered sacrifices to the Abyss, unknowingly feeding the demons formed from dark energy, always hiding within the shadows. Selena, a young dark elf, was offered to them as a sacrifice in exchange for dark energy. The Abyss Demon filled Selena with despair and pain, piercing every cell of her body. Just as Selena was nearly consumed by darkness, a miracle occurred. A mysterious warm blue light enveloped her and seemed to struggle with the dark abyss for control over her body. When Selena awoke, she found herself still lying in the Abyss, but her skin now emitted a strange blue glow, and her once lavender eyes were filled with a majestic crimson radiance — the Abyss Demon was resting inside her. Then the Will of the Abyss spoke: This girl is deeply loved, and that love protected her from being consumed by darkness. The Abyss and the Moon God, two opposing forces, have reached balance within her body. An ancient and deep voice echoed in the minds of the demons: Leave this girl to me. She will become the strongest warrior of the Abyss! The demons obeyed the command and left Selena. She forgot her past, but quickly discovered that she could manipulate the dark magic of the Abyss. She could absorb the power of the Abyss into her body to transform into a demoness capable of tearing enemies apart. The Will of the Abyss echoed in her voice, granting Selena unquestionable authority over the Abyss demons. Even Alice, the proud Queen of Blood Magic, felt uncertain when she looked at the dark young elf — not only because Alice could sense the terrifying power lying within this seemingly cute and mischievous girl named Selena.",
+    "capabilities": ""
+  },
+  "sentient-alina": {
+    "name": "Sentient Alina",
+    "description": "\"A bionic angel created by Cluster and inspired by the Xeno Mainframe. Codenamed \"A.L.I.N.A\", she aims to protect Virka's safety.\" Skin Overview",
+    "story": "\"A bionic angel created by Cluster and inspired by the Xeno Mainframe. Codenamed \"A.L.I.N.A\", she aims to protect Virka's safety.\" Skin Overview",
+    "capabilities": "A tank with powerful protection and buff abilities. She can absorb massive damage for an allied hero, and her Realm Skill counters AoE damage."
+  },
+  "shah-torre": {
+    "name": "Shah Torre",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "shar": {
+    "name": "Shar",
+    "description": "Denizens of the Land of Dawn refer to Shar as the Mistress of Night or the Dark Temptress. She cloaks herself in a deep dark robe, her purple eye twinkling in the night.",
+    "story": "Denizens of the Land of Dawn refer to Shar as the Mistress of Night or the Dark Temptress. She cloaks herself in a deep dark robe, her purple eye twinkling in the night.",
+    "capabilities": ""
+  },
+  "silvanna": {
+    "name": "Silvanna",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "singularity-lunox": {
+    "name": "Singularity Lunox",
+    "description": "(in-game Info) Through the Energy Channel of the dream world, Lunox seized the transcendent might of Order and Chaos, ascending to the pinnacle of power. As challenges loomed amidst the enigmatic haze of the Land of Dawn's uncertain destiny, she pressed forward, unyielding and relentless. With unwavering resolve, she invokes the Twilight Orb's potential, shattering the veils of illusion. Through the shroud of deception, she embraced the veritable truth, becoming the harbinger of eternity within the domain of the Twilight Orb.",
+    "story": "(in-game Info) Through the Energy Channel of the dream world, Lunox seized the transcendent might of Order and Chaos, ascending to the pinnacle of power. As challenges loomed amidst the enigmatic haze of the Land of Dawn's uncertain destiny, she pressed forward, unyielding and relentless. With unwavering resolve, she invokes the Twilight Orb's potential, shattering the veils of illusion. Through the shroud of deception, she embraced the veritable truth, becoming the harbinger of eternity within the domain of the Twilight Orb.",
+    "capabilities": "Powerfull all-rounder support, capable of healing, enhancing, reviving allies, and also dealing damage."
+  },
+  "skuld-norns": {
+    "name": "Skuld Norns",
+    "description": "The Goddess of Fate, revived alongside the Past, Present, and Future, Does her arrival signal the doom of destiny, or a prophecy of courage to face it?. Norns was once the collective name for the Three Goddesses of Fate. Long ago, Gavana and Shar, out of fear of fate, imprisoned the three sisters in Aelfir and sealed their powers with The Black One. Little did they know that thousands of years later, Tsukuyomi would destroy The Black One and free the Norns once again...",
+    "story": "The Goddess of Fate, revived alongside the Past, Present, and Future, Does her arrival signal the doom of destiny, or a prophecy of courage to face it?. Norns was once the collective name for the Three Goddesses of Fate. Long ago, Gavana and Shar, out of fear of fate, imprisoned the three sisters in Aelfir and sealed their powers with The Black One. Little did they know that thousands of years later, Tsukuyomi would destroy The Black One and free the Norns once again...",
+    "capabilities": "A Fighter with powerful damage output and damage taking ability. She converts damage taken to energy and uses Ultimate to weaken and defeat enemies with her parallel self."
+  },
+  "skullcrusher": {
+    "name": "Skullcrusher",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "steel-guard": {
+    "name": "Steel Guard",
+    "description": "He has his head and shoulders covered by a gray armor, he wears a green top with two gray stripes on the upper part and the elemental simbol on the lower part. He has dark green gloves and holds a gray hammer with blue and light green decorations. He has dark gray pants and gray knee-high boots.",
+    "story": "He has his head and shoulders covered by a gray armor, he wears a green top with two gray stripes on the upper part and the elemental simbol on the lower part. He has dark green gloves and holds a gray hammer with blue and light green decorations. He has dark gray pants and gray knee-high boots.",
+    "capabilities": ""
+  },
+  "tefnut": {
+    "name": "Tefnut",
+    "description": "Tefnut is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "thamuz": {
+    "name": "Thamuz",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "tia": {
+    "name": "Tia",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "tidescale-kalea": {
+    "name": "Tidescale Kalea",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "TBA"
+  },
+  "tigreal": {
+    "name": "Tigreal",
+    "description": "(In-game Info) Tigreal is the Captain of the Imperial Capital's Moniyan Captain of Knights. Even as a child, he wanted nothing more than to become a great knight of the Empire. From his youth Tigreal was a loyal believer in the Lord of Light. He swore to become a member of the Knight's Order to defend the status and symbol of the Moniyan Empire throughout the Land of Dawn. He dedicated all his time to training. In each of their training simulations and tests Tigreal's performance became the benchmark that no other knight's could surpass. His mentors were the most revered of all the Imperial Knights. In order to prove himself and surpass them, he dedicated more time and energy than most people possess to his betterment; even the smallest mistakes in his training would be corrected and practice repeatedly in h in his free time. Eventually, his mentors declared him the Captain with the highest potential in all of the Knight's Order. His mentors' comments gave Tigreal complete confidence in his abilities. Even the strongest of heroes, however, is not without weakness. While hunting demons during one of their trial missions Tigreal showed the slightest amount of compassion, hesitating to make a kill. In that moment of hesitation, he was ambushed by the demons and gravely injured. He watched helplessly as his mentors sacrificed themselves to save him. It was this mission that made Tigreal understand that if he wanted his name recorded in the histories of the land, he still had a long path ahead of him. After the returning to the empire, Tigreal became even more strict with himself. He required each of his men to come back from every mission without a single loss, and wouldn't tolerate a single mistake from any of his subordinates. Ever since then the Paladin Tigreal can be seen at the frontlines of the battle, where he has never been defeated. Even the most evil of enemies don't dare to provoke Tigreal in battle, because they know to do so would be to suffer his merciless assault. A staunch believer in the Lord of Light, he became a pillar of the Order of Knights, his name synonymous with bravery and fearlessness. In order to recognize his courage, the empire bestowed upon him the title of Warrior of Dawn. Tigreal has constantly sought out the bravest warriors of the land, and in his mind there is none better than Alucard. For a long time, however, he has been unable to convince Alucard to leave the Temple of Light and join him. He knows that Alucard is unable to move on from the deaths of his parents. Each time he walks up the steps to the Temple of Light, he does so with a heart full of regret.",
+    "story": "(In-game Info) Tigreal is the Captain of the Imperial Capital's Moniyan Captain of Knights. Even as a child, he wanted nothing more than to become a great knight of the Empire. From his youth Tigreal was a loyal believer in the Lord of Light. He swore to become a member of the Knight's Order to defend the status and symbol of the Moniyan Empire throughout the Land of Dawn. He dedicated all his time to training. In each of their training simulations and tests Tigreal's performance became the benchmark that no other knight's could surpass. His mentors were the most revered of all the Imperial Knights. In order to prove himself and surpass them, he dedicated more time and energy than most people possess to his betterment; even the smallest mistakes in his training would be corrected and practice repeatedly in h in his free time. Eventually, his mentors declared him the Captain with the highest potential in all of the Knight's Order. His mentors' comments gave Tigreal complete confidence in his abilities. Even the strongest of heroes, however, is not without weakness. While hunting demons during one of their trial missions Tigreal showed the slightest amount of compassion, hesitating to make a kill. In that moment of hesitation, he was ambushed by the demons and gravely injured. He watched helplessly as his mentors sacrificed themselves to save him. It was this mission that made Tigreal understand that if he wanted his name recorded in the histories of the land, he still had a long path ahead of him. After the returning to the empire, Tigreal became even more strict with himself. He required each of his men to come back from every mission without a single loss, and wouldn't tolerate a single mistake from any of his subordinates. Ever since then the Paladin Tigreal can be seen at the frontlines of the battle, where he has never been defeated. Even the most evil of enemies don't dare to provoke Tigreal in battle, because they know to do so would be to suffer his merciless assault. A staunch believer in the Lord of Light, he became a pillar of the Order of Knights, his name synonymous with bravery and fearlessness. In order to recognize his courage, the empire bestowed upon him the title of Warrior of Dawn. Tigreal has constantly sought out the bravest warriors of the land, and in his mind there is none better than Alucard. For a long time, however, he has been unable to convince Alucard to leave the Temple of Light and join him. He knows that Alucard is unable to move on from the deaths of his parents. Each time he walks up the steps to the Temple of Light, he does so with a heart full of regret.",
+    "capabilities": ""
+  },
+  "tokinibara": {
+    "name": "Tokinibara",
+    "description": "Awakened in the Primal Zone, the stern ninja in purple now returns to the Land of Dawn and embarks on a journey of challenges with the Nameless Sword.",
+    "story": "Awakened in the Primal Zone, the stern ninja in purple now returns to the Land of Dawn and embarks on a journey of challenges with the Nameless Sword.",
+    "capabilities": ""
+  },
+  "tsukuyomi": {
+    "name": "Tsukuyomi",
+    "description": "Tsukuyomi, known as the Inferno Moon by the ancient Onmyouji Masters, is the son of Izanami, the Mother Goddess of Cadia Riverlands, and brother to Amaterasu, the Sun Goddess. Corrupted by the power of the Abyss, he is no longer content with being a mere shadow in the realm of night. Now, Tsukuyomi seeks to establish his supremacy over death, the Great Underworld.",
+    "story": "Tsukuyomi, known as the Inferno Moon by the ancient Onmyouji Masters, is the son of Izanami, the Mother Goddess of Cadia Riverlands, and brother to Amaterasu, the Sun Goddess. Corrupted by the power of the Abyss, he is no longer content with being a mere shadow in the realm of night. Now, Tsukuyomi seeks to establish his supremacy over death, the Great Underworld.",
+    "capabilities": ""
+  },
+  "ultio-eris": {
+    "name": "Ultio Eris",
+    "description": "A serious and capable white-haired lady with a composure beyond her years. She will stop at nothing to fulfill the mission of the Leviathan Squad. Known as the Mage Hunter, Eris is an Eruditio secret agent with extraordinary abilities. She's mastered the Arcane Engine, Eruditio's core technology, and leads the Leviathan Squad in completing the most challenging missions. Her academic talents have earned Dr. Rooney's favor, but are these truly what she seeks?.",
+    "story": "A serious and capable white-haired lady with a composure beyond her years. She will stop at nothing to fulfill the mission of the Leviathan Squad. Known as the Mage Hunter, Eris is an Eruditio secret agent with extraordinary abilities. She's mastered the Arcane Engine, Eruditio's core technology, and leads the Leviathan Squad in completing the most challenging missions. Her academic talents have earned Dr. Rooney's favor, but are these truly what she seeks?.",
+    "capabilities": ""
+  },
+  "uranus": {
+    "name": "Uranus",
+    "description": "Uranus, the guard of Celestial Palace, is equipped with impenetrable armor. He's not easy to deal with, no one can intrude the palace on his watch.",
+    "story": "Uranus, the guard of Celestial Palace, is equipped with impenetrable armor. He's not easy to deal with, no one can intrude the palace on his watch.",
+    "capabilities": ""
+  },
+  "valir": {
+    "name": "Valir",
+    "description": "\"Valir, the noble and wild Son of Flames, believes that he has limitless potential. You may need oxygen to ignite the fire, but the flame in his hands only requires his confidence.\" (Skin Overview)",
+    "story": "\"Valir, the noble and wild Son of Flames, believes that he has limitless potential. You may need oxygen to ignite the fire, but the flame in his hands only requires his confidence.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "vexana": {
+    "name": "Vexana",
+    "description": "What's the cost of rebirth? Vexana can't recall. Youth, humanity, dreams, and pride... They are all gone.",
+    "story": "What's the cost of rebirth? Vexana can't recall. Youth, humanity, dreams, and pride... They are all gone.",
+    "capabilities": ""
+  },
+  "voodoo-shaman": {
+    "name": "Voodoo Shaman",
+    "description": "tba",
+    "story": "tba",
+    "capabilities": ""
+  },
+  "wanwan": {
+    "name": "Wanwan",
+    "description": "Wanwan of Tangmen grew up in the forest alone with her Father. After ten years of practice, she has become a master of hidden weapons. The young lady's now coming back to the Cadia Riverlands to see the real world.",
+    "story": "Wanwan of Tangmen grew up in the forest alone with her Father. After ten years of practice, she has become a master of hidden weapons. The young lady's now coming back to the Cadia Riverlands to see the real world.",
+    "capabilities": ""
+  },
+  "x-borg": {
+    "name": "X.Borg",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "xeno": {
+    "name": "Xeno",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "yi-sun-shin": {
+    "name": "Yi Sun-shin",
+    "description": "Yi Sun-shin, the national hero, is famous for his combating skills and loyalty.",
+    "story": "Yi Sun-shin, the national hero, is famous for his combating skills and loyalty.",
+    "capabilities": ""
+  },
+  "yu-zhong": {
+    "name": "Yu Zhong",
+    "description": "With the Reverse Scale, Yu Zhong knows that his ambition and his will can no longer be restrained by any law or rule from the past. And his destiny will ultimately bring him to the fight he is yearning for: the fight against the Great Dragon.",
+    "story": "With the Reverse Scale, Yu Zhong knows that his ambition and his will can no longer be restrained by any law or rule from the past. And his destiny will ultimately bring him to the fight he is yearning for: the fight against the Great Dragon.",
+    "capabilities": ""
+  },
+  "zhask": {
+    "name": "Zhask",
+    "description": "Zhask, the one who manipulates all, is a nightmare to this universe. The staff in his hand is the proof of his ultimate power.",
+    "story": "Zhask, the one who manipulates all, is a nightmare to this universe. The staff in his hand is the proof of his ultimate power.",
+    "capabilities": ""
+  },
+  "zilong": {
+    "name": "Zilong",
+    "description": "In every era, there's a day when people witness the arrival of the dragonborn. Sometimes Zilong reincarnates as a heroic warrior, sometimes he is reborn as a world- world-changing scholar. But in the Land of Dawn nowadays, Zilong is the fighter who exterminates evil beings.",
+    "story": "In every era, there's a day when people witness the arrival of the dragonborn. Sometimes Zilong reincarnates as a heroic warrior, sometimes he is reborn as a world- world-changing scholar. But in the Land of Dawn nowadays, Zilong is the fighter who exterminates evil beings.",
+    "capabilities": ""
+  }
+}

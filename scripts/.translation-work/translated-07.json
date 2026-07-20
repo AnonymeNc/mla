@@ -1,0 +1,526 @@
+{
+  "miya": {
+    "Running Fire": {
+      "description": "Miya tire plusieurs flèches sur la cible, chacune infligeant des dégâts égaux à 120% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 145%"
+      }
+    },
+    "Frost Shot": {
+      "description": "Miya tire une Flèche de Glace enchantée sur la cible, infligeant des dégâts égaux à 215% de son Attaque.",
+      "levels": {
+        "2": "Inflige un effet de Ralentissement supplémentaire",
+        "3": "Les dégâts sont augmentés à 250%"
+      }
+    },
+    "Arrow Storm": {
+      "description": "Miya tire des flèches dans les airs et les fait pleuvoir sur la zone ciblée, infligeant des dégâts égaux à 145% de son Attaque.",
+      "levels": {
+        "2": "Gèle l'ennemi pendant 1s"
+      }
+    },
+    "Stellar Blessing": {
+      "description": "Miya augmente l'Attaque de tous ses alliés de 5%.",
+      "levels": {
+        "2": "Le bonus d'Attaque est augmenté à 8%"
+      }
+    }
+  },
+  "morpheus": {
+    "Nightmare Party": {
+      "description": "Inflige des dégâts égaux à 200% de son Attaque à tous les ennemis et rend les Nonas enragées. Pendant les 10s suivantes, les Nonas volent 50% de PV supplémentaires en combat et gagnent 100% de régénération de PV supplémentaire au repos. Passif : au début du combat, les deux Nonas reçoivent 25% des PV max de Morpheus et flottent autour d'elle, au repos et non ciblables. Les Nonas sont immunisées aux effets de Contrôle ; si elles sont sur le point d'être vaincues, elles retournent se reposer et récupèrent 10% de leurs PV max par seconde.",
+      "levels": {
+        "2": "Les Nonas subissent 15% de dégâts en moins lorsqu'elles sont enragées.",
+        "3": "Les Nonas subissent 25% de dégâts en moins lorsqu'elles sont enragées.",
+        "4": "Les dégâts sont augmentés à 250% de son Attaque (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Deep Coma": {
+      "description": "",
+      "levels": {
+        "2": "Les PV des Nonas sont augmentés à 35% des PV max de Morpheus.",
+        "3": "Les dégâts infligés par les Nonas sont augmentés à 15%.",
+        "4": "Les dégâts infligés par les Nonas sont augmentés à 30%."
+      }
+    },
+    "Interlaced Dreams": {
+      "description": "",
+      "levels": {
+        "2": "Empêche la cible de gagner de l'Énergie pendant 2s.",
+        "3": "La cible du sort subit 30% de dégâts supplémentaires pendant 6s.",
+        "4": "Les dégâts sont augmentés à 300% de son Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Sweet Dreams": {
+      "description": "",
+      "levels": {
+        "2": "Morpheus gagne 10% de la régénération d'Énergie déclenchée par les dégâts des Nonas.",
+        "3": "Les deux Nonas récupèrent 50% de leurs PV max lorsqu'un ennemi est vaincu.",
+        "4": "Morpheus gagne 15% de la régénération d'Énergie déclenchée par les dégâts des Nonas. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "moskov": {
+    "Spear of Destruction": {
+      "description": "Moskov libère la Lance de Destruction, infligeant des dégâts égaux à 88% de son Attaque à tous les ennemis à plusieurs reprises. Les ennemis maudits subissent 50% de dégâts supplémentaires.",
+      "levels": {
+        "2": "Après le lancement de l'Ultime, la malédiction du héros se déclenche plus fréquemment.",
+        "3": "Les dégâts sont augmentés à 130% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 160% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Abyss Walker": {
+      "description": "Moskov frappe un héros ennemi de toutes ses forces, infligeant des dégâts égaux à 100% de son Attaque à un seul ennemi et maudissant la cible. La cible maudite subit des dégâts toutes les 3s.",
+      "levels": {
+        "2": "Les dégâts causés par sa malédiction sont augmentés. (d'un montant non précisé)",
+        "3": "Lorsque sa malédiction inflige des dégâts, elle réduit également l'Énergie de la cible de 30 points.",
+        "4": "Les dégâts causés par sa malédiction sont augmentés. (d'un montant non précisé)"
+      }
+    },
+    "Spear of Doom": {
+      "description": "Moskov lance 3 lances sur les ennemis. Les cibles touchées sont maudites.",
+      "levels": {
+        "2": "Étourdit la cible touchée pendant 1s.",
+        "3": "Étourdit la cible touchée pendant 3s.",
+        "4": "Étourdit la cible touchée pendant 4s. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Quiescence Curse": {
+      "description": "Prolonge la durée de toutes ses malédictions de 3s.",
+      "levels": {
+        "2": "Lorsqu'une unité meurt sur le champ de bataille, Moskov maudit un ennemi supplémentaire.",
+        "3": "Prolonge la durée de toutes ses malédictions de 5s.",
+        "4": "Prolonge la durée de toutes ses malédictions de 8s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "mystic-mystia": {
+    "Game Changer": {
+      "description": "Restaure des PV égaux à 260% de l'Attaque pour tous les alliés, leur accordant 40% de Réduction des dégâts pendant 6s, et les rendant immunisés à la plupart des effets de contrôle pendant cette durée.",
+      "levels": {
+        "2": "Chaque fois que l'Énergie d'un ennemi atteint 800 pour la première fois, Mystia récupère 80 points d'Énergie.",
+        "3": "La quantité de PV soignés est augmentée à 320% de l'Attaque.",
+        "4": "La quantité de PV soignés est augmentée à 380% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Arcane Eye": {
+      "description": "Mystia « fixe du regard » un ennemi. L'effet du regard s'active aux 2e, 4e, 8e et 16e secondes de sa durée, infligeant des dégâts égaux à 4% des PV max à l'ennemi (jusqu'à 800% de l'Attaque). De plus, il réduit en permanence l'Attaque de l'ennemi de 6% et son bonus de Bouclier de 8%. Cet effet peut se cumuler jusqu'à 4 fois.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 6% des PV max de la cible.",
+        "3": "L'ennemi que Mystia a fixé du regard 4 fois voit les dégâts qu'il subit augmentés en permanence de 16%.",
+        "4": "Les dégâts sont augmentés à 8% des PV max de la cible."
+      }
+    },
+    "No Escape": {
+      "description": "Inflige des dégâts égaux à 140% de l'Attaque à l'ennemi ayant l'Attaque la plus élevée, l'étourdissant pendant 2s. Si l'ennemi est immunisé à l'étourdissement, son augmentation de dégâts est réduite de 40% pendant 2s à la place.",
+      "levels": {
+        "2": "Sélectionne 2 cibles lors du lancement d'un sort.",
+        "3": "Les dégâts sont augmentés à 160% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 180% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Supercharge": {
+      "description": "Chaque fois qu'un allié lance son Ultime, Mystia gagne une charge de Privilège Administrateur, jusqu'à 4 charges. Lorsque les PV d'un allié descendent sous 40%, Mystia consomme une charge de Privilège Administrateur et restaure ses PV d'un montant égal à 180% de l'Attaque.",
+      "levels": {
+        "2": "Gagne 2 charges de Privilège Administrateur au début du combat.",
+        "3": "La quantité de PV soignés est augmentée à 220% de l'Attaque.",
+        "4": "La quantité de PV soignés est augmentée à 240% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Trickster's Arena": {
+      "description": "Mystia commence avec 2 charges de Tromperie, avec une limite maximale de 4. Lorsqu'un ennemi tente de lancer son Ultime un nombre pair de fois, Mystia consomme une charge de Tromperie, lui infligeant des dégâts égaux à 40% de l'Attaque. De plus, elle lui inflige aussi un bref Étourdissement, lui faisant perdre toute son Énergie, et interrompt le lancement de l'Ultime (à quelques exceptions près).",
+      "levels": {
+        "2": "[Boost PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Les dégâts sont augmentés à 80% de l'Attaque. (Débloqué à 48px)",
+        "4": "Mystia gagne une charge de Tromperie à la 8e et à la 64e seconde après le début du combat. Chaque fois qu'elle interrompt avec succès un ennemi qui lance son Ultime, elle accorde également 8 points d'Énergie à tous les alliés. (Débloqué à 64px)",
+        "5": "[Boost Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "L'Énergie restaurée pour tous les alliés est augmentée à 16 points. (Débloqué à 16px)"
+      }
+    }
+  },
+  "naiad-rafaela": {
+    "Celestial Rejuvenation": {
+      "description": "",
+      "levels": {
+        "2": "Chaque fois que ce sort soigne une cible, il augmente de 5% la quantité de soins reçus par cette cible, pendant 5s.",
+        "3": "Lorsque Celestial Rejuvenation est actif, augmente le soin pour tous les alliés à 220% de l'Attaque de Naiad Rafaela.",
+        "4": "Lorsque Celestial Rejuvenation est actif, augmente le soin pour tous les alliés à 270% de l'Attaque de Naiad Rafaela. (Nécessite le Crépuscule Ancien niveau 3.)"
+      }
+    },
+    "Guiding Light": {
+      "description": "Établit une connexion entre les deux alliés ayant le moins de PV, pendant 4s. Durant cette période, les deux alliés régénèrent des PV égaux à 70% de l'Attaque de Naiad Rafaela par seconde et gagnent une Défense égale à 100% de la Défense de Naiad Rafaela.",
+      "levels": {
+        "2": "Pendant que les deux alliés sont connectés, augmente les soins qu'ils reçoivent à 85% de l'Attaque de Naiad Rafaela.",
+        "3": "Les deux alliés connectés par Guiding Light gagnent chacun 100% de la régénération d'Énergie déclenchée par les dégâts de l'autre.",
+        "4": "Pendant que les deux alliés sont connectés, augmente les soins qu'ils reçoivent à 100% de l'Attaque de Naiad Rafaela."
+      }
+    },
+    "Ethereal Chant": {
+      "description": "",
+      "levels": {
+        "2": "Accorde des bénédictions aux 2 héros ayant l'Attaque la plus élevée.",
+        "3": "Accorde à la cible une augmentation de 25% d'Attaque.",
+        "4": "Accorde à la cible une augmentation de 30% d'Attaque. (Nécessite le Crépuscule Ancien niveau 1.)"
+      }
+    },
+    "Divine Calling": {
+      "description": "",
+      "levels": {
+        "2": "Lorsque des alliés protégés par un Bouclier sont attaqués, ils gagnent 80% de régénération d'Énergie déclenchée par les dégâts en fonction des dégâts subis. (Ne s'applique que si l'effet est plus fort que le bonus/malus actuel sur le même attribut.)",
+        "3": "Augmente de 14% les soins reçus et les Boucliers de tous les alliés.",
+        "4": "Augmente de 16% les soins reçus et les Boucliers de tous les alliés. (Nécessite le Crépuscule Ancien niveau 2.)"
+      }
+    }
+  },
+  "nana": {},
+  "natalia": {
+    "Shadow Dash": {
+      "description": "Natalia traverse le champ de bataille en sprintant, infligeant des dégâts égaux à 90% de son Attaque à des ennemis aléatoires 7 fois, en priorisant les héros. Si un coup est critique, elle inflige des dégâts une fois de plus, jusqu'à 7 fois supplémentaires.",
+      "levels": {
+        "2": "Les dégâts gagnent 30% de vol de vie supplémentaire.",
+        "3": "Chaque dégât est augmenté à 100% de l'Attaque.",
+        "4": "Chaque dégât est augmenté à 110% de l'Attaque (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Onslaught Time": {
+      "description": "Natalia charge la ligne arrière, infligeant des dégâts égaux à 200% de son Attaque à la cible et l'hypnotisant pendant 1.5s, durant lesquelles elle ne se réveillera pas en subissant des dégâts. Natalia est immunisée à la plupart des effets de contrôle lorsqu'elle lance ce sort.",
+      "levels": {
+        "2": "Les dégâts de la lame sont augmentés à 250% de l'Attaque.",
+        "3": "Après avoir lancé Onslaught Time, Natalia gagne 50% de Réduction des dégâts supplémentaire, qui diminue jusqu'à 0 sur 15s.",
+        "4": "Les dégâts de la lame sont augmentés à 300% de l'Attaque."
+      }
+    },
+    "Phantom Mist": {
+      "description": "Natalia lance une grenade fumigène et devient immunisée aux dégâts infligés par les ennemis situés hors de la fumée tant qu'elle s'y trouve. La fumée dure 4s.",
+      "levels": {
+        "2": "Inflige des dégâts égaux à 120% de l'Attaque par seconde aux ennemis présents dans la fumée.",
+        "3": "Les dégâts sont augmentés à 135% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 150% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Joint Operation": {
+      "description": "",
+      "levels": {
+        "2": "Pour chaque ennemi hypnotisé, Natalia gagne 20% de Taux de coups critiques supplémentaire pendant 6s. Se cumule jusqu'à 4 fois.",
+        "3": "Chaque héros allié survivant augmente le Taux de coups critiques de 1.25%, jusqu'à un cumul de 25%. De plus, Natalia gagne 1.25% de dégâts critiques supplémentaires, jusqu'à un cumul de 25%.",
+        "4": "Chaque héros allié survivant augmente le Taux de coups critiques de 1.5%, jusqu'à un cumul de 30%. De plus, Natalia gagne 1.5% de dégâts critiques supplémentaires, jusqu'à un cumul de 30%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "natan": {
+    "Entropy": {
+      "description": "Natan invoque son Ombre du Futur à travers le Portail Temporel. L'Ombre du Futur dure 10s, hérite des Attributs de Natan et utilise les sorts sélectionnés à mesure que Natan utilise ses propres sorts. Natan ne relancera pas son Ultime tant que l'Ombre du Futur est active.",
+      "levels": {
+        "2": "La durée de l'Ombre du Futur est augmentée à 11s.",
+        "3": "La durée de l'Ombre du Futur est augmentée à 12s."
+      }
+    },
+    "Superposition": {
+      "description": "Natan tire 5 flèches de lumière pour attaquer des ennemis aléatoires, chacune infligeant des dégâts égaux à 105% de son Attaque. Les flèches restent plantées dans la cible après l'avoir touchée, et chaque unité ennemie ne peut avoir plus de 3 flèches plantées en elle. Lorsque l'Ombre du Futur utilise ce sort, elle rappelle toutes les flèches de lumière plantées dans les ennemis, chaque flèche rappelée infligeant des dégâts égaux à 15% des PV perdus de sa cible.",
+      "levels": {
+        "2": "Les dégâts des flèches de lumière sont augmentés à 130% de l'Attaque.",
+        "3": "Les flèches de lumière issues des attaques de base de Natan restent également plantées dans les cibles.",
+        "4": "Les dégâts des flèches de lumière sont augmentés à 150% de l'Attaque."
+      }
+    },
+    "Interference": {
+      "description": "Natan attaque l'ennemi le plus proche, infligeant des dégâts égaux à 300% de son Attaque et lui apposant une marque spatio-temporelle qui dure 6s. La cible marquée ne peut plus bénéficier des effets de régénération d'énergie et de PV. Lorsque l'Ombre du Futur utilise ce sort, elle entraîne hors du champ de bataille les unités ennemies ne possédant pas de marque spatio-temporelle, pendant 4s. Ces unités ne peuvent pas se déplacer et ne subissent que les dégâts de l'Ombre du Futur pendant cette durée.",
+      "levels": {
+        "2": "Les dégâts subis par l'unité ennemie portant une marque spatio-temporelle sont augmentés de 15% supplémentaires.",
+        "3": "La durée pendant laquelle les autres unités ennemies restent hors du champ de bataille est augmentée à 5s."
+      }
+    },
+    "Theory of Everything": {
+      "description": "Les dégâts subis par Natan sont réduits de 30% lorsque l'Ombre du Futur est sur le champ de bataille.",
+      "levels": {
+        "2": "L'Attaque de Natan est augmentée de 40% lorsque l'Ombre du Futur est sur le champ de bataille.",
+        "3": "La Réduction des dégâts est augmentée à 50%."
+      }
+    }
+  },
+  "natsu": {
+    "Lightning Fire Dragon's Firing Hammer": {
+      "description": "Inflige des dégâts égaux à 16% des PV max de la cible à tous les ennemis devant lui, les repoussant jusqu'à l'autre bout du champ de bataille. Les dégâts n'excéderont pas 1600% de l'Attaque de Natsu.",
+      "levels": {
+        "2": "Après avoir repoussé la cible, inflige des dégâts égaux à 600% de son Attaque aux ennemis autour d'elle et les étourdit pendant 2s.",
+        "3": "Les dégâts sont augmentés à 18% des PV max de la cible. Les dégâts n'excéderont pas 1800% de l'Attaque de Natsu.",
+        "4": "Les dégâts sont augmentés à 20% des PV max de la cible. Les dégâts n'excéderont pas 2000% de l'Attaque de Natsu. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Crimson Lotus∶ Fire Dragon's Fist": {
+      "description": "Natsu attaque l'ennemi le plus proche, frappant 7 fois de suite, chaque coup infligeant des dégâts égaux à 3% des PV max de la cible. Chaque dégât a 50% de chances de réduire la Défense de la cible de 15% pendant 8s, cumulable jusqu'à 7 fois. Les dégâts d'un seul coup n'excéderont pas 500% de l'Attaque de Natsu.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 4% des PV max de la cible.",
+        "3": "Lorsqu'il est lancé, ce sort projette l'ennemi dans les airs.",
+        "4": "Les dégâts sont augmentés à 5% des PV max de la cible."
+      }
+    },
+    "Fire Dragon's Claw": {
+      "description": "Avec des flammes tourbillonnant autour de ses pieds, Natsu attaque l'ennemi le plus proche d'un coup de pied volant, infligeant des dégâts égaux à 160% de son Attaque et étourdissant la cible pendant 2s. Ce sort se déclenche automatiquement lorsqu'aucun ennemi ne se trouve à portée d'attaque de Natsu.",
+      "levels": {
+        "2": "Le bonus de Soin et le bonus de Bouclier de la cible touchée par Fire Dragon's Claw sont réduits de 40%.",
+        "3": "Les dégâts sont augmentés à 190% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 220% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Fire Dragon's Constitution": {
+      "description": "Natsu convertit 100% des dégâts qu'il inflige en réserves de flammes, et gagne 14% de Réduction des dégâts pour chaque portion de réserve de flammes équivalente à 20% de ses PV max, cumulable jusqu'à 3 fois.",
+      "levels": {
+        "2": "Lorsque Fire Dragon's Constitution se déclenche, augmente le Taux de coups critiques de 100% et l'Agilité de 500 pendant 6s.",
+        "3": "Gagne 17% de Réduction des dégâts pour chaque portion de réserve de flammes équivalente à 20% de ses PV max.",
+        "4": "Gagne 20% de Réduction des dégâts pour chaque portion de réserve de flammes équivalente à 20% de ses PV max. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "night-blade": {
+    "Maius Rain": {
+      "description": "Frappe l'ennemi à répétition, infligeant des dégâts à plusieurs reprises.",
+      "levels": {}
+    }
+  },
+  "night-drummer": {
+    "Lifting Spirit": {
+      "description": "Augmente l'attaque et la vitesse d'action de toutes les cibles alliées pendant 10 secondes.",
+      "levels": {}
+    }
+  },
+  "nightseer-esmeralda": {
+    "Chain Frenzy": {
+      "description": "Invoque des armes de la Prison des Ombres pour attaquer des ennemis aléatoires 4 fois. Pour chaque groupe de 5 charges de Givre Primordial possédées, consomme le nombre correspondant de charges de Givre Primordial pour effectuer une attaque supplémentaire sur les ennemis. Chaque attaque cible en priorité des ennemis différents, infligeant des dégâts égaux à 66% de l'Attaque à la cible et aux ennemis environnants.",
+      "levels": {
+        "2": "Après qu'une attaque de base ou Death Grip touche un ennemi, si les PV de l'ennemi sont toujours supérieurs à 60%, Nightseer Esmeralda effectue une attaque de base supplémentaire sur l'ennemi, infligeant des dégâts égaux à 75% de l'Attaque. Cette attaque de base supplémentaire ne déclenchera pas cet effet à nouveau.",
+        "3": "Les dégâts infligés sont augmentés à 75%.",
+        "4": "Les dégâts infligés sont augmentés à 84%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Death Grip": {
+      "description": "Inflige à l'ennemi le plus éloigné des dégâts égaux à 12% de ses PV max, plafonnés à 1200% de l'Attaque de Nightseer Esmeralda, et l'attire plus près. En cas de résistance, la prochaine attaque de base devient ce sort à la place. Pendant 3s après le lancement, ce sort cible en priorité des ennemis différents.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 16% des PV max de l'ennemi, plafonnés à 1600% de l'Attaque de Nightseer Esmeralda.",
+        "3": "En touchant des ennemis, Nightseer Esmeralda gagne un Bouclier égal à 400% de l'Attaque de l'ennemi, plafonné à 2000% de l'Attaque de Nightseer Esmeralda."
+      }
+    },
+    "Predator Strike": {
+      "description": "Nightseer Esmeralda se déplace en un éclair vers d'autres positions autour d'elle, infligeant simultanément des dégâts d'attaque de base égaux à 100% de l'Attaque 3 fois à des ennemis aléatoires, puis Nightseer Esmeralda gagne 3 charges de Givre Primordial.",
+      "levels": {
+        "2": "Lorsque ce sort touche des ennemis, Nightseer Esmeralda gagne 10% de l'Attaque de l'ennemi, plafonné à 50% de sa propre Attaque, cumulable jusqu'à 6 fois pendant 8s.",
+        "3": "Les dégâts infligés sont augmentés à 120%",
+        "4": "Les dégâts infligés sont augmentés à 140% (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Titan's Wrath": {
+      "description": "Lorsque Nightseer Esmeralda subit des dégâts dépassant 10% de ses propres PV en un seul coup, elle devient immunisée à ces dégâts, supprime la plupart des effets de contrôle, et déclenche immédiatement Predator Strike. Cet effet a un temps de recharge de 8s.",
+      "levels": {
+        "2": "En mode non compétitif, augmente de 5% les dégâts subis par tous les ennemis. Après la mort du premier ennemi, cet effet disparaît et tous les héros alliés restaurent 100 Énergie.",
+        "3": "Renforce l'augmentation des dégâts subis par les ennemis à 10%.",
+        "4": "Après la mort du premier ennemi, les héros alliés gagnent également 100 Agilité pendant 10s."
+      }
+    },
+    "Shackle Realm": {
+      "description": "Après que des héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier équivalents à 30% de leurs PV max, leur Défense est réduite de 50% jusqu'à la fin du combat.",
+      "levels": {
+        "2": "[Boost PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Après que des héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier équivalents à 70% de leurs PV max, ils perdent 30 Énergie par seconde jusqu'à la fin du combat.",
+        "4": "Chaque fois que des héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier équivalents à 60% de leurs PV max, immobilise cet ennemi pendant 3s et inflige des dégâts égaux à 50% de l'Attaque par seconde. Les dégâts subis pendant l'immobilisation ne déclencheront pas la prochaine immobilisation.",
+        "5": "[Boost Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "À partir du deuxième déclenchement de l'immobilisation, chaque durée d'immobilisation suivante augmente de 3s et ignore l'Immunité au contrôle. (Débloqué à 16px)"
+      }
+    }
+  },
+  "nimbus-eudora": {
+    "Phantom Flashes": {
+      "description": "Invoque 2 fantômes derrière elle qui durent 8s. 99% des dégâts subis par Nimbus Eudora sont transférés à parts égales aux fantômes survivants à la place. Les fantômes volent vers l'ennemi ayant le moins de PV et explosent à leur mort ou disparition, infligeant des dégâts égaux à 350% de l'Attaque de Nimbus Eudora. Les fantômes utilisent des attaques de base lorsque Nimbus Eudora lance ses sorts.",
+      "levels": {
+        "2": "Lorsque Nimbus Eudora lance Bolt Strike, ses fantômes lancent également Bolt Strike.",
+        "3": "Les dégâts infligés par l'explosion des fantômes sont augmentés à 450% de l'Attaque de Nimbus Eudora.",
+        "4": "Les dégâts infligés par l'explosion des fantômes sont augmentés à 560% de l'Attaque de Nimbus Eudora. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Bolt Strike": {
+      "description": "Nimbus Eudora tire des éclairs sur l'ennemi le plus proche, infligeant des dégâts égaux à 60% de l'Attaque 3 fois. Chaque tir déclenche les dégâts supplémentaires de Storm Caller.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 72% de l'Attaque.",
+        "3": "Tire des éclairs 5 fois.",
+        "4": "Les dégâts sont augmentés à 85% de l'Attaque."
+      }
+    },
+    "Storm Caller": {
+      "description": "Nimbus Eudora accorde à tous les alliés le pouvoir de la foudre, faisant en sorte que leurs 18 prochaines attaques de base infligent chacune des dégâts supplémentaires égaux à 3% des PV max de leur cible (jusqu'à 150% de l'Attaque de l'allié).",
+      "levels": {
+        "2": "Lorsque Nimbus Eudora lance ce sort, le pouvoir de la foudre restant des alliés est converti en 2 Coups Fatals pendant 6s.",
+        "3": "Lorsque Nimbus Eudora lance ce sort, le pouvoir de la foudre restant des alliés est converti en 4 Coups Fatals pendant 6s.",
+        "4": "Lorsque Nimbus Eudora lance ce sort, le pouvoir de la foudre restant des alliés est converti en 6 Coups Fatals pendant 6s. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Lightning Fury": {
+      "description": "Lorsqu'un ennemi entre dans le camp de son équipe sur le champ de bataille, Nimbus Eudora lui inflige des dégâts égaux à 100% de l'Attaque, l'étourdissant pendant 1s et réduisant son Attaque de 20% pendant 6s. Cet effet se déclenche au maximum une fois toutes les 10s pour le même ennemi.",
+      "levels": {
+        "2": "La durée de l'étourdissement est augmentée à 2s.",
+        "3": "La réduction d'Attaque est augmentée à 35%.",
+        "4": "La réduction d'Attaque est augmentée à 50%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "noctis-tokinibara": {
+    "Flash Trinity": {
+      "description": "Noctis Tokinibara renforce sa lame, faisant en sorte que son attaque de base et son Ultime infligent des dégâts supplémentaires égaux à 5% des PV max de la cible. Les dégâts n'excéderont pas 500% de son Attaque. Cet effet peut se cumuler jusqu'à 3 fois. Puis Noctis Tokinibara inflige des dégâts égaux à de son Attaque aux ennemis dans une grande zone devant elle, trois fois.",
+      "levels": {
+        "2": "Chaque fois qu'un ennemi gagne de l'Énergie supplémentaire grâce à son sort, Noctis Tokinibara vole 40% de cette Énergie supplémentaire.",
+        "3": "Les dégâts sont augmentés à 235% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 275% de son Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Myriad Souls": {
+      "description": "Noctis Tokinibara s'accorde un Bouclier égal à 285% de son Attaque et réduit de 40% les dégâts qu'elle subit pendant 10s. Tant que Noctis Tokinibara possède un Bouclier, elle est immunisée aux effets de changement de cible, ainsi qu'à la plupart des effets de contrôle.",
+      "levels": {
+        "2": "Le Bouclier est augmenté à 360% de son Attaque.",
+        "3": "Pour chaque Fleur Tokinibara accumulée, augmente le Bouclier de Noctis Tokinibara de 5%, cumulable jusqu'à 10 fois.",
+        "4": "Le Bouclier est augmenté à 400% de son Attaque."
+      }
+    },
+    "Wing Slash": {
+      "description": "Noctis Tokinibara déchaîne des lames de vent autour d'elle, infligeant des dégâts égaux à 64% de son Attaque aux ennemis proches et réduisant leur Énergie de 30 par seconde, pendant 8s. Chaque fois qu'un ennemi subit des dégâts des lames de vent, il subit 2% de dégâts supplémentaires des lames de vent suivantes, cumulable jusqu'à 20 fois.",
+      "levels": {
+        "2": "Chaque fois que les lames de vent infligent des dégâts, Noctis Tokinibara gagne en permanence 1% de bonus d'Attaque, cumulable jusqu'à 30% de bonus d'Attaque.",
+        "3": "Les dégâts sont augmentés à 77% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 90% de son Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Mourning Flower": {
+      "description": "Pour chaque tranche de 1000 Énergie gagnée par tous les ennemis, Noctis Tokinibara gagne une Fleur Tokinibara (max 10). Lorsque Noctis Tokinibara est proche de la mort, chaque Fleur Tokinibara lui accorde 0.6s d'invincibilité. Cet effet ne peut se déclencher qu'une fois toutes les 45s. Lorsque le statut d'invincibilité prend fin, toutes les Fleurs Tokinibara actuelles sont consommées, et chaque fleur restaure 4% des PV max de Noctis Tokinibara.",
+      "levels": {
+        "2": "Le statut d'invincibilité a une durée de base de 15.",
+        "3": "Le soin est augmenté à 5% des PV max.",
+        "4": "Le soin est augmenté à 6% des PV max. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Nether Realm": {
+      "description": "Pour chaque tranche de 2 Fleurs Tokinibara gagnées, Noctis Tokinibara inflige des dégâts égaux à 80% de son Attaque à tous les ennemis.",
+      "levels": {
+        "2": "[Boost PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Les dégâts infligés sont augmentés à 130% de l'Attaque. (Débloqué à 48px)",
+        "4": "L'Énergie que les ennemis doivent consommer pour leur Ultime est augmentée de 100 points. Chaque fois qu'un ennemi lance son Ultime, les lancers d'Ultime suivants nécessitent 50 points d'Énergie supplémentaires. Peut se cumuler jusqu'à nécessiter 250 points supplémentaires de lancers nécessitent 50 points d'Énergie supplémentaires. Peut se cumuler jusqu'à nécessiter 250 points d'Énergie supplémentaires pour lancer l'Ultime. (Débloqué à 64px)",
+        "5": "[Boost Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "L'Énergie que les ennemis doivent consommer pour leur Ultime est augmentée de 200 points. Chaque fois qu'un ennemi lance son Ultime, les lancers d'Ultime suivants nécessitent 100 points d'Énergie supplémentaires. Peut se cumuler jusqu'à nécessiter 500 points d'Énergie supplémentaires pour lancer l'Ultime. (Débloqué à 16px)"
+      }
+    }
+  },
+  "oberon": {
+    "Judgment Domain": {
+      "description": "Dans l'ordre Épée de Justice, Épée de Guerre et Épée de Sagesse, Oberon active une épée à la fois. Oberon invoque des épées qui tombent d'en haut, infligeant des dégâts égaux à 400% de son Attaque aux ennemis, avec des effets basés sur les épées activées. Épée de Justice : inflige en permanence 25% de dégâts supplémentaires aux ennemis touchés. Épée de Guerre : réduit en permanence de 80% les effets de soin sur les ennemis touchés. Épée de Sagesse : réduit en permanence les dégâts des ennemis touchés de 25%.",
+      "levels": {
+        "2": "Si Oberon lance son Ultime lorsque les trois épées sont activées, tous les ennemis touchés dont les PV max sont inférieurs à 3 fois les PV max d'Oberon sont immédiatement tués, et les autres ennemis touchés avec des PV plus élevés subissent des dégâts égaux à 3 fois les PV max d'Oberon. Désactive ensuite les trois épées.",
+        "3": "Épée de Justice : inflige en permanence 35% de dégâts supplémentaires aux ennemis touchés. Épée de Guerre : réduit en permanence de 100% les effets de soin sur les ennemis touchés. Épée de Sagesse : réduit en permanence les dégâts des ennemis touchés de 35%.",
+        "4": "Les dégâts sont augmentés à 600% de l'Attaque (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Glorious Strike": {
+      "description": "Oberon inflige des dégâts égaux à 250% de son Attaque à tous les ennemis dans une petite zone devant lui, infligeant des dégâts supplémentaires égaux à 100% de son Attaque une fois pour chaque épée activée.",
+      "levels": {
+        "2": "Les dégâts supplémentaires sont augmentés à 125%.",
+        "3": "Chaque ennemi touché restaure 100 points d'Énergie à Oberon.",
+        "4": "Les dégâts supplémentaires sont augmentés à 150%."
+      }
+    },
+    "Sword Spirit": {
+      "description": "Dorothy cible l'ennemi le plus éloigné d'Oberon, infligeant des dégâts égaux à 300% de son Attaque et l'attirant vers lui.",
+      "levels": {
+        "2": "Lorsqu'aucun ennemi ne se trouve à portée d'attaque d'Oberon, Dorothy lance ce sort sur l'ennemi le plus proche. Le sort se déclenche au maximum une fois toutes les 10 secondes.",
+        "3": "Les ennemis touchés voient leur Défense réduite de 30% pendant 6s.",
+        "4": "Les dégâts sont augmentés à 420% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Art of Sword": {
+      "description": "Chaque fois qu'Oberon active l'une de ses épées ou perd 75% de ses PV max, Dorothy supprime la plupart des effets de contrôle sur lui et ouvre un Bouclier des Épées égal à 30% des PV perdus par Oberon. Tant que le Bouclier est actif, il continue d'obtenir 80% de sa régénération d'Énergie déclenchée par les dégâts. Selon les épées activées, Oberon gagne des bonus qui durent 3s. Épée de Justice : transforme les dégâts infligés par Oberon en Bouclier. Épée de Guerre : augmente le Taux de coups critiques de 50%. Épée de Sagesse : devient immunisé à la plupart des effets de contrôle.",
+      "levels": {
+        "2": "La durée du bonus est augmentée à 4s.",
+        "3": "Oberon est immunisé une fois aux dégâts létaux et déclenche Art of Sword lorsqu'il est sur le point de mourir.",
+        "4": "La durée du bonus est augmentée à 5s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "occult-sorcerer": {
+    "Elemental Wave": {
+      "description": "Lance de puissants projectiles magiques, infligeant des dégâts à des ennemis aléatoires à plusieurs reprises.",
+      "levels": {}
+    }
+  },
+  "odette": {
+    "Swan Song": {
+      "description": "",
+      "levels": {
+        "2": "L'orbe magique peut rebondir 5 fois.",
+        "3": "Les dégâts sont augmentés à 280% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 325% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Blue Nova": {
+      "description": "",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 135% de l'Attaque.",
+        "3": "Si un orbe magique divisé touche un ennemi endormi, il se divise à nouveau en deux orbes magiques qui attaquent des ennemis.",
+        "4": "Les dégâts sont augmentés à 160% de l'Attaque"
+      }
+    },
+    "Lakeshore Ambience": {
+      "description": "",
+      "levels": {
+        "2": "Les ennemis endormis ne se réveillent pas en subissant des dégâts pendant les 2 premières secondes.",
+        "3": "La durée du sommeil est augmentée à 6s.",
+        "4": "Les dégâts sont augmentés à 340% de l'Attaque (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Swan Cantus": {
+      "description": "",
+      "levels": {
+        "2": "Chaque fois qu'elle endort un ennemi, Odette obtient 250 points d'Énergie.",
+        "3": "L'Attaque acquise est augmentée à 30%.",
+        "4": "L'Attaque acquise est augmentée à 40%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "omniversal-akashic": {
+    "Universal Law": {
+      "description": "Inflige un Étourdissement infranchissable au héros ennemi ayant le plus d'Énergie. Chaque seconde, cet ennemi perd 50% d'Énergie, tandis que les autres héros alliés récupèrent au total 50% de l'Énergie de cet ennemi (minimum 70 par seconde) pendant 3s. Le lancement de Universal Law accorde également aux autres héros alliés une immunité à la plupart des effets de contrôle et 21% de l'Attaque d'Akashic pendant 8s.",
+      "levels": {
+        "2": "Augmente également de 50% les dégâts subis par cet ennemi pendant 3s.",
+        "3": "Les autres héros alliés gagnent 23% de l'Attaque d'Akashic.",
+        "4": "Les autres héros alliés gagnent 25% de l'Attaque d'Akashic. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Ultimate Verdict": {
+      "description": "Vole 25% d'Attaque à l'ennemi ayant l'Attaque la plus élevée pendant 8s, jusqu'à 200% de sa propre Attaque.",
+      "levels": {
+        "2": "Vole 30% de l'Attaque de l'ennemi.",
+        "3": "Inflige des dégâts égaux à 150% de l'Attaque à l'ennemi après lui avoir volé de l'Attaque.",
+        "4": "Vole 35% de l'Attaque de l'ennemi."
+      }
+    },
+    "Life Reforged": {
+      "description": "Supprime la plupart des effets de restriction de récupération de PV pour le héros allié ayant le pourcentage de PV le plus bas ainsi que pour tous les héros alliés dont les PV sont inférieurs à 60%, et les soigne une fois pour 340% de l'Attaque.",
+      "levels": {
+        "2": "Accorde également 20% d'augmentation des dégâts pendant 6s à toutes les unités alliées n'ayant pas reçu de soin.",
+        "3": "Le soin est augmenté à 380% de l'Attaque.",
+        "4": "Le soin est augmenté à 420% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Epochal Weave": {
+      "description": "Lorsqu'un ennemi lance son Ultime, active des effets correspondants en fonction de la Classe de la cible, pendant 5s. Mage : augmente la Résistance aux critiques des héros alliés de 40%. Tireur : restaure des PV égaux à 40% de l'Attaque d'Omniversal Akashic pour tous les héros alliés chaque seconde. Combattant : réduit de 20% les dégâts infligés par cet ennemi et augmente de 20% les dégâts qu'il subit. Soutien : réduit de 30% la régénération d'Énergie de cet ennemi. Tank : réduit de 40% la Défense de cet ennemi.",
+      "levels": {
+        "2": "Lorsqu'un ennemi Boss lance son Ultime, tous les effets ci-dessus se déclenchent.",
+        "3": "La durée est augmentée à 6s.",
+        "4": "La durée est augmentée à 7s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Realm of Unreality": {
+      "description": "Les héros alliés gagnent 75 Énergie en 5s après leur entrée en combat. Omniversal Akashic restaure 75 Énergie supplémentaire",
+      "levels": {
+        "2": "[Boost PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Chaque fois qu'un héros allié Mage, Tireur ou Combattant utilise son Ultime, Omniversal Akashic le fait déclencher son sort Ultimate Verdict.",
+        "4": "Les héros alliés gagnent 150 Énergie en 5s après leur entrée en combat. Omniversal Akashic restaure 150 Énergie supplémentaire. (Débloqué à 64px)",
+        "5": "[Boost Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "Omniversal Akashic déclenche le sort Universal Law pour chaque tranche de 2 Ultimes utilisés par d'autres héros alliés Soutien ou Tank. Peut se déclencher une fois toutes les 8s. (Débloqué à 16px)"
+      }
+    }
+  }
+}

@@ -1,0 +1,566 @@
+{
+  "thamuz": {
+    "Cauterant Inferno": {
+      "description": "Thamuz fait pleuvoir des flammes infernales sur les ennemis, provoquant un ennemi aléatoire pendant 10s, durant lesquelles l'ennemi provoqué subit continuellement des dégâts égaux à 75% de l'Attaque de Thamuz.",
+      "levels": {
+        "2": "Les dégâts soutenus sont augmentés à 90%.",
+        "3": "Les dégâts soutenus sont augmentés à 105%."
+      }
+    },
+    "Abyssal Strike": {
+      "description": "Thamuz frappe l'ennemi devant lui, infligeant des dégâts égaux à 8% de ses PV max.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 10% des PV max de la cible.",
+        "3": "Cette compétence étourdit la cible lorsque sa Défense est inférieure à celle de Thamuz.",
+        "4": "Les dégâts sont augmentés à 12% des PV max de la cible."
+      }
+    },
+    "Molten Scythes": {
+      "description": "Thamuz lance ses faux dans la direction ciblée, infligeant des dégâts égaux à 200% de son Attaque aux ennemis dans la zone frontale et réduisant leur Défense de 10%.",
+      "levels": {
+        "2": "La réduction de Défense est augmentée à 15%.",
+        "3": "La réduction de Défense est augmentée à 20%."
+      }
+    },
+    "Grand Lord Lava": {
+      "description": "Thamuz augmente sa Défense de 1% pendant 6s lorsqu'il subit des dégâts. Cet effet peut cumuler jusqu'à 66 charges.",
+      "levels": {
+        "2": "Lorsqu'il atteint le nombre maximum de charges, Thamuz se soigne continuellement pendant une période donnée. Cet effet ne peut être déclenché qu'une seule fois par combat.",
+        "3": "L'augmentation de Défense est portée à 1.5%."
+      }
+    }
+  },
+  "tia": {
+    "Myriad Stars": {
+      "description": "Tia se transforme en forme de Cristal, consomme continuellement de l'Énergie et tire des salves sur les ennemis, infligeant des dégâts égaux à 15% de l'Attaque à plusieurs reprises. Lorsqu'elle est sous forme de Cristal, elle ne peut pas être ciblée par les ennemis. Une fois son Énergie épuisée, Tia reprend sa forme initiale.",
+      "levels": {
+        "2": "Pour chaque seconde passée sous forme de Cristal, les dégâts infligés par Tia augmentent de 20%.",
+        "3": "Les dégâts de chaque salve sont augmentés à 18% de l'Attaque."
+      }
+    },
+    "Glow of Silence": {
+      "description": "Tia inflige des dégâts égaux à 350% de l'Attaque à l'ennemi ciblé et aux ennemis alentour. Elle les réduit également au silence pendant 4s. Cependant, dès qu'un ennemi subit des dégâts égaux à 20% de ses PV max, l'effet de Silence est immédiatement retiré.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 420% de l'Attaque.",
+        "3": "La durée de l'effet de Silence est augmentée à 6s.",
+        "4": "Les dégâts sont augmentés à 490% de l'Attaque."
+      }
+    },
+    "Origin of Magic": {
+      "description": "Lorsque Tia subit des dégâts fatals, elle peut retirer tous les effets négatifs qui l'affectent et régénérer toute son Énergie. Cet effet ne peut être déclenché qu'une seule fois par combat.",
+      "levels": {
+        "2": "L'Attaque augmente de 15% pendant 8s.",
+        "3": "L'Attaque augmente de 30% pendant 8s."
+      }
+    },
+    "Torn Reality": {
+      "description": "Lorsque les compétences de Tia infligent des dégâts aux ennemis, elle peut infliger des dégâts supplémentaires égaux à 0.7% des PV max de la cible. Les dégâts infligés à chaque fois ne peuvent pas dépasser 70% de l'Attaque de Tia.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 0.9% des PV max de la cible.",
+        "3": "Les dégâts sont augmentés à 1.1% des PV max de la cible."
+      }
+    }
+  },
+  "tidescale-kalea": {
+    "Tsunami Slam": {
+      "description": "",
+      "levels": {
+        "3": "Les dégâts infligés sont augmentés à 465%.",
+        "4": "Les dégâts infligés sont augmentés à 510%. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Wavebreaker": {
+      "description": "Kalea frappe le sol, réduisant la Défense des ennemis proches de 50% pendant 8s et infligeant des dégâts égaux à 200% de son Attaque. Lorsqu'elle est lancée dans un domaine aquatique, elle absorbe le domaine le plus proche, infligeant 200% de dégâts supplémentaires. Lorsque cette compétence inflige des dégâts, Kalea récupère des PV égaux à 200% des dégâts infligés.",
+      "levels": {
+        "2": "Les dégâts de base infligés sont augmentés à 270%.",
+        "3": "Lorsque les PV restaurés par Wavebreaker et la triple frappe de Surge of Life dépassent le maximum, 100% du surplus est converti en Bouclier, jusqu'à 200% des PV max de la cible.",
+        "4": "Les dégâts de base infligés sont augmentés à 340%."
+      }
+    },
+    "Surge of Life": {
+      "description": "Après avoir absorbé un domaine aquatique, la prochaine attaque de base de Kalea devient une triple frappe. La troisième attaque utilise sa queue pour infliger des dégâts de zone aux ennemis proches, infligeant des dégâts égaux à 8% de leurs PV max par coup. Les dégâts ne peuvent pas dépasser 800% de l'Attaque de Kalea. Lorsque cette compétence inflige des dégâts, Kalea récupère des PV égaux à 200% des dégâts infligés.",
+      "levels": {
+        "2": "La triple frappe de Wavebreaker et de Surge of Life restaure des PV supplémentaires égaux à 200% des dégâts infligés au héros allié ayant le pourcentage de PV le plus faible (Kalea incluse).",
+        "3": "Chaque attaque inflige des dégâts égaux à 11% des PV max des ennemis, plafonnés à 1100% de l'Attaque de Kalea.",
+        "4": "Chaque attaque inflige des dégâts égaux à 14% des PV max des ennemis, plafonnés à 1400% de l'Attaque de Kalea. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Tidal Spirit": {
+      "description": "Chaque fois que Kalea subit des dégâts égaux à 30% de ses PV max, elle gagne 80% de Réduction des Dégâts pendant 5s et crée immédiatement un domaine aquatique à son emplacement. Les PV perdus pendant que la Réduction des Dégâts est active ne sont pas comptabilisés. Lorsqu'un autre héros allié subit des dégâts dépassant 10% de ses PV, il récupère 100 Énergie. Cet effet peut être déclenché par chaque héros une fois toutes les 8s au maximum.",
+      "levels": {
+        "2": "Lorsqu'un autre héros allié subit des dégâts dépassant 10% de ses PV, Kalea récupère également 100 Énergie.",
+        "3": "L'Énergie restaurée est augmentée à 130.",
+        "4": "L'Énergie restaurée est augmentée à 160. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "tigreal": {
+    "Implosion": {
+      "description": "Tigreal bondit haut dans les airs puis inflige des dégâts égaux à 600% de son Attaque à l'unité ennemie la plus proche, l'étourdissant pendant 2s.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 720%."
+      }
+    },
+    "Divine Strike": {
+      "description": "Tigreal soulève un ennemi dans les airs, infligeant des dégâts égaux à 205% de son Attaque et le projetant dans les airs.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 245%.",
+        "3": "Les dégâts sont augmentés à 275%."
+      }
+    },
+    "Attack Wave": {
+      "description": "Tigreal libère une onde de choc dans la direction ciblée, infligeant des dégâts égaux à 170% de son Attaque.",
+      "levels": {
+        "2": "Provoque un effet de Ralentissement supplémentaire."
+      }
+    },
+    "Fearless": {
+      "description": "Pour chaque compétence lancée et chaque attaque de base subie, Tigreal acquiert une charge de la marque. Lorsque Tigreal possède 4 charges de la marque, il devient immunisé contre toutes les attaques de base pendant 1s.",
+      "levels": {
+        "2": "Augmente la Défense de Tigreal de 12%."
+      }
+    }
+  },
+  "tokinibara": {
+    "Revival Bloom": {
+      "description": "Inflige des dégâts égaux à 300% de son Attaque aux ennemis dans une large zone devant elle et gagne un Bouclier égal à 40% de ses PV max.",
+      "levels": {
+        "2": "Les ennemis touchés par Tokinibara infligent 20% de dégâts en moins pendant les 5s suivantes. Cumulable jusqu'à 3 charges.",
+        "3": "Les dégâts sont augmentés à 450% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 600% de son Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Frost Slash": {
+      "description": "Tokinibara adopte une posture défensive, subissant 40% de dégâts en moins pendant les 6s suivantes. Durant cette période, elle libère de l'énergie tranchante avec ses attaques de base, infligeant des dégâts égaux à 200% de son Attaque aux ennemis dans la zone.",
+      "levels": {
+        "2": "Les dégâts subis sont réduits de 50%.",
+        "3": "L'énergie tranchante réduit également l'Énergie de la cible touchée de 60.",
+        "4": "Les dégâts subis sont réduits de 60%."
+      }
+    },
+    "Midnight Blitz": {
+      "description": "Projette un ennemi dans les airs, infligeant des dégâts égaux à 240% de son Attaque et absorbant 50% de la Défense de l'ennemi.",
+      "levels": {
+        "2": "Si un ennemi possède un Bouclier, Tokinibara absorbe également 50% de ce Bouclier.",
+        "3": "Les dégâts sont augmentés à 330% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 420% de son Attaque. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Outcast Flower": {
+      "description": "Au lieu de régénérer de l'Énergie au fil du temps, Tokinibara vole 20% de la régénération d'Énergie de tous les ennemis.",
+      "levels": {
+        "2": "Chaque fois qu'un ennemi gagne de l'Énergie supplémentaire grâce à une compétence, Tokinibara vole 40% de cette Énergie supplémentaire.",
+        "3": "La régénération d'Énergie volée est augmentée à 25%.",
+        "4": "La régénération d'Énergie volée est augmentée à 30%. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "tsukuyomi": {
+    "Magatsu Sun": {
+      "description": "Inflige des dégâts égaux à 56% de son Attaque aux ennemis proches à 4 reprises. Le dernier coup inflige des dégâts supplémentaires égaux à 15% des PV max de la cible, plafonnés à 1500% de l'Attaque de Tsukuyomi. Devient immunisé aux contrôles pendant le lancement de cette compétence.",
+      "levels": {
+        "2": "Lorsque Tsukuyomi inflige des dégâts, 70% de ces dégâts sont convertis en Bouclier pour lui-même, jusqu'à 500% de ses PV max.",
+        "3": "Les dégâts sont augmentés à 64% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 72% de son Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Lunar Eclipse": {
+      "description": "Tsukuyomi alterne entre les phases de pleine lune et de nouvelle lune toutes les 12s : en phase de pleine lune, Tsukuyomi gagne un Bouclier égal à 300% de ses PV max, et le serpent squelette gagne un Bouclier égal à 30% des PV max de Tsukuyomi, tous deux d'une durée de 12s.",
+      "levels": {
+        "2": "Augmenté jusqu'à 240% de son Attaque.",
+        "3": "En entrant en phase de nouvelle lune, Tsukuyomi récupère de l'Énergie en fonction des dégâts subis durant la phase de pleine lune, jusqu'à 600 d'Énergie lorsque les dégâts subis atteignent 400% de ses PV max.",
+        "4": "Augmenté jusqu'à 320% de son Attaque."
+      }
+    },
+    "Moontide Resurge": {
+      "description": "Phase de pleine lune : le serpent squelette gagne un Bouclier égal à 20% des PV max de Tsukuyomi pendant 12s et récupère 30% de ses PV perdus. Phase de nouvelle lune : augmente le taux de coups critiques de 30% et le vol de vie de 50 pendant 12s, avec immunité aux dégâts et aux contrôles pendant le lancement.",
+      "levels": {
+        "2": "En phase de nouvelle lune, inflige 150% de dégâts aux ennemis alentour.",
+        "3": "En phase de pleine lune, augmente le Bouclier du serpent squelette à 30%.",
+        "4": "En phase de pleine lune, augmente le Bouclier du serpent squelette à 40%. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Moonfall Mania": {
+      "description": "Se téléporte instantanément vers l'ennemi le plus éloigné, inflige des dégâts égaux à 140% de son Attaque aux ennemis proches et les provoque pendant 2s.",
+      "levels": {
+        "2": "Restaure des PV égaux à 200% de son Attaque après le déplacement instantané.",
+        "3": "Les dégâts sont augmentés à 170% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 200% de son Attaque. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "ultio-eris": {
+    "Prismatic Blast": {
+      "description": "Eris libère une explosion arcanique prismatique, infligeant des dégâts égaux à 310% de son Attaque aux ennemis dans la zone et les étourdissant brièvement. Les ennemis affectés reçoivent également une Bombe à Retardement pendant 6s. Lorsque la Bombe à Retardement expire, elle explose, infligeant 30% des dégâts totaux reçus par la cible durant cette période.",
+      "levels": {
+        "2": "Après avoir lancé son Ultime, Eris renforce ses attaques de base pendant 8s. Ces attaques de base renforcées infligent des dégâts égaux à 180% de son Attaque aux ennemis dans une large zone et les repoussent légèrement.",
+        "3": "Augmente les dégâts de l'explosion arcanique à 370% de l'Attaque.",
+        "4": "Augmente les dégâts de l'explosion arcanique à 430% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Plasma Grenade": {
+      "description": "Eris lance une grenade, infligeant des dégâts égaux à 145% de son Attaque aux ennemis dans la zone ciblée et leur infligeant des Marques de Plasma pendant 5s. Les attaques de base des alliés contre les cibles marquées restaurent les PV de l'attaquant à hauteur de 250% de l'Attaque d'Eris.",
+      "levels": {
+        "2": "Augmente les dégâts de la grenade à 170% de l'Attaque.",
+        "3": "Eris gagne 15% d'Attaque de façon permanente chaque fois qu'elle inflige une Marque de Plasma à un ennemi. Ce bonus est porté à 30% si l'Attaque de l'ennemi marqué dépasse le double de la sienne. Ce bonus est plafonné à 150% d'Attaque.",
+        "4": "Augmente les dégâts de la grenade à 200% de l'Attaque."
+      }
+    },
+    "Gravitation Radiaton": {
+      "description": "Pour chaque ennemi touché par l'attaque de base d'Eris, elle gagne 4% de Taux de coups critiques et 6% de Dégâts critiques pendant 6s, cumulable jusqu'à 10 charges.",
+      "levels": {
+        "2": "Eris gagne 50% de Précision supplémentaire.",
+        "3": "Augmente le bonus de Taux de coups critiques à 6% et le bonus de Dégâts critiques à 10%.",
+        "4": "Augmente le bonus de Taux de coups critiques à 8% et le bonus de Dégâts critiques à 14%. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Cryogenic Aegis": {
+      "description": "Lorsqu'Eris est sur le point de subir des dégâts supérieurs à 10% de ses PV max, Cryogenic Aegis réduit ces dégâts de 20%.",
+      "levels": {
+        "2": "Lorsque les PV d'Eris dépassent 50%, elle gagne une Pénétration égale à 30% de son Attaque.",
+        "3": "Lorsqu'Eris est sur le point de subir des dégâts supérieurs à 10% de ses PV max, ces dégâts sont réduits de 30%.",
+        "4": "Lorsqu'Eris est sur le point de subir des dégâts supérieurs à 10% de ses PV max, ces dégâts sont réduits de 40%. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "uranus": {
+    "": {
+      "description": "Uranus consomme tout son Pouvoir Divin, soignant tous ses alliés d'un montant de PV égal à 150% de leur Attaque. Chaque charge de Pouvoir Divin augmente les PV soignés de 10% de l'Attaque de la cible. Les PV soignés sont doublés pour Uranus lui-même.",
+      "levels": {
+        "2": "Chaque charge de Pouvoir Divin augmente les PV soignés à 12% de l'Attaque.",
+        "3": "Chaque charge de Pouvoir Divin augmente les PV soignés à 14% de l'Attaque."
+      }
+    },
+    "Holy Shield": {
+      "description": "Uranus provoque tous les ennemis autour de lui, acquérant un Bouclier égal à 130% de son Attaque. Lorsque le Bouclier expire ou est détruit, il inflige des dégâts égaux à 150% de son Attaque aux ennemis proches.",
+      "levels": {
+        "2": "Le Bouclier est augmenté à 165% de l'Attaque.",
+        "3": "Chaque ennemi provoqué octroie 2 charges de Pouvoir Divin.",
+        "4": "Le Bouclier est augmenté à 200% de l'Attaque."
+      }
+    },
+    "Transcendent Ward": {
+      "description": "Uranus inflige des dégâts égaux à 100% de son Attaque aux ennemis alentour, réduisant leur Attaque de 10% tout en acquérant 3 charges de Pouvoir Divin.",
+      "levels": {
+        "2": "Uranus se soigne continuellement en fonction du nombre de charges de Pouvoir Divin qu'il possède.",
+        "3": "Augmente la réduction d'Attaque à 15%."
+      }
+    },
+    "Radiance": {
+      "description": "Uranus acquiert une charge de Pouvoir Divin pour chaque attaque qu'il subit, jusqu'à un maximum de 30 charges.",
+      "levels": {
+        "2": "Uranus acquiert un Bouclier égal à 3% de ses PV max pour chaque tranche de 10 charges de Pouvoir Divin obtenues.",
+        "3": "Uranus acquiert un Bouclier égal à 5% de ses PV max pour chaque tranche de 10 charges de Pouvoir Divin obtenues."
+      }
+    }
+  },
+  "valir": {
+    "Hellfire": {
+      "description": "Valir invoque Hellfire, infligeant des dégâts égaux à 135% de son Attaque aux ennemis dans la zone toutes les 0.5s.",
+      "levels": {
+        "2": "Hellfire projette dans les airs les ennemis dans la zone.",
+        "3": "Les dégâts sont augmentés à 175% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 215% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Burst Fire": {
+      "description": "Valir déclenche une explosion enflammée, infligeant des dégâts égaux à 225% de son Attaque aux ennemis dans la zone.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 260% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 290% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 325% de l'Attaque."
+      }
+    },
+    "Searing Torrent": {
+      "description": "Valir déchaîne un torrent de flammes devant lui, repoussant les ennemis et infligeant des dégâts égaux à 250% de son Attaque.",
+      "levels": {
+        "2": "Les cibles situées à l'extrémité de la portée du torrent subissent des dégâts supplémentaires égaux à 62.5% de l'Attaque.",
+        "3": "Les dégâts supplémentaires sont augmentés à 125% de l'Attaque.",
+        "4": "Les dégâts de la compétence sont augmentés à 280% de l'Attaque. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Arcane Flame": {
+      "description": "Searing Torrent permet à Valir de libérer deux torrents de flammes, le second infligeant 60% des dégâts.",
+      "levels": {
+        "2": "Augmente les dégâts du deuxième torrent de Searing Torrent à 90% des dégâts totaux.",
+        "3": "Augmente les dégâts du deuxième torrent de Searing Torrent à 120% des dégâts totaux.",
+        "4": "Augmente les dégâts du deuxième torrent de Searing Torrent à 135% des dégâts totaux. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "vexana": {
+    "Cursed Oath": {
+      "description": "Vexana lance une malédiction sur le héros ennemi ayant le moins de PV, infligeant des dégâts égaux à 100% de son Attaque chaque seconde pendant les 12s suivantes. Si la cible meurt alors qu'elle est maudite, une marionnette de la cible est invoquée pour combattre aux côtés de Vexana. La marionnette possède 40% de la capacité de dégâts de la cible. Elle est capable d'utiliser toutes les compétences à l'exception de l'Ultime.",
+      "levels": {
+        "2": "Les ennemis maudits par le héros ne peuvent pas être soignés.",
+        "3": "Augmente la force de la marionnette à 80% de la capacité de dégâts de la cible.",
+        "4": "Augmente la force de la marionnette à 100% de la capacité de dégâts de la cible. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Cursed Snare": {
+      "description": "Vexana invoque un pouvoir maudit pour infliger des dégâts égaux à 265% de son Attaque à l'ennemi.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 315% de l'Attaque.",
+        "3": "Réduit les effets de soin reçus par la cible.",
+        "4": "Les dégâts sont augmentés à 370% de l'Attaque."
+      }
+    },
+    "Gate of the Underworld": {
+      "description": "Vexana inflige davantage de dégâts à mesure que les PV de ses ennemis diminuent. Les dégâts peuvent être augmentés jusqu'à 30%.",
+      "levels": {
+        "2": "Augmente les dégâts supplémentaires à 40%.",
+        "3": "Augmente les dégâts supplémentaires à 50%.",
+        "4": "Augmente les dégâts supplémentaires à 65%. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Cursed Spell": {
+      "description": "Vexana et la marionnette invoquée ajoutent une marque de Nécromancien à la cible lorsqu'elles infligent des dégâts. À sa mort, la cible explose, infligeant des dégâts égaux à 115% de l'Attaque de Vexana aux unités ennemies alentour.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 140% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 165% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 190% de l'Attaque. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "voodoo-shaman": {
+    "Withering Laser": {
+      "description": "Lance une bombe Voodoo sur un ennemi du rang du milieu, infligeant des dégâts massifs à tous les ennemis à portée.",
+      "levels": {}
+    }
+  },
+  "wanwan": {
+    "Crossbow of Tang": {
+      "description": "Wanwan utilise Crossbow of Tang pour faire pleuvoir une volée de flèches sur les ennemis. Elle inflige des dégâts égaux à 90% de l'Attaque à plusieurs reprises. La compétence cible en priorité les ennemis affectés par l'effet de Faiblesse.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 110% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 125% de l'Attaque.",
+        "4": "Les dégâts de chaque coup sont augmentés à 145% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Swallow's Path": {
+      "description": "Wanwan envoie des hirondelles vers la cible. Les hirondelles tournoient autour de la cible et infligent des dégâts égaux à 72% de l'Attaque à plusieurs reprises.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 86% de l'Attaque.",
+        "3": "Les ennemis touchés 3 fois par Flyweel en peu de temps sont étourdis.",
+        "4": "Les dégâts sont augmentés à 100% de l'Attaque."
+      }
+    },
+    "Transposition": {
+      "description": "Au début du combat, Wanwan échange sa position avec un ennemi. La compétence cible en priorité l'ennemi à la position correspondante. L'ennemi reçoit l'effet de Faiblesse et tous les dégâts qu'il subit sont augmentés de 15%.",
+      "levels": {
+        "2": "Lorsqu'un ennemi meurt alors qu'il est affecté par l'effet de Faiblesse, il transmet cet effet à l'ennemi ayant le pourcentage de PV le plus faible.",
+        "3": "Tous les dégâts subis par les ennemis affectés par l'effet de Faiblesse sont augmentés de 30%.",
+        "4": "Tous les dégâts subis par les ennemis affectés par l'effet de Faiblesse sont augmentés de 40%. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Tiger Pace": {
+      "description": "Chaque fois que Wanwan perd 45% de ses PV max, elle obtient le bonus Tiger Pace et ne peut pas être ciblée par les ennemis pendant les 2 secondes suivantes.",
+      "levels": {
+        "2": "Lorsqu'elle bénéficie du bonus Tiger Pace, Wanwan récupère 60 Énergie par seconde.",
+        "3": "Lorsqu'elle bénéficie du bonus Tiger Pace, Wanwan récupère 100 Énergie par seconde.",
+        "4": "Lorsqu'elle bénéficie du bonus Tiger Pace, Wanwan récupère 125 Énergie par seconde. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "x-borg": {
+    "Last Insanity": {
+      "description": "X.Borg obtient la Firaga Armor et un Bouclier égal à 50% de ses PV max. X.Borg s'engage dans les rangs ennemis et tire des flammes pour attaquer les ennemis, infligeant des dégâts égaux à 60% de son Attaque. Après un certain temps, X.Borg s'autodétruit, infligeant des Dégâts véritables égaux à 100% de son Attaque et se débarrassant de la Firaga Armor. X.Borg utilise son Ultime et devient immunisé contre la plupart des effets de contrôle au début du combat.",
+      "levels": {
+        "2": "Augmente les Dégâts véritables de l'auto-explosion à 200% de l'Attaque.",
+        "3": "Augmente les Dégâts véritables de l'auto-explosion à 300% de l'Attaque.",
+        "4": "Les dégâts soutenus sont augmentés à 90% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Fire Missiles": {
+      "description": "X.Borg active son lance-flammes, projette des flammes vers l'avant et inflige des dégâts égaux à 55% de son Attaque au fil du temps. Ses flammes sont renforcées lorsqu'il porte la Firaga Armor, infligeant alors des dégâts égaux à 110% de son Attaque.",
+      "levels": {
+        "2": "Augmente les dégâts des flammes à 60% de l'Attaque, et à 120% de l'Attaque avec la Firaga Armor.",
+        "3": "Augmente les dégâts des flammes à 68% de l'Attaque, et à 136% de l'Attaque avec la Firaga Armor.",
+        "4": "Augmente les dégâts des flammes à 77% de l'Attaque, et à 154% de l'Attaque avec la Firaga Armor."
+      }
+    },
+    "Fire Stake": {
+      "description": "X.Borg lance plusieurs Fire Stakes puis les récupère. Les Fire Stakes infligent des dégâts égaux à 215% de l'Attaque de X.Borg aux ennemis sur leur trajectoire. Les Fire Stakes sont renforcées lorsque X.Borg porte la Firaga Armor. Dans ce cas, elles libèrent des flammes en touchant le sol, infligeant des dégâts égaux à 215% de l'Attaque de X.Borg aux ennemis proches.",
+      "levels": {
+        "2": "Attire légèrement les ennemis vers lui lors de la récupération des Fire Stakes.",
+        "3": "Augmente les dégâts infligés aux ennemis sur la trajectoire à 240% de l'Attaque, et les dégâts des flammes à 240% de l'Attaque.",
+        "4": "Les dégâts infligés aux ennemis sur la trajectoire sont augmentés à 280% de l'Attaque, et les dégâts des flammes sont augmentés à 280% de l'Attaque. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Ultraheat Overload": {
+      "description": "L'Ultime de X.Borg réchauffe les ennemis. Lorsque X.Borg et ses alliés infligent des dégâts à l'ennemi ayant la température la plus élevée, ils récupèrent des ressources sur la cible, restaurant des PV égaux à 150% de leur Attaque. (Chaque unité ennemie ne peut fournir des ressources qu'une fois toutes les 3s.)",
+      "levels": {
+        "2": "Augmente l'Attaque de 10%.",
+        "3": "L'augmentation d'Attaque est portée à 15%.",
+        "4": "L'augmentation d'Attaque est portée à 20%. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "xeno": {
+    "Resonance Shield": {
+      "description": "Xeno active le Resonance Shield, qui absorbe les dégâts reçus et confère une immunité contre la plupart des effets de contrôle pendant 3 secondes, avant d'infliger des dégâts égaux à 225% de l'Attaque à tous les ennemis sur le champ de bataille et de leur renvoyer 8% des dégâts absorbés. (Les dégâts totaux ne peuvent pas dépasser 2000% de l'Attaque de Xeno.) L'Ultime de Xeno ne peut pas être réutilisé dans les 3 secondes suivant son utilisation.",
+      "levels": {
+        "2": "Les dégâts supplémentaires sont augmentés à 11% des dégâts absorbés par Xeno.",
+        "3": "Les dégâts supplémentaires sont augmentés à 15% des dégâts absorbés par Xeno.",
+        "4": "Les dégâts supplémentaires sont augmentés à 19% des dégâts absorbés par Xeno. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Drone Protocol": {
+      "description": "Lorsque les PV d'un héros allié tombent sous 30%, Xeno déploie son drone pour l'assister en transférant tous les dégâts reçus par l'allié vers elle-même, tout en réduisant les dégâts transférés de 25% et en restaurant les PV de l'allié à 35%. Lorsque les PV de l'allié atteignent 90%, Xeno désactive le soutien du drone.",
+      "levels": {
+        "2": "Réduit les dégâts transférés de 30%.",
+        "3": "Xeno peut déployer jusqu'à 2 drones pour assister 2 alliés simultanément.",
+        "4": "Réduit les dégâts transférés de 35%."
+      }
+    },
+    "Pyrolysis Gun": {
+      "description": "Xeno inflige des dégâts égaux à 225% de son Attaque aux 3 ennemis les plus proches du point d'apparition des alliés.",
+      "levels": {
+        "2": "Si un allié se trouve près d'un ennemi, celui-ci est brièvement étourdi.",
+        "3": "Les dégâts sont augmentés à 285% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 325% de l'Attaque. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Nano Regeneration": {
+      "description": "Xeno gagne 1 charge de Nano Regeneration pour chaque héros ennemi vivant sur le champ de bataille. Chaque charge soigne Xeno de 0.5% de ses PV max par seconde.",
+      "levels": {
+        "2": "Chaque charge de Nano Regeneration confère à Xeno 5% de Réduction des Dégâts.",
+        "3": "Chaque charge de Nano Regeneration confère à Xeno 7% de Réduction des Dégâts.",
+        "4": "La régénération de PV est augmentée à 0.75% des PV max / s. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "yi-sun-shin": {
+    "Mountain Shocker": {
+      "description": "Yi Sun-shin brandit sa lame et attaque l'ennemi le plus éloigné, infligeant des dégâts égaux à 345% de son Attaque à deux reprises. Il se téléporte ensuite vers la cible.",
+      "levels": {
+        "2": "Après avoir lancé son Ultime, Yi Sun-shin augmente son Agilité de 200 et sa Réduction des Dégâts de 20%.",
+        "3": "Augmente les dégâts à 440% de l'Attaque.",
+        "4": "Augmente les dégâts à 535% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "One-wave Sweep": {
+      "description": "Yi Sun-shin tire une flèche perforante de toutes ses forces, infligeant des dégâts égaux à 190% de son Attaque à tous les ennemis.",
+      "levels": {
+        "2": "Augmente les dégâts à 205% de l'Attaque.",
+        "3": "Augmente les dégâts à 235% de l'Attaque.",
+        "4": "Augmente les dégâts à 265% de l'Attaque."
+      }
+    },
+    "Blood Floods": {
+      "description": "Augmente le vol de vie de tous les alliés de 30 points.",
+      "levels": {
+        "2": "Le bonus de vol de vie est augmenté à 45.",
+        "3": "Le bonus de vol de vie est augmenté à 60.",
+        "4": "Le bonus de vol de vie est augmenté à 80. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Heavenly Vow": {
+      "description": "Lorsqu'un ennemi se trouve à proximité, les attaques de base de Yi Sun-shin deviennent des attaques au corps à corps et sa Défense est augmentée de 70%. Lorsqu'aucun ennemi n'est à proximité, son Attaque est augmentée de 10%.",
+      "levels": {
+        "2": "Le bonus d'Attaque est augmenté à 20%.",
+        "3": "Le bonus d'Attaque est augmenté à 30%.",
+        "4": "Le bonus d'Attaque est augmenté à 40%. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "yu-zhong": {
+    "Soaring Dragon": {
+      "description": "Yu Zhong se transforme en Dragon Noir et survole tout le champ de bataille, infligeant des dégâts égaux à 60% de son Attaque à tous les ennemis à 6 reprises. Yu Zhong entre ensuite dans l'état Dragonoïde, acquérant un Bouclier égal à 10% de ses PV max et transformant tout le champ de bataille en Royaume du Dragon pendant 15s. Les ennemis présents dans le Royaume du Dragon dont les PV sont inférieurs à 10% subissent des dégâts massifs.",
+      "levels": {
+        "2": "Les dégâts infligés à chaque fois sont augmentés à 75% de l'Attaque.",
+        "3": "Les ennemis présents dans le Royaume du Dragon dont les PV sont inférieurs à 15% subissent des dégâts massifs.",
+        "4": "Les dégâts infligés à chaque fois sont augmentés à 90% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Dragon Tail": {
+      "description": "Yu Zhong adopte une posture défensive pendant 2s, acquérant 75% de Réduction des Dégâts. Lorsque la posture défensive prend fin, Yu Zhong inflige des dégâts égaux à 100% de son Attaque aux ennemis autour de lui, puis enchaîne avec des dégâts égaux à 20% des dégâts subis durant la posture défensive. État Dragonoïde : lorsque la posture défensive prend fin, Yu Zhong étourdit les ennemis dans la zone pendant 1.5s.",
+      "levels": {
+        "2": "Lorsque la posture défensive prend fin, Yu Zhong inflige des dégâts égaux à 100% de son Attaque aux ennemis autour de lui, puis enchaîne avec des dégâts égaux à 25% des dégâts subis durant la posture défensive.",
+        "3": "Yu Zhong est immunisé contre la plupart des effets de contrôle lorsqu'il est en posture défensive.",
+        "4": "Lorsque la posture défensive prend fin, Yu Zhong inflige des dégâts égaux à 100% de son Attaque aux ennemis autour de lui, puis enchaîne avec des dégâts égaux à 30% des dégâts subis durant la posture défensive."
+      }
+    },
+    "Cursing Touch": {
+      "description": "Yu Zhong bondit vers un ennemi ciblé, infligeant à l'atterrissage des dégâts égaux à 90% de son Attaque aux ennemis dans la zone. Pendant les 3s suivantes, la plupart des compétences offensives lancées par ces ennemis ciblent Yu Zhong en priorité. État Dragonoïde : chaque ennemi touché soigne Yu Zhong d'un montant de PV égal à 100% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 130%.",
+        "3": "Pendant les 6s suivantes, la plupart des compétences offensives lancées par les ennemis touchés par cette compétence ciblent Yu Zhong en priorité.",
+        "4": "Les dégâts sont augmentés à 180% de l'Attaque. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Furious Dive": {
+      "description": "",
+      "levels": {
+        "2": "La chance de Réflexion des Dégâts est augmentée à 30%.",
+        "3": "La régénération de PV est augmentée à 3% des PV max / s.",
+        "4": "La régénération de PV est augmentée à 4% des PV max / s. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  },
+  "zhask": {
+    "Dominator's Descent": {
+      "description": "Zhask crée un vortex spatio-temporel sur le champ de bataille qui attire continuellement les ennemis d'une large zone vers son centre. Les ennemis dans la zone subissent des dégâts égaux à 110% de l'Attaque de Zhask à plusieurs reprises.",
+      "levels": {
+        "2": "Nightmaric Spawn immobilise brièvement l'ennemi lors de son explosion.",
+        "3": "Les dégâts du vortex sont augmentés à 140%."
+      }
+    },
+    "Nightmaric Spawn": {
+      "description": "Zhask invoque un Nightmaric Spawn pour attaquer les ennemis proches. Le Nightmaric Spawn partage les caractéristiques de Zhask. Jusqu'à 2 Nightmaric Spawn peuvent être présents sur le champ de bataille en même temps.",
+      "levels": {
+        "2": "2 Nightmaric Spawn sont invoqués à chaque fois.",
+        "3": "Le nombre maximum de Nightmaric Spawn pouvant être présents simultanément sur le champ de bataille est augmenté à 4.",
+        "4": "Zhask invoque 1 Nightmaric Spawn supplémentaire la première fois qu'il lance la compétence Nightmaric Spawn au cours d'un combat."
+      }
+    },
+    "Mind Eater": {
+      "description": "Zhask double temporairement son Taux de coups critiques et tire un Rayon d'Énergie qui rebondit entre les ennemis, infligeant des dégâts égaux à 140% de son Attaque à plusieurs ennemis.",
+      "levels": {
+        "2": "Mind Eater réduit l'ennemi au silence lorsqu'elle inflige des Dégâts critiques.",
+        "3": "Les dégâts de la compétence sont augmentés à 180% de l'Attaque."
+      }
+    },
+    "Decimation (Zhask)": {
+      "description": "Lorsque le Nightmaric Spawn est éliminé ou disparaît, Zhask gagne 4% de Taux de coups critiques pour le combat en cours. Cet effet peut cumuler jusqu'à 10 charges.",
+      "levels": {
+        "2": "Le bonus de Taux de coups critiques est augmenté à 5%.",
+        "3": "Le bonus de Taux de coups critiques est augmenté à 6%."
+      }
+    }
+  },
+  "zilong": {
+    "Supreme Warrior": {
+      "description": "Zilong attaque les ennemis devant lui à 4 reprises, infligeant à chaque fois des dégâts égaux à 80% de son Attaque. Pendant les 5s suivantes, il augmente considérablement son Agilité.",
+      "levels": {
+        "2": "Augmente la durée du bonus à 10s.",
+        "3": "Les dégâts sont augmentés à 120% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 160% de l'Attaque. (Nécessite le niveau 3 du Crépuscule Ancestral)"
+      }
+    },
+    "Spear Flip": {
+      "description": "Zilong soulève un ennemi et le laisse retomber devant lui, infligeant des dégâts égaux à 215% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 245% de l'Attaque.",
+        "3": "Réduit la Défense de la cible.",
+        "4": "Les dégâts sont augmentés à 300% de l'Attaque."
+      }
+    },
+    "Spear Strike": {
+      "description": "Chaque fois que Zilong inflige des dégâts à un ennemi, il augmente son Attaque de 2% et son Agilité de 5, cumulable jusqu'à 10 charges.",
+      "levels": {
+        "2": "Acquiert 100 de vol de vie lorsqu'il atteint le nombre maximum de charges.",
+        "3": "Le bonus d'Attaque est augmenté à 4%.",
+        "4": "Le bonus d'Attaque est augmenté à 6%. (Nécessite le niveau 1 du Crépuscule Ancestral)"
+      }
+    },
+    "Dragon Flurry": {
+      "description": "Une attaque de base sur deux de Zilong inflige des dégâts égaux à 69% de son Attaque à la cible devant lui, à 4 reprises.",
+      "levels": {
+        "2": "Augmente les dégâts à 90% de l'Attaque.",
+        "3": "Augmente les dégâts à 105% de l'Attaque.",
+        "4": "Augmente les dégâts à 120% de l'Attaque. (Nécessite le niveau 2 du Crépuscule Ancestral)"
+      }
+    }
+  }
+}

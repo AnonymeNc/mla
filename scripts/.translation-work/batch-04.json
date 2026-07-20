@@ -1,0 +1,1480 @@
+[
+  {
+    "id": "forseti",
+    "name": "Forseti",
+    "abilities": [
+      {
+        "name": "Truth Eternal",
+        "tier": "Ultimate",
+        "description": "Forseti turns himself into the eternal truth and vanishes, casting 5 Beams of Judgement. When casting Truth Eternal, Forseti casts 1 extra Beam of Judgement for every 30% HP left. Each beam bounces randomly between enemies and attacks 4 times, dealing 90% damage with a 50% chance to stun the target. Forseti cannot be targeted while casting Truth Eternal and will immediately die afterwards.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains 400 Energy when entering battle or being revived."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage dealt to 110% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 130% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Verdict of Truth",
+        "tier": "Skill",
+        "description": "Deals 235% damage to enemies in the area. Can only be used once each time entering battle or being revived.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage dealt to 260% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Stuns enemies by Verdict of Truth after Forseti's revival for 2s."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 295% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Beneficence",
+        "tier": "Passive",
+        "description": "If there is an allied hero alive when Forseti dies for the first time, he will be revived with 80% HP after a few seconds.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores 200 Energy for the ally with lowest Energy after being revived."
+          },
+          {
+            "level": "3",
+            "text": "Restores 400 Energy for the ally with lowest Energy after being revived."
+          },
+          {
+            "level": "4",
+            "text": "Restores 600 Energy for the ally with lowest Energy after being revived. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Greater Trials",
+        "tier": "Passive",
+        "description": "Forseti enhances his Basic Attack three times after entering battle or being revived. Each Enhanced Battle Attack will prioritize the enemy with the highest Attack, dealing damage equal to 160% of his Attack,",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enhanced Basic Attacks can penetrate enemies, dealing damage to all enemies on the path."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage dealt to 150% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 220% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "franco",
+    "name": "Franco",
+    "abilities": [
+      {
+        "name": "Bloody Hunt",
+        "tier": "Ultimate",
+        "description": "Franco pins down the enemy in front of him for 4s, slashing the target for 6 times, each time dealing damage equal to 120% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 145%"
+          }
+        ]
+      },
+      {
+        "name": "Iron Hook",
+        "tier": "Skill",
+        "description": "Franco fires an iron hook towards a distant enemy, dealing damage equal to 170% of his Attack and dragging the target towards himself.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the target's Energy by 80 points"
+          },
+          {
+            "level": "3",
+            "text": "Energy Reduction is increased to 120 points"
+          }
+        ]
+      },
+      {
+        "name": "Fury Shock",
+        "tier": "Skill",
+        "description": "Franco lashes out, dealing damage equal to 160% of his Attack to enemies around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Applies extra Attack Reduction Effect."
+          }
+        ]
+      },
+      {
+        "name": "Wasteland Force",
+        "tier": "Passive",
+        "description": "Each time Franco deals damage with his Ultimate, he will deal extra damage equal to 2.5% of his Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores an amount of HP equal to 60% Attack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "freya",
+    "name": "Freya",
+    "abilities": [
+      {
+        "name": "Valkyrie",
+        "tier": "Ultimate",
+        "description": "Freya enters Valkyrie State, dealing damage equal to 100% of her Attack to enemies around. For each enemy hit, Freya acquires a stack of shield equal to 175% of her Attack. The damage absorbed by the shield will be converted to Freya’s HP. In Valkyrie State, Freya’s Basic Attack deals AoE Damage to enemies in front of her.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the Shield to 220% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Shield to 265% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Wings of Faith",
+        "tier": "Skill",
+        "description": "Freya jumps into the enemy lineup, dealing damage equal to 145% of her Attack to enemies around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 160% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 185% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 205% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Godspeed Strike",
+        "tier": "Skill",
+        "description": "Freya strikes the closest enemy rapidly for 3 times, each dealing damage equal to 135% of her Attack. In Valkyrie State, this skill deals AoE Damage to enemies in front of her.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the enemy with the last strike"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 170% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Contact",
+        "tier": "Passive",
+        "description": "For every enemy that’s near Freya, she deals damage equal to 90% of her Attack to all enemies around her every 2s, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the target's Attack by 5%"
+          },
+          {
+            "level": "3",
+            "text": "Reduces the target's Attack by 8%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gatotkaca",
+    "name": "Gatotkaca",
+    "abilities": [
+      {
+        "name": "Advent of the Guardian",
+        "tier": "Ultimate",
+        "description": "Gatotkaca stores up energy briefly and leaps, dealing damage equal to 290% of his Attack to enemies within the area and knocking them up.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 345% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 405% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 555% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blast Iron Fist",
+        "tier": "Skill",
+        "description": "Gatotkaca shatters the ground in front of him, dealing damage equal to 75% of his Attack to enemies within the area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 82% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Causes extra Slow Effect"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 93% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Unbreakable",
+        "tier": "Skill",
+        "description": "Gatotkaca lets a loud roar and charges forward, taunting the enemies along the way and dealing damage equal to 190% of his Attack to the targets hit, lasts for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The taunt duration is increased to 4s"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 220% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 270% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Steel Bones",
+        "tier": "Passive",
+        "description": "Gatotkaca acquires a shield equal to 4% of his HP when he releases skills.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the damage taken by 10% when the shield is up"
+          },
+          {
+            "level": "3",
+            "text": "The shield is increased to 6% HP"
+          },
+          {
+            "level": "4",
+            "text": "The shield is increased to 9% HP (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gavana",
+    "name": "Gavana",
+    "abilities": [
+      {
+        "name": "Final Verdict",
+        "tier": "Ultimate",
+        "description": "Gavana incarnates as moonlight, dealing damage equal to 100% of her Attack multiple times to the enemy with the highest Attack on the battlefield and dealing damage equal to 50% of her Attack multiple times to enemies around her.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The prime target of Gavana's Ultimate won't be able to restore Energy in the next 6s."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 130% of her Attack."
+          }
+        ]
+      },
+      {
+        "name": "Sky Cleaver",
+        "tier": "Skill",
+        "description": "Gavana shuttles back and forth on the battlefield at high speed, dealing equal to 100% of her Attack to 3 random enemies. Gavana is untargetable during the process.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gavana will mark the enemy hit, and the marked enemy will be briefly stunned upon attacked by Gavana's \"Sky Cleaver\"."
+          },
+          {
+            "level": "3",
+            "text": "This skill guarantees a critical strike."
+          },
+          {
+            "level": "4",
+            "text": "Skill Damage is increased to 145% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Moon Awakened",
+        "tier": "Passive",
+        "description": "Every 5 seconds, Gavana casts a circle of moonlight around herself and enter the \"Full-moon State\". Under this state, Gavana acquires 10% Damage Increase and her Lifesteal is boosted by 50. She is also immune to most of the control effects. Gavana immediately enters the \"Full-Moon State\" at the start of the battle. She temporarily exits the \"Full-Moon State\" when she is attacked 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "In the \"Full-Moon State\", Gavana's acquired Damage Increase is boosted to 15%."
+          },
+          {
+            "level": "3",
+            "text": "In the \"Full-Moon State\", Gavana's acquired Damage Increase is boosted to 20%."
+          }
+        ]
+      },
+      {
+        "name": "Moon's Reflection",
+        "tier": "Passive",
+        "description": "Gavana uses moonlight to create illusions to envelope herself, and she becomes immune to all Basic Attacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "In the battle, all the damage dealt by Gavana increases by 2% every 5 seconds."
+          },
+          {
+            "level": "3",
+            "text": "In the battle, all the damage dealt by Gavana increases by 4% every 5 seconds."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "genesis-shar",
+    "name": "Genesis Shar",
+    "abilities": [
+      {
+        "name": "Voident Bind",
+        "tier": "Ultimate",
+        "description": "Passive: Genesis Shar summons the Goldblaze Dragon with the ability to release a bind to a random enemy that penetrates control immunity every 4s when the battle begins. The bound enemy will be unable to gain Damage-triggered Energy Regen for 2s . When used actively, she enhances herself and the Goldblaze Dragon. The Goldblaze Dragon immediately refreshes the duration of the current bind, all enemies are forced to attack the bound target for 3s. An instant bind activates on a random enemy when there are no bound targets. Genesis Shar's Basic Attack becomes Golden Resonance with an increased area of effect for 5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When used actively, the duration of the Goldblaze Dragon's forced attack increases to 4s."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the initial Energy cost of Genesis Shar's Ultimate by 150 points."
+          },
+          {
+            "level": "4",
+            "text": "Reduces the initial Energy cost of Genesis Shar's Ultimate by 300 points. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Golden Resonance",
+        "tier": "Skill",
+        "description": "Deal damage equal to 105% of her Attack to enemies within the area. Increases damage taken by 10% and increases Basic Attack damage by 30% for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 120% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals additional damage equal to 8% of enemy's Max HP, but not exceeding 800% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 135% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Cosmic Duet",
+        "tier": "Skill",
+        "description": "When used actively, Genesis Shar becomes untargetable for 3s when her HP is below 80% , or gains 80 Energy when her HP is above 80% .",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores 30% of Genesis Shar's lost HP when her HP is below 80%."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy granted to 120."
+          },
+          {
+            "level": "4",
+            "text": "Increases Energy granted to 160. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Void Lullaby",
+        "tier": "Passive",
+        "description": "Causes 1 random enemy target(s) to fall into a state of fear for 2s for each hero or clone eliminated, prioritizing those who are not immune to fear effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies in a state of fear have their Defense reduced by 30%."
+          },
+          {
+            "level": "3",
+            "text": "Fear duration is increased to 3s."
+          },
+          {
+            "level": "4",
+            "text": "Fear duration is increased to 4s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Creation Fantasia",
+        "tier": "Realm Effect",
+        "description": "Summons a clone of the nearest enemy target when the battle begins. The clone cannot actively use its Ultimate but can use all basic skills and some passive effects of the Ultimate. The clone has 70% of its base attributes, not exceeding 350% of Genesis Shar's corresponding attributes.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Summons another clone 18s after the previous one eliminated. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "The clone has 140% of its attributes, not exceeding 700% of Genesis Shar's corresponding attributes. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "The clone shares the Soul Skill and Orlay Skill at Genesis Shar's level. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gord",
+    "name": "Gord",
+    "abilities": [
+      {
+        "name": "Energy Overflow",
+        "tier": "Ultimate",
+        "description": "Gord releases a powerful wave of Rune Energy forward, dealing damage equal to 40% of his Attack to enemies in the large area in front of him.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 50% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 60% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 70% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Active Energy",
+        "tier": "Skill",
+        "description": "When the battle starts, all allies' Agility will be increased by 50 for 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases all allies' Energy by 60."
+          },
+          {
+            "level": "3",
+            "text": "Energy increased is boosted to 120 points."
+          },
+          {
+            "level": "4",
+            "text": "Agility increased is boosted to 100."
+          }
+        ]
+      },
+      {
+        "name": "Arcane Restriction",
+        "tier": "Skill",
+        "description": "Gord summons a Magic Restricted Zone, enemies in the zone takes damage equal to 58% of Gord's Attack every 0.4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 69% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 81% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 93% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Arcane Weakness",
+        "tier": "Passive",
+        "description": "The target that is hit by Gord will have their Defense lowered by 5% temporarily. This effect can be stacked up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The maximum number of stacks is increased to 5."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the target's Defense by extra 10% when reaching full stacks."
+          },
+          {
+            "level": "4",
+            "text": "Each stack increases Defense Reduction by 8%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "granger",
+    "name": "Granger",
+    "abilities": [
+      {
+        "name": "Death Sonata",
+        "tier": "Ultimate",
+        "description": "Granger transforms his violin into a cannon and fires 3 shots. Each shot targets a random enemy, dealing damage equal to 200% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each shot deals extra damage equal to 4% of the damage received by all allied heroes in 10s."
+          },
+          {
+            "level": "3",
+            "text": "Each shot deals extra damage equal to 8% of the damage received by all allied heroes in 10s."
+          },
+          {
+            "level": "4",
+            "text": "Each shot deals extra damage equal to 10% of the damage received by all allied heroes in 10s. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Rhapsody",
+        "tier": "Skill",
+        "description": "Granger shoots a bullet that ricochets among multiple enemies, dealing damage equal to 56% of his Attack to them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bullet damage increases by 20% with each enemy it bounces off."
+          },
+          {
+            "level": "3",
+            "text": "The Base Damage of bullets shot is increased to 68% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The Base Damage of bullets shot is increased to 80% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Rondo",
+        "tier": "Passive",
+        "description": "When Granger deals a Critical Hit or uses the Rhapsody skill his next Basic Attack is replaced by a burst of fire, shooting 4 bullets that each deal 50% damage at the nearest enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 60% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 70% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage is increased to 80% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Sonata",
+        "tier": "Passive",
+        "description": "Each instance of non-critical Skill Damage dealt increases Granger's Crit Rate 15%. This bonus resets once he deals a Critical Hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Granger deals a Critical Hit he gives himself a Shield equal to 40% of his Attack, the Shield amount also affected by Crit Damage bonuses."
+          },
+          {
+            "level": "3",
+            "text": "When Granger deals a Critical Hit he gives himself a Shield equal to 70% of his Attack, the Shield amount also affected by Crit Damage bonuses."
+          },
+          {
+            "level": "4",
+            "text": "When Granger deals a Critical Hit he gives himself a Shield equal to 100% of his Attack, the Shield amount also affected by Crit Damage bonuses. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "grock",
+    "name": "Grock",
+    "abilities": [
+      {
+        "name": "Wild Charge",
+        "tier": "Ultimate",
+        "description": "Grock charges towards enemies, dealing damage equal to 500% of his Attack to enemies within the small area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the target for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 750% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 1000% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ground Slam",
+        "tier": "Skill",
+        "description": "Grock smashes the ground to send a powerful Shock Wave, dealing damage equal to 145% of his Attack to all enemies in front of him. The Shock Wave becomes a stone wall when it dies, knocking enemies up for a short while.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 170% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 210% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 250% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Power of Nature",
+        "tier": "Skill",
+        "description": "Grock stores up energy for a while and deals damage equal to 200% of his Attack to enemies around, reducing their Agility by 100.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Heals front-row allies for an amount of HP equal to 400% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Immune to Control Effects when storing up energy."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 300% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ancestral Gift",
+        "tier": "Passive",
+        "description": "Grock heals himself and allies around him for an amount of HP equal to 45% of his Attack every 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases their Defense by 25%."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 75% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 100% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "guinevere",
+    "name": "Guinevere",
+    "abilities": [
+      {
+        "name": "Violet Requiem",
+        "tier": "Ultimate",
+        "description": "Guinevere detonates all the Energy of the enemy Hero with the highest Energy and deals massive damage to them at the cost of the equivalent amount of Energy. A minimum of 200 points of Energy will be consumed. This skill deals a minimum amount of damage equal to 230% of Guinevere's Attack. And for every 10 points of Energy consumed, she deals an extra amount of damage equal to 4% of her Attack. The maximum extra damage won't exceed 400% of Guinevere's Attack. When she uses her Ultimate against a Boss, she expends all her energy to deal double this skill's max damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every 10 points of Energy consumed, Guinevere deals an extra amount of damage equal to 6% of her Attack instead. The maximum extra damage won't exceed 600% of Guinevere's Attack."
+          },
+          {
+            "level": "3",
+            "text": "This skill deals a minimum amount of damage equal to 460% of Guinevere's Attack."
+          },
+          {
+            "level": "4",
+            "text": "This skill deals a minimum amount of damage equal to 600% of Guinevere's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Anti-gravity Blast",
+        "tier": "Skill",
+        "description": "Guinevere uses anti-gravity magic to trigger an explosion that deals damage equal to 150% of her Attack to enemies in the area and knocks them airbourne. In the next 3s, Guinevere continues to deal damage equal to 40% of her Attack to them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The continuous damage is increased to 55% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Enemies who take the damage will take increased Magic Damage in the next period of time."
+          },
+          {
+            "level": "4",
+            "text": "The continuous damage is increased to 70% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Energy Wave",
+        "tier": "Skill",
+        "description": "Guinevere deals damage equal to 250% of her Attack to the target enemy and leaves a mark that lasts 6s on them. The enemy with the mark will lose 100 points of Energy for 5 attacks taken.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The mark also restores Guinevere's Energy by 100 points every time it is triggered."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 315% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Skill Damage is increased to 365% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Super Magic",
+        "tier": "Passive",
+        "description": "Every 450% points of enemy's Energy lost permanently increases Guinevere's Agility by 60% and her Energy Acquisition Ability by 10% in the current battle, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "It also increases Guinevere's Attack by 10%."
+          },
+          {
+            "level": "3",
+            "text": "Now 300 points of enemy's Energy lost will trigger the effects."
+          },
+          {
+            "level": "4",
+            "text": "It also increases Guinevere's Attack by 15%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gusion",
+    "name": "Gusion",
+    "abilities": [
+      {
+        "name": "Incandescence",
+        "tier": "Ultimate",
+        "description": "Gusion throws two rounds of a total of 10 daggers forward, each dealing damage equal to 220% of his Attack to the target hit. After a period of time, Gusion will retrieve all the daggers, each dagger deals damage equal to 115% of his Attack to the target hit on its way back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gusion is immune to Control Effects during the enhanced state."
+          },
+          {
+            "level": "3",
+            "text": "Damage of the enhanced Basic Attack is increased to 120% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the daggers thrown is increased to 260% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Shadowblade Slaughter",
+        "tier": "Skill",
+        "description": "Gusion throws two rounds of a total of 4 daggers forward, each dealing damage equal to 80% of his Attack to the target hit. After a period of time, Gusion will retrieve all the daggers, each dagger deals damage equal to 115% of his Attack to the target hit on its way back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of the daggers thrown is increased to 91% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage of the daggers thrown is increased to 105% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the daggers thrown is increased to 115% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Sword Spike",
+        "tier": "Skill",
+        "description": "Gusion deals damage equal to 370% of his Attack to a target. The target will be marked. If the marked target gets hit by three daggers when Gusion retrieves the daggers, the target will be stunned for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 3s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 430% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 500% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Dagger Specialist",
+        "tier": "Passive",
+        "description": "For each dagger retrieved, Gusion will acquire a rune. If Gusion launches a Basic Attack when he has enough runes, 3 runes will be consumed to enhanced his next Basic Attack. The enhanced Basic Attack deals extra damage equal to 100% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores HP for 80% of the damage dealt."
+          },
+          {
+            "level": "3",
+            "text": "Increases the percentage of HP restored to 120%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the extra damage to 180%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanabi",
+    "name": "Hanabi",
+    "abilities": [
+      {
+        "name": "Forbidden Jutsu - Higanbana",
+        "tier": "Ultimate",
+        "description": "Hanabi throws Higanbana at an enemy, dealing damage equal to 400% of her Attack and immobilizing them for 2s. Higanbana will reach full blossom when the enemy hit is eliminated, immobilizing all the enemies in the area of effect. The immobilized enemies will bloom in Higanbana again upon death.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The immobilize duration is increased to 3s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 505%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 610%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Petal Barrage",
+        "tier": "Passive",
+        "description": "Hanabi’s Basic Attacks reduce targets' Energy by 30 points.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Energy reduced is increased to 40 points."
+          },
+          {
+            "level": "3",
+            "text": "Enemy unit that has lost 200 points Energy will be stunned."
+          },
+          {
+            "level": "4",
+            "text": "Energy reduced is increased to 50 points."
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Soul Scroll",
+        "tier": "Skill",
+        "description": "Hanabi releases an explosive energy scroll, dealing damage equal to 85% of her Attack to the target and leaving an explosive mark on the target. The explosive mark will explode when the bearer loses 15% Max HP, dealing damage equal to 130% of Hanabi’s Attack to enemies in the blast radius.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of the scroll is increased to 135% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage of the scroll is increased to 185% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the scroll is increased to 230% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Equinox",
+        "tier": "Passive",
+        "description": "Hanabi’s Basic Attack can inflict damage on 2 extra targets, dealing decaying damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The bouncing Basic Attack has an extra 5% Crit Rate."
+          },
+          {
+            "level": "3",
+            "text": "The bouncing Basic Attack has an extra 10% Crit Rate."
+          },
+          {
+            "level": "4",
+            "text": "The bouncing Basic Attack has an extra 15% Crit Rate. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hanzo",
+    "name": "Hanzo",
+    "abilities": [
+      {
+        "name": "Kinjutsu - Pinnacle Ninja",
+        "tier": "Ultimate",
+        "description": "Hanzo casts the forbidden ninjutsu, transforming into Demon Pneuma. Meanwhile, he acquires 50 stacks of Demon Blood and draws in enemies around him. When Hanzo is in his demon form, his Basic Attack will deal damage twice. Every stack of his Demon Blood increases his Attack by 0.8% and Crit Rate by 0.2%. Every second under Hanzo’s demon form, he consumes 10 points of Demon Blood. When Demon Blood is used up, Hanzo will return to his original form.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every stack of Demon Blood increases Demon Pneuma's Attack by 1% and Crit Rate by 0.3%."
+          },
+          {
+            "level": "3",
+            "text": "Heals 35% Max HP when the Ultimate is activated."
+          },
+          {
+            "level": "4",
+            "text": "Heals 50% Max HP when the Ultimate is activated. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Soul Reap",
+        "tier": "Skill",
+        "description": "Hanzo summons demonic spikes at the target location, dealing damage equal to 45% of his Attack to enemies in the area for 4 times in 2s. Each time demonic spikes deal damage, Hanzo acquires 1 stack of Demon Blood.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 58% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The duration is increased to 3s"
+          },
+          {
+            "level": "4",
+            "text": "Hanzo acquires 1 extra stack of Demon Blood each time he deals damage."
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Demon Feast",
+        "tier": "Skill",
+        "description": "Hanzo slashes the enemy target, dealing damage equal to 325% of his Attack and knocking them back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Hanzo is in his demon form, he deals damage to enemies in a certain range in a straight line."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 415% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 470% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Demonic Corruption",
+        "tier": "Passive",
+        "description": "Hanzo’s Basic Attack increases his Demon Blood by 3 points.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every eliminated enemy Hero increases Hanzo's Demon Blood by 25 stacks."
+          },
+          {
+            "level": "3",
+            "text": "Hanzo's Basic Attack increases his Demon Blood by 3 stacks."
+          },
+          {
+            "level": "4",
+            "text": "Hanzo's Basic Attack increases his Demon Blood by 5 stacks. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "harley",
+    "name": "Harley",
+    "abilities": [
+      {
+        "name": "Poker Trick",
+        "tier": "Ultimate",
+        "description": "Harley shoots 3 rounds of cards forward, dealing damage equal to 77% of his Attack to enemies hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt by the poker is increased to 105% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by the poker is increased to 135% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by the poker is increased to 155% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Magic Hat",
+        "tier": "Skill",
+        "description": "Harley attacks the most threatening enemy, dealing damage equal to 100% of his Attack and exiling the target to his magic hat for 6s. During this period of time, the target takes no damage and won't be able to move.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The exile duration is increased to 7s."
+          },
+          {
+            "level": "3",
+            "text": "The exile duration is increased to 8s."
+          },
+          {
+            "level": "4",
+            "text": "The exile duration is increased to 9s."
+          }
+        ]
+      },
+      {
+        "name": "Deadly Magic",
+        "tier": "Skill",
+        "description": "Harley fires a magic missile at the closest enemy and generates a fiery ring that lasts 4s under the target's feet. The fiery ring deals damage equal to 130% of Harley's Attack. The fiery ring will explode after 4s, dealing damage equal to 110% of Harley's Attack to the target and enemies around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each enemy hit by the explosion restores Harley's Energy for 100 points."
+          },
+          {
+            "level": "3",
+            "text": "The damage of the explosion is increased to 220% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The continuous damage is increased to 160% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Magic Master",
+        "tier": "Passive",
+        "description": "Harley will shoot extra 2 rounds of cards forward when he releases Poker Trick, dealing damage equal to 100% of his Attack to the enemies hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 135% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 170% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 200% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hayabusa",
+    "name": "Hayabusa",
+    "abilities": [
+      {
+        "name": "Ougi - Shadow Kill",
+        "tier": "Ultimate",
+        "description": "Hayabusa retrieved all his phantoms on the battlefield, dealing damage equal to 100% of his Attack to enemies along the path as the phantoms return to him. After retrieving his phantoms, Hayabusa instantly slashes enemies in front of him, dealing damage equal to 325% of his Attack 2 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every 1 phantom retrieved, Hayabusa's Crit Rate increases by 10% and Attack by 15% for the rest of the battle."
+          },
+          {
+            "level": "3",
+            "text": "Slash Damage is increased to 430% Attack."
+          },
+          {
+            "level": "4",
+            "text": "(Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Mist Conceal",
+        "tier": "Skill",
+        "description": "Hayabusa ambushes behind the enemy team when the battle starts, dealing damage equal to 200% of his Attack to the target and confusing it so that its skills won't target Hayabusa. Lasts for 20s unless Hayabusa is the only surviving hero. Once the ambush ends, Hayabusa uses shurikens, dealing damage equal to 220% of his Attack to enemies in close vicinity to him.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the confused enemy dies, Hayabusa uses this skill again and the effect resets."
+          },
+          {
+            "level": "3",
+            "text": "Reduces enemy units' Energy by 80 when dealing damage to them with shurikens."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by shurikens is increased to 280% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Quad Shadow",
+        "tier": "Skill",
+        "description": "Hayabusa summons 1 phantom behind the enemy with the highest Defense, dealing damage equal to 280% of his Attack. The phantom then reduces nearby enemy units' Defense by 10% every 2 seconds for 10 seconds, stacking up to 5 times. He can summon up to 3 phantoms onto the battlefield.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Hayabusa uses shurikens, his phantoms use theirs as well, dealing damage equal to 110% of his Attack."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 360% Attack"
+          },
+          {
+            "level": "4",
+            "text": "(Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Kamaitachi",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hayabusa's phontoms also deal extra damage to the target enemy from behind."
+          },
+          {
+            "level": "3",
+            "text": "For every 1% of Hayabusa's Crit Rate, the extra damage dealt to the target enemy from behind is increased to 3% Attack."
+          },
+          {
+            "level": "4",
+            "text": "(Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "heartcore-angela",
+    "name": "Heartcore Angela",
+    "abilities": [
+      {
+        "name": "Primordial Protocol",
+        "tier": "Ultimate",
+        "description": "Heartcore Angela briefly becomes untargetable and releases an energy orb at the enemy who has dealt the most cumulative damage. The orb bounces 5 times between this enemy and the allied hero who has dealt the most cumulative damage. When the energy orb hits enemies, it deals damage equal to 100% of Heartcore Angela's Attack plus 8% of the enemy's Max HP to nearby enemies. The Max HP damage won't exceed 800% of Heartcore Angela's Attack. When the energy orb hits an allied hero, it removes most control and target-changing effects from that hero and restores 100 Energy to them.Passive: Heartcore Angela's Max Energy is 8. She gains 1 Energy when she uses Algorithm Lock or Love's Vengeance. Her Energy is not affected by other effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Heartcore Angela gains Energy through means other than Algorithm Lock and Love's Vengeance, she converts every 100 Energy gained into 10% Attack, up to a maximum of 100% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 110%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 120%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Algorithm Lock",
+        "tier": "Skill",
+        "description": "Heartcore Angela commands Darkheart Doll to deal damage equal to 70% of her Attack to the 3 farthest enemy heroes and marks them for 6s. Marked enemies take 15% increased damage during this period, while allied heroes take 20% less damage from unmarked units.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 85%."
+          },
+          {
+            "level": "3",
+            "text": "Heartcore Angela gain 2 Initial Energy."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 100%."
+          }
+        ]
+      },
+      {
+        "name": "Love's Vengeance",
+        "tier": "Skill",
+        "description": "Heartcore Angela causes an enemy to take damage equal to 2% of their Max HP per second until the end of the battle, capped at 200% of Heartcore Angela's Attack. This effect can stack up to 5 times. Prioritizes enemies not affected by this effect. When an enemy affected by this skill dies, Heartcore Angela gains 1 Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt when first hitting an enemy is eual to 100% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increases to 2.5%, capped at 250% of Heartcore Angela's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increases to 3%, capped at 300% of Heartcore Angela's Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Neural Override",
+        "tier": "Passive",
+        "description": "Every 10s, if Heartcore Angela's Max Energy is 7 or higher, she converts 1 Max Energy into 1 Energy Source. Each Energy Source increases her Ultimate's ricochet count by 1.When Heartcore Angela's HP drops below 65%, if her Max Energy is 6 or higher, she reduces her Max Energy by 1, removes most Control effects and HP Regen restrictions (including Healing Reduction, Health Block, nd HP Regen-to-Shield conversion), recovers all lost HP, immediately triggers her Ultimate's effect, and resets the Energy conversion timer.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Max Energy is reduced to 6, Heartcore Angela gains 5% Crit Rate."
+          },
+          {
+            "level": "3",
+            "text": "When Max Energy is reduced to 6, Heartcore Angela gains 10% Crit Rate."
+          },
+          {
+            "level": "4",
+            "text": "When Max Energy is reduced to 6, Heartcore Angela gains 15% Crit Rate. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Code Domain",
+        "tier": "Realm Effect",
+        "description": "At the start of the battle, selects 1 allied hero (can select Heartcore Angela herself). After this hero actively casts their Ultimate, they can cast their Ultimate once more without Energy cost. This can be triggered once every 12s. When this hero dies, immediately selects another allied hero to gain this effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "At the start of the battle, selects 1 allied hero. After this hero actively casts their Ultimate, they can cast their Ultimate once more without Energy cost. This can be triggered once every 12s. When this hero dies, immediately selects another allied hero to gain this effect. (Unlocks at 32px)"
+          },
+          {
+            "level": "4",
+            "text": "When this hero casts their Ultimate, all other allied heroes recover 50 Energy. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "When this hero casts their Ultimate, all other allied heroes recover 100 Energy. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hel",
+    "name": "Hel",
+    "abilities": [
+      {
+        "name": "Echoes of Helheim",
+        "tier": "Ultimate",
+        "description": "Passive: When dealing damage with her skills and Basic Attacks, deals extra damage equal to 3% of the target's Max Hp and locks 3% of it (up to 350% of Hel's Attack).Active: Deals damage equal to 75% of Attack 5 times to the nearest target and enemies around them. Exiles the enemy target with the most amount of locked HP percentage for 10s (ignores most Control Immunity and Resistance). During the exile, deals damage equal to 3% of the target's Max HP per second and locks 3% of it (up to 500% of Hel's Attack).If there's already an enemy in exile when the skill is activated, it will now lock 60% of that exiled target's Max HP and reset the exile timer.Additionally, if there are no other possible enemy targets except tje exiled one, the \"cannot be targeted\" status on the exiled target will be lifted, allowing them to be reselected.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt by the Ultimate is increased to 100% of the Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage and locked HP during exile are increased to 5% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage dealt and HP locked by the Passive are increased to 3.5% of Max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Phantom Strike",
+        "tier": "Skill",
+        "description": "Slashes enemies in a small area in front 3 times, each time dealing damage equal to 60% Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each decimated enemy target permanently increases the skill's damage instances by 1."
+          },
+          {
+            "level": "3",
+            "text": "Each decimated enemy target permanently increases the skill's damage instances by 2."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 80% of Attack."
+          }
+        ]
+      },
+      {
+        "name": "Death Knell",
+        "tier": "Passive",
+        "description": "When hit by an enemy's bullet, Hel has a 60% chance to ignore its damage and effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores 20 extra points of Energy when triggered."
+          },
+          {
+            "level": "3",
+            "text": "Restores 30 extra points of Energy when triggered."
+          },
+          {
+            "level": "4",
+            "text": "Restores 40 extra points of Energy when triggered. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Twilight Carves",
+        "tier": "Passive",
+        "description": "Basic Attack now deals damage to the enemy twice.When dealing damage with her skills and Basic Attack, Hel has a 30% chance to create a mist from Helheim, dealing damage equal to 100% of Attack to the target and all enemies behind them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Hel takes damage, her damage taken based on the percentage of the target's locked Max HP is reduced, up to a maximum of 30%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 125% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 150% of Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "helcurt",
+    "name": "Helcurt",
+    "abilities": [
+      {
+        "name": "Dark Night Falls",
+        "tier": "Ultimate",
+        "description": "Helcurt summons the night to silence all enemy units for 2s, dealing damage equal to 105% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The silence duration is to 4s."
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 125% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Silence duration increases to 5s. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Shadow Transition",
+        "tier": "Skill",
+        "description": "Helcurt teleports to the enemy back-row, dealing damage equal to 125% of his Attack to enemies in the range. And for a short period of time, Helcurt won't be easily targeted by ranged enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Silences the target for 3s"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 140% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 160% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Deadly Stinger",
+        "tier": "Skill",
+        "description": "Helcurt acquires a Stinger every time he takes damage. Helcurt releases his stingers, each dealing damage equal to 70% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage to 84% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 100% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 115% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Race Advantage",
+        "tier": "Passive",
+        "description": "Helcurt acquires a Magic Shield each 8s. The shield will block enemies’ next attack and silence the attacker.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Deals damage equal to 80% Attack to the caster"
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 100% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 200% Attack (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  }
+]

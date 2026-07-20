@@ -1,0 +1,122 @@
+{
+  "achlys-alice": {
+    "name": "Achlys Alice",
+    "description": "Despite her charming look, the Blood Queen harbored the ambition of destroying the world. With Apostae's guidance, Alice found a new purpose in life-to achieve the goal of the Lord of the Abyss and turn the world into an empty void again.",
+    "story": "Despite her charming look, the Blood Queen harbored the ambition of destroying the world. With Apostae's guidance, Alice found a new purpose in life-to achieve the goal of the Lord of the Abyss and turn the world into an empty void again.",
+    "capabilities": "A Mage with impressive durability, damage, and control abilites, capable of dealing AoE damage, Weakening enemies so that they can't deal damage, and stopping them from targeting her when she's about to die"
+  },
+  "aeltara": {
+    "name": "Aeltara",
+    "description": "Radiant Eversol Aeltara stands as the chosen one of the Lord of Light. She inherits not only the title of The Flawless One but also the sacred duty of guiding Aelfir, the source of life. As the new Flawless One, what revelations and salvation will she bring to this world?",
+    "story": "Radiant Eversol Aeltara stands as the chosen one of the Lord of Light. She inherits not only the title of The Flawless One but also the sacred duty of guiding Aelfir, the source of life. As the new Flawless One, what revelations and salvation will she bring to this world?",
+    "capabilities": ""
+  },
+  "aeon-rista": {
+    "name": "Aeon Rista",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "TBA"
+  },
+  "agnes": {
+    "name": "Agnes",
+    "description": "From the depths of the abyss, a withered blossom transformed into a winged fae maiden. Her power, beyond even the abyss's reach, led to eternal darkness. A forgotten promise from her past life awakened, igniting an unbreakable resolve to fulfill it at any cost... hero introduction",
+    "story": "From the depths of the abyss, a withered blossom transformed into a winged fae maiden. Her power, beyond even the abyss's reach, led to eternal darkness. A forgotten promise from her past life awakened, igniting an unbreakable resolve to fulfill it at any cost... hero introduction",
+    "capabilities": "A Marksman with high DPS potential, capable of dealing massive damage with Basic Attacks and triggering additional damage when allies cast Ultimates."
+  },
+  "ais": {
+    "name": "Ais",
+    "description": "\"As one of the best adventurers in the Loki Familia, Ais Wallenstein is an extraordinarily skilled swordswoman with breathtaking beauty. She's known as the Sword Princess in Orario and admired by Bell Cranel.\" (Skin Overview)",
+    "story": "\"As one of the best adventurers in the Loki Familia, Ais Wallenstein is an extraordinarily skilled swordswoman with breathtaking beauty. She's known as the Sword Princess in Orario and admired by Bell Cranel.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "akai": {
+    "name": "Akai",
+    "description": "Akai is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "akashic": {
+    "name": "Akashic",
+    "description": "\"A legendary warlock of the Moniyan Empire, surrounded by myriad riddles and mystique. It's said that he is truly omniscient, and that he recorded his boundless knowledge in note form.\" (Skin Overview)",
+    "story": "\"A legendary warlock of the Moniyan Empire, surrounded by myriad riddles and mystique. It's said that he is truly omniscient, and that he recorded his boundless knowledge in note form.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "aldous": {
+    "name": "Aldous",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "alice": {
+    "name": "Alice",
+    "description": "Alice is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "alpha": {
+    "name": "Alpha",
+    "description": "As a creation of Laboratory 1718 after Saber, Alpha has a body made of more sophisticated and rarer materials. Together with aircraft Beta, Alpha is considered as the \"ultimate weapon\".",
+    "story": "As a creation of Laboratory 1718 after Saber, Alpha has a body made of more sophisticated and rarer materials. Together with aircraft Beta, Alpha is considered as the \"ultimate weapon\".",
+    "capabilities": ""
+  },
+  "alucard": {
+    "name": "Alucard",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "amaterasu": {
+    "name": "Amaterasu",
+    "description": "The Sun Goddess that once ruled over the Cadia Riverlands, with the Onmyouji Masters serving as her most loyal companions. Now the goddess has returned, in the form of a young maiden.",
+    "story": "The Sun Goddess that once ruled over the Cadia Riverlands, with the Onmyouji Masters serving as her most loyal companions. Now the goddess has returned, in the form of a young maiden.",
+    "capabilities": ""
+  },
+  "angela": {
+    "name": "Angela",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "anna": {
+    "name": "Anna",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "apexis-cluster": {
+    "name": "Apexis Cluster",
+    "description": "An ancient human from the early Endless War, Cluster vanished mysteriously, only to return millennia later. Ravaged by body modification experiments, he retreated into a high-tech suit, pursuing life reconstruction research. Unlocking the light giant's secrets, Cluster mastered life evolution, recreating his perfect form, and raising a clone army. His journey culminated in seizing the Celestial Palace and founding the Gray Hawk Kingdom, evolving from a decaying mortal to the architect of a new world",
+    "story": "An ancient human from the early Endless War, Cluster vanished mysteriously, only to return millennia later. Ravaged by body modification experiments, he retreated into a high-tech suit, pursuing life reconstruction research. Unlocking the light giant's secrets, Cluster mastered life evolution, recreating his perfect form, and raising a clone army. His journey culminated in seizing the Celestial Palace and founding the Gray Hawk Kingdom, evolving from a decaying mortal to the architect of a new world",
+    "capabilities": "A Support hero who can summon puppets. Ultimate transfers damage from allies to enemies, while Realm Skills converts fallen enemies into puppets."
+  },
+  "apostae": {
+    "name": "Apostae",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "arcus-miya": {
+    "name": "Arcus Miya",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "A Marksman with incredibly high damage against front-row enemies. Can summon 2 units during battle, making the enemy's front row suffer the same damage and control effects as her summoned units."
+  },
+  "argus": {
+    "name": "Argus",
+    "description": "Everything is born with sin. It's Argus's duty to discipline everything. After the sword Demise has fallen, it is unclear whether Argus is seeking discipline or simply taking lives.",
+    "story": "Everything is born with sin. It's Argus's duty to discipline everything. After the sword Demise has fallen, it is unclear whether Argus is seeking discipline or simply taking lives.",
+    "capabilities": ""
+  },
+  "astraia-sipra": {
+    "name": "Astraia Sipra",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "atlas": {
+    "name": "Atlas",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  }
+}

@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "helia-karihmet",
+    "name": "Helia Karihmet",
+    "abilities": [
+      {
+        "name": "Flamestorm Devastation",
+        "tier": "Ultimate",
+        "description": "Releases a Flameshot dealing AoE damage equal to 365% of Attack to enemies. The Flameshot also inflicts burning on enemies, dealing damage equal to 50% of Attack for 3s, and reducing their Energy by 40 points. If the enemies' total damage dealt during this skill is less than 50% of Helia Karihmet's damage, they take an additional 50% damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Upon casting the Ultimate for the first time, consumes 700 points of Energy. Every subsequent Ultimate cast will increase the Energy cost by 150, up to 1,000 points."
+          },
+          {
+            "level": "3",
+            "text": "Flameshot's damage is increased to 440% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Flameshot's damage is increased to 475% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dawnfire Pierce",
+        "tier": "Skill",
+        "description": "Releases a Flaming Arrow, dealing damage equal to 175% of Attack to enemy target(s) in range and stunning them for a short while.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 220% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "When used for the first time in battle, Dawnfire Pierce deals an additional 60% damage. With each subsequent use, the additional damage decreases by 15%, until it reaches 0."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 245% of Attack."
+          }
+        ]
+      },
+      {
+        "name": "Daybreak Duel",
+        "tier": "Skill",
+        "description": "Gains 2 stacks of Fiery Shield. When she takes damage that exceeds 10% of her Max HP, 1 stack of the Shield is consumed to negate the damage. Additionally, deals damage equal to 160% of Attack to the enemy with the lowest HP. Fiery Shield can stack up to 4 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains 2 stacks of Fiery Shield when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 190% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 220% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Blazing Waltz",
+        "tier": "Passive",
+        "description": "Basic Attack fires a bullet that bounces and attacks two enemies, dealing extra damage equal to 10% of the first enemy's Max HP to the second enemy hit (up to 1500% of Karihmet's Attack).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bouncing bullet gains an extra 40% Crit Rate."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 12% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 15% of the target's Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Incinerating Supremacy",
+        "tier": "Realm Effect",
+        "description": "Lv. 1: Every 4s for the first 20s of battle, enemies that deal less than 50% of Helia Karihmet's damage lose 30 points of Energy, while allies that deal more than 50% of her damage gain 30 points of Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Every 4s for the first 20s of battle, enemies that deal less than 50% of Helia Karihmet's damage lose 50 points of Energy, while allies that deal more than 50% of her damage gain 50 points of Energy. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Every 4s for the first 20s of battle, when an ally holds the highest damage dealt, Helia Karihmet casts an additional Dawnfire Pierce, dealing damage equal to 220% of Attack. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Every 4s for the first 20s of battle, when an ally holds the highest damage dealt, Helia Karihmet casts an additional Dawnfire Pierce, dealing damage equal to 245% of Attack. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hestia",
+    "name": "Hestia",
+    "abilities": [
+      {
+        "name": "Blazing Hearthfire",
+        "tier": "Ultimate",
+        "description": "100%Restores all allies' HP to full and increases their Crit Rates and Crit Damage for 8s based on each ally's HP percentage. Allies with more HP gain greater Crit Rate and Crit Damage bonuses, stacking up to 8% Crit Rate and 15% Crit Damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Provides 30% of Hestia's Damage Increase to every other ally."
+          },
+          {
+            "level": "3",
+            "text": "Crit Rate Bonus can stack up to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Crit Rate Bonus can stack up to 30%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Holy Blessing",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage Reduction increases to 6% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Selected allies are immune to most control effects for 2s after the skill takes effect."
+          },
+          {
+            "level": "4",
+            "text": "Damage Reduction increases to 8% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Prioritized Offerings",
+        "tier": "Skill",
+        "description": "Hestia selects 2 extra targets with each Basic Attacks and increases HP Regen based on the targets' lost HP, stacking up to 20%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Healed allies gain extra Attack based on their real-time HP percentages over 45, stacking up to 15%."
+          },
+          {
+            "level": "3",
+            "text": "Regen based on the targets' lost HP can stack up to 40%."
+          },
+          {
+            "level": "4",
+            "text": "Regen based on the targets' lost HP can stack up to 60%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Goddess's Might",
+        "tier": "Passive",
+        "description": "Instead of leaving battle, Hestia continues to heal allies with Basic Attacks after she is defeated, but her Attack is reduced to 50%. Hestia cannot be targeted by enemies in this state.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hestia can also cast Holy Blessing in this state."
+          },
+          {
+            "level": "3",
+            "text": "Attack increased to 60%."
+          },
+          {
+            "level": "4",
+            "text": "Attack increased to 70%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hilda",
+    "name": "Hilda",
+    "abilities": [
+      {
+        "name": "Bloodlust Axe",
+        "tier": "Ultimate",
+        "description": "Hilda stuns and deals damage equal to 450% of her Attack to a single target in the enemy front-row, enemies around the target take damage equal to 150% of her Attack. The damage of this skill increases over time. For every 5s, the damage increases by 10%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every ally of her Hero-type, increases her damage by 5% every 5s"
+          }
+        ]
+      },
+      {
+        "name": "Combat Ritual",
+        "tier": "Skill",
+        "description": "Hilda deals damage equal to 150% of her Attack to enemies in the front and mid-row.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hilda increases her Agility by 50 for 4s"
+          },
+          {
+            "level": "3",
+            "text": "Agility Bonus is increased to 100"
+          }
+        ]
+      },
+      {
+        "name": "Art of Hunting",
+        "tier": "Skill",
+        "description": "Hilda strikes enemies for 3 times. The first strike deals damage equal to 76% of her Attack to the closest enemy; The second strike deals damage equal to 76% of her Attack to the enemies in the front-row; The third strike deals damage equal to 76% of her Attack to enemies in the front-row and knocks them back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of the first strike is increased to 91% Attack, damage of the second and third strike is increased to 91% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Blessing of Wilderness",
+        "tier": "Passive",
+        "description": "Gathers the amount of damage dealt by allies of the same type, and heals for 25% of the damage gathered over 5 seconds when HP drops below 20%",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP restored is increased to 30% of the damage Hilda collects"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hwang-jini",
+    "name": "Hwang Jini",
+    "abilities": [
+      {
+        "name": "Lunar Luminescence",
+        "tier": "Ultimate",
+        "description": "Hwang Jini gains 5 stacks of Melody, knocking airbourne the enemy with the most Attack, the enemy with the most Energy and the enemy with the lowest HP percentage in succession and dealing damage equal to 505% Attack to them. When an allied unit uses its Ultimate to deal damage to an enemy, Hwang Jini uses her Melody to deal extra damage equal to 250% of her Attack to the enemy, and it costs 1 stack of Melody to deal damage to 1 enemy. When an allied unit uses its Ultimate to heal another ally, Hwang Jini uses her Melody to grant a Shield equal to 250% of her Attack to the ally, and it costs 1 stack of Melody to add a Shield for 1 ally. Hwang Jini can own up to 20 stacks of Melody.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt with Melody increases to 300% Attack. Shield generated with Melody increases to 300% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt with Melody increases to 350% Attack. Shield generated with Melody increases to 350% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt with Melody increases to 400% Attack. Shield generated with Melody increases to 400% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Joyous Note",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Skill Damage is increased to 160% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The number of sound wave projectiles is increased to 3"
+          },
+          {
+            "level": "4",
+            "text": "kill Damage is increased to 200% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Variation",
+        "tier": "Skill",
+        "description": "Hwang Jini uses a sound wave to attack an enemy, dealing damage equal 370% of her Attack and reducing their Energy by 200.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If this skill makes the enemy's Energy drop below 500 points, stuns them for 3s"
+          },
+          {
+            "level": "3",
+            "text": "Energy reduced by the skill is increased to 280 points"
+          },
+          {
+            "level": "4",
+            "text": "Energy reduced by the skill is increased to 360 points (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Legato",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 83% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 98% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 113% of her Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hylos",
+    "name": "Hylos",
+    "abilities": [
+      {
+        "name": "Glorious Pathway",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Agility of the enemies on the pathway is reduced by 50."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus provided to allies is increased to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus provided to allies is increased to 20%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Thickened Blood",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hylos will release Glorious Pathway right away when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "HP regenerated per sec by Hylos is increased to 24%."
+          },
+          {
+            "level": "4",
+            "text": "HP regenerated per sec by Hylos is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Law and Order",
+        "tier": "Skill",
+        "description": "Hylos locks on the target with the energy of nature, dealing damage equal to 215% of his Attack to the target and stunning them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 300% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 360% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 420% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ring of Punishment",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Apply extra Warden's Fury to the enemy, each stack increases the damage of Ring of Punishment by 20%, stacking up to 15 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 30% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 45% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "imperial-arbalist",
+    "name": "Imperial Arbalist",
+    "abilities": [
+      {
+        "name": "Stunning Arrow",
+        "tier": "Ultimate",
+        "description": "Shoots a powerful bolt, knocking the enemy back and stun it briefly.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "imperial-drillmaster",
+    "name": "Imperial Drillmaster",
+    "abilities": [
+      {
+        "name": "Magic Lure",
+        "tier": "Ultimate",
+        "description": "Heals friendly targets within the radius for massive HP.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "imperial-sorcerer",
+    "name": "Imperial Sorcerer",
+    "abilities": [
+      {
+        "name": "Sun Emblem",
+        "tier": "Ultimate",
+        "description": "Used the power of the sun to deal damage on distant enemies and reduces its energy.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "infinia-crocell",
+    "name": "Infinia Crocell",
+    "abilities": [
+      {
+        "name": "Shattered Destiny",
+        "tier": "Ultimate",
+        "description": "Deals damage 4 time(s) equal to 55% of her Attack to all enemies. The damage instances increase based on Infinia Crocell's Attack boost, up to a maximum of 8 instance(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Beacon increases Infinia Crocell's Energy acquisition rate by 15%."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 70%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 85%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Radiant Volley",
+        "tier": "Skill",
+        "description": "Launches 2 attacks, each targeting a random enemy and dealing True Damage equal to 140% of her Attack, ignoring Defense. Each stack of Beacon adds 1 extra hit of attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 170%."
+          },
+          {
+            "level": "3",
+            "text": "Each time damage is dealt, reduces the enemy's healing received and Shield by 30% for 8s, stacking up to 3 time(s)."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 200%."
+          }
+        ]
+      },
+      {
+        "name": "Insight Pierce",
+        "tier": "Skill",
+        "description": "Deals damage equal to 105% of her Attack to 2 enemies with the lowest HP percentage, plus True Damage equal to 50% of their lost HP that ignores Defense and Damage Reduction. The damage won't exceed 2500% of Infinia Crocell's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After this skill deals damage, it directly defeats enemies whose HP is below 10%."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 130%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 155%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Convergent Fate",
+        "tier": "Passive",
+        "description": "When an enemy enters the battle or revives, Infinia Crocell deals damage equal to 80% of her Attack to them. If Infinia Crocell's Attack is lower than the target's, she gains an Attack Bonus equal to 70% of the difference value between their Attack. Each bonus won't exceed 50% of Infinia Crocell's Attack, stacking up to 10 time(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If Infinia Crocell's Attack is lower than the target's, she also Stuns them for 2s. If her Attack is higher than the target's, she deals extra damage equal to 100% of their lost HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 100%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 120%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Infinite Domain",
+        "tier": "Realm Effect",
+        "description": "When the battle starts and when each time pause ends, Infinia Crocell becomes untargetable for 5s if there are other targetable allied heroes on the battlefield.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "When an allied hero becomes untargetable, they restore 100 Energy. Each hero can only trigger this once every 10s. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Each time the time pause starts, Infinia Crocell deals True Damage equal to 50% of their current Shield to all enemies, ignoring Damage Reduction.(Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Each time the time pause starts, Infinia Crocell deals True Damage equal to 100% of their current Shield to all enemies, ignoring Damage Reduction. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "irithel",
+    "name": "Irithel",
+    "abilities": [
+      {
+        "name": "Heavy Crossbow",
+        "tier": "Ultimate",
+        "description": "Irithel equips herself with a heavy crossbow, dealing AoE Damage with her Basic Attacks; Meanwhile, lowering enemies' Defense by 8%. This effect can be stacked up to 5 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Attack by 60% after releasing the Ultimate."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus is increased to 100%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased to 120%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Strafe",
+        "tier": "Skill",
+        "description": "Irithel shoots a round of arrows, dealing damage equal to 235% of her Attack to the enemies in the area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 270% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Applies Defense Reduction Effect."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 305% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Force of The Queen",
+        "tier": "Skill",
+        "description": "Leo lets out a roar, increasing all allies' Attack by 10% for 8s. Martial-type Heroes get double the buff.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "All allies' Penetration is increased by 20%."
+          },
+          {
+            "level": "3",
+            "text": "Penetration Bonus is increased to 30%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased 12.5%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Child of the Forest",
+        "tier": "Passive",
+        "description": "Irithel fires 3 heavy crossbow bolts with each Basic Attack, each bolt deals damage equal to 100% of her Attack to the target. All her bolts get the Basic Attack Damage Bonus provided by her allies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 200 points of Initial Energy when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "Initial Energy is increased to 300 points."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 115% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "jawhead",
+    "name": "Jawhead",
+    "abilities": [
+      {
+        "name": "Unstoppable Force",
+        "tier": "Ultimate",
+        "description": "Jawhead charges towards the closest enemy, dealing damage equal to 650% of his Attack and stunning the target for a short while. Jawhead is immune to knockback effects when charging towards the enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Applies extra Knock Back Effect"
+          }
+        ]
+      },
+      {
+        "name": "Smart Missiles",
+        "tier": "Skill",
+        "description": "Jawhead fires 12 missiles in a short period of time, each dealing damage equal to 43% of his Attack to the enemy hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 48% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 54% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Ejector",
+        "tier": "Skill",
+        "description": "Jawhead acquires a shield equal to 120% of his Attack and throws the nearest enemy into the distance. When the enemy falls to the ground, other enemies around the falling point will be stunned and take damage equal to 120% of Jawhead's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the enemies around the falling point shortly"
+          }
+        ]
+      },
+      {
+        "name": "Mecha Suppression",
+        "tier": "Passive",
+        "description": "Each time Jawhead deals damage to a target, he leaves a stack of Compression that lasts 4s on them. Jawhead's Basic Attack will remove all stacks of Compression from the target, but the target will take extra damage according to the stacks of Compression removed. Each stack removed deals extra damage equal to 15% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 25% Attack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kadita",
+    "name": "Kadita",
+    "abilities": [
+      {
+        "name": "Rough Waves",
+        "tier": "Ultimate",
+        "description": "Kadita summons a tsunami to attack enemies. The tsunami will return to Kadita after it reaches the end, dealing damage to enemies hit along the way. The closer the enemies, the more damage they take. Enemies take damage equal to 280% of Kadita's Attack at most.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 340% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 400% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 480% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Breath of the Ocean",
+        "tier": "Skill",
+        "description": "Kadita marks the target area, from which an ocean wave will surge after a period of time, dealing damage equal to 320% of her Attack to enemies hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The ocean wave can knock the enemies airborne."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 360% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 400% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Ocean Oddity",
+        "tier": "Skill",
+        "description": "Kadita rides on an ocean wave and charges towards enemies. The target hit takes damage equal to 155% of Kadita's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 60% Damage Reduction temporarily."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 185% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 220% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Thalassophobia",
+        "tier": "Passive",
+        "description": "Kadita will release her Ultimate again upon death, which deals less damage than a regular one.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Kadita's HP is lower than 30%, she will receive a blessing from the Might of the Ocean, restoring HP equal to 250% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 400% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Healing Effect is increased to 600% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kagura",
+    "name": "Kagura",
+    "abilities": [
+      {
+        "name": "Shikigami Summon",
+        "tier": "Ultimate",
+        "description": "Kagura summons a Shikigami to assist in the battle, the Shikigami will not take damage. Shikigami will inherit Kagura’s current Attack and fire 3 energy arrows at the enemy with the lowest HP, each of which deals damage equal of 95% of her Attack. A maximum of 3 Shikigami can exist on the battlefield at the same time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The target's Defense is reduced by 3% when being attacked by Shikigami. This effect can be stacked up to 20 times."
+          },
+          {
+            "level": "3",
+            "text": "The damage of the energy arrow is increased to 120% Attack"
+          },
+          {
+            "level": "4",
+            "text": "The damage of the energy arrow is increased to 135% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dream Recall",
+        "tier": "Skill",
+        "description": "Kagura raises her Seimei Umbrella and continues to regenerate her energy, totaling up to 300 points of energy regen.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The total Energy restored is increased to 440 points"
+          },
+          {
+            "level": "3",
+            "text": "If the entire energy regen process is complete, the Attack of Kagura and Shikigami will be increased by 20%."
+          },
+          {
+            "level": "4",
+            "text": "The total Energy restored is increased to 600 points"
+          }
+        ]
+      },
+      {
+        "name": "Yin Yang Twist",
+        "tier": "Skill",
+        "description": "Kagura releases Yin Yang Power to deal damage equal to 220% of her Attack to the enemy with the lowest HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time Kagura releases Yin Yang Power she increases the damage of the follow-up Yin Yang Power by 20%. This effect can be stacked up to 5 times."
+          },
+          {
+            "level": "3",
+            "text": "The damage of Yin Yang Power is increased to 280%"
+          },
+          {
+            "level": "4",
+            "text": "The damage of Yin Yang Power is increased to 320% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Yin Yang Boost",
+        "tier": "Passive",
+        "description": "Kagura acquires a Shield equal to 300% of her Attack when HP is lower than 25%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The shield is increased to 450% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The shield is increased to 600% Attack"
+          },
+          {
+            "level": "4",
+            "text": "The shield is increased to 750% Attack (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kaja",
+    "name": "Kaja",
+    "abilities": [
+      {
+        "name": "Ring of Order",
+        "tier": "Ultimate",
+        "description": "Kaja releases a Ringed Electric Blade that quickly expands and contracts, dealing damage equal to 245% of his Attack each time it touches an enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Causes extra Slow Effect"
+          }
+        ]
+      },
+      {
+        "name": "Lightning Bomb",
+        "tier": "Skill",
+        "description": "Kaja releases a lightning bolt that bounces among enemies up to 3 times. The lightning bolt deals damage equal to 120% of his Attack each time it hits a target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 135% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 150% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Judgment Befalls",
+        "tier": "Skill",
+        "description": "When the battle starts, Kaja steals a certain percentage of Attack from the strongest enemy. The effect lasts for 20s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lifesteal stolen from the enemy lasts the entire battle"
+          }
+        ]
+      },
+      {
+        "name": "Wrath Sanction",
+        "tier": "Passive",
+        "description": "Kaja will reduce all enemy units' Energy by 100 points upon death.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Energy reduced is increased to 200 points"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karihmet",
+    "name": "Karihmet",
+    "abilities": [
+      {
+        "name": "Supreme Light",
+        "tier": "Ultimate",
+        "description": "Karihmet rains down the light on all enemies, inflicting damage equal to 240% of her Attack and changing her HP to 50%, during which, if Karihmet loses HP, then her Ultimate deals extra damage according to her HP lost; if Karihmet gains HP, then the damage of her Ultimate will be reduced by a number according to the HP she gains.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage of the light rain is increased to 280% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The damage of the light rain is increased to 320% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage of the light rain is increased to 360% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blazing Spear",
+        "tier": "Passive",
+        "description": "When Karihmet's HP falls below 90%/60%/30% for the first time in the current battle, a spear of sunlight will strike down from above at the target area and deal damage equal to 145%/185%/250% of Karihmet's Attack. The area of effect decreases with each strike.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Karihmet's HP falls below 90%/60%/30% for the first time in the current battle, the damage dealt is increased to 160%/205%/275% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The spear of light also restores Karihmet's Energy by 100 points."
+          },
+          {
+            "level": "4",
+            "text": "When Karihmet's HP falls below 90%/60%/30% for the first time in the current battle, the damage dealt is increased to 175%/225%/300% of her Attack."
+          }
+        ]
+      },
+      {
+        "name": "Shield of Divinity",
+        "tier": "Skill",
+        "description": "Karihmet throws her shield at the enemies. The shield will bounce amoung up to 3 enemies, dealing damage equal to 200% of her Attack to the first enemy hit and dealing decayed damage to the following targets.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Shield of Divinity offers 50% Lifesteal."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt to the first enemy hit is increased to 230% of Karihmet's Attack, the damage dealt to the following targets is also increased."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt to the first enemy hit is increased to 260% of Karihmet's Attack, the damage dealt to the following targets is also increased. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Spear of Divinity",
+        "tier": "Skill",
+        "description": "Karihmet throws a powerful spear at the target enemy, inflicting damage equal to 300% of her Attack and knock them back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Spear of Divinity will stun the target for 2s when it hits the target."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt is increased to 360% of Karihmet's Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 420% of Karihmet's Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karina",
+    "name": "Karina",
+    "abilities": [
+      {
+        "name": "Shadow Rush",
+        "tier": "Ultimate",
+        "description": "Karina rushes towards the Ranged enemy with the lowest HP, dealing damage equal to 320% of her Attack. Then Karina's Crit Chance increases by 100% for 10s. Meanwhile, her Basic Attack is also enhanced. If the target dies when she is casting her Ultimate, she can recover 500 points of Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Energy restored is increased to 800"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 400% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 480% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dance of Death",
+        "tier": "Skill",
+        "description": "Deal damage equal to 60% for 3 times to the enemy unit and reduce their Defense by 10%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 70% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Each Attack can also let enemy lose 30 Energy"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 80% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Joint Action",
+        "tier": "Passive",
+        "description": "In the battle, each surviving allied Hero can provide 20% Dodge Bonus for Karina.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every surviving allied Hero can also provide Karina with 10% Crit Damage Bonus"
+          },
+          {
+            "level": "3",
+            "text": "Crit Damage Bonus is increased to 15%"
+          },
+          {
+            "level": "4",
+            "text": "Crit Damage Bonus is increased to 20% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Moonshadow",
+        "tier": "Passive",
+        "description": "In the battle, when Karina has triggered Dodge for 5 times, she can permanently gain 50 points of Agility. The effect can be stacked up to 6 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Karina has triggered Dodge for 5 times, she can restore HP equal to 5% of her Max HP"
+          },
+          {
+            "level": "3",
+            "text": "HP healed is increased to 8% Max HP"
+          },
+          {
+            "level": "4",
+            "text": "HP healed is increased to 11% Max HP (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "karrie",
+    "name": "Karrie",
+    "abilities": [
+      {
+        "name": "Speedy Lightwheel",
+        "tier": "Ultimate",
+        "description": "Karrie attacks the enemy with the highest Max HP 4 times, each time dealing damage equal to 140% of her Attack and stunning the enemy for a short time. Then she switches to Dual Wield Mode which lasts 4s. It allows her to attack with 2 Lightwheels and deal damage equal to 75% of her Basic Attack Damage. Passive effect: Karrie will aim at the enemy with the highest Max HP and launch a Basic Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The duration of the Dual Wield mode is increased to 8s"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 190% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 230% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Destructor Blade",
+        "tier": "Skill",
+        "description": "Each of Karrie's attacks upon the same enemy serves to increase her Speed by 5 and Attack by 3%, stacking up to 20. Resets when she changes targets or attack is interrupted.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Once reaching 20 stacks, all allied Heroes also receive this skill's Speed boost."
+          },
+          {
+            "level": "3",
+            "text": "Each stack increases Speed by 10 and Attack by 4.5%."
+          },
+          {
+            "level": "4",
+            "text": "Each stack increases Speed by 20 and Attack by 6%"
+          }
+        ]
+      },
+      {
+        "name": "Iceborne Cutter",
+        "tier": "Skill",
+        "description": "Karrie releases a Lightwheel towards the enemy with the highest Max HP, dealing damage equal to 280% of her Attack and entering Shieldbreaker, reducing enemy Defense by 25% for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemy Defense reduction increases to 50%."
+          },
+          {
+            "level": "3",
+            "text": "This skill's Base Damage increases to 375%."
+          },
+          {
+            "level": "4",
+            "text": "This skill's Base Damage increases to 450%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Lightwheel Mark",
+        "tier": "Passive",
+        "description": "When Karrie hits an enemy with Basic Attack or her skill, she’ll leave a Lightwheel Mark on the target. When the Lightwheel Mark stacks up 4 times, it will become an actual lightwheel and penetrate through the target, dealing True Damage equal to 10% of target's max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases all the damage taken by the target by 10% for 15s, stacking up to 3 times."
+          },
+          {
+            "level": "3",
+            "text": "Boost the damage increase effect to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 15% of the target's max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kimmy",
+    "name": "Kimmy",
+    "abilities": [
+      {
+        "name": "Maximum Charge",
+        "tier": "Ultimate",
+        "description": "Kimmy fires a huge luminous chemical shot at the nearest enemy hero, dealing 750% of her Attack as damage and inflicting \"Energy Disturbance\" status on the target for 8s, during which it cannot be targeted by its teammates. If the target dies during this period, Kimmy's Agility greatly increases, decaying back down to 0 over 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Energy Disturbance status duration is increased to 12s."
+          },
+          {
+            "level": "3",
+            "text": "Base Damage of this skill is increased to 1000% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Energy Transformation",
+        "tier": "Skill",
+        "description": "Kimmy fires off a volley of 5 shots at the nearest enemy unit, each dealing 80% of her Attack as damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Energy Transformation has a 35% chance to knock back the target."
+          },
+          {
+            "level": "3",
+            "text": "The number of bullets is increased to 8."
+          },
+          {
+            "level": "4",
+            "text": "The damage of each bullet is increased to 100% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Chemical Refinement",
+        "tier": "Skill",
+        "description": "Kimmy tosses a \"Chemical Refinement\" at the nearest enemy unit, dealing 100% of her Attack as damage to enemies in the area of effect. Those hit take 80% of Kimmy's Attack as damage per second, while allies hit are healed by 80% of her Attack per second. Lasts 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage taken by enemy units hit is increased by 15% for the duration."
+          },
+          {
+            "level": "3",
+            "text": "Duration is increased to 5s."
+          }
+        ]
+      },
+      {
+        "name": "Bio Blast",
+        "tier": "Passive",
+        "description": "While affected by the \"Energy Disturbance\" status, enemy heroes' Agility is reduced by 50, Defense by 50% and Damage-triggered Energy Regen by 50%. If the target dies during this period, all nearby enemy units take True Damage equal to 15% of that hero's Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the target dies, all nearby enemy units take True Damage equal to 20% of that hero's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "When the target dies, all nearby enemy units take True Damage equal to 25% of that hero's Max HP."
+          }
+        ]
+      }
+    ]
+  }
+]

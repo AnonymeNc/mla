@@ -1,0 +1,630 @@
+{
+  "achlys-alice": {
+    "Eternal Darkness": {
+      "description": "Invoque un cercle qui dure 5s, infligeant des dégâts égaux à 110% de son Attaque par seconde à tous les ennemis et soignant tous les alliés d'un montant égal à 55% de son Attaque par seconde.",
+      "levels": {
+        "2": "Affaiblit deux ennemis aléatoires, les empêchant d'infliger des dégâts pendant 3s. Les effets d'affaiblissement ignorent la plupart des immunités et résistances au contrôle.",
+        "3": "Augmente les dégâts par seconde à 130% de son Attaque et le soin à 65% de son Attaque.",
+        "4": "Augmente les dégâts par seconde à 150% de son Attaque et le soin à 75% de son Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Abyssal Sanction": {
+      "description": "Inflige des dégâts égaux à 180% de son Attaque à deux ennemis. Les dégâts de la prochaine utilisation augmentent de 50% de son Attaque à chaque utilisation d'Abyssal Sanction. Cumulable jusqu'à 4 fois.",
+      "levels": {
+        "2": "Les dégâts de base augmentent à 215% de l'Attaque.",
+        "3": "Inflige des dégâts à un ennemi supplémentaire après 3 utilisations.",
+        "4": "Les dégâts de base augmentent à 250% de l'Attaque."
+      }
+    },
+    "Crimson Call": {
+      "description": "Au début du combat, invoque un Messager Abyssal au coût de 30% de ses PV, qui grandit continuellement et inflige des dégâts aux ennemis. Le Messager Abyssal revient à ses côtés la première fois qu'elle est sur le point de mourir, la nourrissant et la rendant impossible à cibler pendant au moins 1s.",
+      "levels": {
+        "2": "L'effet d'impossibilité de ciblage fourni par le Messager Abyssal est prolongé à 3s.",
+        "3": "Réduit le coût en PV à 25%.",
+        "4": "Réduit le coût en PV à 20%. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Blood Fiesta": {
+      "description": "Achlys Alice acquiert 200 points de Vol de vie et gagne 20% de Réduction des dégâts supplémentaire lorsque ses PV passent sous 50%.",
+      "levels": {
+        "2": "Toutes les 5s en combat, Achlys Alice gagne 5% de Bonus d'Attaque supplémentaire, cumulable jusqu'à 505 d'Attaque.",
+        "3": "Augmente le Vol de vie à 250 et la Réduction des dégâts à 30%.",
+        "4": "Augmente le Vol de vie à 300 et la Réduction des dégâts à 40%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    },
+    "Abyssal Realm": {
+      "description": "[Compétence de Royaume I] Achlys Alice inflige des dégâts égaux à 100% de son Attaque à un ennemi aléatoire une fois que toutes les unités alliées ont été soignées d'un montant égal à 100% de la moyenne des PV max de l'équipe. Cet effet ne peut se déclencher qu'une fois toutes les 1,5s.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Se débloque à 32px)",
+        "3": "[Compétence de Royaume II] Les dégâts de compétence augmentent à 150% de l'Attaque. (Se débloque à 48px)",
+        "4": "[Compétence de Royaume III] Affaiblit la cible tout en lui infligeant des dégâts. De plus, l'empêche d'infliger des dégâts pendant 1,5s. L'effet d'affaiblissement ignore la plupart des immunités et résistances au contrôle. (Se débloque à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Se débloque à 80px)",
+        "6": "[Compétence de Royaume IV] Affaiblit la cible tout en lui infligeant des dégâts. De plus, l'empêche d'infliger des dégâts pendant 2s. L'effet d'affaiblissement ignore la plupart des immunités et résistances au contrôle. (Se débloque à 16px)"
+      }
+    }
+  },
+  "aeltara": {
+    "Flare Embrace": {
+      "description": "Aeltara déclenche des éruptions, infligeant des dégâts égaux à 91% de son Attaque à tous les ennemis, plus des dégâts supplémentaires égaux à 4% de leurs PV max (plafonnés à 400% de l'Attaque d'Aeltara) par seconde, pendant 65. Si Aeltara subit des dégâts létaux pendant que l'effet d'éruption est actif, la compétence se termine prématurément et lui accorde l'immunité à la mort pendant 2,5 secondes, augmentant les soins reçus de 100%. L'immunité à la mort ne peut se déclencher qu'une fois toutes les 6s.",
+      "levels": {
+        "2": "Gagne 2 charges de rayons divins lors de l'utilisation de cette compétence. Pendant les 6s suivantes, chaque charge consommée soigne un allié supplémentaire.",
+        "3": "Les dégâts d'éruption augmentent à 110% de son Attaque.",
+        "4": "Les dégâts d'éruption augmentent à 130% de son Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Entropy Pulse": {
+      "description": "Aeltara inflige des dégâts égaux à 320% de son Attaque à l'ennemi ayant l'Attaque la plus élevée et applique un effet de brûlure qui dure 3s. La brûlure réduit les soins reçus par la cible de 100%, empêche le gain d'Énergie et réduit les dégâts infligés aux héros Astraux de 70%.",
+      "levels": {
+        "2": "Les dégâts augmentent à 395% de son Attaque.",
+        "3": "Lorsqu'Aeltara possède 3 charges de rayons divins ou plus au moment de l'utilisation de la compétence, la durée de la brûlure augmente de 1 seconde.",
+        "4": "Les dégâts augmentent à 445% de son Attaque."
+      }
+    },
+    "Eternal Aelfir": {
+      "description": "Aeltara gagne 1 charge de rayons divins pour chaque tranche de dégâts infligés égale à 500% de son Attaque, jusqu'à 5 charges. Lorsque des alliés passent sous 60% de PV, Aeltara consomme 1 charge de rayons divins par seconde pour soigner l'allié ayant le moins de PV d'un montant égal à 320% de son Attaque.",
+      "levels": {
+        "2": "Lors d'un soin, pour chaque charge de rayons divins restante, Aeltara fournit un soin supplémentaire égal à 60% de son Attaque.",
+        "3": "Le soin augmente à 395% de son Attaque.",
+        "4": "Le soin augmente à 445% de son Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Solaris Radiance": {
+      "description": "Aeltara inflige des dégâts égaux à 175% de son Attaque aux ennemis dans une zone circulaire et les étourdit pendant 2s. Si Aeltara possède 3 charges de rayons divins ou plus, la durée d'étourdissement augmente de 1 seconde.",
+      "levels": {
+        "2": "Grâce à cette compétence, chaque fois qu'un héros Astral déclenche une pause temporelle en combat, la zone de dégâts s'étend de 20%, jusqu'à 3 fois.",
+        "3": "Les dégâts augmentent à 220% de son Attaque.",
+        "4": "Les dégâts augmentent à 280% de son Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "aeon-rista": {
+    "Endless Requiem": {
+      "description": "Passif : Invoque un serviteur au début du combat. Le serviteur est impossible à cibler et commence avec 3 bras ; il gagne 1 bras supplémentaire tous les 2 autres héros Chaos déployés (max 6). Tous les 3 coups portés par Aeon Rista ou par les compétences/attaques de base du serviteur sur un ennemi infligent des dégâts supplémentaires égaux à 15% des PV max de l'ennemi et lui appliquent un Blocage de PV sur 15% de ses PV (les deux plafonnés à 1500% de l'ATQ d'Aeon Rista). Le Blocage de PV se cumule jusqu'à 80% des PV de l'ennemi. Actif : Aeon Rista inflige 120% de dégâts d'ATQ 2 fois aux ennemis dans la zone la plus dense. Chaque bras du serviteur tire des projectiles sur des ennemis aléatoires, infligeant 70% des dégâts d'ATQ d'Aeon Rista 4 fois.",
+      "levels": {
+        "2": "Pour chaque bras que possède le serviteur, Aeon Rista restaure 10 points d'Énergie supplémentaires par seconde.",
+        "3": "Les dégâts infligés par Aeon Rista lors de l'utilisation active augmentent à 140%.",
+        "4": "Les dégâts infligés par Aeon Rista lors de l'utilisation active augmentent à 160%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Rose Covenant": {
+      "description": "",
+      "levels": {
+        "2": "Augmente les dégâts infligés à 120%.",
+        "3": "Chaque fois que l'effet se déclenche sur un ennemi, les unités Chaos ignorent 25% de la Défense de cet ennemi pour le reste du combat, jusqu'à 75% de Défense ignorée.",
+        "4": "Augmente les dégâts infligés à 140%."
+      }
+    },
+    "Eternal Devotion": {
+      "description": "Le serviteur d'Aeon Rista effectue des attaques de base. Lors d'une attaque de base, chaque bras inflige des dégâts égaux à 40% de l'Attaque d'Aeon Rista à un ennemi aléatoire. Lorsque les PV d'Aeon Rista passent sous 25%, si le serviteur possède au moins 4 bras, il perd 2 bras, restaure des PV égaux à 30% des PV d'Aeon Rista et rend Aeon Rista impossible à cibler pendant 3s.",
+      "levels": {
+        "2": "Lorsque le serviteur perd un bras, il retire également la plupart des effets de contrôle, d'attaque forcée et de restriction de régénération de PV affectant Aeon Rista.",
+        "3": "La récupération de PV augmente à 40%.",
+        "4": "La récupération de PV augmente à 50%. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Fevered Offering": {
+      "description": "Rose Covenant applique également Rose Fiévreuse au héros allié le plus proche n'ayant pas encore reçu Rose Fiévreuse. Rose Fiévreuse accorde à son porteur 20% d'Attaque et 25% d'Augmentation des dégâts, au prix de la perte de 12% de ses PV actuels par seconde, et restaure 120 points d'Énergie par seconde pendant 10s.",
+      "levels": {
+        "2": "Lorsque Rose Fiévreuse disparaît, les bonus qu'elle procurait sont conservés.",
+        "3": "L'augmentation d'Attaque est portée à 25%.",
+        "4": "L'augmentation d'Attaque est portée à 30%. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Realm of Waltz": {
+      "description": "Lorsqu'un héros allié utilise son Ultime, Aeon Rista applique un Blocage de PV sur 20% des PV max d'un héros ennemi aléatoire, puis inflige des dégâts égaux à 100% de ses PV perdus. Les dégâts et le Blocage de PV ne dépassent pas 2000% de l'Attaque d'Aeon Rista. L'effet de Blocage de PV peut se cumuler, bloquant jusqu'à 80% des PV de l'ennemi.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Se débloque à 32px)",
+        "3": "Lorsque la Porte du Chaos s'ouvre, tous les héros Chaos alliés récupèrent 150 points d'Énergie. (Se débloque à 48px)",
+        "4": "Lorsqu'un héros Chaos allié utilise son Ultime, l'effet de Blocage de PV déclenché par la compétence d'Aeon Rista augmente à 30% des PV max du héros ennemi, plafonné à 3000% de l'Attaque d'Aeon Rista. (Se débloque à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Se débloque à 80px)",
+        "6": "Lorsque la Porte du Chaos s'ouvre, tous les héros Chaos alliés récupèrent 300 points d'Énergie. (Se débloque à 16px)"
+      }
+    }
+  },
+  "agnes": {
+    "Wilting Epilogue": {
+      "description": "Inflige des dégâts à 3 reprises aux ennemis dans une zone circulaire, égaux à 110% de l'Attaque, et gagne 1 Phalène de la Mort, jusqu'à 3 Phalènes de la Mort. Les attaques de base d'Agnes infligent des dégâts supplémentaires égaux à 20% des PV max de la cible, plafonnés à 2000% de l'Attaque d'Agnes, et touchent 1 ennemi supplémentaire pour chaque Phalène de la Mort qu'elle possède. Lorsqu'elle possède 3 Phalènes de la Mort, Agnes n'utilise plus activement son Ultime, mais en déclenche automatiquement l'effet lorsque son Énergie dépasse 800, et les dégâts supplémentaires sur les PV max des attaques de base deviennent des dégâts de zone.",
+      "levels": {
+        "2": "Réduit le coût initial en Énergie de l'Ultime de 600 points.",
+        "3": "Les dégâts infligés augmentent à 132%.",
+        "4": "Les dégâts infligés augmentent à 155%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Death Moths Waltz": {
+      "description": "Inflige des dégâts à 3 ennemis aléatoires égaux à 155% de l'Attaque et réduit leur Réduction des dégâts de 20%. Cet effet peut se cumuler jusqu'à 6 fois, dure jusqu'à la fin du combat, et est hérité par les unités invoquées par le héros ciblé. Lorsqu'Agnes possède 3 Phalènes de la Mort, elle n'utilise plus cette compétence et gagne à la place 50% de Taux de coups critiques.",
+      "levels": {
+        "2": "Les dégâts infligés augmentent à 195%.",
+        "3": "Agnes gagne 30% de Taux de précision pour chaque Phalène de la Mort qu'elle possède.",
+        "4": "Les dégâts infligés augmentent à 220%."
+      }
+    },
+    "Morbid Bloom": {
+      "description": "Inflige des dégâts à un ennemi et aux ennemis qui l'entourent, égaux à 145% de l'Attaque. Pour chaque Phalène de la Mort possédée, inflige des dégâts supplémentaires égaux à 10% des PV max de la cible, plafonnés à 1000% de l'Attaque d'Agnes. Lorsqu'un héros allié utilise son Ultime dans les 6s, Agnes déclenche à nouveau cet effet de dégâts. Chaque héros allié ne peut déclencher cet effet qu'une fois toutes les 2s.",
+      "levels": {
+        "2": "Lorsque d'autres héros alliés utilisent leur Ultime dans les 8s, Agnes déclenche à nouveau l'effet de dégâts.",
+        "3": "Les dégâts infligés augmentent à 180%.",
+        "4": "Les dégâts infligés augmentent à 200%. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Blighted Elegy": {
+      "description": "Lorsqu'Agnes subit des dégâts létaux alors qu'elle possède 2 Phalènes de la Mort ou plus, elle consomme 2 Phalènes de la Mort pour récupérer 20% de PV et retirer la plupart des effets de contrôle et de changement de cible qui l'affectent. Cet effet peut se déclencher jusqu'à 3 fois par combat.",
+      "levels": {
+        "2": "Lorsqu'il se déclenche, Agnes devient impossible à cibler par les ennemis pendant 2s. Aucune Phalène de la Mort n'est consommée lors du premier déclenchement.",
+        "3": "La récupération de PV augmente à 35%.",
+        "4": "La récupération de PV augmente à 50%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "ais": {
+    "Lil Rafaga": {
+      "description": "Inflige des dégâts égaux à 150% de son Attaque à tous les ennemis à portée, à 5 reprises, en attirant à chaque fois les ennemis vers le centre des épées. Ais Wallenstein ne peut pas être ciblée par les ennemis pendant l'utilisation de cette compétence.",
+      "levels": {
+        "2": "Cette compétence gagne 50% de Vol de vie magique.",
+        "3": "Les dégâts infligés augmentent à 170% de l'Attaque.",
+        "4": "Les dégâts infligés augmentent à 190% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Ariel Piercing": {
+      "description": "Ais Wallenstein charge vers l'ennemi le plus éloigné, infligeant des dégâts égaux à 100% de son Attaque à tous les ennemis sur son passage et attirant les ennemis proches du point de départ vers le point d'arrivée sans interrompre leurs compétences.",
+      "levels": {
+        "2": "Après avoir utilisé la compétence, Ais Wallenstein gagne 2 charges de Protection. Lorsqu'elle subit des dégâts supérieurs à 10% de ses PV max, 1 charge est consommée pour annuler les dégâts.",
+        "3": "Les dégâts infligés augmentent à 115% de l'Attaque.",
+        "4": "Les dégâts infligés augmentent à 130% de l'Attaque."
+      }
+    },
+    "Ariel Rush": {
+      "description": "",
+      "levels": {
+        "2": "Les ennemis touchés par cette compétence lui infligent 50% de dégâts en moins pendant 6s.",
+        "3": "Les dégâts infligés augmentent à 120% de l'Attaque.",
+        "4": "Les dégâts infligés augmentent à 140% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Spirit Healing": {
+      "description": "",
+      "levels": {
+        "2": "Lorsque les PV sont supérieurs à 60%, augmente la zone d'effet de Lil Rafaga et d'Ariel Piercing de 30%.",
+        "3": "Lorsque les PV sont supérieurs à 60%, Ais Wallenstein gagne 60% de Réduction des dégâts supplémentaire.",
+        "4": "Lorsque les PV sont supérieurs à 60%, Ais Wallenstein gagne 120 points d'Agilité supplémentaires. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "akai": {
+    "Hurricane Dance": {
+      "description": "Akai tourbillonne et percute les ennemis comme une tornade ; les ennemis touchés sont repoussés une fois et subissent des dégâts égaux à 130% de son Attaque. Pendant le tourbillon, Akai est immunisé aux effets de contrôle.",
+      "levels": {
+        "2": "Augmente les dégâts à 185% de l'Attaque.",
+        "3": "Augmente les dégâts à 235% de l'Attaque.",
+        "4": "Augmente les dégâts à 290% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Taiji": {
+      "description": "Au début du combat, Akai accorde un bouclier égal à 275% de son Attaque à tous les alliés. Le bouclier dure 10s.",
+      "levels": {
+        "2": "Augmente le Bouclier à 340% de l'Attaque.",
+        "3": "Si les ennemis ne parviennent pas à briser le bouclier, celui-ci restaure 120 points d'Énergie pour son porteur.",
+        "4": "Augmente le Bouclier à 400% de l'Attaque."
+      }
+    },
+    "Chaos Breaker": {
+      "description": "Akai libère une vague d'Énergie de Grenouille dans la direction ciblée, infligeant des dégâts égaux à 225% de son Attaque aux ennemis dans la portée.",
+      "levels": {
+        "2": "Les dégâts augmentent à 300%.",
+        "3": "Les dégâts augmentent à 360%.",
+        "4": "Les dégâts augmentent à 420%. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Arhat Strike": {
+      "description": "Akai attaque la cible à 3 reprises, infligeant à chaque fois des dégâts égaux à 120% de son Attaque et l'étourdissant.",
+      "levels": {
+        "2": "La durée d'étourdissement augmente à 1s.",
+        "3": "Augmente les dégâts à 170% de l'Attaque.",
+        "4": "Augmente les dégâts à 220% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "akashic": {
+    "Future Projection": {
+      "description": "Akashic invoque les Mémoires Akashiques pendant 5s, durant lesquelles toutes les autres unités alliées gagnent 20% de l'Attaque d'Akashic et 50% de sa Défense, et tous les héros alliés récupèrent 40 points d'Énergie par seconde.",
+      "levels": {
+        "2": "L'Agilité des héros alliés augmente de 50 pendant la durée de Future Projection.",
+        "3": "L'Agilité des héros alliés augmente de 100 pendant la durée de Future Projection.",
+        "4": "L'Agilité des héros alliés augmente de 150 pendant la durée de Future Projection. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Soul Siphon": {
+      "description": "Inflige 200% de dégâts à l'ennemi ayant l'Attaque la plus élevée, et gagne 20% des caractéristiques d'Attaque et de Défense actuelles de la cible pendant 4s. Ces bonus ne peuvent pas dépasser 50% des caractéristiques de base d'Akashic.",
+      "levels": {
+        "2": "Les dégâts de base de Soul Siphon augmentent à 250%.",
+        "3": "La durée de Soul Siphon augmente à 6s.",
+        "4": "Soul Siphon affecte une cible supplémentaire."
+      }
+    },
+    "Life Weaver": {
+      "description": "Soigne l'unité alliée ayant le pourcentage de PV le plus bas d'un montant égal à 200% de l'Attaque d'Akashic. Après 3s, la soigne à nouveau d'un montant égal à 100% de l'Attaque d'Akashic, plus 35% des dégâts subis pendant ce laps de temps.",
+      "levels": {
+        "2": "Le second soin se déclenche immédiatement lorsque la cible est sur le point de mourir.",
+        "3": "Le montant du second soin augmente à 50% des dégâts subis par la cible pendant ce laps de temps.",
+        "4": "Le soin initial augmente à 300% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Omniscience": {
+      "description": "Lorsqu'un ennemi utilise son Ultime, un effet se déclenche en fonction du Type de la cible et dure 4s.",
+      "levels": {
+        "2": "Lorsqu'un Boss utilise son Ultime, tous les effets ci-dessus s'activent.",
+        "3": "La durée augmente à 6s.",
+        "4": "La durée augmente à 8s. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "aldous": {
+    "Contract - Chase Fate": {
+      "description": "Aldous se transforme en foreuse de pierre, lui permettant de cibler et de charger vers l'ennemi de son choix, quel que soit son emplacement. En atteignant sa cible, il inflige des dégâts égaux à 575% de sa Puissance d'Attaque, repoussant l'ennemi.",
+      "levels": {
+        "2": "Les dégâts augmentent à 690%."
+      }
+    },
+    "Contract - Explosion": {
+      "description": "Aldous adopte une posture défensive, devenant immunisé aux attaques de base pendant les 2s suivantes et acquérant 25% de Réduction des dégâts. Lorsque la posture défensive se termine, Aldous étourdit les ennemis alentour et leur inflige des dégâts égaux à 105% de son Attaque.",
+      "levels": {
+        "2": "Étourdit les ennemis à proximité lorsque la Posture défensive se termine.",
+        "3": "La Réduction des dégâts augmente à 35%."
+      }
+    },
+    "Contract - Soul Steal": {
+      "description": "Aldous inflige des dégâts égaux à 235% de son Attaque à l'ennemi le plus proche. Dans le combat en cours, pour chaque ennemi éliminé, les dégâts de cette compétence augmentent de 100%, cumulable jusqu'à 2 fois.",
+      "levels": {
+        "2": "Les dégâts de cette compétence peuvent augmenter jusqu'à 4 fois."
+      }
+    },
+    "Contract - Transform": {
+      "description": "Toutes les deux attaques de base, Aldous acquiert un bouclier égal à 120% de son Attaque.",
+      "levels": {
+        "2": "Le bouclier augmente à 145% de l'Attaque."
+      }
+    }
+  },
+  "alice": {
+    "Blood Eulogy": {
+      "description": "Alice invoque un cercle de sang qui envahit le champ de bataille et dure 5s, infligeant des dégâts égaux à 100% de son Attaque aux ennemis dans le cercle, à 6 reprises au total. Lorsque le cercle de sang se termine, Alice régénère des PV égaux à 500% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts par seconde augmentent à 120% de l'Attaque.",
+        "3": "Restaure des PV supplémentaires égaux à 500% de l'Attaque lorsque la compétence est libérée.",
+        "4": "Les dégâts par seconde augmentent à 140% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Scarlet Light": {
+      "description": "Alice libère la Lumière Écarlate dans la direction ciblée, infligeant des dégâts égaux à 110% de son Attaque aux ennemis touchés. La Lumière Écarlate est ensuite rappelée après avoir atteint sa portée maximale, infligeant des dégâts égaux à 110% de son Attaque aux ennemis touchés.",
+      "levels": {
+        "2": "Les dégâts augmentent à 125% de l'Attaque.",
+        "3": "Soigne Alice d'un montant de PV égal à 80% des dégâts infligés.",
+        "4": "Soigne Alice d'un montant de PV égal à 150% des dégâts infligés."
+      }
+    },
+    "Witch's Awe": {
+      "description": "Alice inflige des dégâts égaux à 265% de son Attaque à l'ennemi le plus proche, l'immobilisant pendant 3s.",
+      "levels": {
+        "2": "Les dégâts augmentent à 320% de l'Attaque.",
+        "3": "Les dégâts augmentent à 375% de l'Attaque.",
+        "4": "Les dégâts augmentent à 425% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Magic Lineage": {
+      "description": "Alice acquiert davantage d'Attaque à mesure que ses PV augmentent. L'Attaque d'Alice peut augmenter jusqu'à 30%.",
+      "levels": {
+        "2": "Alice gagne de la Pénétration supplémentaire lorsque ses PV sont supérieurs à 50%.",
+        "3": "Le Bonus d'Attaque maximum de cette compétence augmente à 50%.",
+        "4": "Le Bonus d'Attaque maximum de cette compétence augmente à 65%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "alpha": {
+    "Decisive Battle": {
+      "description": "Alpha se rue vers l'ennemi ayant le plus de PV, infligeant des dégâts égaux à 500% de son Attaque. Il piège ensuite la cible dans le Champ de Technologie et les deux s'affrontent en duel pendant 10s. Tous les ennemis à l'intérieur du Champ de Technologie se font voler 25% de leur Attaque par Alpha. L'utilisation de l'Ultime ne coûte à Alpha que 300 points d'Énergie, mais 400 points d'Énergie supplémentaires sont consommés lorsqu'il utilise ses compétences pendant l'Ultime, ce qui augmente les dégâts de compétence de 100% et l'aide à récupérer des PV égaux à 400% de son Attaque.",
+      "levels": {
+        "2": "Alpha acquiert 400 points d'Énergie au début du combat.",
+        "3": "Le pourcentage d'Attaque des ennemis volé par Alpha pendant son Ultime augmente à 40%.",
+        "4": "Les dégâts augmentent à 625% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Vortex Spike": {
+      "description": "Alpha porte un triple coup à l'ennemi devant lui, chaque coup infligeant des dégâts égaux à 65% de son Attaque. Il révèle également les points faibles de la cible pendant 5s. Chaque point faible peut augmenter l'Attaque d'Alpha de 15%. Son Attaque peut être augmentée au maximum 5 fois.",
+      "levels": {
+        "2": "Les dégâts infligés à chaque coup sont égaux à 70% de l'Attaque.",
+        "3": "Le triple coup devient un quintuple coup.",
+        "4": "Les dégâts infligés à chaque coup sont égaux à 75% de l'Attaque."
+      }
+    },
+    "Force Swing": {
+      "description": "Alpha frappe les ennemis devant lui, infligeant des dégâts égaux à 200% de son Attaque. Les ennemis touchés par cette compétence voient leurs PV soignés réduits de 50% pendant 8s.",
+      "levels": {
+        "2": "Les PV soignés de l'ennemi diminuent de 75%.",
+        "3": "Les dégâts augmentent à 250% de l'Attaque.",
+        "4": "Les dégâts augmentent à 320% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Spear of Alpha": {
+      "description": "Lorsqu'Alpha inflige des dégâts, il a 15% de chances de transformer sa prochaine attaque de base en Châtiment spécial. Le Châtiment spécial inflige des dégâts physiques égaux à 10% des PV max de la cible. Les dégâts infligés ne peuvent pas dépasser 1000% de l'Attaque d'Alpha.",
+      "levels": {
+        "2": "La chance augmente à 25%.",
+        "3": "Les dégâts infligés par le Châtiment spécial augmentent à 15% des PV max de la cible et ne peuvent pas dépasser 1500% de l'Attaque d'Alpha.",
+        "4": "Les dégâts infligés par le Châtiment spécial augmentent à 20% des PV max de la cible et ne peuvent pas dépasser 2000% de l'Attaque d'Alpha. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "alucard": {
+    "Fission Wave": {
+      "description": "Alucard frappe les ennemis à deux reprises, infligeant des dégâts égaux à 190% de son Attaque. Il libère ensuite une onde de choc, infligeant des dégâts égaux à 190% de son Attaque aux ennemis touchés et les étourdissant.",
+      "levels": {
+        "2": "Augmente l'effet de soin de 50% pendant 7s après l'utilisation de la compétence."
+      }
+    },
+    "Groundsplitter": {
+      "description": "Alucard bondit vers l'ennemi le plus éloigné, infligeant des dégâts égaux à 170% de son Attaque et marquant la cible. Alucard inflige 20% de dégâts supplémentaires à la cible marquée. Alucard est immunisé aux effets de contrôle pendant son bond vers la cible.",
+      "levels": {
+        "2": "Les dégâts de la compétence augmentent à 185%.",
+        "3": "Les dégâts de la compétence augmentent à 210%."
+      }
+    },
+    "Slash": {
+      "description": "Alucard frappe les ennemis autour de lui, infligeant 135% de son Attaque en dégâts.",
+      "levels": {
+        "2": "Chaque ennemi touché soigne Alucard d'un montant de PV égal à 8% de ses PV max."
+      }
+    },
+    "Devilslayer Seal": {
+      "description": "Alucard convertit en effet de soin 10% des dégâts qu'il inflige à la cible marquée.",
+      "levels": {
+        "2": "Le pourcentage de dégâts converti en PV augmente à 15%."
+      }
+    }
+  },
+  "amaterasu": {
+    "Bright Star": {
+      "description": "Amaterasu utilise le Miroir Yata pour transformer la zone environnante en Espace Sacré qui dure 6s. Chaque fois qu'un allié dans cette zone est attaqué, le Miroir Yata projette un rayon de lumière sur l'attaquant, infligeant des dégâts égaux à 60% de son Attaque (ces rayons de lumière ont un temps de recharge de 0,1s). Passif : les attaques de base d'Amaterasu ciblent l'unité ennemie la plus éloignée d'elle.",
+      "levels": {
+        "2": "Les ennemis sont réprimés tant qu'ils se trouvent dans l'Espace Sacré, leur Attaque étant réduite de 25% et leur Agilité de 50.",
+        "3": "Les dégâts infligés par les rayons de lumière de l'Espace Sacré augmentent à 80% de son Attaque.",
+        "4": "Les dégâts infligés par les rayons de lumière de l'Espace Sacré augmentent à 105% de son Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Light Glow": {
+      "description": "Amaterasu concentre son pouvoir sur l'unité ennemie la plus éloignée d'elle, tirant 4 flèches à grande vitesse. Chacune inflige des dégâts égaux à 80% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts de ses flèches augmentent à 90% de son Attaque.",
+        "3": "Après avoir utilisé Light Glow une fois avec succès, le prochain Light Glow d'Amaterasu libère une flèche supplémentaire, cumulable jusqu'à 3 fois. Le cumul est réinitialisé si l'utilisation de Light Glow est interrompue.",
+        "4": "Les dégâts de ses flèches augmentent à 100% de son Attaque."
+      }
+    },
+    "Law of Heaven": {
+      "description": "Amaterasu inflige des dégâts accrus lorsqu'elle enchaîne des attaques (compétences ou attaques de base) sur le même ennemi. Les dégâts augmentent de 20% de son Attaque à chaque attaque, cumulable jusqu'à 15 fois. Toutes les charges sont perdues si la cible n'est pas attaquée par Amaterasu pendant 5 secondes.",
+      "levels": {
+        "2": "Amaterasu vole 2% du Taux de coups critiques des héros ennemis pendant 5s après les avoir touchés par une attaque de base ou une compétence. Cumulable jusqu'à 15 fois.",
+        "3": "Les dégâts par charge augmentent à 25% de son Attaque.",
+        "4": "Les dégâts par charge augmentent à 30% de son Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Wisdom Barrier": {
+      "description": "Lorsqu'elle subit des dégâts létaux, Amaterasu lance un enchantement protecteur autour d'elle, qui la rend immobile mais immunisée aux attaques pendant sa durée. Pendant ce temps, elle régénère également des PV égaux à 150% de son Attaque par seconde.",
+      "levels": {
+        "2": "Amaterasu régénère 100 points d'Énergie par seconde pendant toute la durée.",
+        "3": "Les PV régénérés augmentent à 200% de son Attaque.",
+        "4": "Les PV régénérés augmentent à 300% de son Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "angela": {
+    "Heartguard": {
+      "description": "Au début du combat, Angela attache sa poupée à l'allié ayant la Puissance de combat la plus élevée et augmente son Attaque de 15%. Angela devient immunisée à la plupart des effets de contrôle pendant la durée de cette compétence. Lorsqu'Angela utilise son Ultime, elle restaure entièrement l'Énergie de cet allié au prix de sa propre Énergie (200 points minimum).",
+      "levels": {
+        "2": "Lorsque la poupée d'Angela est attachée à un allié, elle lui accorde également un bouclier égal à 250% de l'Attaque d'Angela.",
+        "3": "Le Bonus d'Attaque fourni par sa poupée augmente à 25%.",
+        "4": "Le Bonus d'Attaque fourni par sa poupée augmente à 32%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Love Waves": {
+      "description": "Angela aide l'allié ayant la Puissance de combat la plus élevée à restaurer des PV égaux à 240% de son Attaque.",
+      "levels": {
+        "2": "Le montant de PV soignés augmente à 290% de l'Attaque.",
+        "3": "Soigne l'allié d'un montant de PV plus important à mesure que ses PV diminuent.",
+        "4": "Le montant de PV soignés augmente à 340% de l'Attaque."
+      }
+    },
+    "Puppet-on-a-String": {
+      "description": "Angela tire un fil de marionnette sur un ennemi et l'attaque à 3 reprises, infligeant à chaque fois des dégâts égaux à 110% de son Attaque.",
+      "levels": {
+        "2": "Le nombre d'attaques effectuées par le fil de marionnette augmente.",
+        "3": "Le Fil de marionnette réduit la Défense de la cible de 20%.",
+        "4": "Les dégâts augmentent à 135% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Smart Heart": {
+      "description": "Lorsque l'allié auquel la poupée d'amour est attachée subit des dégâts, celle-ci charme l'attaquant pendant 4s. La cible charmée attaque alors ses propres alliés. Cet effet peut se déclencher toutes les 30s. Et lorsque l'allié auquel la poupée d'amour est attachée meurt, le temps de recharge de cette compétence est immédiatement réinitialisé.",
+      "levels": {
+        "2": "La durée de charme augmente à 5s.",
+        "3": "La durée de charme augmente à 6s.",
+        "4": "La durée de charme augmente à 7s. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "anna": {
+    "Twin Curse": {
+      "description": "Sélectionne l'unité ennemie ayant l'Attaque la plus élevée et contrôle des poupées qui l'attaquent, infligeant 3 instances de dégâts égales à 75% de son Attaque par seconde, l'empêchant de se déplacer. Cette compétence prend fin lorsque l'unité ennemie meurt.",
+      "levels": {
+        "2": "Pendant sa durée, Anna est immunisée à la plupart des effets de contrôle.",
+        "3": "Chaque instance de dégâts augmente à 90% de l'Attaque.",
+        "4": "Chaque instance de dégâts augmente à 110% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Scars of Hatred": {
+      "description": "Sélectionne l'unité ennemie ayant l'Attaque la plus élevée et projette des pointes osseuses infligeant des Dégâts véritables égaux à 14% de ses PV max. Les dégâts infligés sont plafonnés à 1800% de l'Attaque d'Anna.",
+      "levels": {
+        "2": "Les dégâts augmentent à 16% des PV max de la cible.",
+        "3": "Tous les PV perdus par les cibles touchées sont verrouillés, ce qui les empêche de les récupérer.",
+        "4": "Les dégâts augmentent à 18% des PV max de la cible."
+      }
+    },
+    "Ritual Sacrifice": {
+      "description": "Chaque fois qu'un héros allié utilise son Ultime, Anna inflige des dégâts égaux à 120% de son Attaque à toutes les unités ennemies, et tous les PV perdus par les cibles touchées sont verrouillés, ce qui les empêche de les récupérer.",
+      "levels": {
+        "2": "Les invocations ennemies meurent instantanément dès que plus de 25% de leurs PV sont verrouillés.",
+        "3": "Les dégâts augmentent à 150% de l'Attaque.",
+        "4": "Les dégâts augmentent à 170% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Demonic Reflection": {
+      "description": "Les ennemis ayant plus de 25% de leurs PV verrouillés voient 12% des dégâts qu'ils infligent leur être renvoyés.",
+      "levels": {
+        "2": "Les ennemis ayant plus de 50% de leurs PV verrouillés infligent 75% de dégâts en moins à Anna.",
+        "3": "Les dégâts renvoyés augmentent à 18%.",
+        "4": "Les dégâts renvoyés augmentent à 20%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "apexis-cluster": {
+    "Tyrant's Edict": {
+      "description": "Maudit un ennemi, l'étourdissant et redirigeant vers la cible maudite 30% des dégâts subis par tous les alliés pendant 4s. Si la cible est effectivement étourdie, les dégâts redirigés augmentent à 45%. Si la cible maudite meurt pendant cet effet, tous les alliés récupèrent 200 points d'Énergie. Cluster ne peut pas réutiliser son Ultime dans les 6s suivant son utilisation, et les unités Boss sont immunisées à cet effet de malédiction.",
+      "levels": {
+        "2": "Si un ennemi survit à deux malédictions, Cluster l'exécute à la fin de la seconde malédiction. Cette exécution déclenche également la régénération d'Énergie de la malédiction.",
+        "3": "Augmente le taux de redirection des dégâts de base à 35% et le taux de redirection des dégâts pour une cible étourdie à 50%.",
+        "4": "Augmente le taux de redirection des dégâts de base à 40% et le taux de redirection des dégâts pour une cible étourdie à 55%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Noctis Shroud": {
+      "description": "Accorde à tous les alliés un bouclier égal à 220% de l'Attaque. Pour chaque allié survivant supplémentaire par rapport aux ennemis survivants, le bouclier augmente de 20%, jusqu'à deux fois le montant initial.",
+      "levels": {
+        "2": "Le bouclier accordé augmente à 270% de son Attaque.",
+        "3": "Lors de l'utilisation de cette compétence, si un allié possède encore un bouclier accordé par cette compétence, ses boucliers existants sont retirés et des dégâts égaux à 250% de l'Attaque sont infligés à un ennemi. Chaque allié supplémentaire possédant un bouclier existant ajoute une instance de dégâts supplémentaire.",
+        "4": "Le bouclier accordé augmente à 300% de son Attaque."
+      }
+    },
+    "Terror's Will": {
+      "description": "Inflige des dégâts égaux à 370% de l'Attaque à un ennemi et augmente les dégâts qu'il subit de 40% pendant 8s (non cumulable).",
+      "levels": {
+        "2": "Lorsqu'il y a plus d'alliés survivants que d'ennemis survivants, augmente les dégâts subis par tous les ennemis de 40% pendant 8s (non cumulable).",
+        "3": "Les dégâts augmentent à 460% de son Attaque.",
+        "4": "Les dégâts augmentent à 515% de son Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Doomsday Knell": {
+      "description": "Au début du combat, verrouille 30% des PV max du héros ennemi ayant le moins de PV max et marque cet ennemi, incitant les alliés à le cibler en priorité. Les PV verrouillés ne dépassent pas 10000% de l'Attaque de Cluster.",
+      "levels": {
+        "2": "Lorsqu'un héros marqué meurt, Cluster verrouille 30% des PV max d'un autre héros ennemi et le marque.",
+        "3": "Augmente le pourcentage de PV verrouillés à 40%.",
+        "4": "Augmente le pourcentage de PV verrouillés à 50%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    },
+    "Husk Thralldom": {
+      "description": "Chaque fois qu'un héros ennemi est vaincu, Cluster le transforme en pantin qui rejoint les alliés. Le pantin hérite de 50% de l'Attaque du héros d'origine. Jusqu'à 5 pantins peuvent exister simultanément. Les héros transformés en pantins ne peuvent pas être ressuscités. Cluster ne peut pas être transformé en pantin par un Cluster ennemi.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent +3% de PV. (Se débloque à 32px)",
+        "3": "Augmente l'Attaque héritée par le pantin à 75% de l'Attaque du héros d'origine. (Se débloque à 48px)",
+        "4": "Augmente l'Attaque héritée par le pantin à 100% de l'Attaque du héros d'origine. (Se débloque à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Se débloque à 80px)",
+        "6": "Pour chaque allié survivant supplémentaire par rapport aux unités ennemies, réduit l'Attaque de tous les ennemis de 12%, jusqu'à 60%. (Se débloque à 16px)"
+      }
+    }
+  },
+  "apostae": {
+    "Chaos Collision": {
+      "description": "Apostae inflige des dégâts égaux à 200% de l'Attaque à tous les ennemis, et les ruptures qu'elle laisse sur eux continuent d'infliger une certaine quantité de dégâts persistants.",
+      "levels": {
+        "2": "Si la cible porte une rupture, Apostae lui retire la plupart de ses Bonus d'attributs temporaires.",
+        "3": "Les dégâts augmentent à 300% de l'Attaque.",
+        "4": "Les dégâts augmentent à 400% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Arrows of Evil": {
+      "description": "Apostae tire les Flèches du Mal, infligeant des dégâts égaux à 240% de l'Attaque à un ennemi et l'étourdissant pendant 2s.",
+      "levels": {
+        "2": "Les dégâts augmentent à 290% de l'Attaque.",
+        "3": "Chaque fois que l'unité touchée par les Flèches du Mal perd 10% de ses PV max dans les 6s suivantes, Apostae restaure 8% de ses PV max.",
+        "4": "Les dégâts augmentent à 340% de l'Attaque."
+      }
+    },
+    "Shadow Subversion": {
+      "description": "Apostae inflige des dégâts égaux à 180% de l'Attaque aux ennemis à portée, étourdissant brièvement les cibles ayant un pourcentage de PV inférieur au sien.",
+      "levels": {
+        "2": "Apostae restaure des PV égaux à 100% de son Attaque lorsqu'elle étourdit un ennemi.",
+        "3": "Les dégâts augmentent à 215% de l'Attaque.",
+        "4": "Les dégâts augmentent à 265% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Parasitic Evil": {
+      "description": "Chaque fois qu'un ennemi subit un effet de contrôle (étourdi, provoqué, réduit au silence, projeté dans les airs, repoussé ou charmé), Apostae lui inflige une rupture, lui faisant perdre 1% de ses PV max par seconde pendant 10s. Chaque ennemi ne peut avoir plus de 5 ruptures. Une rupture inflige au maximum des dégâts égaux à 100% de l'Attaque d'Apostae à chaque fois.",
+      "levels": {
+        "2": "Apostae restaure 20 points d'Énergie chaque fois qu'elle inflige une rupture à une unité.",
+        "3": "Les dégâts augmentent à 1.25% des PV max de la cible. (Une rupture inflige au maximum des dégâts égaux à 125% de l'Attaque d'Apostae à chaque fois.)",
+        "4": "Les dégâts augmentent à 1.5% des PV max de la cible. (Une rupture inflige au maximum des dégâts égaux à 150% de l'Attaque d'Apostae à chaque fois.) (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "arcus-miya": {
+    "Magnetic Arrowsong": {
+      "description": "Arcus Miya se téléporte et tire une flèche électromagnétique vers le héros ennemi le plus proche, infligeant des dégâts égaux à 300% de l'Attaque à la cible et à toutes les unités ennemies alignées derrière elle.",
+      "levels": {
+        "2": "Les dégâts supplémentaires des flèches d'attaque de base augmentent à 200% de l'Attaque.",
+        "3": "Tire 2 flèches supplémentaires lors d'une attaque de base.",
+        "4": "Les dégâts de la flèche électromagnétique augmentent à 500% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Crystalline Mapping": {
+      "description": "",
+      "levels": {
+        "2": "La défense des cristaux magnétiques invoqués par Arcus Miya est fixée à 50% de celle de la cible.",
+        "3": "Les PV max des cristaux magnétiques invoqués par Arcus Miya augmentent à 70% des PV max de la cible.",
+        "4": "La défense des cristaux magnétiques invoqués par Arcus Miya est fixée à 30% de celle de la cible."
+      }
+    },
+    "Anionic Trap": {
+      "description": "",
+      "levels": {
+        "2": "La Vitesse de déplacement de toutes les unités ennemies dans le Piège Anionique est réduite de 50%.",
+        "3": "Étourdit tous les ennemis dans le Piège Anionique pendant 1s après l'explosion.",
+        "4": "Les dégâts de l'explosion électromagnétique augmentent à 50% des dégâts subis par le héros. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Lazer Blaze": {
+      "description": "",
+      "levels": {
+        "2": "Pendant 3s, les dégâts de l'attaque laser sur la même cible augmentent de 5%, cumulable jusqu'à 5 fois.",
+        "3": "La chance que les canons ioniques effectuent une attaque supplémentaire augmente à 70%.",
+        "4": "Inflige des Dégâts véritables égaux à 12% de leurs PV max, sans dépasser 1200% de l'Attaque d'Arcus Miya. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "argus": {
+    "Demonic Strike": {
+      "description": "Argus active la Lame Démoniaque et frappe instantanément les ennemis devant lui, infligeant des dégâts de zone égaux à 80% de son Attaque, à 5 reprises. Pendant ce temps, Argus régénère des PV égaux à 60% des dégâts infligés par cette compétence.",
+      "levels": {
+        "2": "Immunisé aux dégâts magiques pendant la durée de la compétence.",
+        "3": "Le montant de PV soignés augmente à 100% des dégâts infligés par cette compétence.",
+        "4": "Les dégâts augmentent à 120% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Blood Fury": {
+      "description": "L'Attaque d'Argus augmente à mesure que ses PV diminuent, jusqu'à 20%.",
+      "levels": {
+        "2": "Le Bonus d'Attaque maximum de cette compétence augmente à 25%.",
+        "3": "Augmente le Taux de coups critiques de 15% lorsque les PV passent sous 20%.",
+        "4": "Le Bonus d'Attaque maximum de cette compétence augmente à 30%."
+      }
+    },
+    "Meteoric Sword": {
+      "description": "Argus charge son attaque et frappe les ennemis avec son épée, infligeant des dégâts égaux à 175% de son Attaque. Les dégâts physiques subis par les ennemis ciblés augmentent de 10% pendant les 6s suivantes.",
+      "levels": {
+        "2": "Augmente les dégâts supplémentaires subis par la cible à 20%.",
+        "3": "Les dégâts de base augmentent à 215% de l'Attaque.",
+        "4": "Les dégâts de base augmentent à 270% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Eternal Evil": {
+      "description": "Argus se transforme en ange déchu pendant 5s lorsqu'il subit des dégâts létaux, période durant laquelle il ne peut pas être tué. Cet effet ne peut se déclencher qu'une fois par combat.",
+      "levels": {
+        "2": "La durée augmente à 6s.",
+        "3": "La durée augmente à 7s.",
+        "4": "La durée augmente à 8s. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  }
+}

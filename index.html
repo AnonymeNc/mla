@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MLA Hero Catalog</title>
+    <link rel="stylesheet" href="./src/styles/main.css?v=20260720-2" />
+  </head>
+  <body data-page="catalog">
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="eyebrow" data-i18n="siteTagline">Mobile Legends: Adventure</p>
+        <h1 data-i18n="heroCatalogTitle">Hero Catalog</h1>
+      </div>
+      <div class="topbar__actions">
+        <label class="lang-switch" for="language-switcher">
+          <span class="lang-switch__label" data-i18n="languageLabel">Language</span>
+          <select id="language-switcher">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="zh">中文</option>
+            <option value="ru">Русский</option>
+          </select>
+        </label>
+        <a class="nav-link" href="./hero.html?hero=achlys-alice" data-i18n="featuredHero">Featured Hero</a>
+        <span class="pill pill--ghost" id="favorite-count" data-i18n="favorites">Favorites 0</span>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <section class="hero-summary">
+        <div>
+          <p class="eyebrow" data-i18n="heroSummaryEyebrow">Guilded roster</p>
+          <h2 data-i18n="heroSummaryTitle">Explore 162 heroes in one place</h2>
+          <p data-i18n="heroSummaryDescription">Search by name, filter by faction, role, rarity, equipment size, and pin your favorite picks for quick access.</p>
+        </div>
+        <div class="summary-stats">
+          <div class="stat-card">
+            <strong id="hero-total">0</strong>
+            <span data-i18n="visibleHeroes">Visible Heroes</span>
+          </div>
+          <div class="stat-card">
+            <strong id="hero-favorites">0</strong>
+            <span data-i18n="favoritesLabel">Favorites</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Catalog filters">
+        <label class="control-field control-field--wide">
+          <span data-i18n="searchLabel">Search</span>
+          <input id="search-input" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Search hero name or tag" />
+        </label>
+        <label class="control-field">
+          <span data-i18n="factionLabel">Faction</span>
+          <select id="type-filter"></select>
+        </label>
+        <label class="control-field">
+          <span data-i18n="roleLabel">Role</span>
+          <select id="class-filter"></select>
+        </label>
+        <label class="control-field">
+          <span data-i18n="rarityLabel">Rarity</span>
+          <select id="rarity-filter"></select>
+        </label>
+        <label class="control-field">
+          <span data-i18n="tierLabel">Tier</span>
+          <select id="tier-filter"></select>
+        </label>
+        <label class="control-field">
+          <span data-i18n="equipmentLabel">Equipment</span>
+          <select id="equipment-filter"></select>
+        </label>
+      </section>
+
+      <section id="tier-list-root" class="tier-list-root"></section>
+      <section id="catalog-root" class="catalog-grid" aria-live="polite"></section>
+    </main>
+
+    <script src="./src/data/heroes.js?v=20260720-2"></script>
+    <script type="module" src="./src/app.js?v=20260720-2"></script>
+  </body>
+</html>

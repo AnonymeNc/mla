@@ -1,0 +1,256 @@
+{
+  "aeon-rista": {
+    "Rose Covenant": {
+      "description": "Aeon Rista inflige la Rose Maudite à un ennemi, en priorisant ceux qui n'ont pas encore la Rose Maudite. La Rose Maudite inflige immédiatement des dégâts égaux à 100% de son Attaque à l'ennemi et déclenche à nouveau l'effet de dégâts après 8s. Chaque déclenchement réduit l'intervalle du prochain déclenchement de 1s, jusqu'à un minimum de 4s, et peut cumuler jusqu'à 3 fois. Lorsque le porteur de la Rose Maudite meurt, le serviteur d'Aeon Rista gagne 1 bras.",
+      "levels": {
+        "2": "Augmente les dégâts infligés à 120%.",
+        "3": "Chaque fois que l'effet est déclenché sur un ennemi, les unités Chaos ignorent 25% de la Défense de cet ennemi lors du combat suivant, jusqu'à 75% de Défense ignorée.",
+        "4": "Augmente les dégâts infligés à 140%."
+      }
+    }
+  },
+  "ais": {
+    "Ariel Rush": {
+      "description": "Les attaques de base d'Ais Wallenstein infligent des dégâts égaux à 100% de son Attaque aux ennemis dans la zone frontale, à plusieurs reprises.",
+      "levels": {
+        "2": "Les ennemis touchés par cette compétence lui infligent 50% de dégâts en moins pendant 6s.",
+        "3": "Les dégâts infligés augmentent à 120% de l'Attaque.",
+        "4": "Les dégâts infligés augmentent à 140% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Spirit Healing": {
+      "description": "Lorsque ses PV sont supérieurs à 60%, Ais Wallenstein gagne 40% de Réduction des dégâts supplémentaire et 70 points d'Agilité supplémentaires.",
+      "levels": {
+        "2": "Lorsque ses PV sont supérieurs à 60%, augmente la zone d'effet de Lil Rafaga et Ariel Piercing de 30%.",
+        "3": "Lorsque ses PV sont supérieurs à 60%, Ais Wallenstein gagne 60% de Réduction des dégâts supplémentaire.",
+        "4": "Lorsque ses PV sont supérieurs à 60%, Ais Wallenstein gagne 120 points d'Agilité supplémentaires. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "akashic": {
+    "Omniscience": {
+      "description": "Lorsqu'un ennemi utilise son Ultime, un effet se déclenche selon le Type de la cible et dure 4s. 15px Élémentaire : Soigne tous les alliés d'un montant égal à 50% de l'Attaque d'Akashic toutes les 2s. 15px Martial : Accorde à chaque allié de la première ligne un Bouclier égal à 150% de l'Attaque d'Akashic. 15px Tech : Augmente le Taux de coups critiques de tous les alliés de 6%. 15px Lumière : Tous les héros alliés récupèrent 80 points d'Énergie. 15px Ténèbres : Augmente le Vol de vie de tous les alliés de 30. 15px Ordre : Augmente la Réduction des dégâts de tous les alliés de 6%. 15px Chaos : Augmente l'Augmentation des dégâts de tous les alliés de 6%.",
+      "levels": {
+        "2": "Lorsqu'un Boss utilise son Ultime, tous les effets ci-dessus sont activés.",
+        "3": "La durée est augmentée à 6s.",
+        "4": "La durée est augmentée à 8s. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "arcus-miya": {
+    "Magnetic Arrowsong": {
+      "description": "Arcus Miya se téléporte et tire une flèche électromagnétique vers le héros ennemi le plus proche, infligeant des dégâts égaux à 300% de l'Attaque à la cible et à toutes les unités ennemies alignées derrière elle. Pendant les 10s suivantes, l'Attaque de base d'Arcus Miya inflige des dégâts supplémentaires égaux à 150% de l'Attaque et tire une flèche supplémentaire, censée attaquer une cible différente.",
+      "levels": {
+        "2": "Les dégâts supplémentaires des flèches de l'Attaque de base augmentent à 200% de l'Attaque.",
+        "3": "Tire 2 flèches supplémentaires avec l'Attaque de base.",
+        "4": "Les dégâts de la flèche électromagnétique augmentent à 500% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Crystalline Mapping": {
+      "description": "Lance une Magie Élémentaire vers le héros ennemi le plus proche d'Arcus Miya et invoque deux cristaux magnétiques pendant 12s, ayant pour PV 40% des PV max de la cible et la même Défense que la Défense de base de la cible. Le héros ennemi subit 50% de dégâts en moins, mais lorsque les cristaux subissent des dégâts, la cible subit également la même quantité de dégâts, et les effets de contrôle subis par les cristaux s'appliquent aussi au héros ennemi.",
+      "levels": {
+        "2": "La Défense des cristaux magnétiques invoqués par Arcus Miya passe à 50% de celle de la cible.",
+        "3": "Les PV max des cristaux magnétiques invoqués par Arcus Miya augmentent à 70% des PV max de la cible.",
+        "4": "La Défense des cristaux magnétiques invoqués par Arcus Miya passe à 30% de celle de la cible."
+      }
+    },
+    "Anionic Trap": {
+      "description": "Crée un Piège Anionique sous le héros ennemi le plus proche, qui dure 4s. Il explose ensuite, infligeant des dégâts égaux à 30% des dégâts subis par l'ennemi dans le piège plus 400% de l'Attaque d'Arcus Miya à tous les ennemis à portée.",
+      "levels": {
+        "2": "La Vitesse de déplacement de toutes les unités ennemies dans le Piège Anionique est réduite de 50%.",
+        "3": "Étourdit tous les ennemis dans le Piège Anionique pendant 1s après l'explosion.",
+        "4": "Les dégâts de l'explosion électromagnétique augmentent à 50% des dégâts subis par le héros. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Lazer Blaze": {
+      "description": "Lorsque l'Attaque de base d'Arcus Miya touche, les deux canons ioniques derrière elle ont chacun 50% de chances d'utiliser une attaque laser supplémentaire, infligeant des Dégâts véritables égaux à 8% des PV max de la cible, mais ne dépassant pas 1200% de l'Attaque d'Arcus Miya.",
+      "levels": {
+        "2": "Pendant 3s, les dégâts de l'attaque laser sur la même cible augmentent de 5%, cumulable jusqu'à 5 fois.",
+        "3": "La chance que les canons ioniques utilisent une attaque supplémentaire augmente à 70%.",
+        "4": "Inflige des Dégâts véritables égaux à 12% de leurs PV max, mais ne dépassant pas 1200% de l'Attaque d'Arcus Miya. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "astraia-sipra": {
+    "Help at Hand": {
+      "description": "Invoque un personnage de soutien commun pendant 12s, qui hérite de 100% de l'attaque de base et 50% des PV de base de Sipra. Jusqu'à 3 personnages de soutien communs peuvent exister en même temps.",
+      "levels": {
+        "2": "Permet au personnage de soutien commun de lancer un Ultime dès son arrivée.",
+        "3": "Augmente les PV hérités à 60%.",
+        "4": "Augmente les PV hérités à 70%."
+      }
+    },
+    "Aiding Chant": {
+      "description": "Lorsqu'il y a un héros de soutien, tous les héros de soutien et personnages de soutien gagnent 30% d'Attaque et de Défense, cumulable jusqu'à 3 fois. Lorsqu'il n'y a pas de héros de soutien, Sipra gagne 200 points d'Énergie.",
+      "levels": {
+        "2": "S'il n'y a pas de héros de soutien, Sipra devient immunisée aux effets de contrôle pendant le lancement de la compétence. S'il y a des héros de soutien, Sipra accorde aux héros de soutien et aux personnages de soutien l'immunité à la plupart des effets de contrôle pendant le lancement de la compétence.",
+        "3": "Augmente l'Énergie gagnée par Sipra à 300 points.",
+        "4": "Augmente l'Énergie gagnée par Sipra à 400 points. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    }
+  },
+  "aurora": {
+    "Cold Destruction": {
+      "description": "Aurora invoque un météore de givre pour frapper les ennemis dans la zone ciblée, infligeant des dégâts égaux à 550% de son Attaque.",
+      "levels": {
+        "2": "Le météore glacé gèle la cible touchée pendant 2s.",
+        "3": "Les dégâts augmentent à 700% de l'Attaque.",
+        "4": "Les dégâts augmentent à 800% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Frost Shock": {
+      "description": "Aurora libère 3 projectiles de glace pour attaquer un ennemi, infligeant des dégâts égaux à 120% de son Attaque.",
+      "levels": {
+        "2": "Aurora libère 4 projectiles de glace.",
+        "3": "Les projectiles de glace infligent des Dégâts véritables aux ennemis gelés.",
+        "4": "Aurora libère 5 projectiles de glace."
+      }
+    },
+    "Pride of Ice": {
+      "description": "Les ennemis ciblés par la Compétence d'Aurora ont 20% de chances de tomber dans un état de gel pendant 2s.",
+      "levels": {
+        "2": "Les ennemis tombés dans l'état de gel voient leur régénération d'Énergie déclenchée par les dégâts réduite de 50%.",
+        "3": "Les ennemis tombés dans l'état de gel voient leur régénération d'Énergie déclenchée par les dégâts réduite de 100%.",
+        "4": "Augmente à 25% la chance que les ennemis tombent dans l'état de gel. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "badang": {
+    "Fist Crack": {
+      "description": "Badang lance rapidement ses poings vers l'avant, infligeant des dégâts égaux à 4% des PV max aux ennemis touchés à plusieurs reprises, et les ennemis touchés ne pourront plus se déplacer. Un seul coup n'inflige pas plus de 400% de son Attaque en dégâts.",
+      "levels": {
+        "2": "Badang acquiert un Bouclier égal à 25% de ses PV max lorsqu'il lance ses poings.",
+        "3": "Badang est immunisé aux effets de contrôle tant que le Bouclier est actif.",
+        "4": "Badang acquiert un Bouclier égal à 30% de ses PV max lorsqu'il lance ses poings. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "beatrice": {
+    "Enchanted Trick": {
+      "description": "Cible 2 autres héros alliés ayant le moins de charges de Ruse Enchantée, réduisant leur Défense de 40% mais leur accordant 1 charge de Ruse Enchantée. Les héros ennemis réduisent les charges de Ruse Enchantée de 1 tous les 5 lancers d'Ultime. Ruse Enchantée : 1 charge ou plus : l'efficacité d'acquisition d'Énergie augmente de 4%. 2 charges ou plus : les dégâts infligés et les soins augmentent de 10%. 3 charges ou plus : l'Attaque augmente de 10%, l'Agilité augmente de 50. Cette compétence ne sera pas utilisée lorsque tous les autres héros alliés ont 3 charges de Ruse Enchantée.",
+      "levels": {
+        "2": "Les héros alliés dont les PV sont à 60% ou moins, ainsi que les Héros Astraux, gagnent 2 charges de Ruse Enchantée à chaque fois.",
+        "3": "Augmente l'efficacité d'acquisition d'Énergie à 8%.",
+        "4": "Augmente l'efficacité d'acquisition d'Énergie à 12%. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    }
+  },
+  "bell": {
+    "Argo Vesta": {
+      "description": "Inflige des dégâts égaux à 450% de son Attaque aux ennemis devant lui. Inflige davantage de dégâts supplémentaires selon le pourcentage de PV restant, cumulable jusqu'à 100%.",
+      "levels": {
+        "2": "Réinitialise le temps de recharge de « Familia de la Déesse du Foyer » lorsque cette compétence est lancée.",
+        "3": "Les dégâts supplémentaires infligés selon son pourcentage de PV cumulent jusqu'à 150%.",
+        "4": "Les dégâts supplémentaires infligés selon son pourcentage de PV cumulent jusqu'à 200%. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Realis Phrase": {
+      "description": "Chaque fois que Bell Cranel restaure 10% de ses PV max (PV en excès inclus), il gagne 3% d'Attaque supplémentaire, cumulable jusqu'à 50%.",
+      "levels": {
+        "2": "Bell Cranel gagne une Pénétration égale à 40% de son Attaque après avoir restauré 100% de ses PV max.",
+        "3": "Chaque fois que Bell Cranel restaure 10% de ses PV max (PV en excès inclus), il gagne 4% d'Attaque supplémentaire, cumulable jusqu'à 80%.",
+        "4": "Chaque fois que Bell Cranel restaure 10% de ses PV max (PV en excès inclus), il gagne 5% d'Attaque supplémentaire, cumulable jusqu'à 100%. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "crocell": {
+    "Mischievous Meteor": {
+      "description": "Inflige des dégâts égaux à 50% de l'Attaque 6 fois aux ennemis dans une grande zone, étourdissant l'ennemi attaqué (sic) 5 fois pendant 1s.",
+      "levels": {
+        "2": "Plus l'Attaque de Crocell augmente, plus elle inflige de dégâts avec Météore Malicieux un plus grand nombre de fois, jusqu'à 10 fois.",
+        "3": "Les dégâts augmentent à 60% de l'Attaque.",
+        "4": "Les dégâts augmentent à 70% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Hide & Seek": {
+      "description": "Au début du combat, Crocell ne peut pas être ciblée pendant 6s, ou jusqu'à ce qu'un ennemi meure.",
+      "levels": {
+        "2": "Au début du combat, si l'Attaque de Crocell est inférieure à celle du héros ennemi ayant le plus d'Attaque, elle gagne 70% de la différence entre l'Attaque de ce héros et sa propre Attaque. Le bonus d'Attaque ne peut pas dépasser sa propre Attaque.",
+        "3": "Crocell perd l'effet 8s après le début du combat, ou lorsqu'un héros ennemi meurt.",
+        "4": "Crocell perd l'effet 10s après le début du combat, ou lorsqu'un héros ennemi meurt. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "darksteel-dullahan": {
+    "Umbral Aegis": {
+      "description": "Accorde à tous les héros alliés 3 charges d'Égide des Ombres. Lors du lancement, pour chaque charge d'Égide des Ombres sur la cible, restaure des PV égaux à 200% de l'Attaque de Darksteel Dullahan et augmente son Attaque de 5% pendant 15s. Égide des Ombres : cumulable jusqu'à 3 fois. Chaque fois que le porteur de l'égide subit des dégâts dépassant 15% de ses PV max de la part d'ennemis, 1 charge d'Égide des Ombres est consommée pour réduire les dégâts subis de 90%, et le porteur restaure des PV égaux à 100% de l'Attaque de Darksteel Dullahan.",
+      "levels": {
+        "2": "Lorsque les PV de chaque héros allié passent sous 50% pour la première fois, Dullahan gagne immédiatement 200 points d'Énergie.",
+        "3": "Lorsque l'Égide des Ombres est consommée, le porteur restaure des PV égaux à 150% de l'Attaque de Darksteel Dullahan.",
+        "4": "Lorsque l'Égide des Ombres est consommée, le porteur restaure des PV égaux à 200% de l'Attaque de Darksteel Dullahan. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "edith": {
+    "Lightning Charge": {
+      "description": "Augmente le Bouclier du mécha de 8% des PV max de chaque unité ennemie à proximité. Le Bouclier accordé par chaque ennemi ne peut pas dépasser 50% de ses PV max.",
+      "levels": {
+        "2": "Absorbe 6% de la Défense de tous les ennemis dans la zone pendant 6 secondes.",
+        "3": "Le Bouclier absorbé augmente à 9% des PV max.",
+        "4": "Le Bouclier absorbé augmente à 10% des PV max. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Eternal Guard": {
+      "description": "Edith gagne 4% de Réduction des dégâts pour chaque tranche de 20% de dégâts absorbés par tous ses Boucliers. Dure 5s et cumulable jusqu'à 5 fois.",
+      "levels": {
+        "2": "Pour chaque tranche de 20% de dégâts absorbés par le Bouclier du mécha, Edith restaure 100 points d'Énergie.",
+        "3": "Chaque charge accorde 5% de Réduction des dégâts.",
+        "4": "Chaque charge accorde 6% de Réduction des dégâts. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "ember-irithel": {
+    "The Hunt Begins": {
+      "description": "Ember Irithel charge un canon, infligeant des dégâts de zone à grande portée égaux à 320% de son Attaque. Pendant ce temps, Leo attaque les cibles traquées dans la moitié du terrain ennemie, infligeant à chaque fois des dégâts égaux à 75% de son Attaque. Mode Canon : Ember Irithel devient immobile, mais gagne l'immunité aux effets qui modifient le statut du héros (charme, provocation, ou changement de cible), ainsi qu'à la plupart des effets de contrôle. Ember Irithel consomme continuellement son Énergie pour lancer des Attaques de base tirant plusieurs flèches sans intervalle entre les attaques. Chaque Attaque de base qu'elle lance lui accorde 12% de dégâts d'Attaque de base supplémentaires de façon permanente. Le Mode Canon se termine lorsqu'elle épuise son Énergie.",
+      "levels": {
+        "2": "Ember Irithel acquiert 460 points d'Énergie au début du combat.",
+        "3": "Augmente de 50% les dégâts infligés par Ember Irithel en Mode Canon.",
+        "4": "Augmente de 60% les dégâts infligés par Ember Irithel en Mode Canon. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Hunter's Mark": {
+      "description": "Au début du combat, tire une flèche de marquage sur l'ennemi le plus proche, infligeant des dégâts égaux à 140% de l'Attaque, l'étourdissant pendant 3s et le marquant comme cible traquée. Ember Irithel réutilise cette compétence lorsque la cible traquée meurt.",
+      "levels": {
+        "2": "Augmente les dégâts à 155% de l'Attaque.",
+        "3": "Réduit de 60% la régénération de PV et de Bouclier de la cible traquée.",
+        "4": "Réduit de 80% la régénération de PV et de Bouclier de la cible traquée."
+      }
+    },
+    "Infernal Onset": {
+      "description": "Ember Irithel tire 2 flèches avec son Attaque de base, et Leo attaque deux fois avec la sienne. Chaque fois qu'Ember Irithel et Leo infligent des dégâts avec leurs Attaques de base, ils ont 12% de chances de blesser gravement la cible, l'étourdissant pendant 2s et augmentant leurs dégâts de 10% de façon permanente, cumulable jusqu'à 3 fois.",
+      "levels": {
+        "2": "Leo attaque 3 fois avec son Attaque de base.",
+        "3": "Ember Irithel tire 4 flèches avec son Attaque de base.",
+        "4": "Les ennemis blessés par Ember Irithel et Leo subissent 12% de dégâts supplémentaires de façon permanente. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "eos-silvanna": {
+    "Bathe in Glory": {
+      "description": "Eos Silvanna et l'allié ayant le moins de PV gagnent tous deux un Bouclier égal à 400% de son Attaque. Pendant ce temps, leur Bouclier est augmenté de 30% de leurs PV perdus pendant 10s.",
+      "levels": {
+        "2": "Chaque fois qu'un allié reçoit un Bouclier grâce à cette compétence, son Bonus de Bouclier augmente de façon permanente de 20% (jusqu'à 100%).",
+        "3": "Augmente le Bouclier à 500% de l'Attaque.",
+        "4": "Augmente le Bouclier à 600% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Imperial Blessing": {
+      "description": "Chaque fois qu'Eos Silvanna gagne un Bouclier équivalent à 25% de ses PV max, son Attaque augmente de façon permanente de 5%, jusqu'à 50%. Lorsqu'elle subit des dégâts létaux, Eos Silvanna entre dans l'état de Ténacité, qui dure 3s, pendant lequel elle devient invincible. Lorsque la Ténacité prend fin, Eos Silvanna gagne un Bouclier égal à 600% de son Attaque. Le Bouclier est augmenté de 50% des dégâts totaux infligés par l'équipe pendant l'état de Ténacité. La Ténacité ne peut se déclencher qu'une fois toutes les 12s au maximum.",
+      "levels": {
+        "2": "Chaque fois qu'Eos Silvanna gagne un Bouclier équivalent à 25% de ses PV max, son Attaque augmente de 10% (jusqu'à 100%).",
+        "3": "Augmente la durée de la Ténacité à 4s.",
+        "4": "Chaque fois qu'Eos Silvanna gagne un Bouclier équivalent à 25% de ses PV max, son Attaque augmente de 15% (jusqu'à 150%). (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "ethereal-zhuxin": {
+    "Crimson Beacon": {
+      "description": "Ethereal Zhuxin invoque une lanterne, infligeant des dégâts égaux à 110% de l'Attaque à tous les ennemis à portée chaque seconde et leur infligeant 1 charge de Piège de l'Âme pendant 6s. Lorsqu'un ennemi a 8 charges de Piège de l'Âme, ces 8 charges sont consommées pour le projeter dans les airs pendant 1s. À l'atterrissage, l'ennemi subit des dégâts égaux à 20% de ses PV max. Les dégâts n'excéderont pas 3000% de l'Attaque d'Ethereal Zhuxin.",
+      "levels": {
+        "2": "Lorsque l'ennemi atterrit, inflige des dégâts égaux à 6% des PV max aux autres ennemis alentour. Les dégâts n'excéderont pas 600% de l'Attaque d'Ethereal Zhuxin.",
+        "3": "Inflige des dégâts égaux à 135% de l'Attaque à tous les ennemis à portée chaque seconde.",
+        "4": "Inflige des dégâts égaux à 160% de l'Attaque à tous les ennemis à portée chaque seconde. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  }
+}

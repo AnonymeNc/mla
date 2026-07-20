@@ -1,0 +1,422 @@
+[
+  {
+    "hero": "aeon-rista",
+    "ability": "Rose Covenant",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ais",
+    "ability": "Ariel Rush",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ais",
+    "ability": "Spirit Healing",
+    "reason": "description changed"
+  },
+  {
+    "hero": "akashic",
+    "ability": "Omniscience",
+    "reason": "description changed"
+  },
+  {
+    "hero": "arcus-miya",
+    "ability": "Magnetic Arrowsong",
+    "reason": "description changed"
+  },
+  {
+    "hero": "arcus-miya",
+    "ability": "Crystalline Mapping",
+    "reason": "description changed"
+  },
+  {
+    "hero": "arcus-miya",
+    "ability": "Anionic Trap",
+    "reason": "description changed"
+  },
+  {
+    "hero": "arcus-miya",
+    "ability": "Lazer Blaze",
+    "reason": "description changed"
+  },
+  {
+    "hero": "astraia-sipra",
+    "ability": "Help at Hand",
+    "reason": "description changed"
+  },
+  {
+    "hero": "astraia-sipra",
+    "ability": "Aiding Chant",
+    "reason": "description changed"
+  },
+  {
+    "hero": "aurora",
+    "ability": "Cold Destruction",
+    "reason": "description changed"
+  },
+  {
+    "hero": "aurora",
+    "ability": "Frost Shock",
+    "reason": "description changed"
+  },
+  {
+    "hero": "aurora",
+    "ability": "Pride of Ice",
+    "reason": "description changed"
+  },
+  {
+    "hero": "badang",
+    "ability": "Fist Crack",
+    "reason": "description changed"
+  },
+  {
+    "hero": "beatrice",
+    "ability": "Enchanted Trick",
+    "reason": "description changed"
+  },
+  {
+    "hero": "bell",
+    "ability": "Argo Vesta",
+    "reason": "description changed"
+  },
+  {
+    "hero": "bell",
+    "ability": "Realis Phrase",
+    "reason": "description changed"
+  },
+  {
+    "hero": "crocell",
+    "ability": "Mischievous Meteor",
+    "reason": "description changed"
+  },
+  {
+    "hero": "crocell",
+    "ability": "Hide & Seek",
+    "reason": "description changed"
+  },
+  {
+    "hero": "darksteel-dullahan",
+    "ability": "Umbral Aegis",
+    "reason": "description changed"
+  },
+  {
+    "hero": "edith",
+    "ability": "Lightning Charge",
+    "reason": "description changed"
+  },
+  {
+    "hero": "edith",
+    "ability": "Eternal Guard",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ember-irithel",
+    "ability": "The Hunt Begins",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ember-irithel",
+    "ability": "Hunter's Mark",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ember-irithel",
+    "ability": "Infernal Onset",
+    "reason": "description changed"
+  },
+  {
+    "hero": "eos-silvanna",
+    "ability": "Bathe in Glory",
+    "reason": "description changed"
+  },
+  {
+    "hero": "eos-silvanna",
+    "ability": "Imperial Blessing",
+    "reason": "description changed"
+  },
+  {
+    "hero": "ethereal-zhuxin",
+    "ability": "Crimson Beacon",
+    "reason": "description changed"
+  },
+  {
+    "hero": "everblight-shah-torre",
+    "ability": "Everblight Apocalypse",
+    "reason": "description changed"
+  },
+  {
+    "hero": "feng",
+    "ability": "Shadows Cleave",
+    "reason": "description changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Ensnare",
+    "reason": "description changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Ensnare",
+    "reason": "level 2 changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Ensnare",
+    "reason": "level 3 changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Ensnare",
+    "reason": "level 4 changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Wise Bet",
+    "reason": "description changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Wise Bet",
+    "reason": "level 2 changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Wise Bet",
+    "reason": "level 3 changed"
+  },
+  {
+    "hero": "florence",
+    "ability": "Wise Bet",
+    "reason": "level 4 changed"
+  },
+  {
+    "hero": "hayabusa",
+    "ability": "Ninjutsu - Quad Shadow",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hayabusa",
+    "ability": "Ninjutsu - Kamaitachi",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hestia",
+    "ability": "Holy Blessing",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hwang-jini",
+    "ability": "Joyous Note",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hwang-jini",
+    "ability": "Legato",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hylos",
+    "ability": "Glorious Pathway",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hylos",
+    "ability": "Thickened Blood",
+    "reason": "description changed"
+  },
+  {
+    "hero": "hylos",
+    "ability": "Ring of Punishment",
+    "reason": "description changed"
+  },
+  {
+    "hero": "infinia-crocell",
+    "ability": "Shattered Destiny",
+    "reason": "description changed"
+  },
+  {
+    "hero": "kryos-sinmara",
+    "ability": "Chain Frenzy",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lionheart-sekhet",
+    "ability": "Glorious Mane",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lolita",
+    "ability": "Guardian's Bulwark",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lolita",
+    "ability": "Smite",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lolita",
+    "ability": "Noumenon Energy Core",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lucy",
+    "ability": "Celestial Spirit Gate",
+    "reason": "description changed"
+  },
+  {
+    "hero": "lucy",
+    "ability": "Celestial Spirit Gate",
+    "reason": "level 2 changed"
+  },
+  {
+    "hero": "luna-amara",
+    "ability": "Phantom Sanctuary",
+    "reason": "description changed"
+  },
+  {
+    "hero": "medusa",
+    "ability": "Gorgon's Bloodcurse",
+    "reason": "description changed"
+  },
+  {
+    "hero": "melodic-lunabelle",
+    "ability": "Roaring Metal",
+    "reason": "level 3 changed"
+  },
+  {
+    "hero": "melodic-lunabelle",
+    "ability": "Roaring Metal",
+    "reason": "level 4 changed"
+  },
+  {
+    "hero": "morpheus",
+    "ability": "Deep Coma",
+    "reason": "description changed"
+  },
+  {
+    "hero": "morpheus",
+    "ability": "Interlaced Dreams",
+    "reason": "description changed"
+  },
+  {
+    "hero": "morpheus",
+    "ability": "Sweet Dreams",
+    "reason": "description changed"
+  },
+  {
+    "hero": "naiad-rafaela",
+    "ability": "Celestial Rejuvenation",
+    "reason": "description changed"
+  },
+  {
+    "hero": "naiad-rafaela",
+    "ability": "Ethereal Chant",
+    "reason": "description changed"
+  },
+  {
+    "hero": "naiad-rafaela",
+    "ability": "Divine Calling",
+    "reason": "description changed"
+  },
+  {
+    "hero": "nana",
+    "ability": "Molina's Chanting",
+    "reason": "new/renamed ability"
+  },
+  {
+    "hero": "nana",
+    "ability": "Molina's Kiss",
+    "reason": "new/renamed ability"
+  },
+  {
+    "hero": "nana",
+    "ability": "Magic Boomerang",
+    "reason": "new/renamed ability"
+  },
+  {
+    "hero": "nana",
+    "ability": "Molina's Blessing",
+    "reason": "new/renamed ability"
+  },
+  {
+    "hero": "natalia",
+    "ability": "Joint Operation",
+    "reason": "description changed"
+  },
+  {
+    "hero": "natsu",
+    "ability": "Fire Dragon's Constitution",
+    "reason": "description changed"
+  },
+  {
+    "hero": "nightseer-esmeralda",
+    "ability": "Chain Frenzy",
+    "reason": "description changed"
+  },
+  {
+    "hero": "odette",
+    "ability": "Swan Song",
+    "reason": "description changed"
+  },
+  {
+    "hero": "odette",
+    "ability": "Blue Nova",
+    "reason": "description changed"
+  },
+  {
+    "hero": "odette",
+    "ability": "Lakeshore Ambience",
+    "reason": "description changed"
+  },
+  {
+    "hero": "odette",
+    "ability": "Swan Cantus",
+    "reason": "description changed"
+  },
+  {
+    "hero": "silvanna",
+    "ability": "Hawk of the Empire",
+    "reason": "description changed"
+  },
+  {
+    "hero": "silvanna",
+    "ability": "Rapid Attack",
+    "reason": "description changed"
+  },
+  {
+    "hero": "silvanna",
+    "ability": "Knightess's Path",
+    "reason": "description changed"
+  },
+  {
+    "hero": "tidescale-kalea",
+    "ability": "Tsunami Slam",
+    "reason": "description changed"
+  },
+  {
+    "hero": "tidescale-kalea",
+    "ability": "Tsunami Slam",
+    "reason": "level 2 changed"
+  },
+  {
+    "hero": "tsukuyomi",
+    "ability": "Magatsu Sun",
+    "reason": "description changed"
+  },
+  {
+    "hero": "wanwan",
+    "ability": "Tiger Pace",
+    "reason": "description changed"
+  },
+  {
+    "hero": "yu-zhong",
+    "ability": "Furious Dive",
+    "reason": "description changed"
+  },
+  {
+    "hero": "zhask",
+    "ability": "Dominator's Descent",
+    "reason": "description changed"
+  }
+]

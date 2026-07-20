@@ -1,0 +1,510 @@
+[
+  {
+    "id": "everblight-shah-torre",
+    "name": "Everblight Shah Torre",
+    "abilities": [
+      {
+        "name": "Everblight Apocalypse",
+        "tier": "Ultimate",
+        "description": "Deals 100% of Attack plus of the targets' current HP as damage to all enemies. This damage won't exceed of Everblight Shah Torre's Attack. Passive: Everblight Shah Torre's Basic Attacks need channeling, dealing of Attack as damage twice per second, lasting 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lv.2:If an enemy retains 60% HP or more after hitting by this skill's active effect, permanently increases the damage they take by 20% until the end of the battle, stacking up to 5 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 130% of Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 160% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "feng",
+    "name": "Feng",
+    "abilities": [
+      {
+        "name": "Shadows Cleave",
+        "tier": "Ultimate",
+        "description": "Sword Energy gathers and falls like rain. Deals damage equal to 130% of Attack to enemies within a large area 3 times, inflicting a stack of Sword Energy on them. Additionally, deals extra damage equal to 4% of the target's Max HP per stack to enemies with Sword Energy. The total extra damage cannot exceed 2000% of Feng's Attack.Each stack of Sword Energy deals damage equal to 1% of the target's Max HP every 2s, up to 100% of Feng's Attack. It can stack up to 5 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the extra damage dealt to enemies with HP below 50% to 6% of the target's Max HP per stack of Sword Energy."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 155% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 165% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "florence",
+    "name": "Florence",
+    "abilities": [
+      {
+        "name": "Ensnare",
+        "tier": "Ultimate",
+        "description": "Gift: After Florence reaches Awakened - 2-Star, she will offer an extra free gift in the Market every day. Active: Florence releases smoke that covers the battlefield for 65. In the smoke, allies get a 30% attack bonus, while enemies take damage equal to 60% of her Attack per second. Enemies in the smoke also take extra damage equal to 40% of her Attack when hit by Florence's allies, up to 5 times per second on each enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The smoke also deals extra damage to all enemies equal to 2% of their Max HP. The damage won't exceed 200% of Florence's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Smoke damage is increased to 70% Attack per second."
+          },
+          {
+            "level": "4",
+            "text": "Lv.3:Smoke damage is increased to 80% Attack per second. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Wise Bet",
+        "tier": "Passive",
+        "description": "Florence gains 5 Gold per second. Active: When she has 100 Gold, she restores 1200 Energy for the ally with the highest damage output, with any surplus Energy evenly shared by other allies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gold gained per second is increased to 10."
+          },
+          {
+            "level": "3",
+            "text": "When cast, permanently boosts the Attack of the ally with the highest damage output by 30% of Florence's Attack, stacking up to 2 times."
+          },
+          {
+            "level": "4",
+            "text": "When cast, permanently boosts the Attack of the ally with the highest damage output by 40% of Florence's Attack, stacking up to 2 times."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hayabusa",
+    "name": "Hayabusa",
+    "abilities": [
+      {
+        "name": "Ninjutsu - Quad Shadow",
+        "tier": "Skill",
+        "description": "Hayabusa summons 1 phantom behind the enemy with the highest Defense, dealing damage equal to 280% of his Attack. The phantom then reduces nearby enemy units' Defense by 10% every 2 seconds for 10 seconds, stacking up to 5 times. He can summon up to 3 phantoms onto the battlefield. Phantoms are seen as Hayabusa's Summons.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Hayabusa uses shurikens, his phantoms use theirs as well, dealing damage equal to 110% of his Attack."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 360% Attack"
+          },
+          {
+            "level": "4",
+            "text": "(Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ninjutsu - Kamaitachi",
+        "tier": "Passive",
+        "description": "For every 1% of his Crit Rate, Hayabusa deals extra damage equal to 2% of his Attack to the target enemy from behind.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hayabusa's phontoms also deal extra damage to the target enemy from behind."
+          },
+          {
+            "level": "3",
+            "text": "For every 1% of Hayabusa's Crit Rate, the extra damage dealt to the target enemy from behind is increased to 3% Attack."
+          },
+          {
+            "level": "4",
+            "text": "(Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hestia",
+    "name": "Hestia",
+    "abilities": [
+      {
+        "name": "Holy Blessing",
+        "tier": "Skill",
+        "description": "Reduces damage taken by the two allies with the least HP percentages by 4% of Hestia's Attack for 6s, stacking up to 30%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage Reduction increases to 6% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Selected allies are immune to most control effects for 2s after the skill takes effect."
+          },
+          {
+            "level": "4",
+            "text": "Damage Reduction increases to 8% Attack."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hwang-jini",
+    "name": "Hwang Jini",
+    "abilities": [
+      {
+        "name": "Joyous Note",
+        "tier": "Skill",
+        "description": "Hwang Jini fires 2 sound wave projectiles that bounce between enemies, dealing damage equal to 145% of her Attack, and each sound wave projectile bounces 2 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Skill Damage is increased to 160% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The number of sound wave projectiles is increased to 3"
+          },
+          {
+            "level": "4",
+            "text": "kill Damage is increased to 200% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Legato",
+        "tier": "Passive",
+        "description": "Every time Hwang Jini uses her skill, Melody increases by 2 stack(s), and each of her Basic Attacks increases Melody by 1 stack(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 83% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 98% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each stack of Melody grants Hwang Jini a Shield equal to 113% of her Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hylos",
+    "name": "Hylos",
+    "abilities": [
+      {
+        "name": "Glorious Pathway",
+        "tier": "Ultimate",
+        "description": "Hylos creates a pathway, allies on the path will have their Attack increased by 8%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Agility of the enemies on the pathway is reduced by 50."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus provided to allies is increased to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus provided to allies is increased to 20%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Thickened Blood",
+        "tier": "Skill",
+        "description": "While on the pathway, Hylos regenerates HP equal to 19% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hylos will release Glorious Pathway right away when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "HP regenerated per sec by Hylos is increased to 24%."
+          },
+          {
+            "level": "4",
+            "text": "HP regenerated per sec by Hylos is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Punishment",
+        "tier": "Passive",
+        "description": "Hylos releases the power of the centaurs to summon a Ring of Punishment, dealing damage equal to 19% of his Attack to surrounding enemies every 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Apply extra Warden's Fury to the enemy, each stack increases the damage of Ring of Punishment by 20%, stacking up to 15 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 30% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 45% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "infinia-crocell",
+    "name": "Infinia Crocell",
+    "abilities": [
+      {
+        "name": "Shattered Destiny",
+        "tier": "Ultimate",
+        "description": "Deals damage 4 time(s) equal to 55% of her Attack to all enemies. The damage instances increase based on Infinia Crocell's Attack boost, up to a maximum of 8 instance(s). Infinia Crocell starts the battle with 2 stacks of Beacons. When casting the Ultimate, each stack of Beacon owned adds extra damage equal to 15% of her Attack per hit, and loses 1 stack of Beacon. Gains 1 stack of Beacon when an enemy hero is defeated, up to 3 stacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Beacon increases Infinia Crocell's Energy acquisition rate by 15%."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 70%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 85%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "kryos-sinmara",
+    "name": "Kryos Sinmara",
+    "abilities": [
+      {
+        "name": "Chain Frenzy",
+        "tier": "Ultimate",
+        "description": "Summons weapons from the Umbral Prison to attack random enemies 4 time(s). For every 5 stack(s) of Primordial Frost possessed, consumes the corresponding number of Primordial Frost stacks to perform an additional attack on enemies. Each attack prioritizes different enemies as targets, dealing damage equal to 66% of Attack to the target and surrounding enemies. Passive: Kryos Sinmara's Basic Attacks deal damage equal to 150% of Attack and prioritize enemies with the lowest HP percentage. After Basic Attacks or Death Grip hits an enemy, Kryos Sinmara gains 1 stack of Primordial Frost, up to 30 stack(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After Basic Attacks or Death Grip hits an enemy, if the enemy's HP is still higher than 60%, Kryos Sinmara performs an additional Basic Attack on the enemy, dealing damage equal to 75% of Attack. The additional Basic Attack will not trigger this effect again."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 75%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 84%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lionheart-sekhet",
+    "name": "Lionheart Sekhet",
+    "abilities": [
+      {
+        "name": "Glorious Mane",
+        "tier": "Ultimate",
+        "description": "All allied heroes gain a shield equal to 460% of Lionheart Sekhet's Attack. Lionheart Sekhet gains 1 extra stack of shield equal to 400% of her Attack. All heroes 20% of the damage they individually deal within 10s into their own shields, lasting for 10s. When an ally with this shield takes damage, they deal damage equal to 10% of their Attack to the attacker and silence them for 2s. This effect is triggered up to 1 time per Ultimate for each ally.When the silence effect inflicted by Lionheart Sekhet is negated by immunity, it reduces the enemy's Energy by 100 instead. When silence is inflicted repeatedly on the same unit, the duration stacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also increases all allied heroes' Attack by 20% for 10s."
+          },
+          {
+            "level": "3",
+            "text": "Increases all heroes' shield gained to 560%."
+          },
+          {
+            "level": "4",
+            "text": "Increases all heroes' shield gained to 660%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lolita",
+    "name": "Lolita",
+    "abilities": [
+      {
+        "name": "Guardian's Bulwark",
+        "tier": "Skill",
+        "description": "Lolita raises her shield to block all incoming projectiles.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 45% Damage Reduction when the shield is up"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Damage Reduction to 55%"
+          },
+          {
+            "level": "4",
+            "text": "Increase the Damage Reduction to 65%"
+          }
+        ]
+      },
+      {
+        "name": "Smite",
+        "tier": "Skill",
+        "description": "Lolita deals damage equal 400% of her Attack to the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 480% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 565% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 645% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Noumenon Energy Core",
+        "tier": "Passive",
+        "description": "Noumenon Energy Core charges over time. For every 10s, the core will generate a shield equal to 215% of Lolita’s Attack for Lolita.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Provides a shield to the weakest ally."
+          },
+          {
+            "level": "3",
+            "text": "Acquires 20% Damage Reduction when the shield is on."
+          },
+          {
+            "level": "4",
+            "text": "Shield is increased to 280% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lucy",
+    "name": "Lucy",
+    "abilities": [
+      {
+        "name": "Celestial Spirit Gate",
+        "tier": "Ultimate",
+        "description": "Passive: Lucy unleashes her Ultimate as soon as the battle begins. Active: Lucy opens the Gate of the Water Bearer with her Celestial Spirit Gate Key, summoning Aquarius, the Celestial Spirit of the Water Bearer. Aquarius is untargetable and inherits 160% of",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by the tidal wave will lose immunity to airborne and displacement effects inflicted by heroes from Ishgar (Natsu, Lucy and Erza) for 5s."
+          },
+          {
+            "level": "3",
+            "text": "Aquarius' damage is increased by 20%."
+          },
+          {
+            "level": "4",
+            "text": "Aquarius' damage is increased by 40%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "luna-amara",
+    "name": "Luna Amara",
+    "abilities": [
+      {
+        "name": "Phantom Sanctuary",
+        "tier": "Passive",
+        "description": "Lune enhances Amara's power after the battle starts. When her HP falls under 50%, restores 30% of her HP and knocks back all enemies around her. The enhancement effect fades once triggered.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When enhanced, Amara gains 6% Damage Increase and Damage Reduction."
+          },
+          {
+            "level": "3",
+            "text": "Damage Increase and Damage Reduction gained are increased to 12%."
+          },
+          {
+            "level": "4",
+            "text": "Damage Increase and Damage Reduction gained are increased to 18%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "abilities": [
+      {
+        "name": "Gorgon's Bloodcurse",
+        "tier": "Passive",
+        "description": "Releases snakes to attack enemies' attributes. When the skill is triggered, it first reduces the targets' Damage Increase by 15%. Then, every 12 s, it further reduces a target's attributes in the following order: Second, reduces Damage-triggered Energy Regen by 20%. Third, reduces Fortitude by 20. Fourth, reduces Fatal Strike by 20. Fifth, reduces their Attack by 20%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each different attribute reduced by this skill, the attribute reduction effect is increased by 10%."
+          },
+          {
+            "level": "3",
+            "text": "The frequency at which the snakes reduce an attribute of enemies increases to every 115."
+          },
+          {
+            "level": "4",
+            "text": "The frequency at which the snakes reduce an attribute of enemies increases to every 10s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "melodic-lunabelle",
+    "name": "Melodic Lunabelle",
+    "abilities": [
+      {
+        "name": "Roaring Metal",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 360% of Attack to enemies within a certain range, then fires notes at 2 random target(s), dealing damage equal to 25% of their Max HP (cannot exceed 2500% of Melodic Lunabelle's Attack). Each time a note is fired, Melodic Lunabelle additionally recovers 100 Energy for herself. Each cast of this skill increases the number of notes fired in subsequent casts by 1, up to a maximum of 6 note(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns enemies for 1s when dealing damage. Repeated stun duration can stack."
+          },
+          {
+            "level": "3",
+            "text": "AoE Damage is increased to 430%."
+          },
+          {
+            "level": "4",
+            "text": "AoE Damage is increased to 500%."
+          }
+        ]
+      }
+    ]
+  }
+]

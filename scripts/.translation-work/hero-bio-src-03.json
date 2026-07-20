@@ -1,0 +1,122 @@
+{
+  "ember-irithel": {
+    "name": "Ember Irithel",
+    "description": "(In-game Info) To any outsider, it was the most disastrous fire in history. Just when all seemed lost, with the forest on the verge of consuming Irithel and her tiger, a rainstorm hit without any warning, quenching the unprecedented flames. As the scorched wood cracked and fell away, Irithel rose slowly from the dissipating smoke and smoldering embers. Her head hung low, marked by ghastly wounds, and the crimson glow of her horn signaled imminent danger. Beside her, Leo emerged from the charred timber, vigorously shaking off dirt and ash. The tempered steel scales on the back of his neck unfurled one by one, gleaming with an eerie chill. He took a deliberate step forward, stretching, as flames danced from his tail.",
+    "story": "(In-game Info) To any outsider, it was the most disastrous fire in history. Just when all seemed lost, with the forest on the verge of consuming Irithel and her tiger, a rainstorm hit without any warning, quenching the unprecedented flames. As the scorched wood cracked and fell away, Irithel rose slowly from the dissipating smoke and smoldering embers. Her head hung low, marked by ghastly wounds, and the crimson glow of her horn signaled imminent danger. Beside her, Leo emerged from the charred timber, vigorously shaking off dirt and ash. The tempered steel scales on the back of his neck unfurled one by one, gleaming with an eerie chill. He took a deliberate step forward, stretching, as flames danced from his tail.",
+    "capabilities": "A powerful single-target DPS Marksman, capable of enhancing the whole team's Basic Attacks and launching Multi Basic Attacks. Upon entering the Cannon Mode, can greatly boost durability and damage output."
+  },
+  "eos-silvanna": {
+    "name": "Eos Silvanna",
+    "description": "(In-game Info) After Silvanna's father fell ill, she took over as the ruler of the Moniyan Empire. However, the weight of her new responsibility lef her lost and confused, unsure of what the future held. When caught in a web of intrigue, it can be difficult to know what you truly want. Silvanna was no exception. As she began to navigate the unfamiliar world of politics and deal with outspoken officials, she had to find her own way of doing things. But as we know, Silvanna is a fighter. A moment of confusion won't make her give up or lose faith. When the empire is faced with internal and external crises, Silvanna will always be at the forefront, leading of charge. \"I am the very symbol of Moniyan,\" Silvanna declared. Her promise to protect her country is a commitment that can never be broken. With the flag held high in her hand, she will defend Moniyan until the end of time.",
+    "story": "(In-game Info) After Silvanna's father fell ill, she took over as the ruler of the Moniyan Empire. However, the weight of her new responsibility lef her lost and confused, unsure of what the future held. When caught in a web of intrigue, it can be difficult to know what you truly want. Silvanna was no exception. As she began to navigate the unfamiliar world of politics and deal with outspoken officials, she had to find her own way of doing things. But as we know, Silvanna is a fighter. A moment of confusion won't make her give up or lose faith. When the empire is faced with internal and external crises, Silvanna will always be at the forefront, leading of charge. \"I am the very symbol of Moniyan,\" Silvanna declared. Her promise to protect her country is a commitment that can never be broken. With the flag held high in her hand, she will defend Moniyan until the end of time.",
+    "capabilities": "An impressive Fighter that relies on both durability and damage, capable of gaining extra Attack based on the total shield gained and dealing more damage based on the current shield."
+  },
+  "eruditio-guard": {
+    "name": "Eruditio Guard",
+    "description": "Eruditio Guard is a human, part of the Moniyan Soldiers Force. She alongside other guards fight against The Light's Order Team in order to imprison Tigreal thinking he is the one behind the crimes committed against the Moniyan Empire. She has white hair ended on a pony tail which is supported by a steel hairband. wears a knight eyes cover and a neck armor that covers part of her left shoulder; on body a black combat full body suit, which the end of the sleeves are blue; under it has a gray blouse and blue pants; on her head wears a navy vibes hat; one of her arms is a tech arm in which carries a long sword.",
+    "story": "Eruditio Guard is a human, part of the Moniyan Soldiers Force. She alongside other guards fight against The Light's Order Team in order to imprison Tigreal thinking he is the one behind the crimes committed against the Moniyan Empire. She has white hair ended on a pony tail which is supported by a steel hairband. wears a knight eyes cover and a neck armor that covers part of her left shoulder; on body a black combat full body suit, which the end of the sleeves are blue; under it has a gray blouse and blue pants; on her head wears a navy vibes hat; one of her arms is a tech arm in which carries a long sword.",
+    "capabilities": ""
+  },
+  "erza": {
+    "name": "Erza",
+    "description": "(in-game info) Erza, an extraordinary S-Class Mage in the renowned guild Fairy Tail, is revered as the formidable \"Titania.\" Her mastery of Requip: The Knight grants her the ability to seamlessly swap weapons, armor, and attire at will. Those close to Erza show her their unwavering trust. With a steadfast commitment to justice, and though she may be serious, Erza has quite a fondness for sweets. What sort of wonders await Erza, who found herself in the Land of Dawn after being drawn into a space-time rift during a full moon?",
+    "story": "(in-game info) Erza, an extraordinary S-Class Mage in the renowned guild Fairy Tail, is revered as the formidable \"Titania.\" Her mastery of Requip: The Knight grants her the ability to seamlessly swap weapons, armor, and attire at will. Those close to Erza show her their unwavering trust. With a steadfast commitment to justice, and though she may be serious, Erza has quite a fondness for sweets. What sort of wonders await Erza, who found herself in the Land of Dawn after being drawn into a space-time rift during a full moon?",
+    "capabilities": "A Fighter with exceptional durability, whose damage output greatly increase with each defeated hero, whether ally or enemy."
+  },
+  "esmeralda": {
+    "name": "Esmeralda",
+    "description": "\"As the greatest astrologer of her generation, Esmeralda is endowed with the ability to command stars and the moon, and sometimes she lets her imagination run wild... Nobody knows what new revelations she has discovered.\" (Skin Overview)",
+    "story": "\"As the greatest astrologer of her generation, Esmeralda is endowed with the ability to command stars and the moon, and sometimes she lets her imagination run wild... Nobody knows what new revelations she has discovered.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "estarith": {
+    "name": "Estarith",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": ""
+  },
+  "estes": {
+    "name": "Estes",
+    "description": "\"Estes awoke in the Tree of Life. He reawakened the power of the Moon God. With the Code of the Moon, the Moon Elf King is inviolable.\" (Skin Overview)",
+    "story": "\"Estes awoke in the Tree of Life. He reawakened the power of the Moon God. With the Code of the Moon, the Moon Elf King is inviolable.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "ethereal-zhuxin": {
+    "name": "Ethereal Zhuxin",
+    "description": "TBA",
+    "story": "TBA",
+    "capabilities": "Mage dealing massive AoE Damage and knocking enemies airborne. Pairs with Elemental/Dark allies frequently knock enemies airborne and deal massive damage."
+  },
+  "eudora": {
+    "name": "Eudora",
+    "description": "Eudora is a hero from the wiki roster.",
+    "story": "",
+    "capabilities": ""
+  },
+  "everblight-shah-torre": {
+    "name": "Everblight Shah Torre",
+    "description": "\"A timeless, wicked essence inhabits this unnaturally pale young man, its forbidden nature at odds with his seemingly innocent appearance.\" (Skin Overview)",
+    "story": "\"A timeless, wicked essence inhabits this unnaturally pale young man, its forbidden nature at odds with his seemingly innocent appearance.\" (Skin Overview)",
+    "capabilities": ""
+  },
+  "eviscerater": {
+    "name": "Eviscerater",
+    "description": "Eviscerater is an orc under the charge of Balmond, leader of the Orcs tribe, who is working alongside with Alice in a chance to change the Orcs fate. In the campaign she is not mentioned directly, but Tigreal and Layla just consider her as one of Alice's demons, despite being an orc, all due to the alliance between Orcs and Blood Demons. As all the Orcs in the game, Eviscerater has a pale red skin, red long hair and white tattoos on her face, shoulder and right leg; her eyes are cat-like and yellow with a dense black eyeliner; she wears rudimentary clothes, those being a grey top and skirt which have white fur finishes; a brown leather cap with horns and brown wristbands; her boots are from brown leather too; and she fights with two stone knives.",
+    "story": "Eviscerater is an orc under the charge of Balmond, leader of the Orcs tribe, who is working alongside with Alice in a chance to change the Orcs fate. In the campaign she is not mentioned directly, but Tigreal and Layla just consider her as one of Alice's demons, despite being an orc, all due to the alliance between Orcs and Blood Demons. As all the Orcs in the game, Eviscerater has a pale red skin, red long hair and white tattoos on her face, shoulder and right leg; her eyes are cat-like and yellow with a dense black eyeliner; she wears rudimentary clothes, those being a grey top and skirt which have white fur finishes; a brown leather cap with horns and brown wristbands; her boots are from brown leather too; and she fights with two stone knives.",
+    "capabilities": ""
+  },
+  "fanny": {
+    "name": "Fanny",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "feng": {
+    "name": "Feng",
+    "description": "Rising swordmaster of the new generation from Skyhide Palace in Cadia Riverlands. Turning eighteen, she went down the mountain following the Sword Sect's tradition to embark on her adventure.",
+    "story": "Rising swordmaster of the new generation from Skyhide Palace in Cadia Riverlands. Turning eighteen, she went down the mountain following the Sword Sect's tradition to embark on her adventure.",
+    "capabilities": ""
+  },
+  "florence": {
+    "name": "Florence",
+    "description": "The mysterious President of the Moniyan Chamber of Commerce, who holds high esteem among merchants.",
+    "story": "The mysterious President of the Moniyan Chamber of Commerce, who holds high esteem among merchants.",
+    "capabilities": ""
+  },
+  "forseti": {
+    "name": "Forseti",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "franco": {
+    "name": "Franco",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "freya": {
+    "name": "Freya",
+    "description": "Freya, the Valkyrie of Nost Gal, is a legendary goddess. When she descends, it means a great soul has escaped the mortal life.",
+    "story": "Valkyrie Paragraph 1:In the far northern reaches of Nost Gal, there is a legend: when a warrior dies on the battlefield, the goddess of war Freya will come down from heaven, kiss the spirit of the fallen, and lead it to the Temple of Heroes, where former warriors can have a new life.Valkyrie Paragraph 2:Freya herself is an outstanding warrior. She can both attack and defend with her sword and shield, and at a critical moment in battle she can transform into a halberd and smash the enemy formation. --------------------------------------------Dark Rose:As a chosen one with the ability to see into the future, Freya foresaw a rebirth of the Land of Dawn at an early age. Paragraph 2: Realizing that she had been given a duty, she gathered the heroes of the different planes to form a community named \"Scarlet Blad\". Together with other chosen ones, Freya fought against the scourge of the future. The spirit of \"Scarlet Blade\" has been passed down to the present day, and will be passed down to the next generation, inspiring descendants. --------------------------------------------Dragon Slayer:No one alive remembers her true name, yet her existence has been passed on in folk tales and legends through many ages. She is said to have slain a mighty dragon of the past, and in awe they call her the 'Dragon Slayer'.Paragraph 2:She wields a blade of darkness, an enchanted shield, and from her back protrude the wings of the ancient beast she once slew. Some scholars believe she has the ability to assimilate the powers of those she slays; while others she is a terrible, wicked dragon herself.",
+    "capabilities": ""
+  },
+  "gatotkaca": {
+    "name": "Gatotkaca",
+    "description": "The mighty warrior, strong as steel, swift as lightning.",
+    "story": "The mighty warrior, strong as steel, swift as lightning.",
+    "capabilities": ""
+  },
+  "gavana": {
+    "name": "Gavana",
+    "description": "To be added",
+    "story": "To be added",
+    "capabilities": ""
+  },
+  "genesis-shar": {
+    "name": "Genesis Shar",
+    "description": "\"Praised be her sacred name — the primordial universe, Goddess of the Stars, Mother of Dragons, the Eternal Cradle, the Primordial Star — Sharana. This is no mere legend; she is the very essence of legend itself. We are born from her blood, slumbering within her boundless dreams.\" Skin overview",
+    "story": "\"Praised be her sacred name — the primordial universe, Goddess of the Stars, Mother of Dragons, the Eternal Cradle, the Primordial Star — Sharana. This is no mere legend; she is the very essence of legend itself. We are born from her blood, slumbering within her boundless dreams.\" Skin overview",
+    "capabilities": "Support Hero with strong control abilities, capable of inflicting various control effects and cloning enemies to turn them into allies."
+  }
+}

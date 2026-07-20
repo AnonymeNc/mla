@@ -1,0 +1,102 @@
+{
+  "ember-irithel": {
+    "description": "(Info in-jeu) Pour tout étranger, c'était l'incendie le plus dévastateur de l'histoire. Alors que tout semblait perdu, la forêt sur le point de consumer Irithel et son tigre, une pluie torrentielle s'abattit sans le moindre signe annonciateur, éteignant ces flammes sans précédent. Tandis que le bois calciné craquait et s'effondrait, Irithel se releva lentement au milieu de la fumée qui se dissipait et des braises encore fumantes. Elle gardait la tête basse, marquée de blessures affreuses, et la lueur écarlate de sa corne annonçait un danger imminent. À ses côtés, Leo émergea du bois carbonisé, se secouant vigoureusement pour chasser terre et cendres. Les écailles d'acier trempé sur sa nuque se déployèrent une à une, luisant d'un froid inquiétant. Il fit un pas résolu vers l'avant, s'étirant, tandis que des flammes dansaient à l'extrémité de sa queue.",
+    "story": "(Info in-jeu) Pour tout étranger, c'était l'incendie le plus dévastateur de l'histoire. Alors que tout semblait perdu, la forêt sur le point de consumer Irithel et son tigre, une pluie torrentielle s'abattit sans le moindre signe annonciateur, éteignant ces flammes sans précédent. Tandis que le bois calciné craquait et s'effondrait, Irithel se releva lentement au milieu de la fumée qui se dissipait et des braises encore fumantes. Elle gardait la tête basse, marquée de blessures affreuses, et la lueur écarlate de sa corne annonçait un danger imminent. À ses côtés, Leo émergea du bois carbonisé, se secouant vigoureusement pour chasser terre et cendres. Les écailles d'acier trempé sur sa nuque se déployèrent une à une, luisant d'un froid inquiétant. Il fit un pas résolu vers l'avant, s'étirant, tandis que des flammes dansaient à l'extrémité de sa queue.",
+    "capabilities": "Une puissante Tireuse à dégâts soutenus sur cible unique, capable de renforcer les attaques de base de toute l'équipe et de déclencher des attaques de base multiples. En entrant en Mode Canon, elle peut fortement accroître sa robustesse et ses dégâts."
+  },
+  "eos-silvanna": {
+    "description": "(Info in-jeu) Après que le père de Silvanna tomba malade, elle prit la tête de l'Empire Moniyan. Pourtant, le poids de cette nouvelle responsabilité la laissa perdue et confuse, incertaine de ce que l'avenir lui réservait. Pris dans une toile d'intrigues, il peut être difficile de savoir ce que l'on veut vraiment. Silvanna ne fit pas exception. En s'aventurant dans le monde inconnu de la politique et en composant avec des dignitaires au franc-parler, elle dut trouver sa propre voie. Mais comme on le sait, Silvanna est une combattante. Un instant de confusion ne la fera jamais abandonner ni perdre foi. Lorsque l'empire fait face à des crises internes comme externes, Silvanna se tient toujours au premier rang, menant la charge. \"Je suis le symbole même de Moniyan\", déclara Silvanna. Sa promesse de protéger son pays est un engagement qui ne pourra jamais être brisé. Le drapeau brandi bien haut, elle défendra Moniyan jusqu'à la fin des temps.",
+    "story": "(Info in-jeu) Après que le père de Silvanna tomba malade, elle prit la tête de l'Empire Moniyan. Pourtant, le poids de cette nouvelle responsabilité la laissa perdue et confuse, incertaine de ce que l'avenir lui réservait. Pris dans une toile d'intrigues, il peut être difficile de savoir ce que l'on veut vraiment. Silvanna ne fit pas exception. En s'aventurant dans le monde inconnu de la politique et en composant avec des dignitaires au franc-parler, elle dut trouver sa propre voie. Mais comme on le sait, Silvanna est une combattante. Un instant de confusion ne la fera jamais abandonner ni perdre foi. Lorsque l'empire fait face à des crises internes comme externes, Silvanna se tient toujours au premier rang, menant la charge. \"Je suis le symbole même de Moniyan\", déclara Silvanna. Sa promesse de protéger son pays est un engagement qui ne pourra jamais être brisé. Le drapeau brandi bien haut, elle défendra Moniyan jusqu'à la fin des temps.",
+    "capabilities": "Une Combattante impressionnante qui mise à la fois sur la robustesse et les dégâts, capable de gagner de l'Attaque supplémentaire en fonction du bouclier total obtenu et d'infliger davantage de dégâts en fonction du bouclier actuel."
+  },
+  "eruditio-guard": {
+    "description": "Eruditio Guard est une humaine, membre des Forces Armées Moniyanes. Aux côtés d'autres gardes, elle combat l'Ordre de la Lumière afin d'emprisonner Tigreal, qu'elle croit responsable des crimes commis contre l'Empire Moniyan. Elle a les cheveux blancs relevés en queue de cheval, maintenue par un bandeau d'acier ; elle porte un cache-œil de chevalier et une armure de cou couvrant une partie de son épaule gauche ; sur le corps, une combinaison de combat intégrale noire dont les manches se terminent en bleu ; en dessous, un chemisier gris et un pantalon bleu ; sur la tête, un chapeau aux tons bleu marine ; l'un de ses bras est un bras mécanique portant une longue épée.",
+    "story": "Eruditio Guard est une humaine, membre des Forces Armées Moniyanes. Aux côtés d'autres gardes, elle combat l'Ordre de la Lumière afin d'emprisonner Tigreal, qu'elle croit responsable des crimes commis contre l'Empire Moniyan. Elle a les cheveux blancs relevés en queue de cheval, maintenue par un bandeau d'acier ; elle porte un cache-œil de chevalier et une armure de cou couvrant une partie de son épaule gauche ; sur le corps, une combinaison de combat intégrale noire dont les manches se terminent en bleu ; en dessous, un chemisier gris et un pantalon bleu ; sur la tête, un chapeau aux tons bleu marine ; l'un de ses bras est un bras mécanique portant une longue épée.",
+    "capabilities": ""
+  },
+  "erza": {
+    "description": "(info in-jeu) Erza, mage de Classe S hors du commun au sein de la célèbre guilde Fairy Tail, est révérée sous le nom redoutable de \"Titania\". Sa maîtrise de Requip : le Chevalier lui permet d'échanger armes, armures et tenues à volonté et sans effort. Ceux qui sont proches d'Erza lui témoignent une confiance inébranlable. Attachée sans faille à la justice, et bien que sérieuse, Erza garde un net penchant pour les sucreries. Quelles merveilles attendent Erza, qui s'est retrouvée sur la Terre de l'Aube après avoir été happée par une faille spatio-temporelle un soir de pleine lune ?",
+    "story": "(info in-jeu) Erza, mage de Classe S hors du commun au sein de la célèbre guilde Fairy Tail, est révérée sous le nom redoutable de \"Titania\". Sa maîtrise de Requip : le Chevalier lui permet d'échanger armes, armures et tenues à volonté et sans effort. Ceux qui sont proches d'Erza lui témoignent une confiance inébranlable. Attachée sans faille à la justice, et bien que sérieuse, Erza garde un net penchant pour les sucreries. Quelles merveilles attendent Erza, qui s'est retrouvée sur la Terre de l'Aube après avoir été happée par une faille spatio-temporelle un soir de pleine lune ?",
+    "capabilities": "Une Combattante d'une robustesse exceptionnelle, dont les dégâts augmentent fortement à chaque héros vaincu, allié comme ennemi."
+  },
+  "esmeralda": {
+    "description": "\"En tant que plus grande astrologue de sa génération, Esmeralda est douée du pouvoir de commander aux étoiles et à la lune, et parfois elle laisse son imagination s'emballer... Personne ne sait quelles nouvelles révélations elle a découvertes.\" (Aperçu du skin)",
+    "story": "\"En tant que plus grande astrologue de sa génération, Esmeralda est douée du pouvoir de commander aux étoiles et à la lune, et parfois elle laisse son imagination s'emballer... Personne ne sait quelles nouvelles révélations elle a découvertes.\" (Aperçu du skin)",
+    "capabilities": ""
+  },
+  "estarith": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "estes": {
+    "description": "\"Estes s'est réveillé dans l'Arbre de Vie. Il a ranimé le pouvoir du Dieu de la Lune. Grâce au Code de la Lune, le Roi des Elfes Lunaires est inviolable.\" (Aperçu du skin)",
+    "story": "\"Estes s'est réveillé dans l'Arbre de Vie. Il a ranimé le pouvoir du Dieu de la Lune. Grâce au Code de la Lune, le Roi des Elfes Lunaires est inviolable.\" (Aperçu du skin)",
+    "capabilities": ""
+  },
+  "ethereal-zhuxin": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": "Mage infligeant des dégâts de zone massifs et projetant les ennemis dans les airs. Associée à des alliés Élémentaires/Ténèbres, elle projette fréquemment les ennemis dans les airs et infligent des dégâts massifs."
+  },
+  "eudora": {
+    "description": "Eudora est une héroïne issue du roster du wiki.",
+    "story": "",
+    "capabilities": ""
+  },
+  "everblight-shah-torre": {
+    "description": "\"Une essence intemporelle et malfaisante habite ce jeune homme d'une pâleur contre-nature, sa nature interdite contrastant avec son apparence en apparence innocente.\" (Aperçu du skin)",
+    "story": "\"Une essence intemporelle et malfaisante habite ce jeune homme d'une pâleur contre-nature, sa nature interdite contrastant avec son apparence en apparence innocente.\" (Aperçu du skin)",
+    "capabilities": ""
+  },
+  "eviscerater": {
+    "description": "Eviscerater est une orque sous les ordres de Balmond, chef de la tribu des Orcs, et travaille aux côtés d'Alice pour tenter de changer le destin des Orcs. Dans la campagne, elle n'est pas mentionnée directement, mais Tigreal et Layla la considèrent simplement comme l'un des démons d'Alice, malgré son statut d'orque, en raison de l'alliance entre Orcs et Démons du Sang. Comme tous les Orcs du jeu, Eviscerater a la peau rouge pâle, de longs cheveux roux et des tatouages blancs sur le visage, l'épaule et la jambe droite ; ses yeux, félins et jaunes, sont soulignés d'un épais trait de khôl noir ; elle porte des vêtements rudimentaires, un haut et une jupe gris aux finitions de fourrure blanche ; une casquette en cuir marron ornée de cornes et des bracelets marron ; ses bottes sont elles aussi en cuir marron ; et elle combat avec deux couteaux de pierre.",
+    "story": "Eviscerater est une orque sous les ordres de Balmond, chef de la tribu des Orcs, et travaille aux côtés d'Alice pour tenter de changer le destin des Orcs. Dans la campagne, elle n'est pas mentionnée directement, mais Tigreal et Layla la considèrent simplement comme l'un des démons d'Alice, malgré son statut d'orque, en raison de l'alliance entre Orcs et Démons du Sang. Comme tous les Orcs du jeu, Eviscerater a la peau rouge pâle, de longs cheveux roux et des tatouages blancs sur le visage, l'épaule et la jambe droite ; ses yeux, félins et jaunes, sont soulignés d'un épais trait de khôl noir ; elle porte des vêtements rudimentaires, un haut et une jupe gris aux finitions de fourrure blanche ; une casquette en cuir marron ornée de cornes et des bracelets marron ; ses bottes sont elles aussi en cuir marron ; et elle combat avec deux couteaux de pierre.",
+    "capabilities": ""
+  },
+  "fanny": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "feng": {
+    "description": "Maîtresse d'épée montante de la nouvelle génération, originaire du Palais Skyhide dans les Terres Fluviales de Cadia. À ses dix-huit ans, elle descendit de la montagne, suivant la tradition de la Secte de l'Épée, pour se lancer dans l'aventure.",
+    "story": "Maîtresse d'épée montante de la nouvelle génération, originaire du Palais Skyhide dans les Terres Fluviales de Cadia. À ses dix-huit ans, elle descendit de la montagne, suivant la tradition de la Secte de l'Épée, pour se lancer dans l'aventure.",
+    "capabilities": ""
+  },
+  "florence": {
+    "description": "La mystérieuse Présidente de la Chambre de Commerce Moniyane, tenue en haute estime par les marchands.",
+    "story": "La mystérieuse Présidente de la Chambre de Commerce Moniyane, tenue en haute estime par les marchands.",
+    "capabilities": ""
+  },
+  "forseti": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "franco": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "freya": {
+    "description": "Freya, la Valkyrie de Nost Gal, est une déesse légendaire. Lorsqu'elle descend parmi les mortels, cela signifie qu'une grande âme vient d'échapper à la vie mortelle.",
+    "story": "Valkyrie, paragraphe 1 : Aux confins septentrionaux de Nost Gal, une légende raconte que lorsqu'un guerrier meurt sur le champ de bataille, la déesse de la guerre Freya descend des cieux, embrasse l'esprit du défunt et le conduit au Temple des Héros, où les anciens guerriers peuvent connaître une nouvelle vie. Valkyrie, paragraphe 2 : Freya elle-même est une guerrière hors pair. Elle peut aussi bien attaquer que défendre avec son épée et son bouclier, et au moment critique du combat, elle peut se transformer en hallebarde pour briser les rangs ennemis. -------------------------------------------- Rose Sombre : En tant qu'élue capable de voir l'avenir, Freya pressentit dès son plus jeune âge une renaissance de la Terre de l'Aube. Paragraphe 2 : Comprenant qu'un devoir lui avait été confié, elle rassembla des héros de différents plans pour former une communauté nommée \"Lame Écarlate\". Avec d'autres élus, Freya combattit le fléau à venir. L'esprit de la \"Lame Écarlate\" s'est transmis jusqu'à aujourd'hui, et se transmettra aux générations futures, inspirant leurs descendants. -------------------------------------------- Tueuse de Dragon : Personne parmi les vivants ne se souvient de son véritable nom, et pourtant son existence s'est transmise à travers contes populaires et légendes au fil des âges. On dit qu'elle a autrefois abattu un puissant dragon, et c'est avec effroi qu'on la surnomme la \"Tueuse de Dragon\". Paragraphe 2 : Elle manie une lame de ténèbres, un bouclier enchanté, et de son dos surgissent les ailes de l'antique bête qu'elle a jadis vaincue. Certains érudits croient qu'elle a le pouvoir d'assimiler les pouvoirs de ceux qu'elle abat ; d'autres pensent qu'elle est elle-même un terrible et malfaisant dragon.",
+    "capabilities": ""
+  },
+  "gatotkaca": {
+    "description": "Le puissant guerrier, fort comme l'acier, rapide comme l'éclair.",
+    "story": "Le puissant guerrier, fort comme l'acier, rapide comme l'éclair.",
+    "capabilities": ""
+  },
+  "gavana": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "genesis-shar": {
+    "description": "\"Loué soit son nom sacré — l'univers primordial, Déesse des Étoiles, Mère des Dragons, le Berceau Éternel, l'Étoile Primordiale — Sharana. Ceci n'est pas une simple légende ; elle est l'essence même de la légende. Nous sommes nés de son sang, endormis au sein de ses rêves sans limites.\" Aperçu du skin",
+    "story": "\"Loué soit son nom sacré — l'univers primordial, Déesse des Étoiles, Mère des Dragons, le Berceau Éternel, l'Étoile Primordiale — Sharana. Ceci n'est pas une simple légende ; elle est l'essence même de la légende. Nous sommes nés de son sang, endormis au sein de ses rêves sans limites.\" Aperçu du skin",
+    "capabilities": "Héros de Soutien aux fortes capacités de contrôle, capable d'infliger divers effets de contrôle et de cloner des ennemis pour les transformer en alliés."
+  }
+}

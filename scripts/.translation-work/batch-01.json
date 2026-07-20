@@ -1,0 +1,1503 @@
+[
+  {
+    "id": "achlys-alice",
+    "name": "Achlys Alice",
+    "abilities": [
+      {
+        "name": "Eternal Darkness",
+        "tier": "Ultimate",
+        "description": "Summons a circle that lasts 5s, dealing damage equal to 110% of her Attack per second to all enemies and healing all allies equal to 55% of her Attack per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Weakens two random enemies, preventing them from dealing damage for 3s. Weaken effects ignore most Control Immunity and Resistance."
+          },
+          {
+            "level": "3",
+            "text": "Increases damage per second to 130% of her Attack and healing to 65% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases damage per second to 150% of her Attack and healing to 75% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Abyssal Sanction",
+        "tier": "Skill",
+        "description": "Deals damage equal to 180% of her Attack to two enemies. The damage next time is increased by 50% of her Attack each time she uses Abyssal Sanction. Stacks up to 4 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Base Damage is increased to 215% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage to one extra enemy after it is cast 3 times."
+          },
+          {
+            "level": "4",
+            "text": "Base Damage is increased to 250% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Crimson Call",
+        "tier": "Skill",
+        "description": "At the start of the battle, summons an Abyssal Messenger at the cost of 30% HP that continuously grows and deals damage to enemies. The Abyssal Messenger returns to her side the first time she is about to die, nourishing her and making her untargetable for at least 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The untargetable effect provided by the Abyssal Messenger is extended to 3s."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the HP cost to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Reduces the HP cost to 20%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Blood Fiesta",
+        "tier": "Passive",
+        "description": "Achlys Alice acquires 200 points of Lifesteal, and gains 20% extra Damage Reduction when her HP falls under 50%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every 5s in battle, Achlys Alice gains 5% extra Attack Bonus, stacking up to 505 Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increases Lifesteal to 250 and Damage Reduction to 30%."
+          },
+          {
+            "level": "4",
+            "text": "Increases Lifesteal to 300 and Damage Reduction to 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Abyssal Realm",
+        "tier": "Realm Effect",
+        "description": "[Realm Skill I] Achlys Alice deals damage equal to 100% of her Attack to a random enemy once all allied units have been healed equal to 100% of the team's Max HP average. The effect can only be triggered once every 1.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "[Realm Skill II] Skill Damage is increased to 150% Attack. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "[Realm Skill III] Weakens the target while dealing damage to them. Meanwhile, prevents them from dealing damage for 1.5s. The Weaken effect ignores most Control Immunity and Resistance. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "[Realm Skill IV] Weakens the target while dealing damage to them. Meanwhile, prevents them from dealing damage for 2s. The Weaken effect ignores most Control Immunity and Resistance. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aeltara",
+    "name": "Aeltara",
+    "abilities": [
+      {
+        "name": "Flare Embrace",
+        "tier": "Ultimate",
+        "description": "Aeltara unleashes flares, dealing damage equal to 91% of her Attack to all enemies, plus additional damage equal to 4% of their Max HP (capped at 400% of Aeltara's Attack) per second, lasting for 65. If Aeltara takes lethal damage while the flare effect is active, the skill ends early and grants her immunity to death for 2.5 seconds, increasing healing received by 100%. Death immunity can only trigger once every 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains 2 stacks of divine beams when casting this skill. For the next 6s, each stack consumed heals one additional ally."
+          },
+          {
+            "level": "3",
+            "text": "Flare damage is increased to 110% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Flare damage is increased to 130% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Entropy Pulse",
+        "tier": "Skill",
+        "description": "Aeltara deals damage equal to 320% of her Attack to the enemy with the highest Attack and inflicts a burn effect that lasts 3s. The burn reduces the target's healing received by 100%, prevents energy gain, and reduces the damage dealt to Astral heroes by 70%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 395% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "When Aeltara has 3 or more stacks of divine beams upon casting the skill, the burn duration increases by 1 second."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 445% of her Attack"
+          }
+        ]
+      },
+      {
+        "name": "Eternal Aelfir",
+        "tier": "Passive",
+        "description": "Aeltara gains 1 stack of divine beams per damage dealt equal to 500% of her Attack, up to 5 stacks. When allies are below 60% HP, Aeltara consumes 1 stack of divine beams per second to heal the lowest HP ally for the amount equal to 320% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When healing, for each stack of divine beams remaining, Aeltara provides extra healing equal to 60% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The healing is increased to 395% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "The healing is increased to 445% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Solaris Radiance",
+        "tier": "Skill",
+        "description": "Aeltara deals damage equal to 175% of her Attack to enemies within a circular range and stuns them for 2s. If Aeltara has 3 or more stacks of Divine Beams, the stun duration is increased by 1 second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Through this skill, each time an Astral hero triggers a time pause during battles, the damage range is expanded by 20%, up to 3 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 220% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 280% of her Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aeon-rista",
+    "name": "Aeon Rista",
+    "abilities": [
+      {
+        "name": "Endless Requiem",
+        "tier": "Ultimate",
+        "description": "Passive: Summons a servant at battle start. The servant is untargetable and starts with 3 arms; gains 1 extra arm per 2 other Chaos heroes deployed (max 6). Every 3 hits from Aeon Rista or the servant's skills/Basic Attacks on an enemy deal extra damage equal to 15% of the enemy's Max HP and inflicts Health Block on 15% of their HP (both capped at 1500% of Aeon Rista's ATK). Health Block stacks up to 80% off the enemy's HP.Active: Aeon Rista deals 120% ATK damage 2 times to enemies in the densest area. Each servant arms fires projectiles at random enemies, dealing 70% of Aeon Rista's ATK damage 4 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each arm the servant has, Aeon Rista restores 10 extra Energy per second."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by Aeon Rista when actively used is increased to 140%."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by Aeon Rista when actively used is increased to 160%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Rose Covenant",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage dealt to 120%."
+          },
+          {
+            "level": "3",
+            "text": "Each time the effect is triggered on an enemy, Chaos units will ignore 25% of that enemy's Defense in the subsequent battle, up to 75% Defense ignored."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 140%."
+          }
+        ]
+      },
+      {
+        "name": "Eternal Devotion",
+        "tier": "Passive",
+        "description": "Aeon Rista's servant performs Basic Attacks. During a Basic Attack, each arm deals damage equal to 40% of Aeon Rista's Attack to a random enemy.When Aeon Rista's HP drops below 25%, if the servant has at least 4 arms, it loses 2 arms, restores HP equal to 30% of Aeon Rista's HP, and makes Aeon Rista untargetable for 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the servant loses an arm, it also removes most control, forced attack, and HP Regen restriction effects from Aeon Rista."
+          },
+          {
+            "level": "3",
+            "text": "HP Recovery is increased to 40%."
+          },
+          {
+            "level": "4",
+            "text": "HP Recovery is increased to 50%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Fevered Offering",
+        "tier": "Passive",
+        "description": "Rose Covenant also inflicts Fevered Rose on the nearest allied hero who hasn't had Fevered Rose. Fevered Rose grants the bearer 20% Attack and 25% Damage Increase at the cost of losing 12% of their current HP per second, and restores 120 Energy per second for 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Fevered Rose disappears, the buffs brought by Fevered Rose are retained."
+          },
+          {
+            "level": "3",
+            "text": "Attack increased is boosted to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Attack increased is boosted to 30%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Realm of Waltz",
+        "tier": "Realm Effect",
+        "description": "When an allied hero uses their Ultimate, Aeon Rista inflicts Health Block on 20% of a random enemy hero's Max HP, and then deals damage equal to 100% off their lost HP. Both the damage and Health Block will not exceed 2000% of Aeon Rista's Attack. The Health Block effect can be stacked, blocking up to 80% of the enemy's HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "When the Chaos Gate opens, all allied Chaos heroes recover 150 Energy. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "When an allied Chaos hero uses their Ultimate, the Health Block effect triggered by Aeon Rista's skill is increased to 30% of the enemy hero's Max HP, capped at 3000% of Aeon Rista's Attack. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "When the Chaos Gate opens, all allied Chaos heroes recover 300 Energy. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "agnes",
+    "name": "Agnes",
+    "abilities": [
+      {
+        "name": "Wilting Epilogue",
+        "tier": "Ultimate",
+        "description": "Deals damage 3 times to enemies in a circular area equal to 110% of Attack and gains 1 Death Moth, up to 3 Death Moths. Agnes's Basic Attacks deal additional damage equal to 20% of their Max HP, capped at 2000% of Agnes's Attack, and hit 1 additional enemy for each Death Moth she has. When she has 3 Death Moths, Agnes will not actively cast her Ultimate but automatically triggers its effect when her Energy exceeds 800, and the additional Max HP damage from Basic Attacks becomes AoE Damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the initial Energy cost of the Ultimate by 600 points."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increased to 132%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increased to 155%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Death Moths Waltz",
+        "tier": "Skill",
+        "description": "Deals damage to 3 random enemies equal to 155% of Attack and reduces the enemies' Damage Reduction by 20%. This effect can stack up to 6 times, lasts until the end of the battle, and will be inherited by the target hero's summoned units. When Agnes has 3 Death Moths, she will not use this skill and instead gains 50% Crit Rate.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt increased to 195%."
+          },
+          {
+            "level": "3",
+            "text": "Agnes gains 30% Hit Rate for each Death Moth she has."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increased to 220%."
+          }
+        ]
+      },
+      {
+        "name": "Morbid Bloom",
+        "tier": "Skill",
+        "description": "Deals damage to an enemy and their surrounding enemies equal to 145% of Attack. For each Death Moth possessed, deals additional damage equal to 10% of their Max HP, capped at 1000% of Agnes's Attack. When allied heroes cast Ultimate within 6s, Agnes will trigger this damage effect again. Each allied hero can only trigger this effect once every 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When other allied heroes cast their Ultimate within 8s, Agnes will trigger the damage effect again."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increased to 180%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increased to 200%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Blighted Elegy",
+        "tier": "Passive",
+        "description": "When Agnes takes lethal damage while having 2 or more Death Moths, she consumes 2 Death Moths to recover 20% HP and remove most Control and target-changing effects on her. This can trigger up to 3 times per battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When triggered, Agnes becomes untargetable by enemies for 2s. No Death Moths are consumed for the first trigger"
+          },
+          {
+            "level": "3",
+            "text": "HP recovery is increased to 35%."
+          },
+          {
+            "level": "4",
+            "text": "HP recovery is increased to 50%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ais",
+    "name": "Ais",
+    "abilities": [
+      {
+        "name": "Lil Rafaga",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 150% of her Attack to all enemies within range 5 times, each time pulling enemies closer to the center of the swords. Ais Wallenstein cannot be targeted by enemies while casting this skill.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "This skill gains 50% Spell Vamp."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increases to 170% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increases to 190% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ariel Piercing",
+        "tier": "Skill",
+        "description": "Ais Wallenstein charges towards the farthest enemy, dealing damage equal to 100% of her Attack to all enemies along the way and pulling enemies near the start towards the end without interrupting their skills.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After casting the skill, Ais Wallenstein gains 2 stacks of Protection. When she takes damage greater than 10% of her Max HP, 1 stack is consumed to negate the damage."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increased to 115% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increased to 130% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Ariel Rush",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by this skill deal 50% less damage to her for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increases to 120% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increases to 140% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Healing",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When HP is above 60%, increases the AoE of Lil Rafaga and Ariel Piercing by 30%."
+          },
+          {
+            "level": "3",
+            "text": "When HP is above 60%, Ais Wallenstein gains 60% extra Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "When HP is above 60%, Ais Wallenstein gains 120 extra Agility. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akai",
+    "name": "Akai",
+    "abilities": [
+      {
+        "name": "Hurricane Dance",
+        "tier": "Ultimate",
+        "description": "Akai spins and crashes into enemies like a tornado, enemies hit will be knocked back once and take damage equal to 130% of his Attack. During the spin, Akai is immune to Control Effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage to 185% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 235% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 290% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Taiji",
+        "tier": "Passive",
+        "description": "When the battle starts, Akai provides a shield equal to 275% of his Attack to all allies. The shield lasts 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the Shield to 340% Attack."
+          },
+          {
+            "level": "3",
+            "text": "If enemies fail to break the shield, it restores 120 points of Energy for the shield owner."
+          },
+          {
+            "level": "4",
+            "text": "Increase the Shield to 400% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Chaos Breaker",
+        "tier": "Skill",
+        "description": "Akai releases a wave of Frog Energy to the target direction, dealing damage equal to 225% of his Attack to enemies within the range.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 300%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 360%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 420%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Arhat Strike",
+        "tier": "Skill",
+        "description": "Akai attacks the target 3 times, each time dealing damage equal to 120% of his Attack and stunning the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 1s."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 170% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 220% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akashic",
+    "name": "Akashic",
+    "abilities": [
+      {
+        "name": "Future Projection",
+        "tier": "Ultimate",
+        "description": "Akashic invokes the Akashic Memoirs for 5s, during which all other allied units gain 20% of Akashic's Attack and 50% of his Defense, and all allied heroes recover 40 Energy per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allied heroes' Agility increases 50 for Future Projection's duration."
+          },
+          {
+            "level": "3",
+            "text": "Allied heroes' Agility increases 100 for Future Projection's duration."
+          },
+          {
+            "level": "4",
+            "text": "Allied heroes' Agility increases 150 for Future Projection's duration. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Soul Siphon",
+        "tier": "Skill",
+        "description": "Deal 200% damage to the enemy with the highest Attack, and gain 20% of the target's current Attack and Defense attributes for 4s. These bonuses cannot exceed 50% of Akashic's base attributes.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Soul Siphon's Base Damage is increased to 250%."
+          },
+          {
+            "level": "3",
+            "text": "Soul Siphon's duration is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Soul Siphon will affect one extra target."
+          }
+        ]
+      },
+      {
+        "name": "Life Weaver",
+        "tier": "Skill",
+        "description": "Heal the allied unit with the lowest HP percentage equal to 200% of Akashic's Attack. After 3s, heal them again equal to 100% of Akashic's Attack plus 35% of the damage they took during this time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The second heal will trigger immediately when the target is about to die."
+          },
+          {
+            "level": "3",
+            "text": "The second heal amount is increased to 50% of the damage taken by the target during this time."
+          },
+          {
+            "level": "4",
+            "text": "The initial healing is increased to 300% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Omniscience",
+        "tier": "Passive",
+        "description": "When an enemy uses its Ultimate, an effect is triggered depending on the target's Type that lasts for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When a Boss uses their Ultimate, all the above effects are activated."
+          },
+          {
+            "level": "3",
+            "text": "Duration is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Duration is increased to 8s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aldous",
+    "name": "Aldous",
+    "abilities": [
+      {
+        "name": "Contract - Chase Fate",
+        "tier": "Ultimate",
+        "description": "Aldous transforms into a stone drill, allowing him to target and charge toward any enemy of his choosing, regardless of their location. Upon reaching the target, he deals damage equal to 575% of his Attack Power, knocking the enemy back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 690%"
+          }
+        ]
+      },
+      {
+        "name": "Contract - Explosion",
+        "tier": "Skill",
+        "description": "Aldous assumes a defensive stance, becoming immune to Basic Attacks in the next 2s and acquiring 25% Damage Reduction. When the defensive stance ends, Aldous will stun the enemies around and deal damage equal to 105% of his Attack to them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the enemies nearby when Defensive Stance ends"
+          },
+          {
+            "level": "3",
+            "text": "Damage Reduction is increased to 35%"
+          }
+        ]
+      },
+      {
+        "name": "Contract - Soul Steal",
+        "tier": "Skill",
+        "description": "Aldous deals damage equal to 235% of his Attack to the closest enemy. In the current battle, for every enemy eliminated, the damage of this skill will be increased by 100%, stacking up to 2 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of this skill can be increased up to 4 times"
+          }
+        ]
+      },
+      {
+        "name": "Contract - Transform",
+        "tier": "Passive",
+        "description": "For every two Basic Attacks, Aldous acquires a shield equal to 120% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The shield is increased to 145% Attack"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alice",
+    "name": "Alice",
+    "abilities": [
+      {
+        "name": "Blood Eulogy",
+        "tier": "Ultimate",
+        "description": "Alice summons a blood circle that takes over the battlefield and lasts 5s, dealing damage equal to 100% of her Attack to enemies in the circle for a total of 6 times. When the blood circle ends, Alice regenerates HP equal to 500% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage per second is increased to 120% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Restores extra HP equal to 500% Attack when the skill is released."
+          },
+          {
+            "level": "4",
+            "text": "Damage per second is increased to 140% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Scarlet Light",
+        "tier": "Skill",
+        "description": "Alice releases Scarlet Light in the target direction, dealing damage equal to 110% of her Attack to enemies hit. Scarlet Light will be retrieved after reaching its maximum range, dealing damage equal to 110% of her Attack to enemies hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 125% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Heals Alice for an amount of HP equal to 80% of the damage dealt."
+          },
+          {
+            "level": "4",
+            "text": "Heals Alice for an amount of HP equal to 150% of the damage dealt."
+          }
+        ]
+      },
+      {
+        "name": "Witch's Awe",
+        "tier": "Skill",
+        "description": "Alice deals damage equal to 265% of her Attack to the closest enemy, immobilizing them for 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 320% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 375% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 425% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Magic Lineage",
+        "tier": "Passive",
+        "description": "Alice acquires more Attack the more HP she has. Alice's Attack can be increased by up to 30%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Alice gains extra Penetration when her HP is higher than 50%."
+          },
+          {
+            "level": "3",
+            "text": "The maximum Attack Bonus of this skill is increased to 50%."
+          },
+          {
+            "level": "4",
+            "text": "The maximum Attack Bonus of this skill is increased to 65%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alpha",
+    "name": "Alpha",
+    "abilities": [
+      {
+        "name": "Decisive Battle",
+        "tier": "Ultimate",
+        "description": "Alpha rushes towards the enemy with the highest HP, dealing damage equal to 500% of his Attack. Then he traps the target with the Field of Tech and they fight a duel for 10s. All enemies inside the Field of Tech will have their Attack stolen by Alpha for 25%. It only costs 300 points of Energy for Alpha to cast his Ultimate, but another 400 points of Energy will be consumed when he casts Skills during the Ultimate, allowing the Skill damage to increase by 100% and helping him recover HP equal to 400% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Alpha acquires 400 Energy when the battle starts"
+          },
+          {
+            "level": "3",
+            "text": "The enemies' Attack stolen by Alpha during his Ultimate will increase to 40%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 625% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Vortex Spike",
+        "tier": "Skill",
+        "description": "Alpha deals triple strike on the enemy before him, each strike dealing damage equal to 65% of his Attack. He will also reveal the target's weak spots for 5s. Each weak spot can increase Alpha's Attack by 15%. His Attack can be increased by 5 times at most.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt each time is equal to 70% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Triple strike turns into quintuple strike."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt each time is equal to 75% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Force Swing",
+        "tier": "Skill",
+        "description": "Alpha slashes the enemies front of him, dealing damage equal to 200% of his Attack. Enemies hit by this Skill will have their healed HP decreased by 50% for 8s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The enemy's healed HP will decrease by 75%"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 250% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 320% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Spear of Alpha",
+        "tier": "Passive",
+        "description": "When Alpha deals damage, he has a 15% chance of turning his next Basic Attack into special Smite. Special Smite deals physical damage equal to 10% of the target's Max HP. The damage dealt cannot exceed 1000% of Alpha's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Chance is increased to 25%"
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by Special Smite is increased to 15% of the target's Max HP and cannot exceed 1500% of Alpha's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by Special Smite is increased to 20% of the target's Max HP and cannot exceed 2000% of Alpha's Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "alucard",
+    "name": "Alucard",
+    "abilities": [
+      {
+        "name": "Fission Wave",
+        "tier": "Ultimate",
+        "description": "Alucard slashes enemies twice and dealing damage equal to 190% of his Attack. Then he releases a shock wave, dealing damage equal to 190% of his Attack to the enemies hit and stunning them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the Healing Effect by 50% for 7s after releasing the skill"
+          }
+        ]
+      },
+      {
+        "name": "Groundsplitter",
+        "tier": "Skill",
+        "description": "Alucard leaps towards the farthest enemy, dealing damage equal to 170% of his Attack and marking the target. Alucard deals extra 20% damage to the marked target. Alucard is immune to control effects when leaping towards the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Skill damage is increased to 185%"
+          },
+          {
+            "level": "3",
+            "text": "Skill damage is increased to 210%"
+          }
+        ]
+      },
+      {
+        "name": "Slash",
+        "tier": "Skill",
+        "description": "Alucard slashes the enemies around him, dealing 135% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each enemy hit heals Alucard for an amount of HP equal to 8% of his Max HP"
+          }
+        ]
+      },
+      {
+        "name": "Devilslayer Seal",
+        "tier": "Passive",
+        "description": "Alucard transfers 10% of his damage taken by the marked target to the healing effect he receives.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The percentage of damage transferred to HP is increased to 15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "amaterasu",
+    "name": "Amaterasu",
+    "abilities": [
+      {
+        "name": "Bright Star",
+        "tier": "Ultimate",
+        "description": "Amaterasu uses the Yata Mirror to transform the nearby area into a Sacred Space that lasts for 6s. Whenever an ally within this zone is attacked, the Yata Mirror casts forth a light beam at the attacker that deals damage equal to 60% of her Attack (these light beams have a 0.1s cooldown). Passive: Amaterasu's Basic Attacks target the enemy unit furthest away from her.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies are suppressed while within the Sacred Space, their Attack reduced by 25% and their Agility by 50."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by light beams from Sacred Space is increased to 80% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by light beams from Sacred Space is increased to 105% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Light Glow",
+        "tier": "Skill",
+        "description": "Amaterasu focuses her power upon the enemy unit furthest away from her, firing off 4 arrows at great speed. Each deals damage equal to 80% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Her arrows' damage is increased to 90% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "Having successfully cast Light Glow once, Amaterasu's next Light Glow will release an extra arrow, which stacks up to 3 times. The stacking is reset if Light Glow's cast is interrupted."
+          },
+          {
+            "level": "4",
+            "text": "Her arrows' damage is increased to 100% of her Attack."
+          }
+        ]
+      },
+      {
+        "name": "Law of Heaven",
+        "tier": "Passive",
+        "description": "Amaterasu deals increased damage when carrying out consecutive attacks (skills or Basic Attacks) upon the same enemy. The damage increases by 20% of her Attack each time she attacks, stacking up to 15 times. All stacks are lost if the target isn't attacked by Amaterasu for 5 seconds.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Amaterasu steals 2% of enemy heroes' Crit Rate for 5s after landing a Basic Attack or skill upon them. Stacks up to 15 times."
+          },
+          {
+            "level": "3",
+            "text": "Stacks' damage is increased to 25% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Stacks' damage is increased to 30% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Wisdom Barrier",
+        "tier": "Passive",
+        "description": "When taking lethal damage, Amaterasu casts a protective enchantment around herself, which leaves her immobile yet immune to attack while it lasts. During this time, she also regenerates HP equal to 150% of her Attack per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Amaterasu regenerates 100 Energy per second throughout the duration."
+          },
+          {
+            "level": "3",
+            "text": "HP regenerated is increased to 200% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "HP regenerated is increased to 300% of her Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "angela",
+    "name": "Angela",
+    "abilities": [
+      {
+        "name": "Heartguard",
+        "tier": "Ultimate",
+        "description": "When the battle initiates, Angela will attach her doll to the ally with the highest Battle Power and boost their Attack 15%. Angela becomes immune to most control effects within the duration of this skill. When Angela casts her ultimate, she will fully restore the Energy of this ally at the cost of her own Energy (200 points minimum).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Angela's doll is attached to an ally, it also provides the ally with a shield equal to 250% of Angela's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus provided by her doll is increased to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus provided by her doll is increased to 32%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Love Waves",
+        "tier": "Skill",
+        "description": "Angela helps the ally with the highest battle power restore HP equal to 240% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed is increased to 290% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Heals the ally for more HP the lower their HP falls."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 340% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Puppet-on-a-String",
+        "tier": "Skill",
+        "description": "Angela shoots a puppet string at an enemy and attacks them 3 times, each time dealing damage equal to 110% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The number of attacks that the puppet string performs is increased."
+          },
+          {
+            "level": "3",
+            "text": "Puppet String reduces the target's Defense by 20%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 135% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Smart Heart",
+        "tier": "Passive",
+        "description": "When the ally that is attached to the doll takes damage, the love doll will charm the attacker for 4s. Charmed target will attack their allies. This effect can be triggered every 30s. And when the ally the love doll is attached to dies, the cooldown of this skill will be refreshed right away.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The charm duration is increased to 5s."
+          },
+          {
+            "level": "3",
+            "text": "The charm duration is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "The charm duration is increased to 7s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "anna",
+    "name": "Anna",
+    "abilities": [
+      {
+        "name": "Twin Curse",
+        "tier": "Ultimate",
+        "description": "Select the enemy unit with the highest Attack, and control dolls that attack it to deal 3 instances of 75% of her Attack as damage per second, preventing it from moving. This skill ends once the enemy unit dies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Within its duration, Anna is immune to most control effects."
+          },
+          {
+            "level": "3",
+            "text": "Each instance of damage is increased to 90% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each instance of damage is increased to 110% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Scars of Hatred",
+        "tier": "Skill",
+        "description": "Select the enemy unit with the highest Attack, and cast forth bone spikes to deal True Damage equal to 14% its Max HP. Damage dealt is capped at 1800% of Anna's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 16% of the target's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "All health lost by those hit is locked, meaning they cannot recover it."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 18% of the target's Max HP."
+          }
+        ]
+      },
+      {
+        "name": "Ritual Sacrifice",
+        "tier": "Passive",
+        "description": "Each time an allied hero uses their Ultimate, Anna deals damage equal to 120% of her Attack to all enemy units, and all HP lost by those hit is locked, meaning they cannot recover it.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemy Summons die instantly once over 25% of their HP is locked."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 150% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 170% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Demonic Reflection",
+        "tier": "Passive",
+        "description": "Enemies with over 25% of their HP locked have 12% of their damage dealt reflected back at them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies with over 50% of their HP locked deal 75% less damage to Anna."
+          },
+          {
+            "level": "3",
+            "text": "Damage reflected is increased to 18%."
+          },
+          {
+            "level": "4",
+            "text": "Damage reflected is increased to 20% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apexis-cluster",
+    "name": "Apexis Cluster",
+    "abilities": [
+      {
+        "name": "Tyrant's Edict",
+        "tier": "Ultimate",
+        "description": "Curses an enemy, stunning them and redirecting 30% of damage taken by all allies to the cursed target for 4s. If the target is successfully stunned, the redirected damage increases to 45%. If the cursed target dies during this effect, all allies recover 200 Energy. Cluster cannot use Ultimate again within 6s after casting it, and Boss units are immune to this curse effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If an enemy survives being cursed twice, Cluster executes them when the second curse ends. This execution also triggers the Energy Regen of the curse."
+          },
+          {
+            "level": "3",
+            "text": "Increases the base damage redirect ratio to 35% and the stunned target's damage redirect ratio to 50%"
+          },
+          {
+            "level": "4",
+            "text": "Increases the base damage redirect ratio to 40% and the stunned target's damage redirect ratio to 55%.(Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Noctis Shroud",
+        "tier": "Skill",
+        "description": "Grants all allies a shield equal to 220% of Attack. For each additional surviving ally compared to surviving enemies, the shield increases by 20%, up to twice the original amount.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Shield granted is increased to 270% of his Attack."
+          },
+          {
+            "level": "3",
+            "text": "When casting this skill, if any ally still has a shield granted from this skill, removes their existing shields and deals damage equal to 250% of Attack to one enemy. Each additional ally with an existing shield adds one more instance of this damage."
+          },
+          {
+            "level": "4",
+            "text": "Shield granted is increased to 300% of his Attack."
+          }
+        ]
+      },
+      {
+        "name": "Terror's Will",
+        "tier": "Skill",
+        "description": "Deals damage equal to 370% of Attack to one enemy and increases their damage taken by 40% for 8s (cannot stack).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When there are more surviving allies than surviving enemies, increases damage taken by all enemies by 40% for 8s (cannot stack)."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 460% of his Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 515% of his Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Doomsday Knell",
+        "tier": "Passive",
+        "description": "At the start of battle, locks 30% of Max HP from an enemy hero with the lowest Max HP and marks this enemy, making allies prioritize this enemy as their target. The locked HP won't exceed 10000% of Cluster's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When a marked hero dies, Cluster locks 30% of another enemy hero's Max HP and marks them."
+          },
+          {
+            "level": "3",
+            "text": "Increases the percentage of locked HP to 40%"
+          },
+          {
+            "level": "4",
+            "text": "Increases the percentage of locked HP to 50% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Husk Thralldom",
+        "tier": "Realm Effect",
+        "description": "Each time an enemy hero is defeated, Cluster converts them into a puppet that joins the allies. The puppet inherits 50% of the original hero's Attack. Up to 5 puppets can exist at once. Heroes converted into puppets cannot be revived. Cluster cannot be converted into a puppet by an enemy Cluster.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Increases the Attack inherited by the puppet to 75% of the original hero's Attack. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Increases the Attack inherited by the puppet to 100% of the original hero's Attack. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "For each additional surviving ally compared to enemy units, reduces all enemies' Attack by 12%, up to 60%. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "apostae",
+    "name": "Apostae",
+    "abilities": [
+      {
+        "name": "Chaos Collision",
+        "tier": "Ultimate",
+        "description": "Apostae deals damage equal to 200% Attack to all enemies, and the ruptures left on them keep causing a certain amount of sustained damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If the target has a rupture on it, Apostae will remove most of its temporary Attribute Bonuses."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 300% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 400% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Arrows of Evil",
+        "tier": "Skill",
+        "description": "Apostae shoots the Arrows of Evil, dealing damage equal to 240% Attack to an enemy and stunning it for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 290% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Every time the unit hit by the Arrows of Evil loses 10% of its Max HP in the next 6s, Apostae restores 8% of her Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 340% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Shadow Subversion",
+        "tier": "Skill",
+        "description": "Apostae deals damage equal to 180% Attack to enemies within range, stunning targets with lower HP percentages than Apostae for a brief moment.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Apostae restores HP equal to 100% Attack when she stuns an enemy."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 215% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 265% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Parasitic Evil",
+        "tier": "Passive",
+        "description": "Every time an enemy is under a control effect (stunned, taunted, silenced, airbourne, knocked back or charmed), Apostae adds a rupture to the enemy, making it lose 1% of its Max HP per second for 10s. Each enemy can have no more than 5 ruptures. A rupture deals damage no more than 100% of Apostae's Attack each time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Apostae restores 20 points of Energy every time she adds a rupture to a unit."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 1.25% of the target's Max HP. (A rupture deals damage no more than 125% of Apostae's Attack each time.)"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 1.5% of the target's Max HP. (A rupture deals damage no more than 150% of Apostae's Attack each time.) (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcus-miya",
+    "name": "Arcus Miya",
+    "abilities": [
+      {
+        "name": "Magnetic Arrowsong",
+        "tier": "Ultimate",
+        "description": "Arcus Miya teleports and shoots an electromagnetic arrow towards the nearest enemy hero, dealing damage equal to 300% Attack to the target and all enemy units on the line behind.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Extra damage of arrows of Basic Attack is increased to 200% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Shoot 2 extra arrows from Basic Attack."
+          },
+          {
+            "level": "4",
+            "text": "Electromagnetic arrow's damage is increased to 500% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Crystalline Mapping",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The defense of the magnetic crystals Arcus Miya summons is turned to 50% of the target."
+          },
+          {
+            "level": "3",
+            "text": "Max HP of magnetic crystals summoned by Arcus Miya is increased to 70% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The defense of the magnetic crystals Arcus Miva summons is turned to 30% of the target."
+          }
+        ]
+      },
+      {
+        "name": "Anionic Trap",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "All enemy units' Movement Speed in the Anionic Trap is reduced by 50%."
+          },
+          {
+            "level": "3",
+            "text": "Stun all enemies in the Anionic Trap for 1s after the explosion."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the electromagnetic explosion is increased to 50% of the damage that the hero takes.(Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Lazer Blaze",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Within 3s, the damage of laser attack on the same target is increased by 5%, stacking up 5 times."
+          },
+          {
+            "level": "3",
+            "text": "The chance of ion cannons using extra attack is increased to 70%."
+          },
+          {
+            "level": "4",
+            "text": "Deal True Damage equal to 12% of their Max HP but less than 1200% of Arcus Miya's Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "argus",
+    "name": "Argus",
+    "abilities": [
+      {
+        "name": "Demonic Strike",
+        "tier": "Ultimate",
+        "description": "Argus activates Demonic Blade and instantly slashes enemies in front of him, dealing AoE damage equal to 80% of his Attack for 5 times. Meanwhile, Argus regenerates HP equal to 60% of the damage this skill deals.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Immune to Magic Damage in the skill duration."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 100% of the damage this skill deals."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 120% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blood Fury",
+        "tier": "Passive",
+        "description": "Argus's Attack increases as his HP decreases, up to 20%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The maximum Attack Bonus of this skill is increased to 25%."
+          },
+          {
+            "level": "3",
+            "text": "Increases Crit Rate by 15% when HP falls under 20%."
+          },
+          {
+            "level": "4",
+            "text": "The maximum Attack Bonus of this skill is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Meteoric Sword",
+        "tier": "Skill",
+        "description": "Argus charges up and attacks enemies with his sword, dealing damage equal to 175% of his Attack. The Physical Damage taken by target enemies is increased by 10% Physical Damage for the next 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the extra damage taken by the target to 20%."
+          },
+          {
+            "level": "3",
+            "text": "Base Damage is increased to 215% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Base Damage is increased to 270% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Eternal Evil",
+        "tier": "Passive",
+        "description": "Argus will become a fallen angel for 5s when taking lethal damage, during which he can't be killed. This effect can only be triggered once in each battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The duration is increased to 6s."
+          },
+          {
+            "level": "3",
+            "text": "The duration is increased to 7s."
+          },
+          {
+            "level": "4",
+            "text": "The duration is increased to 8s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  }
+]

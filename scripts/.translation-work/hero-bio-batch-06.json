@@ -1,0 +1,102 @@
+{
+  "lylia": {
+    "description": "Lylia est une héroïne issue du roster du wiki.",
+    "story": "",
+    "capabilities": ""
+  },
+  "martis": {
+    "description": "Martis est un héros issu du roster du wiki.",
+    "story": "",
+    "capabilities": ""
+  },
+  "masha": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "mecha-layla": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": "Capable de déployer un mecha totalement impossible à cibler en deuxième ligne allié, pour infliger des dégâts continus aux ennemis. Idéal pour les combats prolongés."
+  },
+  "medusa": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "melodic-lunabelle": {
+    "description": "Lunabelle n'était autrefois qu'une enfant issue d'une famille d'artisans ordinaires d'Eruditio. Bien qu'inspirée par QUNN pour développer un intérêt pour la musique et le spectacle, elle gardait cette aspiration enfouie au fond de son cœur - après tout, un tel rêve semblait bien trop lointain. Puis elle rencontra Eris, une jeune agente qui fut la seule à savoir apprécier le charme de son chant. Eris découvrit par hasard que la voix de Lunabelle possédait un pouvoir magique mystérieux, capable même d'insuffler la vie aux machines, et lui suggéra sincèrement de partager sa voix avec davantage de personnes. Le rêve longtemps enfoui de Lunabelle brillera-t-il de nouveau ?",
+    "story": "Lunabelle n'était autrefois qu'une enfant issue d'une famille d'artisans ordinaires d'Eruditio. Bien qu'inspirée par QUNN pour développer un intérêt pour la musique et le spectacle, elle gardait cette aspiration enfouie au fond de son cœur - après tout, un tel rêve semblait bien trop lointain. Puis elle rencontra Eris, une jeune agente qui fut la seule à savoir apprécier le charme de son chant. Eris découvrit par hasard que la voix de Lunabelle possédait un pouvoir magique mystérieux, capable même d'insuffler la vie aux machines, et lui suggéra sincèrement de partager sa voix avec davantage de personnes. Le rêve longtemps enfoui de Lunabelle brillera-t-il de nouveau ?",
+    "capabilities": "Une puissante Mage à dégâts de zone, capable d'utiliser son Énergie pour renforcer ses compétences. Plus elle lance son Ultime, plus vite son Énergie se régénère."
+  },
+  "minsitthar": {
+    "description": "Minsitthar est un héros issu du roster du wiki.",
+    "story": "",
+    "capabilities": ""
+  },
+  "miracle-clara": {
+    "description": "Un puissant Soutien à bonus, capable de renforcer et de soigner tous ses alliés, tout en leur accordant une brève immunité à la mort lorsqu'ils sont sur le point de mourir. |-|Compétences=",
+    "story": "Un puissant Soutien à bonus, capable de renforcer et de soigner tous ses alliés, tout en leur accordant une brève immunité à la mort lorsqu'ils sont sur le point de mourir. |-|Compétences=",
+    "capabilities": ""
+  },
+  "miya": {
+    "description": "Miya est une héroïne issue du roster du wiki.",
+    "story": "",
+    "capabilities": ""
+  },
+  "morpheus": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": "Une Mage aux puissantes capacités de contrôle et de dégâts, capable de contrôler ses ennemis à l'aide de deux Nonas jusqu'à ce que celles-ci soient vaincues."
+  },
+  "moskov": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "mystic-mystia": {
+    "description": "\"Mystia, la divinité en charge des jeux, arrive sur la Terre de l'Aube avec une attente bien particulière envers le Commandant. Espérons que \"vous\" puissiez aider à changer la fin déjà écrite.\" (Aperçu du skin)",
+    "story": "\"Mystia, la divinité en charge des jeux, arrive sur la Terre de l'Aube avec une attente bien particulière envers le Commandant. Espérons que \"vous\" puissiez aider à changer la fin déjà écrite.\" (Aperçu du skin)",
+    "capabilities": ""
+  },
+  "naiad-rafaela": {
+    "description": "\"L'ange s'éveille, ses ailes jadis fragiles désormais rayonnantes de renouveau. Le pouvoir de renouveau parcourt Rafaela, tandis qu'elle offre au monde davantage d'amour, de réconfort et de chaleur.\" (Aperçu du skin)",
+    "story": "\"L'ange s'éveille, ses ailes jadis fragiles désormais rayonnantes de renouveau. Le pouvoir de renouveau parcourt Rafaela, tandis qu'elle offre au monde davantage d'amour, de réconfort et de chaleur.\" (Aperçu du skin)",
+    "capabilities": ""
+  },
+  "nana": {
+    "description": "À venir",
+    "story": "À venir",
+    "capabilities": ""
+  },
+  "natalia": {
+    "description": "Natalia arpente l'obscurité de la nuit toute l'année, accomplissant les missions confiées par le Monastère de la Lumière et éliminant tous les obstacles qui se dressent sur le chemin de l'Empire Moniyan.",
+    "story": "Natalia arpente l'obscurité de la nuit toute l'année, accomplissant les missions confiées par le Monastère de la Lumière et éliminant tous les obstacles qui se dressent sur le chemin de l'Empire Moniyan.",
+    "capabilities": ""
+  },
+  "natan": {
+    "description": "Natan se dressait comme le chef d'Eruditio, guidant son peuple dans sa quête d'espoir en ce monde. Pourtant, après avoir subi de nombreuses défaites, il décida de tourner son regard non pas vers l'avenir, mais vers le passé - en inventant une machine à voyager dans le temps. Quel avenir ce sauveur voyageur du temps apporterait-il au monde ?",
+    "story": "Natan se dressait comme le chef d'Eruditio, guidant son peuple dans sa quête d'espoir en ce monde. Pourtant, après avoir subi de nombreuses défaites, il décida de tourner son regard non pas vers l'avenir, mais vers le passé - en inventant une machine à voyager dans le temps. Quel avenir ce sauveur voyageur du temps apporterait-il au monde ?",
+    "capabilities": ""
+  },
+  "natsu": {
+    "description": "Natsu, connu comme la Salamandre, est un mage maîtrisant la Magie de Chasseur de Dragon de Feu. Il est capable de déchaîner des attaques cuisantes sur ses ennemis.",
+    "story": "Natsu, connu comme la Salamandre, est un mage maîtrisant la Magie de Chasseur de Dragon de Feu. Il est capable de déchaîner des attaques cuisantes sur ses ennemis.",
+    "capabilities": ""
+  },
+  "night-blade": {
+    "description": "Night Blade est une héroïne qui semble œuvrer comme l'une des servantes d'Alice, puisqu'elle apparaît dans les niveaux de la campagne en tant qu'ennemie tentant de nous empêcher de la rattraper ; sa race est inconnue. Elle a les cheveux courts et bleus, une peau bleu pâle, les yeux magenta et porte un rouge à lèvres violet foncé ; à ses oreilles, des boucles en forme de diamant, et sur le corps une tenue noire composée d'un haut qui semble fait de bandages noirs et d'une longue jupe fendue sur le côté, maintenue par une ceinture aux finitions argentées ; à ses mains, des bracelets noirs, et ses pieds sont nus, mais entourés de quelques bandages noirs ; elle combat avec deux lames à crochet.",
+    "story": "Night Blade est une héroïne qui semble œuvrer comme l'une des servantes d'Alice, puisqu'elle apparaît dans les niveaux de la campagne en tant qu'ennemie tentant de nous empêcher de la rattraper ; sa race est inconnue. Elle a les cheveux courts et bleus, une peau bleu pâle, les yeux magenta et porte un rouge à lèvres violet foncé ; à ses oreilles, des boucles en forme de diamant, et sur le corps une tenue noire composée d'un haut qui semble fait de bandages noirs et d'une longue jupe fendue sur le côté, maintenue par une ceinture aux finitions argentées ; à ses mains, des bracelets noirs, et ses pieds sont nus, mais entourés de quelques bandages noirs ; elle combat avec deux lames à crochet.",
+    "capabilities": ""
+  },
+  "night-drummer": {
+    "description": "Il a la peau violet clair, à l'exception de sa main droite et de son pied gauche qui sont rose clair. Ses yeux sont magenta et il se couvre le visage d'un morceau de tissu noir ; il porte des anneaux de métal à chaque poignet et à chaque cheville. Il porte un morceau de tissu violet déchiré et transporte un tambour devant lui. Il joue du tambour à l'aide de deux os.",
+    "story": "Il a la peau violet clair, à l'exception de sa main droite et de son pied gauche qui sont rose clair. Ses yeux sont magenta et il se couvre le visage d'un morceau de tissu noir ; il porte des anneaux de métal à chaque poignet et à chaque cheville. Il porte un morceau de tissu violet déchiré et transporte un tambour devant lui. Il joue du tambour à l'aide de deux os.",
+    "capabilities": ""
+  },
+  "nightseer-esmeralda": {
+    "description": "À venir.",
+    "story": "À venir.",
+    "capabilities": "À venir."
+  }
+}

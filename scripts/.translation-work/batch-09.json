@@ -1,0 +1,1328 @@
+[
+  {
+    "id": "thamuz",
+    "name": "Thamuz",
+    "abilities": [
+      {
+        "name": "Cauterant Inferno",
+        "tier": "Ultimate",
+        "description": "Thamuz rain down the inferno flame on enemies, taunting a random enemy for 10s during which the taunted enemy constantly takes damage equal to 75% of Thamuz’s Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Sustained Damage is increased to 90%"
+          },
+          {
+            "level": "3",
+            "text": "Sustained Damage is increased to 105%"
+          }
+        ]
+      },
+      {
+        "name": "Abyssal Strike",
+        "tier": "Skill",
+        "description": "Thamuz strikes the enemy in front of him, dealing damage equal to 8% of their Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 10% of target's Max HP"
+          },
+          {
+            "level": "3",
+            "text": "This skill causes Stun when the target's Defense is lower than Thamuz's."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 12% of target's Max HP"
+          }
+        ]
+      },
+      {
+        "name": "Molten Scythes",
+        "tier": "Skill",
+        "description": "Thamuz tosses his scythes in the target direction, dealing damage equal to 200% of his Attack to enemies in the frontal area and lowering their Defense by 10%",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Defense Reduction is increased to 15%"
+          },
+          {
+            "level": "3",
+            "text": "Defense Reduction is increased to 20%"
+          }
+        ]
+      },
+      {
+        "name": "Grand Lord Lava",
+        "tier": "Passive",
+        "description": "Thamuz increases his Defense by 1% for 6s when he takes damage. This effect can be stacked up to 66 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When reaching full stacks, Thamuz will constantly heal himself in a period, This effect can be triggered only once per battle."
+          },
+          {
+            "level": "3",
+            "text": "Defense increased is boosted to 1.5%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tia",
+    "name": "Tia",
+    "abilities": [
+      {
+        "name": "Myriad Stars",
+        "tier": "Ultimate",
+        "description": "Tia turns into Crystal form, continuously consumes Energy and fire barrages towards enemies, dealing damage equal to 15% Attack for multiple times. When she is in Crystal form, she won't be aimed by enemies. After Tia exhausts her Energy, she will turn back into her original form.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every second Tia is in Crystal form, the Damage dealt by her will increase by 20%"
+          },
+          {
+            "level": "3",
+            "text": "Damage of each barrage is increased to 18% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Glow of Silence",
+        "tier": "Skill",
+        "description": "Tia deals damage equal to 350% Attack to the target enemy and the enemies around. Meanwhile, she silences them for 4s. However, when an enemy has taken damage equal to 20% of their Max HP, the Silence debuff will be removed immediately.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 420% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The duration of Silence debuff is increased to 6s"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 490% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Origin of Magic",
+        "tier": "Passive",
+        "description": "When Tia takes a fatal damage, she can remove all the debuffs on her and regen full Energy. This effect can be triggered only once in each battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack will increase by 15% in 8s"
+          },
+          {
+            "level": "3",
+            "text": "Attack will increase by 30% in 8s"
+          }
+        ]
+      },
+      {
+        "name": "Torn Reality",
+        "tier": "Passive",
+        "description": "When Tia's Skills cause damage to enemies, she can deal extra damage equal to 0.7% of the target's Max HP. Damage dealt each time cannot exceed 70% of Tia's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 0.9% of the target's Max HP"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 1.1% of the target's Max HP"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tidescale-kalea",
+    "name": "Tidescale Kalea",
+    "abilities": [
+      {
+        "name": "Tsunami Slam",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 465%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 510%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Wavebreaker",
+        "tier": "Skill",
+        "description": "Kalea smashes the ground, reducing the Defense of nearby enemies by 50% for 8s and dealing damage equal to 200% of her Attack. When cast in a water domain, she absorbs the nearest domain, dealing an extra 200% damage. When this skill deals damage, Kalea recovers HP equal to 200% of the damage dealt.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Base Damage dealt is increased to 270%."
+          },
+          {
+            "level": "3",
+            "text": "When the HP restored by Wavebreaker and triple strike from Surge of Life overflows, 100% of the overflow is converted into a Shield, up to 200% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Base Damage dealt is increased to 340%."
+          }
+        ]
+      },
+      {
+        "name": "Surge of Life",
+        "tier": "Passive",
+        "description": "After Kalea absorbs a water domain, her next Basic Attack becomes triple strike. The third attack uses her tail to deal AoE damage to nearby enemies, dealing damage equal to 8% of their Max HP per hit. The damage won't exceed 800% of Kalea's Attack. When this skill deals damage, Kalea recovers HP equal to 200% of the damage dealt.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The triple strike from Wavebreaker and Surge of Life restores extra HP for the allied hero with the lowest HP percentage (including Kalea) equal to 200% of the deamage dealt."
+          },
+          {
+            "level": "3",
+            "text": "Each attack deals damage equal to 11% of enemies' Max HP, capped at 1100% of Kalea's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each attack deals damage equal to 14% of enemies' Max HP, capped at 1400% of Kalea's Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Tidal Spirit",
+        "tier": "Passive",
+        "description": "Whenever Kalea takes damage equal to 30% of her Max HP, she gains 80% Damage Reduction for 5s and immediately creates a water domain at her location. HP lost while the Damage Reduction is active is not recorded.When another allied hero take damage exceeding 10% of their HP, they recover 100 Energy. This can be triggered by each other hero up to once every 8s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When another allied hero takes damage exceeding 10% of their HP, Kalea also recovers 100 Energy."
+          },
+          {
+            "level": "3",
+            "text": "Energy restored is increased to 130."
+          },
+          {
+            "level": "4",
+            "text": "Energy restored is increased to 160. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tigreal",
+    "name": "Tigreal",
+    "abilities": [
+      {
+        "name": "Implosion",
+        "tier": "Ultimate",
+        "description": "Tigreal leaps up high and then deals damage equal to 600% of his Attack to the nearest enemy unit, stunning them for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 720%"
+          }
+        ]
+      },
+      {
+        "name": "Divine Strike",
+        "tier": "Skill",
+        "description": "Tigreal lifts an enemy up, dealing damage equal to 205% of his Attack and knocking them airborne.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 245%"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 275%"
+          }
+        ]
+      },
+      {
+        "name": "Attack Wave",
+        "tier": "Skill",
+        "description": "Tigreal releases a shock wave in the target direction, dealing damage equal to 170% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Causes extra Slow Effect"
+          }
+        ]
+      },
+      {
+        "name": "Fearless",
+        "tier": "Passive",
+        "description": "For each skill released and each Basic Attack taken, Tigreal acquires a stack of the mark. When Tigreal has 4 stacks of the mark, he’ll be immune to all Basic Attacks for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Tigreal's Defense by 12%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tokinibara",
+    "name": "Tokinibara",
+    "abilities": [
+      {
+        "name": "Revival Bloom",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 300% of her attack to enemies in a wide area in front and gains a Shield equal to 40% of her Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by Tokinibara deal 20% less damage for the next 5s. Stacks up to 3 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 450% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 600% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Frost Slash",
+        "tier": "Skill",
+        "description": "Tokinibara assumes a defensive stance, taking 40% less damage for the next 6s. Within the duration, she unleashes sword energy with her Basic Attacks, dealing damage equal to 200% of her Attack to enemies in the area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage taken is reduced by 50%."
+          },
+          {
+            "level": "3",
+            "text": "Sword energy also reduces the hit target's Energy by 60."
+          },
+          {
+            "level": "4",
+            "text": "Damage taken is reduced by 60%."
+          }
+        ]
+      },
+      {
+        "name": "Midnight Blitz",
+        "tier": "Skill",
+        "description": "Knock an enemy airbone dealing damage equal to 240% of her Attack and absorbing 50% of the enemy's Defense.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If any enemy has a Shield, Tokinibara also gain 50% of their Shield."
+          },
+          {
+            "level": "3",
+            "text": "Damage is incresed to 330% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is incresed to 420% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Outcast Flower",
+        "tier": "Passive",
+        "description": "Instead of restoring Energy over time, Tokinibara steals 20% of all enemies' Energy Regen.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Whenever an enemy gains extra Energy with their skill, Tokinibara steals 40% of the extra Energy."
+          },
+          {
+            "level": "3",
+            "text": "Energy Regen stolen is increased to 25%"
+          },
+          {
+            "level": "4",
+            "text": "Energy Regen stolen is increased to 30% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tsukuyomi",
+    "name": "Tsukuyomi",
+    "abilities": [
+      {
+        "name": "Magatsu Sun",
+        "tier": "Ultimate",
+        "description": "Deals 56% of his attack as damage to nearby enemies 4 times. The final hit deals additional damage equal to 15% of target's max HP, capped at 1500% of Tsukuyomi's attack. Gains control immunity while casting this skill.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Tsukuyomi deals damage, 70% of the damage is converted into a shield for himself, up to 500% of his max HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 64% of his attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 72% of his attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Lunar Eclipse",
+        "tier": "Skill",
+        "description": "Tsukuyomi alternates between the full moon and new moon phases every 12s: When in the full moon phase, Tsukuyomi gains a shield equal to 300% of his max HP, and the skeletal serpent gains a shield equal to 30% of Tsukuyomi's max HP, both lasting 12s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increased by up to 240% of his attack."
+          },
+          {
+            "level": "3",
+            "text": "Upon entering the new moon phase, Tsukuyomi recovers energy based on damage taken during the full moon state, up to 600 of his energy when damage taken equals 400% of his max HP."
+          },
+          {
+            "level": "4",
+            "text": "Increased by up to 320% of his attack."
+          }
+        ]
+      },
+      {
+        "name": "Moontide Resurge",
+        "tier": "Skill",
+        "description": "Full moon phase: The skeletal serpent gains a shield equal to 20% of Tsukuyomi's Max HP for 12s and recovers 30% of its lost HP. New moon phase: Increases crit rate by 30% and lifesteal by 50 for 12s, with damage and control immunity while casting.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When in the new moon phase, deals 150% damage to surrounding enemies."
+          },
+          {
+            "level": "3",
+            "text": "When in full moon phase, increases the skeletal serpent's shield to 30%."
+          },
+          {
+            "level": "4",
+            "text": "When in full moon phase, increases the skeletal serpent's shield to 40%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Moonfall Mania",
+        "tier": "Skill",
+        "description": "Blinks to the farthest enemy, deals damage equal to 140% of his attack to nearby enemies and taunts them for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores HP equal to 200% of his attack after blinking."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 170% of his attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 200% of his attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ultio-eris",
+    "name": "Ultio Eris",
+    "abilities": [
+      {
+        "name": "Prismatic Blast",
+        "tier": "Ultimate",
+        "description": "Eris unleashes a prismatic arcane blast, dealing 310% of her Attack as damage to enemies in the area and briefly stunning them. Affected enemies are also inflicted with a Timebomb for 6s. When the Timebomb expires, it explodes, dealing 30% of the total damage the target received during this period.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After casting her Ultimate, Eris enhances her Basic Attacks for 8s. These enhanced Basic Attacks deal 180% of her Attack as damage to enemies in a large area and knock them back slightly."
+          },
+          {
+            "level": "3",
+            "text": "Increases the arcane blast damage to 370% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the arcane blast damage to 430% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Plasma Grenade",
+        "tier": "Skill",
+        "description": "Eris throws a grenade, dealing 145% of her Attack as damage to enemies in the target area and inflicting Plasma Marks for 5s. Allies' Basic Attacks against the marked targets restore the attacker's HP equal to 250% of Eris' Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the grenade damage to 170% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Eris gains 15% Attack permanently each time she inflicts Plasma Mark on an enemy. This bonus increases to 30% if the marked enemy's Attack exceeds twice her own. This bonus is capped at 150% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the grenade damage to 200% of Attack."
+          }
+        ]
+      },
+      {
+        "name": "Gravitation Radiaton",
+        "tier": "Passive",
+        "description": "For each enemy hit by Eris' Basic Attack, she gains 4% Crit Rate and 6% Crit Damage for 6s, stacking up to 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Eris gains an additional 50% Hit."
+          },
+          {
+            "level": "3",
+            "text": "Increases the Crit Rate bonus to 6% and the Crit Damage bonus to 10%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the Crit Rate bonus to 8% and the Crit Damage bonus to 14%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Cryogenic Aegis",
+        "tier": "Passive",
+        "description": "When Eris is about to take damage more than 10% of her Max HP, the Cryogenic Aegis reduces this damage by 20%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Eris' HP is above 50%, she gains Penetration equal to 30% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "When Eris is about to take Damage more than 10% of her Max HP, reduces this damage by 30%."
+          },
+          {
+            "level": "4",
+            "text": "When Eris is about to take Damage more than 10% of her Max HP, reduces this damage by 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "abilities": [
+      {
+        "name": "",
+        "tier": "Ultimate",
+        "description": "Uranus consumes all his Divine Power, healing all allies for an amount of HP equal to 150% of their Attack. Each stack of Divine Power boosts the HP healed by 10% of the target’s Attack. The HP healed is doubled for Uranus himself.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Divine Power increases the HP healed to 12% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Each stack of Divine Power increases the HP healed to 14% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Holy Shield",
+        "tier": "Skill",
+        "description": "Uranus taunts all enemies around him, acquiring a shield equal to 130% of his attack. When the shield dies out or when it is broken, it deals damage equal to 150% of his Attack to enemies nearby.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The shield is increased to 165% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Each taunted enemy grants 2 stacks of Divine Power."
+          },
+          {
+            "level": "4",
+            "text": "The shield is increased to 200% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Transcendent Ward",
+        "tier": "Skill",
+        "description": "Uranus deals damage equal to 100% of his Attack to enemies around, lowering their Attack by 10% while acquiring 3 stacks of Divine Power.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Uranus constantly heals himself based on the stacks of Divine Power he possesses."
+          },
+          {
+            "level": "3",
+            "text": "Increase the Attack Reduction to 15%."
+          }
+        ]
+      },
+      {
+        "name": "Radiance",
+        "tier": "Passive",
+        "description": "Uranus acquires a stack of Divine Power for each attack he received, up to 30 stacks can be acquired.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Uranus acquires a Shield equal to 3% Max HP for every 10 stacks of Divine Power obtained."
+          },
+          {
+            "level": "3",
+            "text": "Uranus acquires a Shield equal to 5% Max HP for every 10 stacks of Divine Power obtained."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "valir",
+    "name": "Valir",
+    "abilities": [
+      {
+        "name": "Hellfire",
+        "tier": "Ultimate",
+        "description": "Valir summons Hellfire, dealing damage equal to 135% of his Attack to enemies within the area every 0.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Hellfire knocks up enemies in the range airborne."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 175% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 215% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Burst Fire",
+        "tier": "Skill",
+        "description": "Valir triggers the fiery explosion, dealing damage equal to 225% of his Attack to enemies within the range.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 260% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 290% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 325% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Searing Torrent",
+        "tier": "Skill",
+        "description": "Valir unleashes a torrent of flames forward, knocking enemies back and dealing damage equal to 250% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Targets at the end of the torrent's range take extra damage equal to 62.5% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Extra damage is increased to 125% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Skill Damage is increased to 280% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Arcane Flame",
+        "tier": "Passive",
+        "description": "Valir's Searing Torrent enables him to release two torrents of flames, the second deals 60% damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage of the second torrent of Searing Torrent to 90% of the full damage."
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage of the second torrent of Searing Torrent to 120% of the full damage."
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage of the second torrent of Searing Torrent to 135% of the full damage. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vexana",
+    "name": "Vexana",
+    "abilities": [
+      {
+        "name": "Cursed Oath",
+        "tier": "Ultimate",
+        "description": "Vexana puts a curse on the enemy Hero with the lowest HP, dealing damage equal to 100% of her Attack each second for the next 12s. If the target dies with her curse on them, a puppet of the target will be summoned to fight along with Vexana. The puppet possesses 40% of the target's damage dealing ability. It's capable of releasing all the skills except the Ultimate.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies cursed by the Hero can't be healed."
+          },
+          {
+            "level": "3",
+            "text": "Increases the puppet's strength to 80% of the target's damage dealing ability."
+          },
+          {
+            "level": "4",
+            "text": "Increases the puppet's strength to 100% of the target's damage dealing ability. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Cursed Snare",
+        "tier": "Skill",
+        "description": "Vexana summons a curse power to deal damage equal to 265% of her Attack to the enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 315% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Reduces Healing Effect the target receives"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 370% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Gate of the Underworld",
+        "tier": "Passive",
+        "description": "Vexana deals highter damage the lower her enemies' HP falls. The damage is increased by up to 30%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the extra damage to 40%"
+          },
+          {
+            "level": "3",
+            "text": "Increases the extra damage to 50%"
+          },
+          {
+            "level": "4",
+            "text": "Increases the extra damage to 65% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Cursed Spell",
+        "tier": "Passive",
+        "description": "Vexana and the summoned puppet will add Necromancer to the target when dealing damage, the target will explode upon death, dealing damage equal to 115% of Vexana's Attack to enemy units around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 140% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 165% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 190% Attack (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "voodoo-shaman",
+    "name": "Voodoo Shaman",
+    "abilities": [
+      {
+        "name": "Withering Laser",
+        "tier": "Ultimate",
+        "description": "Throws a Voodoo bomb at a mid-row enemy, dealing massive damage to all enemies within range.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "wanwan",
+    "name": "Wanwan",
+    "abilities": [
+      {
+        "name": "Crossbow of Tang",
+        "tier": "Ultimate",
+        "description": "Wanwan uses Crossbow of Tang to fire a rain of arrows to the enemies. She deals Damage equal to 90% Attack for multiple times. The Skill Targets enemies with Weakness debuff first.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 110% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 125% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage of each hit is increased to 145% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Swallow's Path",
+        "tier": "Skill",
+        "description": "Wanwan shoot Swallows to the target. The Swallows spin around the target and deal Damage equal to 72% Attack for multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 86% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Enemies hurt by Flyweel for 3 times within a short time will be stunned."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 100% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Transposition",
+        "tier": "Skill",
+        "description": "When the battle starts, Wanwan swaps her position with an enemy. The Skill targets the enemy in the corresponding position first. The enemy will take Weakness debuff and all Damage they takes will increase by 15%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When an enemy dies with a Weakness debuff, they gives the debuff to the enemy with the lowest percentage of HP."
+          },
+          {
+            "level": "3",
+            "text": "All Damage taken by the enemies with Weakness debuff will increase by 30%."
+          },
+          {
+            "level": "4",
+            "text": "All Damage taken by the enemies with Weakness debuff will increase by 40%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Tiger Pace",
+        "tier": "Passive",
+        "description": "Every time Wanwan loses 45% Max HP, she takes Tiger Pace buff and cannot be targeted by enemies for the next 2 seconds.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Wanwan with Tiger Pace buff can recover 60 Energy per second."
+          },
+          {
+            "level": "3",
+            "text": "Wanwan with Tiger Pace buff can recover 100 Energy per second."
+          },
+          {
+            "level": "4",
+            "text": "Wanwan with Tiger Pace buff can recover 125 Energy per second. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "x-borg",
+    "name": "X.Borg",
+    "abilities": [
+      {
+        "name": "Last Insanity",
+        "tier": "Ultimate",
+        "description": "X.Borg acquires the Firaga Armor and a shield equal to 50% of his Max HP. X.Borg will enter the enemy lineup and shoot fire to attack enemies, dealing damage equal to 60% of his Attack. After a period of time, X.Borg will self-destruct to deal True Damage equal 100% of his Attack and detach the Firaga Armor. X.Borg will release his Ultimate and become immune to most control effects when the battle starts.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the True Damage of self-explosion to 200% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increase the True Damage of self-explosion to 300% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Sustained Damage is increased to 90% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Fire Missiles",
+        "tier": "Skill",
+        "description": "X.Borg activates his flame thrower, sprays flame forward and deals damage equal to 55% of his Attack over time. His flame will be enhanced if he is in the Firaga Armor, dealing damage equal to 110% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage of flames to 60% Attack, increase the damage of flames with Firaga Armor on to 120% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage of flames to 68% Attack, increase the damage of flames with Firaga Armor on to 136% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage of flames to 77% Attack, increase the damage of flames with Firaga Armor on to 154% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Fire Stake",
+        "tier": "Skill",
+        "description": "X.Borg launches several Fire Stakes and retrieves them. Fire Stakes deal damage equal to 215% of X.Borg’s Attack to enemies in their path. Fire Stakes will be enhanced if X.Borg is in the Firaga Armor. If X.Bori is in the Firaga Armor, the Fire Stakes will release flames when they fall to the ground, dealing damage equal to 215% of X.Borg's Attack to the enemies nearby.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Slightly pulls enemies towards him when retrieving the Fire Stakes"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage dealt to enemies on the path to 240% Attack, increase the damage of flames to 240% Attack"
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt to enemies on the path is increased to 280% Attack, the damage of flames is increased to 280% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ultraheat Overload",
+        "tier": "Passive",
+        "description": "X.Borg's Ultimate will heat up enemies. When X.Borg and his allies deal damage to the enemy with the highest temperature, they will take supplies from the target, restoring HP equal to 150% of their Attack. (Each enemy unit only drops supply each 3s.)",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Attack by 10%"
+          },
+          {
+            "level": "3",
+            "text": "Attack increased is boosted to 15%"
+          },
+          {
+            "level": "4",
+            "text": "Attack increased is boosted to 20% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xeno",
+    "name": "Xeno",
+    "abilities": [
+      {
+        "name": "Resonance Shield",
+        "tier": "Ultimate",
+        "description": "Xeno activates the Resonance Shield that absorbs damage received and grants immunity to most control effects for 3 seconds, before dealing damage equal to 225% of Attack to all enemies on the battlefield and returning 8% of the damage absorbed to them. (Total damage won't exceed 2000% of Xeno's Attack) Xeno's Ultimate cannot be used again within 3 seconds after she uses it.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Extra damage is increased to 11% of the damage absorbed by Xeno"
+          },
+          {
+            "level": "3",
+            "text": "Extra damage is increased to 15% of the damage absorbed by Xeno"
+          },
+          {
+            "level": "4",
+            "text": "Extra damage is increased to 19% of the damage absorbed by Xeno (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Drone Protocol",
+        "tier": "Passive",
+        "description": "When an allied hero's HP drops below 30%, Xeno will release her drone to assist the ally by transferring all the damage received by the ally to Xeno, while reducing the transferred damage by 25% and restoring the ally's HP to 35%. When the ally's HP reaches 90%, Xeno will deactivate the drone support.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces 30% of damage transferred."
+          },
+          {
+            "level": "3",
+            "text": "Xeno can release at most 2 drones to assist 2 allies at the same time."
+          },
+          {
+            "level": "4",
+            "text": "Reduces 35% of damage transferred."
+          }
+        ]
+      },
+      {
+        "name": "Pyrolysis Gun",
+        "tier": "Skill",
+        "description": "Xeno deals damage equal to 225% of her Attack to the 3 enemies closest to allies' spawn point.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If there is an ally near an enemy, briefly stuns the enemy."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 285% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 325% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Nano Regeneration",
+        "tier": "Passive",
+        "description": "Xeno gains 1 stack of Nano Regeneration for each enemy hero that is alive on the battlefield. Each stack heals Xeno by 0.5% of her Max HP per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each stack of Nano Regeneration grants Xeno 5% Damage Reduction."
+          },
+          {
+            "level": "3",
+            "text": "Each stack of Nano Regeneration grants Xeno 7% Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen increases to 0.75% Max HP / s (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yi-sun-shin",
+    "name": "Yi Sun-shin",
+    "abilities": [
+      {
+        "name": "Mountain Shocker",
+        "tier": "Ultimate",
+        "description": "Yi Sun-shin wields his blade and attacks the furthest enemy, dealing damage equal to 345% of his Attack twice. Then he teleports towards the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After releasing the Ultimate, Yi Sun-shin will increase his Agility by 200 and Damage Reduction by 20%."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 440% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 535% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "One-wave Sweep",
+        "tier": "Skill",
+        "description": "Yi Sun-shin shoots a piercing arrow with full strength, dealing damage equal to 190% of his Attack to all enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 205% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 235% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 265% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Blood Floods",
+        "tier": "Passive",
+        "description": "Increases all allies' Lifesteal by 30 points.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lifesteal Bonus is increased to 45."
+          },
+          {
+            "level": "3",
+            "text": "Lifesteal Bonus is increased to 60."
+          },
+          {
+            "level": "4",
+            "text": "Lifesteal Bonus is increased to 80. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Heavenly Vow",
+        "tier": "Passive",
+        "description": "When there is enemy nearby, Yi Sun-shin's Basic Attacks will become Melee Attacks and his Defense will be increased by 70%; When there is no enemy nearby, he will increase his Attack by 10%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 20%."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus is increased to 30%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased to 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yu-zhong",
+    "name": "Yu Zhong",
+    "abilities": [
+      {
+        "name": "Soaring Dragon",
+        "tier": "Ultimate",
+        "description": "Yu Zhong transforms into the Black Dragon and soars across the whole battlefield, dealing damage equal to 60% of his Attack to all enemies for 6 times. Then Yu Zhong will enter the Dragonoid state, acquiring a shield equal to 10% of his Max HP and turning the whole battlefield to a Dragon Realm for 15s. Enemies in the Dragon Realm whose HP is lower than 10% take massive damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt each time increases to 75% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Enemies in the Dragon Realm whose HP is lower than 15% take massive damage."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt each time increases to 90% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dragon Tail",
+        "tier": "Skill",
+        "description": "Yu Zhong enters the defensive stance for 2s, acquiring 75% Damage Reduction. When the defensive stance ends, Yu Zhong deals damage equal to 100% of his Attack to the enemies around him then follows up with an amount of damage equal to 20% of the damage he took during the defensive stance. Dragonoid State: When the defensive stance ends, Yu Zhong will stun the enemies in the range for 1.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the defensive stance ends, Yu Zhong deals damage equal to 100% of his Attack to the enemies around him. Then follows up with an amount of damage equal to 25% of the damage he took during the defensive stance."
+          },
+          {
+            "level": "3",
+            "text": "Yu Zhong is immune to most of the control effects when he's in defensive stance"
+          },
+          {
+            "level": "4",
+            "text": "When the defensive stance ends, Yu Zhong deals damage equal to 100% of his Attack to the enemies around him. Then follows up with an amount of damage equal to 30% of the damage he took during the defensive stance."
+          }
+        ]
+      },
+      {
+        "name": "Cursing Touch",
+        "tier": "Skill",
+        "description": "Yu Zhong leaps towards an enemy target, dealing damage equal to 90% of his Attack to the enemies in the area when he lands. For the next 3s, most of the damage-dealing skills cast by these enemies will target Yu Zhong first. Dragonoid State: Each enemy hit heals Yu Zhong for an amount of HP equal to 100% of Yu Zhong's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage increases to 130%"
+          },
+          {
+            "level": "3",
+            "text": "For the next 6s, most of the damage-dealing skills cast by the enemies hit by this skill will target Yu Zhong first."
+          },
+          {
+            "level": "4",
+            "text": "Damage increases to 180% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Furious Dive",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The chance of Damage Reflection increases to 30%"
+          },
+          {
+            "level": "3",
+            "text": "HP Regen increases to 3% Max HP / s."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen increases to 4% Max HP / s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zhask",
+    "name": "Zhask",
+    "abilities": [
+      {
+        "name": "Dominator's Descent",
+        "tier": "Ultimate",
+        "description": "Zhask creates a time-space vortex on the battlefield which continuously drags enemies in a large area towards its center. Enemies in the range take damage equal to 110% of Zhask's Attack for multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Nightmaric Spawn will disable the enemy's movement shortly upon explosion"
+          },
+          {
+            "level": "3",
+            "text": "The damage of the vortex is increased to 140%"
+          }
+        ]
+      },
+      {
+        "name": "Nightmaric Spawn",
+        "tier": "Skill",
+        "description": "Zhask summons the Nightmaric Spawn to attack nerby enemies. The Nightmaric Spawn will share Zhask's Attributes. Up to 2 Nightmaric Spawns can be present on the battlefield at the same time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "2 Nightmaric Spawns will be summoned each time."
+          },
+          {
+            "level": "3",
+            "text": "The maximum number of Nightmaric Spawns that can be present on the battlefield at the same time is increased to 4"
+          },
+          {
+            "level": "4",
+            "text": "Zhask will summon extra 1 Nightmaric Spawn when he casts the skill Nightmaric Spawn for the first time in a batttle"
+          }
+        ]
+      },
+      {
+        "name": "Mind Eater",
+        "tier": "Skill",
+        "description": "Zhask temporarily doubles his Crit Rate and fires an Energy Ray which be bounce among enemies, dealing damage equal to 140% of his Attack to multiple enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Mind Eater silences the enemy when it causes Critical Damage"
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 180% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Decimation (Zhask)",
+        "tier": "Passive",
+        "description": "When the Nightmaric Spawn is eliminated or dies out, Zhask will gain 4% Crit Rate in the current battle. This effect can be stacked up to 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Crit Rate Bonus is increased to 5%"
+          },
+          {
+            "level": "3",
+            "text": "Crit Rate Bonus is increased to 6%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zilong",
+    "name": "Zilong",
+    "abilities": [
+      {
+        "name": "Supreme Warrior",
+        "tier": "Ultimate",
+        "description": "Zilong attacks the enemies in front of him 4 times, each time dealing damage equal to 80% of his Attack. In the next 5s, he greatly increases his Agility.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the duration of the bonus to 10s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 120% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 160% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Spear Flip",
+        "tier": "Skill",
+        "description": "Zilong lifts an enemy up and drops them in front of him, inflicting damage equal to 215% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 245% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the target's Defense."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 300% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Spear Strike",
+        "tier": "Passive",
+        "description": "Each time Zilong deals damage to an enemy, he increases his Attack by 2% and his Agility by 5, stacking up to 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 100 Lifesteal when reaching full stacks."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus is increased to 4%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased to 6%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Dragon Flurry",
+        "tier": "Passive",
+        "description": "Every other Basic Attack of Zilong deals damage equal to 69% of his Attack to the target in front of him 4 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage to 90% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 105% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 120% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  }
+]

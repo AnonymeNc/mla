@@ -1,0 +1,1496 @@
+[
+  {
+    "id": "kryos-sinmara",
+    "name": "Kryos Sinmara",
+    "abilities": [
+      {
+        "name": "Chain Frenzy",
+        "tier": "Ultimate",
+        "description": "Summons weapons from the Umbral Prison to attack random enemies 4 time(s). For every 5 stack(s) of Primordial Frost possessed, consumes the corresponding number of Primordial Frost stacks to perform an additional attack on enemies. Each attack prioritizes different enemies as targets, dealing damage equal to 66% of Attack to the target and surrounding enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After Basic Attacks or Death Grip hits an enemy, if the enemy's HP is still higher than 60%, Kryos Sinmara performs an additional Basic Attack on the enemy, dealing damage equal to 75% of Attack. The additional Basic Attack will not trigger this effect again."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 75%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 84%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Death Grip",
+        "tier": "Skill",
+        "description": "Deals damage to the farthest enemy equal to 12% of the enemy's Max HP, capped at 1200% of Kryos Sinmara's Attack, and pulls the enemy closer. When resisted, the next Basic Attack becomes this skill instead. For 3s after casting, this skill prioritizes targeting different enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 16% of the enemy's Max HP, capped at 1600% of Kryos Sinmara's Attack."
+          },
+          {
+            "level": "3",
+            "text": "When hitting enemies, Kryos Sinmara gains a Shield equal to 400% of the enemy's Attack, capped at 2000% of Kryos Sinmara's Attack."
+          }
+        ]
+      },
+      {
+        "name": "Predator Strike",
+        "tier": "Skill",
+        "description": "Kryos Sinmara dashes to other positions around her, simultaneously dealing Basic Attack damage equal to 100% Attack 3 times to random enemies, then Kryos Sinmara gains 3 stacks of Primordial Frost.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When this skill hits enemies, Kryos Sinmara gains 10% of the enemy's Attack, capped at 50% of Kryos Sinmara's own Attack, staking up to 6 time(s) for 8s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 120%"
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 140% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Titan's Wrath",
+        "tier": "Passive",
+        "description": "When Kryos Sinmara takes damage exceeding 10% of her own HP in a single hit, she gains immunity to that damage, removes most control effects, and immediately triggers Predator Strike. This effect has a(n) 8s cooldown.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "In non-competitive gameplay, increases damage taken by all enemies by 5%. After the first enemy dies, this effect disappears and all allied heroes restore 100 Energy."
+          },
+          {
+            "level": "3",
+            "text": "Enhances the increased damage taken by enemies to 10%."
+          },
+          {
+            "level": "4",
+            "text": "After the first enemy dies, allied heroes also gain 100 Agility for 10s."
+          }
+        ]
+      },
+      {
+        "name": "Shackle Realm",
+        "tier": "Realm Effect",
+        "description": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 30% of their Max HP, their Defense is reduced by 50% until the end of the battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 70% of their Max HP, they lose 30 Energy per second until the end of the battle."
+          },
+          {
+            "level": "4",
+            "text": "Each time after enemy heroes have cumulatively taken damage or Shield reduction equal to 60% of their Max HP, immobilizes that enemy for 3s and deals damage equal to 50% Attack per second. Damage taken during immobilization will not trigger the next immobilization."
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Starting from the second immobilization trigger, each subsequent immobilization duration increases by 3s and ignores Control Immunity. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lancelot",
+    "name": "Lancelot",
+    "abilities": [
+      {
+        "name": "Phantom Execution",
+        "tier": "Ultimate",
+        "description": "Lancelot thrusts his sword forward with all his strength and becomes invincible temporarily, dealing damage equal to 375% of his Attack to the target hit. The target whose HP is less than 35% takes 130% of the damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Deals 150% the damage to enemies whose HP falls under 50%"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 450% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 525% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Puncture",
+        "tier": "Skill",
+        "description": "Lancelot cuts through the enemy lineup and directly attacks the back-row enemy from their back, dealing damage equal to 335% of his Attack. And for a short period of time, Lancelot won't be easily targeted by ranged enemies while becoming immune to control effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 385% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Reduces enemies' Defense by 40%"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 435% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Thorned Rose",
+        "tier": "Skill",
+        "description": "Lancelot wields his sword with unimaginable dexterity, dealing damage equal to 75% of his Attack to a single target for multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Eliminating an enemy unit with this skill heals Lancelot for an amount of HP equal to 25% of his Max HP"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 90% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 105% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Soul Cutter",
+        "tier": "Passive",
+        "description": "Lancelot acquires 15% of the target's Attack after eliminating them. The total amount of Attack acquired won't exceed his own Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack acquired by eliminating enemy is increased to 20%"
+          },
+          {
+            "level": "3",
+            "text": "Attack acquired by eliminating enemy is increased to 25%"
+          },
+          {
+            "level": "4",
+            "text": "Attack acquired by eliminating enemy is increased to 30% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lapu-lapu",
+    "name": "Lapu-Lapu",
+    "abilities": [
+      {
+        "name": "Chieftain's Rage",
+        "tier": "Ultimate",
+        "description": "Lapu-Lapu combines his two blades into a Heavy Sword, increasing his Attack by 40%. The Heavy Sword State lasts for 15s, with Heavy Sword, Lapu-Lapu's Basic Attacks will become Brave Stance.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Lapu-Lapu's Agility by 300."
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus is increased to 60%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased to 90%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Justice Blade",
+        "tier": "Skill",
+        "description": "Lapu-Lapu deals damage equal to 250% of his Attack to the enemies in front of him.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 285%."
+          },
+          {
+            "level": "3",
+            "text": "Stuns the target hit."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 320%."
+          }
+        ]
+      },
+      {
+        "name": "Brave Stance",
+        "tier": "Skill",
+        "description": "Lapu-Lapu releases a shock wave, dealing damage equal to 205% of his Attack to enemies within the range.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 250%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 290%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 330%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Hero's Faith",
+        "tier": "Passive",
+        "description": "Increases all allies' Defense by 10%",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Defense Bonus is increased to 15%."
+          },
+          {
+            "level": "3",
+            "text": "Defense Bonus is increased to 20%."
+          },
+          {
+            "level": "4",
+            "text": "Defense Bonus is increased to 30%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "layla",
+    "name": "Layla",
+    "abilities": [
+      {
+        "name": "Destruction Rush",
+        "tier": "Ultimate",
+        "description": "Layla launches an Energy Cannonball forward, dealing damage equal to 300% of her Attack to enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 360%"
+          }
+        ]
+      },
+      {
+        "name": "Malefic Bomb",
+        "tier": "Skill",
+        "description": "Layla fires a Malefic Energy Bomb forward, dealing damage equal to 170% of her Attack to enemies within the blast radius.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 185%"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 210%"
+          }
+        ]
+      },
+      {
+        "name": "Void Projectile",
+        "tier": "Skill",
+        "description": "Layla fires an Energy Ball at an enemy, dealing damage equal to 240% of her Attack to enemies within the blast radius.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Slows down the enemy hit"
+          }
+        ]
+      },
+      {
+        "name": "Malefic Gun",
+        "tier": "Passive",
+        "description": "When deployed on the back-row, Layla's Basic Attack and skills deal extra 25% damage to enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Layla deals extra skill damage when deployed at the back-row"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lesley",
+    "name": "Lesley",
+    "abilities": [
+      {
+        "name": "Ultimate Snipe",
+        "tier": "Ultimate",
+        "description": "Lesley locks onto the enemy with the lowest HP and fires 1 lethal shot, dealing damage equal to 635% of her Attack. If the target's HP is below 40%, a Critical Hit is guaranteed. When Lesley eliminates the target with her Ultimate, she restores 150 points of Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the Energy restored after eliminating an enemy unit to 300 points"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 765% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 890% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Master of Camouflage",
+        "tier": "Passive",
+        "description": "When there's an enemy whose HP falls under 50% on the battlefield, Lesley will lock onto this enemy and make them her primary target. Meanwhile, Lesley increases her Attack by 15%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the Attack Bonus to 25%"
+          },
+          {
+            "level": "3",
+            "text": "Increases the Crit Rate to 20%"
+          },
+          {
+            "level": "4",
+            "text": "Increase the Attack Bonus to 35%"
+          }
+        ]
+      },
+      {
+        "name": "Tactical Grenade",
+        "tier": "Skill",
+        "description": "Lesley throws a tactical grenade forward, dealing damage equal to 270% of her Attack and knocking the targets back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage to 320% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 375% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 430% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Lethal Shot",
+        "tier": "Passive",
+        "description": "The less HP Lesley's targets have, the more damage Lesley deals. The damage dealt by Lesley can be increased up to 15%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Tech-type allies get the bonus as well, increasing the damage up to 15%"
+          },
+          {
+            "level": "3",
+            "text": "Damage Bonus is increased by up to 25%, Damage Bonus received by Tech-type allies is increased by up to 25%"
+          },
+          {
+            "level": "4",
+            "text": "Max Damage Bonus is increasd to 35%, and max Damage Bonus received by Tech-type allies is increased to 35% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lionheart-sekhet",
+    "name": "Lionheart Sekhet",
+    "abilities": [
+      {
+        "name": "Glorious Mane",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also increases all allied heroes' Attack by 20% for 10s."
+          },
+          {
+            "level": "3",
+            "text": "Increases all heroes' shield gained to 560%."
+          },
+          {
+            "level": "4",
+            "text": "Increases all heroes' shield gained to 660%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Leo Blitz",
+        "tier": "Skill",
+        "description": "Deals damage equal to 9% of the enemy's Max HP 3 times to enemies in a small area in front. Each damage won't exceed 900% of her Attack. The last hit deals extra damage equal to 25% of her own shield.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage dealt to 10% of Max HP. Each damage won't exceed 1000% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The range of the final attack of this skill increases based on the amount of shield possessed, up to 100% range when possessing a shield equal to 100% of Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 11% of Max HP. Each damage won't exceed 1100% of her Attack."
+          }
+        ]
+      },
+      {
+        "name": "King's Bulwark",
+        "tier": "Passive",
+        "description": "Whenever Lionheart Sekhet uses her Basic Attack or Leo Blitz, grants a shield equal to 110% of Lionheart Sekhet's Attack to the allied hero with the lowest HP percentage for 5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases all shields gained by allied heroes by 20%."
+          },
+          {
+            "level": "3",
+            "text": "Increases the shield gained to 130% of Lionheart Sekhet's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the shield gained to 150% of Lionheart Sekhet's Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Unyielding Fury",
+        "tier": "Passive",
+        "description": "Reduces Energy Reduction effects received by allied heroes by 50%. When the shields provided by Glorious Mane and King's Bulwark are broken, Lionheart Sekhet restores 50 Energy (Shields converted from damage during Glorious Mane do no trigger Energy Regen).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When an allied hero's HP drops below 60% for the first time, Lionheart Sekhet restores an extra 600 Energy."
+          },
+          {
+            "level": "3",
+            "text": "Increases the Energy restored to Lionheart Sekhet to 75."
+          },
+          {
+            "level": "4",
+            "text": "Increases the Energy restored to Lionheart Sekhet to 100. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Royal Domain",
+        "tier": "Realm Effect",
+        "description": "Whenever an allied hero receives or resists specific control effects (stunned, taunted, knocked airborne, knocked back, terrified, hypnotized, charmed, immobilized, or forced to attack), this hero gains a shield equal to 10% of the Max HP for 5s.This effect is triggered once every 5s for each hero. If triggered by Lionheart Sekhet, she also gains Control Immunity and immunity to target-changing effects for 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Whenever an allied hero loses Shield equal to 60% of Max HP, they become immune to all damage for 1.5s. This effect can be triggered every 16s for each hero. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Every 6 time(s) this skill's damage immunity or shield effect is triggered, silences all enemies for 2s. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Whenever an allied hero loses Shield equal to 60% of Max HP, they become immune to all damage for 1.5s. This effect can be triggered once every 12s for each hero. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lolita",
+    "name": "Lolita",
+    "abilities": [
+      {
+        "name": "Noumenon Blast",
+        "tier": "Ultimate",
+        "description": "Lolita acquires a shield equal to 280% of her Attack and attacks enemies after charging up, dealing 280% of her Attack and stunning them for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 3s"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Shield to 560% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the Shield to 700% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Guardian's Bulwark",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 45% Damage Reduction when the shield is up"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Damage Reduction to 55%"
+          },
+          {
+            "level": "4",
+            "text": "Increase the Damage Reduction to 65%"
+          }
+        ]
+      },
+      {
+        "name": "Smite",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 480% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 565% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 645% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Noumenon Energy Core",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Provides a shield to the weakest ally."
+          },
+          {
+            "level": "3",
+            "text": "Acquires 20% Damage Reduction when the shield is on."
+          },
+          {
+            "level": "4",
+            "text": "Shield is increased to 280% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lucy",
+    "name": "Lucy",
+    "abilities": [
+      {
+        "name": "Celestial Spirit Gate",
+        "tier": "Ultimate",
+        "description": "Passive: Lucy unleashes her Ultimate as soon as the battle begins.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by the tidal wave will lose"
+          },
+          {
+            "level": "3",
+            "text": "Aquarius' damage is increased by 20%."
+          },
+          {
+            "level": "4",
+            "text": "Aquarius' damage is increased by 40%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Aquarian Whirlpool",
+        "tier": "Skill",
+        "description": "Creates a medium-sized whirlpool at the area with the most enemies, dealing damage equal to 40% of Attack per second and continuously pulling them toward the whirlpool center. This process lasts 3s and does not interrupt enemy skill casts.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 50% Attack."
+          },
+          {
+            "level": "3",
+            "text": "If Lucy's Energy is more than 50% when the whirlpool dissipates, an additional waterspout will emerge at the original center of the whirlpool. knocking enemies airborne for 1s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 60% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Water Barrier",
+        "tier": "Skill",
+        "description": "Generates a water barrier equal to 800% of Attack, lasting 8s . Damage taken is reduced by 40% while the water barrier exists.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lucy's Damage Increase is boosted by 40% while the water barrier exists."
+          },
+          {
+            "level": "3",
+            "text": "The water barrier is increased to 1000% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "The water barrier is increased to 1200% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Celestial Spirit Magic",
+        "tier": "Passive",
+        "description": "Without Aquarius on the battlefield, Lucy gains a 20% Energy Regen and 20% Damage Reduction. With Aquarius present, when Lucy's Energy is full, she immediately consumes 800 Energy to unleash Aquarius's tidal wave.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "With Aquarius present, 100% of the excess healing received by Lucy will be transferred to Aquarius."
+          },
+          {
+            "level": "3",
+            "text": "Without Aquarius on the battlefield, Lucy gains a 25% Energy Regen and 25% Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "Without Aquarius on the battlefield, Lucy gains a 30% Energy Regen and 30% Damage Reduction (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "luna-amara",
+    "name": "Luna Amara",
+    "abilities": [
+      {
+        "name": "Spectral Bond",
+        "tier": "Ultimate",
+        "description": "Summons a giant chain that focuses all of her lamp genie Lune's power, attacking all enemies 4 time(s), dealing damage equal to 40% of Attack each time.Passive: Amara attacks 2 nearest enemy target(s) with her Basic Attack, and each of Amara's and Lune's attacks deal 1 extra damage equal to 5% of enemy's Max HP, up to 500% of Amara's or Lune's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After dealing damage with her Ultimate, reduces the enemy's Defense by 20% for 4s."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt each time Amara actively uses her Ultimate is increased by 45%."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt each time Amara actively uses her Ultimate is increased by 50% (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Lu's Beckoning",
+        "tier": "Skill",
+        "description": "Summons her lamp genie Lune amidst enemies, dealing damage equal to 50% of Attack, and continues to attack nearby enemies. Each time Amara uses her Basic Attack, Lune follows her and deals damage equal to 30% of its Attack to the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After summoning Lune, gains 40% Damage Reduction that decays to 0 over 10s."
+          },
+          {
+            "level": "3",
+            "text": "After summoning Lune, gains 60% Damage Reduction that decays to 0 over 10s."
+          },
+          {
+            "level": "4",
+            "text": "After summoning Lune, gains 80% Damage Reduction that decays to 0 over 10s."
+          }
+        ]
+      },
+      {
+        "name": "Dark Projection",
+        "tier": "Skill",
+        "description": "Lune follows Amara's command and attacks nearby enemies, dealing damage equal to 60% of its Attack and increasing enemies' damage taken by 15% until the end of battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by Dark Projection's explosion take increased damage, stacking up to 5 times."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by Lune is increased to 75% of its Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by Lune is increased to 90% of its Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Phantom Sanctuary",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When enhanced, Amara gains 6% Damage Increase and Damage Reduction."
+          },
+          {
+            "level": "3",
+            "text": "Damage Increase and Damage Reduction gained are increased to 12%."
+          },
+          {
+            "level": "4",
+            "text": "Damage Increase and Damage Reduction gained are increased to 18%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lunox",
+    "name": "Lunox",
+    "abilities": [
+      {
+        "name": "Halo",
+        "tier": "Ultimate",
+        "description": "Lunox enhances the Power of Order till she dies, acquiring a shield equal to 20% of her Max HP and converting 90% of her current HP to the shield. Meanwhile, her Basic Attack becomes Cosmic Fission, dealing damage equal to 150% of her Attack to enemies in the range",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Crit Rate by 8% upon entering the enhanced state."
+          },
+          {
+            "level": "3",
+            "text": "Increases Crit Rate by 15% upon entering the enhanced state."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by Cosmic Fission is increased to 220% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Eternal Impact",
+        "tier": "Skill",
+        "description": "Lunox releases the Power of Eternity, dealing damage equal to 200% of her Attack to a random enemy. The Power of Eternity will be released multiple times in a row if Lunox is in her enhanced state.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 240%."
+          },
+          {
+            "level": "3",
+            "text": "Lunox heals herself each time she releases Power of Eternity."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 280%."
+          }
+        ]
+      },
+      {
+        "name": "Cosmic Fission",
+        "tier": "Passive",
+        "description": "Lunox will become the Beam of Order when she takes lethal damage, during which she will regenerate HP equal to 7% Max HP per second; when her HP reaches 50%, she will revive and cast Halo on nearby enemies, dealing damage equal to 200% of her Attack. Each time she transforms into the Bean of Order, Lunox will lose some of her Power of Order, thus the Healing Effect of this skill will be reduced.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage of Halo is increased to 240% Attack."
+          },
+          {
+            "level": "3",
+            "text": "The damage of Halo is increased to 280% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage of Halo is increased to 320% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Dreamland Twist",
+        "tier": "Passive",
+        "description": "For every 10% of Lunox's HP lost, she heals two allies for an amount of HP equal to 100% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Healing Effect is increased to 150% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Healing Effect is increased to 200% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Healing Effect is increased to 240% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lylia",
+    "name": "Lylia",
+    "abilities": [
+      {
+        "name": "Souls of Dreamland",
+        "tier": "Ultimate",
+        "description": "Gloom devours enemies' Souls and put enemies in a wide range to sleep for 8 seconds. After sleeping for one second, the enemies will be awakened if they take Damage. If the enemy has been put to sleep before by Lylia's Ultimate, their duration of sleep will be reduced to no less than 4 seconds.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies put to sleep by Lylia won't be awakened when taking damage in the first 2s."
+          },
+          {
+            "level": "3",
+            "text": "Enemies put to sleep by Lylia won't be awakened when taking damage in the first 3.5s."
+          },
+          {
+            "level": "4",
+            "text": "Enemies put to sleep by Lylia won't be awakened when taking damage in the first 4.5s. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Magic Shockwave",
+        "tier": "Skill",
+        "description": "Release Gloom to the nearest enemy. Explode after reaching the target and deal 275% Attack of damage to the enemies close by. Gloom will also bounce to the enemies with the Mark of Shadow Energy and explode. Damages caused by this Skill would not awaken the sleeping enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 350% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage Dealt to sleeping enemies increases by 25%."
+          },
+          {
+            "level": "4",
+            "text": "Damage Dealt to sleeping enemies increases by 50%."
+          }
+        ]
+      },
+      {
+        "name": "Shadow Energy",
+        "tier": "Skill",
+        "description": "Put a Mark of Shadow Energy on the enemy with the highest Attack. Reduce 30% of their Defense for 20 seconds. The marked enemy will take damage equal to 40% of Lylia's Attack for every 2 seconds. Damage caused by this Skill will not awaken the sleeping enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage Dealt to sleeping enemies increases by 100%."
+          },
+          {
+            "level": "3",
+            "text": "Each Damage is increased to 50% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each Damage is increased to 60% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Temporary Lifeline",
+        "tier": "Passive",
+        "description": "When Lylia takes a lethal attack, she recovers HP equal to 350% of her Attack. This Skill can be triggered only once in each battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Lylia recovers HP after taking a lethal Damage, her next Basic Attack will turn into a Magic Shockwave."
+          },
+          {
+            "level": "3",
+            "text": "HP recovery is increased to 500% Attack."
+          },
+          {
+            "level": "4",
+            "text": "HP recovery is increased to 700% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "martis",
+    "name": "Martis",
+    "abilities": [
+      {
+        "name": "Decimation (Martis)",
+        "tier": "Ultimate",
+        "description": "Martis uses Cross Slash to deal damage equal to 600% of his Attack to the nearest enemy unit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If the target's HP is below 50%, damage caused by this Skill will turn into True Damage."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 750% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Skill Damage is increased to 900% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blood Fetters",
+        "tier": "Skill",
+        "description": "In the first 7 seconds, 20% of the damage taken by Martis will be transferred to the enemy with the highest Defense. The actual damage for the two Heroes will be calculated separately based on each one's Defense.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The duration of this effect is increased to 10s."
+          },
+          {
+            "level": "3",
+            "text": "Damage transferred to the enemy is increased to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Damage transferred to the enemy is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Mortal Coil",
+        "tier": "Skill",
+        "description": "Martis strikes the nearest enemy twice in a row, each strike dealing damage equal to 100% of his Attack. 100% of the damage dealt by this Skill will turn into the Hero's HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The less HP Martis has, the more damage can be caused by this Skill. The damage can be increased by up to 50%."
+          },
+          {
+            "level": "3",
+            "text": "Basic Damage of this Skill is increased to 130% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Basic Damage of this Skill is increased to 160% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Ashura's Wrath",
+        "tier": "Passive",
+        "description": "When Martis's HP is below 15%, he can swap his HP percentage with the enemy who has the highest HP percentage. It's guaranteed that Martis's HP will be above 25% after swap, and the enemy's HP won't be higher than before. The Skill can be triggered every 8.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Skill can be triggered every 7.5s."
+          },
+          {
+            "level": "3",
+            "text": "The Skill can be triggered every 6.5s."
+          },
+          {
+            "level": "4",
+            "text": "Every time Ashura's Wrath is triggered, Martis' Defense increases by 50% for 4s (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "masha",
+    "name": "Masha",
+    "abilities": [
+      {
+        "name": "Ursine Rush",
+        "tier": "Ultimate",
+        "description": "Masha summons forth a pack of Bears that deal damage to all enemies equal to 80% Attack 5 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "During the 8s following her Ultimate, Masha converts 30% of the damage inflicted by her Comrades into healing."
+          },
+          {
+            "level": "3",
+            "text": "During the 8s following her Ultimate, Masha converts 50% of the damage inflicted by her Comrades into healing."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the pack of Bears is increased to 105% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Leadership",
+        "tier": "Skill",
+        "description": "When the battle starts, Masha selects 2 allied units (prioritizing middle row heroes) to act as her Comrades. She reduces their control effects received by a large amount, this effect having a cooldown of 2s for each Comrade. Once a Comrade hits an enemy, the damage that enemy deals to Masha over the next 6s is reduced by 12%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by Comrade attacks deal 16% less damage to Masha over the next 6s."
+          },
+          {
+            "level": "3",
+            "text": "Masha's damage taken from enemies struck by Comrades can be further reduced, the effects stacking up to 2."
+          },
+          {
+            "level": "4",
+            "text": "Enemies hit by Comrade attacks deal 20% less damage to Masha over the next 6s."
+          }
+        ]
+      },
+      {
+        "name": "Thunderstrike Combo",
+        "tier": "Skill",
+        "description": "Masha initiates a triple strike, each blow dealing damage equal to 150% Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If her combo is interrupted, Masha recovers 5% Max HP."
+          },
+          {
+            "level": "3",
+            "text": "For each Comrade left alive, Masha's combo damage is increased by 25%."
+          },
+          {
+            "level": "4",
+            "text": "Triple Strike Damage is increased to 180% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Primal Frenzy",
+        "tier": "Passive",
+        "description": "The duration of the majority of control effects Masha receives is reduced by 50%, and once free of these effects, she immediately regains 3% Max HP. Has a cooldown of 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The duration of the majority of control effects Masha receives is reduced by 80%."
+          },
+          {
+            "level": "3",
+            "text": "Masha immediately regains 6% Max HP once freeing herself from the majority of control effects. Has a cooldown of 2s."
+          },
+          {
+            "level": "4",
+            "text": "Masha immediately regains 8% Max HP once freeing herself from the majority of control effects. Has a cooldown of 2s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mecha-layla",
+    "name": "Mecha Layla",
+    "abilities": [
+      {
+        "name": "Nowhere to Hide",
+        "tier": "Ultimate",
+        "description": "Once the battle starts, Mecha Layla will set up the mecha on the edge of the battlefield, and the enemy cannot target her. When all her allies are defeated, Mecha Layla will remove her mecha and leave the battlefield. In the mecha state, Mecha Layla will fire continuous projectiles instead of Basic Attacks at random enemy units, dealing damage equal to 2% of her Max HP. When she uses the Ultimate, she will use an energy sphere to stun the nearest enemy for 4s and deal continuous damage equal to 180% of her Attack. If the target takes damage equal to 30% of its Max HP or dies within the duration, the energy sphere will explode, dealing AoE damage equal to 400% of her Attack and silencing any enemy hit by 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt by the energy sphere explosion is increased to 600% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt is increased to 235% Attack while the energy sphere is active."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 290% Attack while the energy sphere is active. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Claw Machine",
+        "tier": "Skill",
+        "description": "Mecha Layla will capture the enemy with the lowest percentage of HP and drag them into a special space, before dropping them on the nearest enemy and dealing damage equal to 200% of her Attack to both of the enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt is increased to 280% Attack"
+          },
+          {
+            "level": "3",
+            "text": "The two target enemies are also stunned for 2s."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 360% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Laser Domain",
+        "tier": "Skill",
+        "description": "Mecha Layla intermittently shoots a laser beam across the entire battlefield, dealing damage equal to 135% of her Attack to all enemies in its path.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt by Mecha Layla's projectiles to enemies hit by the laser beam is increased by 50% for 4s."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt is increased to 160% Attack"
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 195% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Supply Strategy",
+        "tier": "Passive",
+        "description": "Every time Mecha Layla deals damage equal to 1000% of her Attack, her Power Level will increase by 1. Different Power Levels grant different effects: Power Level 1: Intermittently unleashes a healing wave to heal all allies by an amount of HP equal to 2.5% of her Max HP. Power Level 2: Increases the damage of Laser Domain by 100%. Power Level 3: Greatly increases the frequency of projectiles.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed by a healing wave is increased to 3% of Mecha Layla's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed by the healing wave is increased to 3.5% of Mecha Layla's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed by the healing wave is increased to 4% of Mecha Layla's Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "medusa",
+    "name": "Medusa",
+    "abilities": [
+      {
+        "name": "Stone Gaze",
+        "tier": "Ultimate",
+        "description": "Gazes and stuns enemies in front of her for 3s and deals damage equal to 165% of her Attack. This also permanently reduces the target's Damage Reduction by 10%, stacking up to 5 times. When the stun effect ends, the target reduces Energy based on their HP loss loss during the stun. For every 1% of Max HP lost, 4 Energy is reduced.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After the first cast of Stone Gaze, the second cast can penetrate control immunity. This effect is applied in alternation."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 195% of her attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 230% of her attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Arrow of Woe",
+        "tier": "Skill",
+        "description": "Fires 5 arrows, each dealing damage equal to 87% of her Attack and reducing the target's Energy by 60. The arrows prioritize different targets.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Arrow damage is increased to 110% of her attack"
+          },
+          {
+            "level": "3",
+            "text": "For each enemy whose attributes fall below their base levels (counting up to 8 attributes), Medusa's arrows deal additional damage equal to 1% of her Max HP, capped at 800% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Arrow damage is increased to 120% of her attack."
+          }
+        ]
+      },
+      {
+        "name": "Gorgon's Salvation",
+        "tier": "Skill",
+        "description": "Blesses Medusa and an ally with the lowest HP for 12s. During the blessing, 50% of damage taken is gradually dealt over 5s. When the blessing ends, any remaining damage is neutralized.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Medusa and her allies are blessed, recover HP equal to 160% of Medusa's Attack. Additionally, they recover HP equal to 40% of her Attack every 2s during the blessing."
+          },
+          {
+            "level": "3",
+            "text": "HP recovered by the blessing is increased to 200% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "HP recovered by the blessing is increased to 220% of her Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Gorgon's Bloodcurse",
+        "tier": "Passive",
+        "description": "Releases snakes to attack enemies' attributes. When the skill is triggered, it first reduces the targets' Damage Increase by 15%. Then, every 12 s, it further reduces a target's attributes in the following order:",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each different attribute reduced by this skill, the attribute reduction effect is increased by 10%."
+          },
+          {
+            "level": "3",
+            "text": "The frequency at which the snakes reduce an attribute of enemies increases to every 115."
+          },
+          {
+            "level": "4",
+            "text": "The frequency at which the snakes reduce an attribute of enemies increases to every 10s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "melodic-lunabelle",
+    "name": "Melodic Lunabelle",
+    "abilities": [
+      {
+        "name": "Roaring Metal",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 360% of Attack to enemies within a certain range, then fires notes at 2 random target(s), dealing damage equal to 25% of their Max HP (cannot exceed 2500% of Melodic Lunabelle's Attack). Each time a note is fired, Melodic Lunabelle additionally recovers 100 Energy for herself. Each cast of this skill increases the number of notes fired in subsequent casts by 1, up to a maximum of 6 note(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns enemies for 1s when dealing damage. Repeated stun duration can stack."
+          },
+          {
+            "level": "3",
+            "text": "AoE Damage is increased to 430%.|description-lv4=AoE Damage is increased to 500%.{{Warning"
+          }
+        ]
+      },
+      {
+        "name": "Distorted Electronic",
+        "tier": "Skill",
+        "description": "Fires electronic notes at two enemies, dealing 150% damage to each. For every 250 Energy Melodic Lunabelle has when firing, the electronic notes will bounce to 1 additional target. Notes will not repeatedly bounce between the same enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 170%."
+          },
+          {
+            "level": "3",
+            "text": "When possessing 400 or more Energy, also deals damage equal to 15% of the enemy's Max HP (cannot exceed 1500% of her Attack)."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 190%."
+          }
+        ]
+      },
+      {
+        "name": "Melancholy Blues",
+        "tier": "Skill",
+        "description": "Fires blues notes at 3 enemies, dealing damage equal to 150% of Attack and silencing enemies for 45.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When silence is immune, deals damage equal to 15% of the enemy's Max HP (cannot exceed 1500% of Melodic Lunabelle's Attack)."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 170%"
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 190% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Rhythmic Sonata",
+        "tier": "Passive",
+        "description": "Increases Melodic Lunabelle's damage by 30%. For every 400 Energy the enemy has when taking damage, additionally increases damage dealt by 10%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every 400 Energy the enemy has when taking damage, additionally increases this attack's Crit Rate by 20%."
+          },
+          {
+            "level": "3",
+            "text": "For every 400 Energy the enemy has when taking damage, additionally increases damage by 20%."
+          },
+          {
+            "level": "4",
+            "text": "For every 400 Energy the enemy has when taking damage, additionally increases damage by 30%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "minsitthar",
+    "name": "Minsitthar",
+    "abilities": [
+      {
+        "name": "King's Calling",
+        "tier": "Ultimate",
+        "description": "Minsitthar charges a short distance forward and calls 4 Royal Guards to fight alongside him. Royal Guards deal damage equal to 150% of Minsitthar's Attack. Royal Guards will stay on the battlefield for 6s and they cannot move.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Minsitthar increases 30% Defense within the skill duration"
+          },
+          {
+            "level": "3",
+            "text": "Defense Bonus is increased to 50%"
+          },
+          {
+            "level": "4",
+            "text": "Defense Bonus is increased to 80% (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Spear of Glory",
+        "tier": "Skill",
+        "description": "Minsitthar stabs forward with the Spear of Glory, dealing damage equal to 185% of his Attack to enemies along the way.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Pulls the furthest enemy towards him"
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage to 210% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 235% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Shield Assault",
+        "tier": "Skill",
+        "description": "Minsitthar awakens the strength of the Shield and deals damage equal to 175% of his Attack to the first enemy hit, stunning the target for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Generates a shield equal to 120% of his Attack for himself and the ally with the lowest HP"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Shield to 200% Attack"
+          },
+          {
+            "level": "4",
+            "text": "The Shield is increased to 280% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "All United",
+        "tier": "Passive",
+        "description": "When Minsitthar is on the battlefield, he will add 20 points of Energy to all allied Heroes every 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the Energy restored to 30 points"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Energy restored to 40 points"
+          },
+          {
+            "level": "4",
+            "text": "Energy Regen is increased to 50 points (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "miracle-clara",
+    "name": "Miracle Clara",
+    "abilities": [
+      {
+        "name": "Showtime",
+        "tier": "Ultimate",
+        "description": "Clara restores 8% of allies' lost HP over time a total of 4 times, while dealing damage equal to 10% of enemies' Max HP to all enemies (capped at 100% of Clara's Max HP).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 12% of the enemy's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 14% of the enemy's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 16% of the enemy's Max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Magic Dice",
+        "tier": "Skill",
+        "description": "Clara deals damage equal to 200% of her Attack to the enemy with the highest Energy and stuns them for 0.5s. Meanwhile, Clara rolls the dice once, every 1 point rolled increasing the skill damage by 10% and extending the stun duration by 0.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Clears the enemy's Energy if Clara rolls a 6."
+          },
+          {
+            "level": "3",
+            "text": "Extra damage from each point is increased to 20%."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage from each point is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Clara's Wish",
+        "tier": "Skill",
+        "description": "Clara encourages the allied hero with the lowest HP percentage, granting them and herself 25 extra Lifesteal and Crit Damage for 5s. The lower the ally's HP percentage, the higher the Crit Damage Bonus (capped at 15%).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Crit Damage Bonus is capped at 30%."
+          },
+          {
+            "level": "3",
+            "text": "Lifesteal is increased by 50."
+          },
+          {
+            "level": "4",
+            "text": "Lifesteal is increased by 100. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Attendant's Will",
+        "tier": "Passive",
+        "description": "Allies gain Crit Rate and Damage Increase up to 3% as they lose HP. When an allied hero is dying, they will gain immunity to death for 2s. The effect can only be triggered once per hero in each battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Crit Rate and Damage Increase Bonuses are capped at 6%."
+          },
+          {
+            "level": "3",
+            "text": "Crit Rate and Damage Increase Bonuses are capped at 9%."
+          },
+          {
+            "level": "4",
+            "text": "Crit Rate and Damage Increase Bonuses are capped at 12%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  }
+]

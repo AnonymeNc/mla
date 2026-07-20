@@ -1,0 +1,583 @@
+{
+  "darksteel-dullahan": {
+    "Umbral Aegis": {
+      "description": "",
+      "levels": {
+        "2": "Quand les PV de chaque héros allié passent sous les 50% pour la première fois, Dullahan gagne immédiatement 200 points d'Énergie.",
+        "3": "Quand Umbral Aegis est consommée, son porteur restaure des PV égaux à 150% de l'Attaque de Darksteel Dullahan.",
+        "4": "Quand Umbral Aegis est consommée, son porteur restaure des PV égaux à 200% de l'Attaque de Darksteel Dullahan. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Darksteel Slam": {
+      "description": "Cible l'ennemi le plus proche de la moitié alliée du champ de bataille, infligeant des dégâts égaux à 200% de l'Attaque. Si l'ennemi se trouve dans la moitié alliée, il est repoussé loin en arrière.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 250% de l'Attaque.",
+        "3": "Inflige des dégâts supplémentaires égaux à 20% des PV max de l'ennemi, sans dépasser 1000% de l'Attaque de Dullahan, et Dullahan restaure des PV égaux à 100% des dégâts supplémentaires infligés.",
+        "4": "Les dégâts infligés sont augmentés à 300% de l'Attaque."
+      }
+    },
+    "Dark Marrow": {
+      "description": "Restaure 100 points d'Énergie. Pour chaque héros allié sur le champ de bataille (elle exclue) dont les PV sont inférieurs à 70%, augmente le temps d'incantation de 0,5% et restaure 60 points d'Énergie supplémentaires.",
+      "levels": {
+        "2": "Dullahan est immunisée à tous les dégâts et à la plupart des effets de contrôle pendant l'incantation.",
+        "3": "La restauration d'Énergie initiale est augmentée à 150.",
+        "4": "La restauration d'Énergie initiale est augmentée à 200. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Evernight Shroud": {
+      "description": "Au début du combat, Darksteel Dullahan gagne 2 charge(s) d'Umbral Aegis. Quand Umbral Aegis est déclenchée sur elle, elle gagne 15% de Réduction des dégâts pendant 8s, cumulable jusqu'à 3 fois.",
+      "levels": {
+        "2": "Au début du combat, les autres héros alliés gagnent 2 charge(s) d'Umbral Aegis.",
+        "3": "Quand Umbral Aegis est déclenchée sur Dullahan, elle gagne 20% de Réduction des dégâts.",
+        "4": "Quand Umbral Aegis est déclenchée sur Dullahan, elle gagne 25% de Réduction des dégâts. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "diggie": {
+    "Time Journey": {
+      "description": "Diggie utilise le Nid Temporel pour fournir à tous ses alliés un bouclier égal à 295% de son Attaque ainsi qu'un bonus de Défense de 25%.",
+      "levels": {
+        "2": "Les alliés restaurent des PV égaux à 20% de l'Attaque de Diggie par seconde tant que le bouclier est actif.",
+        "3": "Augmente le Bouclier à 355% de l'Attaque.",
+        "4": "Augmente le Bouclier à 425% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Reverse Time": {
+      "description": "Diggie soigne l'allié de mêlée le plus faible d'un montant de PV égal à 240% de son Attaque.",
+      "levels": {
+        "2": "Le montant de PV soigné est augmenté à 265% de l'Attaque.",
+        "3": "Soigne d'un montant de PV supplémentaire les alliés dont les PV passent sous les 50% et augmente leur Défense de 50% pendant 6s.",
+        "4": "Le montant de PV soigné est augmenté à 300% de l'Attaque."
+      }
+    },
+    "Auto Alarm Bomb": {
+      "description": "Diggie lance un réveil qui explose après un moment, infligeant des dégâts égaux à 205% de son Attaque aux ennemis à portée et les étourdissant pendant 1s.",
+      "levels": {
+        "2": "La durée d'étourdissement est augmentée à 2s.",
+        "3": "Les dégâts sont augmentés à 240% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 290% de l'Attaque. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Young Again": {
+      "description": "Pendant la durée de Reverse Time, Diggie fournit 20% de Réduction des dégâts à ses alliés.",
+      "levels": {
+        "2": "Diggie restaure 20 points d'Énergie lorsque les alliés qu'il soigne subissent des dégâts.",
+        "3": "L'Énergie restaurée est augmentée à 40 points.",
+        "4": "La réduction des dégâts est augmentée à 30%. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "eclipse-arlott": {
+    "Final Slash": {
+      "description": "Inflige des dégâts égaux à 275% de son Attaque à un ennemi ciblé et aux ennemis proches, ainsi que des dégâts supplémentaires égaux à 15% de ses PV max, plafonnés à 1500% de l'Attaque d'Eclipse Arlott. Cette compétence se déclenche une fois de plus sur tous les ennemis affectés par l'effet de Marque. Toutes les 5s, inflige la Marque à un ennemi pendant 7s, en priorisant les Mages et les Tireurs ennemis. Au début du combat, inflige la Marque à 2 héros ennemis. Pour chaque héros d'une classe différente déployé, la durée de l'effet de Marque augmente de 2s.",
+      "levels": {
+        "2": "Étourdit la cible pendant 1,5s au moment de l'impact. Plusieurs coups cumulent la durée d'étourdissement.",
+        "3": "Augmente les dégâts infligés à 340%.",
+        "4": "Augmente les dégâts infligés à 400%. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Dauntless Strike": {
+      "description": "Inflige des dégâts égaux à 180% de son Attaque aux ennemis dans la zone rectangulaire devant lui. Réduit leur Énergie de 100 lorsqu'il touche des ennemis affectés par l'effet de Marque.",
+      "levels": {
+        "2": "Augmente les dégâts infligés à 225%.",
+        "3": "La réduction de l'Énergie des ennemis devient une absorption de leur Énergie.",
+        "4": "Augmente les dégâts infligés à 250%."
+      }
+    },
+    "Vengeance": {
+      "description": "Balance sa lance vers l'avant, infligeant des dégâts égaux à 75% de son Attaque, puis tente de tirer les ennemis vers lui, infligeant des dégâts égaux à 75% de son Attaque. Attire les ennemis avec succès s'ils sont affectés par l'effet de Marque.",
+      "levels": {
+        "2": "Lorsqu'il touche des ennemis affectés par l'effet de Marque, gagne un Bouclier égal à 100% de l'Attaque de l'ennemi, plafonné à 500% de sa propre Attaque par charge pendant 15s. Tant qu'il est protégé par le Bouclier, Eclipse Arlott peut gagner 60% de la régénération d'Énergie déclenchée par les dégâts.",
+        "3": "Augmente les dégâts infligés par coup à 95%.",
+        "4": "Augmente les dégâts infligés par coup à 115%. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Demon Gaze": {
+      "description": "Réduit de 40% les dégâts subis par Eclipse Arlott. Réduit également de 10% les dégâts subis de la part des ennemis affectés par l'effet de Marque.",
+      "levels": {
+        "2": "Eclipse Arlott devient immunisé à la plupart des effets de contrôle provenant des ennemis affectés par la Marque.",
+        "3": "Augmente à 20% la réduction des dégâts subis par Eclipse Arlott de la part des ennemis affectés par la Marque.",
+        "4": "Augmente à 30% la réduction des dégâts subis par Eclipse Arlott de la part des ennemis affectés par la Marque. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "edith": {
+    "Roaring Thunder": {
+      "description": "Edith ne peut lancer Roaring Thunder que sous sa forme de mecha, et l'effet de la compétence varie selon qu'elle est dans le mecha ou non. Passif : Edith entre en combat sous sa forme de mecha. Le mecha lui fournit un bouclier égal à 60% de ses PV. Quand le bouclier est brisé, Edith est éjectée du mecha et cesse de contrôler les ennemis. Pendant les 6 secondes suivantes, Edith devient immunisée à la plupart des effets de contrôle et invoque des éclairs sur les ennemis proches, infligeant 70% de dégâts toutes les 0,5 secondes et réduisant fortement leur Agilité. Après les éclairs, Edith réintègre le mecha et se déplace là où les ennemis sont rassemblés. Actif : inflige 200% de dégâts à tous les ennemis et les provoque pendant 2s.",
+      "levels": {
+        "2": "Chaque éclair a 20% de chances de réduire l'Énergie de l'ennemi de 30.",
+        "3": "Le bouclier de base du mecha est augmenté à 70% des PV max d'Edith.",
+        "4": "Le bouclier de base du mecha est augmenté à 80% des PV max d'Edith. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Ancient Rush": {
+      "description": "Bondit au milieu d'un groupe d'ennemis et frappe le sol, devenant immunisée à la plupart des effets de contrôle. Inflige des dégâts égaux à 200% de l'Attaque et projette les ennemis proches dans les airs.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 220% de l'Attaque.",
+        "3": "La durée de projection des ennemis dans les airs est augmentée et ils sont attirés plus près d'Edith.",
+        "4": "Les dégâts infligés sont augmentés à 250% de l'Attaque."
+      }
+    },
+    "Lightning Charge": {
+      "description": "",
+      "levels": {
+        "2": "Absorbe 6% de la Défense de tous les ennemis dans la zone pendant 6 secondes.",
+        "3": "Le bouclier absorbé est augmenté à 9% des PV max.",
+        "4": "Le bouclier absorbé est augmenté à 10% des PV max. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Eternal Guard": {
+      "description": "",
+      "levels": {
+        "2": "Pour chaque tranche de 20% de dégâts absorbés par le bouclier du mecha, Edith restaure 100 points d'Énergie.",
+        "3": "Chaque charge fournit 5% de Réduction des dégâts.",
+        "4": "Chaque charge fournit 6% de Réduction des dégâts. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "ember-irithel": {
+    "The Hunt Begins": {
+      "description": "Ember Irithel charge un canon, infligeant des dégâts de zone à grande portée égaux à 320% de son Attaque. Pendant ce temps, Leo attaque les cibles traquées dans la moitié ennemie du terrain, infligeant à chaque fois des dégâts égaux à 75% de son Attaque.",
+      "levels": {
+        "2": "Ember Irithel acquiert 460 points d'Énergie au début du combat.",
+        "3": "Augmente de 50% les dégâts infligés par Ember Irithel en Mode Canon.",
+        "4": "Augmente de 60% les dégâts infligés par Ember Irithel en Mode Canon. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Hunter's Mark": {
+      "description": "Au début du combat, tire une flèche marquante sur l'ennemi le plus proche, infligeant des dégâts égaux à 140% de l'Attaque, l'étourdissant pendant 3s et le marquant comme cible traquée.",
+      "levels": {
+        "2": "Augmente les dégâts à 155% de l'Attaque.",
+        "3": "Réduit de 60% la régénération de PV et de bouclier de la cible traquée.",
+        "4": "Réduit de 80% la régénération de PV et de bouclier de la cible traquée."
+      }
+    },
+    "Roar of Resilience": {
+      "description": "Leo pousse un rugissement de guerre, augmentant le Taux de coups critiques des alliés de 30% et leur Taux de précision de 60%, tout en convertissant 50% des dégâts infligés par les attaques de base des alliés en PV pour lui-même, pendant 10s.",
+      "levels": {
+        "2": "Convertit 100% des dégâts infligés par les attaques de base des alliés en PV pour lui-même.",
+        "3": "Augmente le Taux de coups critiques des alliés de 60%.",
+        "4": "Augmente le Taux de coups critiques des alliés de 90%. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Infernal Onset": {
+      "description": "Ember Irithel tire 2 flèches avec son attaque de base, et Leo attaque deux fois avec la sienne.",
+      "levels": {
+        "2": "Leo attaque 3 fois avec son attaque de base.",
+        "3": "Ember Irithel tire 4 flèches avec son attaque de base.",
+        "4": "Les ennemis blessés par Ember Irithel et Leo subissent 12% de dégâts supplémentaires de façon permanente. (Nécessite Ancient Twilight niveau 2)"
+      }
+    },
+    "Sylvan Shadows": {
+      "description": "Toutes les 9 fois qu'un ennemi subit des dégâts de ses attaques de base, Ember Irithel ignore l'Immunité au contrôle, l'étourdissant pendant 3s et absorbant 300 points de son Énergie.",
+      "levels": {
+        "2": "[Boost PV Global] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Augmente l'Énergie absorbée à 400 points. (Débloqué à 48px)",
+        "4": "Toutes les 15 fois qu'un ennemi subit des dégâts de ses attaques de base, il devient grièvement blessé. Tous ses attributs actuels, y compris l'Attaque, la Défense, le Taux de coups critiques, l'Augmentation des dégâts et la Réduction des dégâts, ne peuvent pas dépasser 80% de ses Attributs de base. (Débloqué à 64px)",
+        "5": "[Boost Attaque Global] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "L'Attaque, la Défense, le Taux de coups critiques, l'Augmentation des dégâts et la Réduction des dégâts d'un ennemi grièvement blessé ne peuvent pas dépasser 60% de ses Attributs de base. (Débloqué à 16px)"
+      }
+    }
+  },
+  "eos-silvanna": {
+    "Moniyan! Advance!": {
+      "description": "Eos Silvanna invoque le Faucon Impérial derrière elle, qui fond sur les ennemis devant elle et crée une puissante onde de choc, interrompant leurs compétences et infligeant des dégâts égaux à 250% de son Attaque. Chaque fois que le Bouclier d'Eos Silvanna dépasse 50% de ses PV max, inflige 50% de dégâts aux ennemis devant elle (jusqu'à 3 fois).",
+      "levels": {
+        "2": "Chaque onde de choc augmente de 15% pendant 10s les dégâts subis par l'ennemi de la part d'Eos Silvanna (cumulable).",
+        "3": "Augmente les Dégâts à 350% de l'Attaque.",
+        "4": "Augmente les Dégâts à 400% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Follow the Light": {
+      "description": "Eos Silvanna soulève l'ennemi le plus proche, infligeant des dégâts égaux à 210% de son Attaque. Quand un allié utilise son attaque de base sur le même ennemi, celui-ci subit des dégâts supplémentaires égaux à 5% du Bouclier de l'allié pendant 6s. Cet effet se déclenche jusqu'à 6 fois par héros.",
+      "levels": {
+        "2": "Quand l'unité est vaincue, tous les alliés gagnent un bouclier égal à 40% des PV max de l'unité (ne peut pas dépasser 100% des PV max d'Eos Silvanna).",
+        "3": "Augmente les Dégâts à 240% de l'Attaque.",
+        "4": "Augmente les Dégâts à 270% de l'Attaque."
+      }
+    },
+    "Bathe in Glory": {
+      "description": "Eos Silvanna et l'allié ayant le moins de PV gagnent tous deux un bouclier égal à 400% de son Attaque.",
+      "levels": {
+        "2": "Chaque fois qu'un allié reçoit un Bouclier grâce à cette compétence, son Bonus de Bouclier augmente de façon permanente de 20% (jusqu'à 100%).",
+        "3": "Augmente le Bouclier à 500% de l'Attaque.",
+        "4": "Augmente le Bouclier à 600% de l'Attaque. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Imperial Blessing": {
+      "description": "Chaque fois qu'Eos Silvanna gagne un Bouclier égal à 25% de ses PV max, son Attaque augmente de façon permanente de 5%, jusqu'à 50%.",
+      "levels": {
+        "2": "Chaque fois qu'Eos Silvanna gagne un Bouclier égal à 25% de ses PV max, son Attaque augmente de 10% (jusqu'à 100%).",
+        "3": "Augmente la durée de Fortitude à 4s.",
+        "4": "Chaque fois qu'Eos Silvanna gagne un Bouclier égal à 25% de ses PV max, son Attaque augmente de 15% (jusqu'à 150%). (Nécessite Ancient Twilight niveau 2)"
+      }
+    },
+    "Realm of Light": {
+      "description": "[Compétence de Royaume I] Toutes les 3s, restaure progressivement l'Énergie de tous les alliés en fonction du ratio de leur Bouclier par rapport à leurs PV max. Quand leur Bouclier dépasse leurs PV max, ils atteignent la Régénération d'Énergie maximale de 20.",
+      "levels": {
+        "2": "[Boost PV Global] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "[Compétence de Royaume II] Augmente la Régénération d'Énergie maximale à 30. (Débloqué à 48px)",
+        "4": "[Compétence de Royaume III] Quand le Bouclier utilisé des alliés atteint 505 de leurs PV max moyens, le Faucon Impérial fond sur l'ennemi ayant le moins de PV. (Débloqué à 64px)",
+        "5": "[Boost Attaque Global] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "[Compétence de Royaume IV] Les dégâts du Faucon Impérial sont augmentés à 360%. (Débloqué à 16px)"
+      }
+    }
+  },
+  "eruditio-guard": {
+    "Cleaving Strike": {
+      "description": "Inflige d'énormes dégâts à l'ennemi et réduit sa Défense pendant un certain temps.",
+      "levels": {}
+    }
+  },
+  "erza": {
+    "Righteous Sword": {
+      "description": "Inflige des dégâts égaux à de l'Attaque au Lv.4 ennemi le plus proche, la Réduction des dégâts d'Erza étant calculée comme une Augmentation des dégâts pour cette attaque.",
+      "levels": {
+        "2": "Restaure 400 points d'Énergie en éliminant un ennemi avec l'Ultime.",
+        "3": "Les dégâts sont augmentés à 1300% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 1500% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Royal Slash": {
+      "description": "Projette l'ennemi le plus proche dans les airs pendant 1.25, 10.4 infligeant des dégâts égaux à de l'Attaque à plusieurs reprises. Après 1.5s, un coup final inflige des dégâts égaux à des PV max de la cible. Les dégâts du coup final ne dépasseront pas de l'Attaque d'Erza.",
+      "levels": {
+        "2": "Convertit 60% des dégâts de cette compétence en 3 auto-soins.",
+        "3": "Après 1.5s, inflige des dégâts égaux à 15% des PV max de la cible.",
+        "4": "Après 1.5s, inflige des dégâts égaux à 20% des PV max de la cible."
+      }
+    },
+    "The Strength of Allies": {
+      "description": "Pour chaque héros vaincu sur le champ de bataille, Erza gagne de son Attaque de base ainsi qu'une Régénération d'Énergie supplémentaire. L'Attaque gagnée à chaque fois ne dépassera pas 60% de l'Attaque de base d'Erza.",
+      "levels": {
+        "2": "Si le héros vaincu est un allié, l'Attaque et la Régénération d'Énergie gagnées sont doublées.",
+        "3": "Pour chaque héros vaincu sur le champ de bataille, Erza gagne 25% de son Attaque de base et 8% de Régénération d'Énergie supplémentaire.",
+        "4": "Pour chaque héros vaincu sur le champ de bataille, Erza gagne 30% de son Attaque de base et 10% de Régénération d'Énergie supplémentaire. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Indomitable Will": {
+      "description": "Chaque fois que les PV d'Erza diminuent de 1% de ses PV max, sa Réduction des dégâts augmente de et son Taux de coups critiques augmente de .",
+      "levels": {
+        "2": "Quand ses PV passent sous les 50%, Erza gagne 150 de Vol de vie.",
+        "3": "Chaque fois que les PV d'Erza diminuent de 1% de ses PV max, sa Réduction des dégâts augmente de 0.8% et son Taux de coups critiques augmente de 0.8%.",
+        "4": "Chaque fois que les PV d'Erza diminuent de 1% de ses PV max, sa Réduction des dégâts augmente de 1% et son Taux de coups critiques augmente de 1%. (Nécessite Ancient Twilight niveau 2)"
+      }
+    },
+    "Fairy Domain": {
+      "description": "Chaque fois qu'un ennemi est projeté dans les airs ou déplacé, il subit des dégâts égaux à 280% de l'Attaque d'Erza, et tous les dégâts subséquents qu'il subit sont augmentés de façon permanente de 10%. Cet effet ne peut se déclencher qu'une fois toutes les 2s par héros, jusqu'à 10 charges.",
+      "levels": {
+        "2": "[Boost PV Global] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "Augmente de façon permanente de 15% tous les dégâts subis par l'ennemi. (Débloqué à 48px)",
+        "4": "Pour chaque défaite dans l'équipe, tous les autres alliés sur le champ de bataille gagnent 40% de Réduction des dégâts supplémentaire pendant 3s. (Débloqué à 64px)",
+        "5": "[Boost Attaque Global] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "Pour chaque défaite dans l'équipe, tous les autres alliés sur le champ de bataille gagnent 60% de Réduction des dégâts supplémentaire pendant 3s. (Débloqué à 16px)"
+      }
+    }
+  },
+  "esmeralda": {
+    "Starmoon Radiance": {
+      "description": "Esmeralda se transforme en Anneau Stellaire, qui ne peut pas être ciblé et se déplace lentement vers l'ennemi ayant l'Attaque la plus élevée pendant 7s. Durant ce laps de temps, l'Anneau Stellaire inflige en continu des dégâts égaux à 110% de son Attaque à tous les ennemis proches. Une fois que l'Anneau Stellaire s'arrête, Esmeralda réapparaît à son emplacement.",
+      "levels": {
+        "2": "Les ennemis proches de l'Anneau Stellaire sont réduits au silence.",
+        "3": "Les dégâts infligés pendant que l'Anneau Stellaire est actif augmentent continuellement jusqu'à 45%.",
+        "4": "Les dégâts infligés pendant que l'Anneau Stellaire est actif augmentent continuellement jusqu'à 90%. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Starmoon Strike": {
+      "description": "Esmeralda inflige des dégâts égaux à 60% de son Attaque à l'ennemi le plus proche à plusieurs reprises, volant à chaque fois 10 - 20 points d'Énergie à la cible.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 72% de l'Attaque.",
+        "3": "L'Énergie volée est augmentée à 15 - 30 points.",
+        "4": "Les dégâts infligés sont augmentés à 84% de l'Attaque."
+      }
+    },
+    "Harmony of Starmoon": {
+      "description": "Esmeralda frappe l'ennemi le plus proche avec Frostmoon, infligeant des dégâts égaux à 185% de son Attaque et réduisant l'ennemi au silence pendant 4s. Esmeralda utilise Stardust pour frapper simultanément l'ennemi ayant l'Attaque la plus élevée, infligeant des dégâts égaux à 185% de son Attaque et l'empêchant d'utiliser ses attaques de base pendant 4s.",
+      "levels": {
+        "2": "Si Stardust et Frostmoon touchent la même cible, Esmeralda gagne 100 points d'Agilité supplémentaires pendant 8s et devient moins susceptible d'être ciblée par les ennemis.",
+        "3": "Les dégâts infligés sont augmentés à 220% de l'Attaque.",
+        "4": "Les dégâts infligés sont augmentés à 270% de l'Attaque. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Arcane Astrology": {
+      "description": "Esmeralda effectue une divination une fois au début du combat, obtenant l'un des bonus suivants pour le reste du combat : Gagne 15% de Taux de coups critiques supplémentaire et 20% de Dégâts critiques supplémentaires ; Gagne 50 points d'Agilité supplémentaires et 50 points de Vol de vie supplémentaires ; Gagne 150 points d'Énergie et 15% de Vitesse de régénération d'Énergie supplémentaire.",
+      "levels": {
+        "2": "Le premier bonus de la divination d'Esmeralda est augmenté à 20% de Taux de coups critiques et 30% de Dégâts critiques.",
+        "3": "Le deuxième bonus de la divination d'Esmeralda est augmenté à 100 points d'Agilité et 100 points de Vol de vie.",
+        "4": "Le troisième bonus de la divination d'Esmeralda est augmenté à 250 points d'Énergie et 25% de Vitesse de régénération d'Énergie. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "estarith": {
+    "Manic Feast": {
+      "description": "Estarith invoque une cage dans la zone comptant le plus d'ennemis, infligeant des dégâts égaux à 240% de son Attaque aux ennemis dans la zone et les étourdissant pendant 1s. Les ennemis à l'intérieur de la cage entrent dans un état de peur lorsque leur Énergie atteint 700 ou plus, perdant 100 points d'Énergie par seconde pendant 3s. La cage disparaît après que cet effet s'est déclenché 3 fois. Chaque héros ne peut le déclencher qu'une fois toutes les 5s. Une seule cage peut être présente sur le champ de bataille à la fois.",
+      "levels": {
+        "2": "Quand l'effet de peur de la cage se déclenche, il réduit également la Défense des ennemis de 8% par seconde pendant 4s, effet qui dure jusqu'à la fin du combat et se cumule jusqu'à 12 fois.",
+        "3": "Inflige des dégâts égaux à 290% de l'Attaque.",
+        "4": "Inflige des dégâts égaux à 335% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Dark Maelstrom": {
+      "description": "Quand la cage existe, Estarith inflige des dégâts égaux à 160% de son Attaque au héros ennemi le plus éloigné de la cage, l'attirant vers le centre de celle-ci. Quand la cage n'existe pas, Estarith restaure 100 points d'Énergie. Estarith restaure 30 points d'Énergie supplémentaires pour chaque héros Chaos déployé.",
+      "levels": {
+        "2": "Inflige des dégâts égaux à 200% de l'Attaque.",
+        "3": "Déclenche cette compétence immédiatement lors de l'invocation de la cage.",
+        "4": "Inflige des dégâts égaux à 240% de l'Attaque."
+      }
+    },
+    "Dread Reprise": {
+      "description": "La première fois que les PV d'Estarith passent respectivement sous les 60% puis les 30%, elle devient immunisée à tous les dégâts pendant 2s et inflige un effet de peur à 2 ennemis proches choisis au hasard pendant 2s.",
+      "levels": {
+        "2": "Chaque fois qu'il se déclenche, restaure 40% des PV et accorde 15% de Réduction des dégâts jusqu'à la fin du combat.",
+        "3": "La Réduction des dégâts est augmentée à 20%.",
+        "4": "La Réduction des dégâts est augmentée à 25%. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Void Embrace": {
+      "description": "Protège un autre héros allié, le rendant impossible à cibler par les ennemis jusqu'à ce qu'Estarith meure ou qu'il n'y ait plus d'alliés ciblables sur le champ de bataille. Estarith privilégie la protection d'un héros déployé sur la même rangée qu'elle. Quand l'effet de la cage se déclenche, ce héros allié restaure 10 points d'Énergie par seconde pendant 4s.",
+      "levels": {
+        "2": "Ce héros allié obtient un bonus d'Attaque égal à 40% de l'Attaque du Support Chaos.",
+        "3": "Restaure 15 points d'Énergie par seconde.",
+        "4": "Restaure 15 points d'Énergie par seconde. (Nécessite Ancient Twilight niveau 2.)"
+      }
+    }
+  },
+  "estes": {
+    "Blessing of Moon Goddess": {
+      "description": "Estes soigne efficacement tous ses alliés en peu de temps. Le montant total de PV à restaurer équivaut à 25% des PV max d'Estes.",
+      "levels": {
+        "2": "L'effet est augmenté de 30% contre les cibles dont les PV sont inférieurs à 20%.",
+        "3": "Le montant de PV soigné est augmenté à 30% de la limite de PV d'Estes.",
+        "4": "La Régénération de PV est augmentée à 35% des PV max d'Estes. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Moonlight Immersion": {
+      "description": "Estes se lie à un allié et le soigne. Le montant total de PV à restaurer équivaut à 25% des PV max d'Estes.",
+      "levels": {
+        "2": "Le montant de PV soigné est augmenté à 30% de la limite de PV d'Estes.",
+        "3": "Le montant de PV soigné est augmenté à 35% de la limite de PV d'Estes.",
+        "4": "Le montant de PV soigné est augmenté à 40% de la limite de PV d'Estes."
+      }
+    },
+    "Domain of Moon Goddess": {
+      "description": "Estes invoque le Domaine de la Déesse Lune aux pieds de l'ennemi pendant 3s, infligeant des dégâts égaux à 65% de son Attaque par seconde.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 78% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 91% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 105% de l'Attaque. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Code of Moon Elves": {
+      "description": "L'allié lié à Estes acquiert un bouclier égal à 2% des PV max d'Estes tant qu'il reste lié à lui.",
+      "levels": {
+        "2": "Les alliés liés restaurent lentement de l'Énergie tant qu'ils sont liés.",
+        "3": "La Défense des alliés liés est augmentée de 15% tant qu'ils sont liés.",
+        "4": "Le Bouclier est augmenté à 3% des PV max d'Estes. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "ethereal-zhuxin": {
+    "Crimson Beacon": {
+      "description": "",
+      "levels": {
+        "2": "Quand l'ennemi atterrit, inflige des dégâts égaux à 6% des PV max aux autres ennemis alentour. Les dégâts ne dépasseront pas 600% de l'Attaque d'Ethereal Zhuxin.",
+        "3": "Inflige chaque seconde des dégâts égaux à 135% de l'Attaque à tous les ennemis à portée.",
+        "4": "Inflige chaque seconde des dégâts égaux à 160% de l'Attaque à tous les ennemis à portée. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Obstinate Whim": {
+      "description": "Inflige des dégâts égaux à 180% de l'Attaque aux ennemis devant elle et inflige 2 charge(s) de Piège d'Âme. Pour chaque ennemi touché dont l'Attaque est supérieure à la sienne, augmente sa propre Attaque de 20% jusqu'à la fin du combat, jusqu'à 200%.",
+      "levels": {
+        "2": "Inflige des dégâts égaux à 220% de l'Attaque.",
+        "3": "Ethereal Zhuxin gagne 500 points d'Énergie au début du combat.",
+        "4": "Inflige des dégâts égaux à 260% de l'Attaque."
+      }
+    },
+    "Fluttering Grace": {
+      "description": "Inflige des dégâts égaux à 260% de l'Attaque à 2 ennemis aléatoires et inflige 2 charge(s) de Piège d'Âme. Chaque fois que cette compétence est utilisée, le nombre d'attaques lors des utilisations suivantes augmente de 1, jusqu'à 5 attaques.",
+      "levels": {
+        "2": "Après avoir déclenché l'effet de projection dans les airs du Piège d'Âme, Ethereal Zhuxin ignore 60% de la Défense de la cible lorsqu'elle lui inflige des dégâts pendant 6s.",
+        "3": "Inflige des dégâts égaux à 335% de l'Attaque.",
+        "4": "Inflige des dégâts égaux à 410% de l'Attaque. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Myriad Lanterns": {
+      "description": "Chaque fois qu'un héros allié Élémentaire ou Ténèbres lance son Ultime, tous les ennemis gagnent 4 charge(s) de Piège d'Âme.",
+      "levels": {
+        "2": "Tous les héros alliés Élémentaires ou Ténèbres augmentent leur Attaque de 200% pendant 8s chaque fois qu'ils lancent leur Ultime.",
+        "3": "Augmente l'Attaque de 35%.",
+        "4": "Augmente l'Attaque de 50%. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "eudora": {
+    "Thunderstruck": {
+      "description": "Eudora invoque la foudre pour infliger des dégâts égaux à 370% de son Attaque à la cible principale ; les ennemis autour de la cible principale subissent des dégâts égaux à 185% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts infligés à la cible principale sont augmentés à 440% de l'Attaque. Les dégâts infligés aux ennemis proches sont augmentés à 220% de l'Attaque."
+      }
+    },
+    "Forked Lightning": {
+      "description": "Eudora contrôle un Éclair Fourchu pour attaquer les ennemis devant elle, infligeant des dégâts égaux à 135% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 155%.",
+        "3": "Les dégâts sont augmentés à 175%."
+      }
+    },
+    "Thunderbolt": {
+      "description": "Eudora invoque la Foudre pour étourdir les ennemis pendant 1s, infligeant des dégâts égaux à 120% de son Attaque.",
+      "levels": {
+        "2": "La durée d'étourdissement est augmentée à 2s."
+      }
+    },
+    "Superconductor": {
+      "description": "Les compétences d'Eudora marquent les unités ennemies. Thunderstruck inflige des dégâts supplémentaires égaux à 25% de son Attaque aux ennemis marqués.",
+      "levels": {
+        "2": "Thunderbolt étourdit les unités ennemies autour de l'ennemi marqué."
+      }
+    }
+  },
+  "everblight-shah-torre": {
+    "Everblight Apocalypse": {
+      "description": "Inflige des dégâts égaux à 100% de l'Attaque plus des PV actuels des cibles à tous les ennemis. Ces dégâts ne dépasseront pas de l'Attaque d'Everblight Shah Torre.",
+      "levels": {
+        "2": "Niv.2 : Si un ennemi conserve 60% ou plus de ses PV après avoir été touché par l'effet actif de cette compétence, les dégâts qu'il subit augmentent de façon permanente de 20% jusqu'à la fin du combat, cumulable jusqu'à 5 fois.",
+        "3": "Les dégâts infligés sont augmentés à 130% de l'Attaque.",
+        "4": "Les dégâts infligés sont augmentés à 160% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Withering Siphon": {
+      "description": "Absorbe de l'Attaque de tous les ennemis dans une zone circulaire pendant s. L'Attaque absorbée de chaque ennemi ne dépassera pas 33% de la propre Attaque du lanceur.",
+      "levels": {
+        "2": "L'Attaque absorbée est augmentée à 9%.",
+        "3": "Si les PV de l'ennemi dépassent 60%, absorbe également 40 points d'Énergie à chaque ennemi.",
+        "4": "L'Attaque absorbée est augmentée à 11%."
+      }
+    },
+    "Terror Grip": {
+      "description": "Chaque Bonus d'Attaque possédé par Everblight Shah Torre permet à son attaque de base d'infliger 1 instance de dégâts supplémentaire par seconde, jusqu'à 3 instances supplémentaires par seconde.",
+      "levels": {
+        "2": "Toutes les 5 instances de dégâts infligées par l'attaque de base étourdissent l'ennemi pendant 1s.",
+        "3": "Chaque tranche de 40% de Bonus d'Attaque possédé par Everblight Shah Torre permet à son attaque de base d'infliger 1 instance de dégâts supplémentaire par seconde.",
+        "4": "Chaque tranche de 30% de Bonus d'Attaque possédé par Everblight Shah Torre permet à son attaque de base d'infliger 1 instance de dégâts supplémentaire par seconde. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Nether Devour": {
+      "description": "Si les PV d'Everblight Shah Torre dépassent 50%, l'Apep des Ténèbres avale un ennemi pendant s, en priorisant l'ennemi occupant la position symétrique. L'ennemi avalé ne peut ni agir ni être ciblé. Everblight Shah Torre gagne de l'Attaque et de la Défense de l'ennemi et récupère 100% de ses PV perdus. Quand les PV d'Everblight Shah Torre passent sous les 40%, l'ennemi ressort prématurément et Everblight Shah Torre perd les attributs gagnés grâce à lui. Une fois que l'ennemi avalé revient au combat, Everblight Shah Torre doit attendre 10s avant de pouvoir réutiliser cette compétence. Everblight Shah Torre est immunisé à l'effet de Nether Devour. Cette compétence ignore l'Immunité au contrôle.",
+      "levels": {
+        "2": "Après avoir avalé un ennemi, Everblight Shah Torre devient impossible à cibler par les ennemis pendant 2s.",
+        "3": "Everblight Shah Torre gagne 20% de l'Attaque et de la Défense de l'ennemi avalé.",
+        "4": "Everblight Shah Torre gagne 30% de l'Attaque et de la Défense de l'ennemi avalé. (Nécessite Ancient Twilight niveau 2)"
+      }
+    },
+    "Predator's Domain": {
+      "description": "[Compétence de Royaume I] Quand les PV d'un ennemi passent sous les 50%, le soin qu'il reçoit est réduit de 80% jusqu'à la fin du combat.",
+      "levels": {
+        "2": "[Boost PV Global] Tous les alliés de la même équipe gagnent +3% de PV. (Débloqué à 32px)",
+        "3": "[Compétence de Royaume II] Quand les PV d'un ennemi passent sous les 50%, le Bouclier qu'il gagne est réduit de 80% jusqu'à la fin du combat. (Débloqué à 48px)",
+        "4": "[Compétence de Royaume III] Quand les PV d'un ennemi passent sous les 20%, il est étourdi pendant 5s. Cet effet ignore l'Immunité au contrôle et ne peut se déclencher qu'une fois toutes les 10s par ennemi. (Débloqué à 64px)",
+        "5": "[Boost Attaque Global] Tous les alliés de la même équipe gagnent +3% d'Attaque. (Débloqué à 80px)",
+        "6": "[Compétence de Royaume IV] Quand les PV d'un ennemi passent sous les 20%, il subit des Dégâts véritables égaux à 999% de l'Attaque d'Everblight Shah Torre par seconde pendant 5s, en ignorant son bouclier. Cet effet ne peut se déclencher qu'une fois toutes les 10s par ennemi. (Débloqué à 16px)"
+      }
+    }
+  },
+  "eviscerater": {
+    "Poison Fang": {
+      "description": "Lance une fléchette empoisonnée sur l'ennemi, l'empoisonnant et lui infligeant des dégâts au fil du temps.",
+      "levels": {}
+    }
+  },
+  "fanny": {
+    "Cut Throat": {
+      "description": "Attaque rapidement les ennemis, infligeant des dégâts égaux à 100% de l'Attaque à 5 reprises, puis un Dégât final égal à 200% de l'Attaque en une fois. Les dégâts de cette compétence augmentent en fonction des PV perdus par la cible. Moins la cible a de PV, plus cette compétence peut infliger de dégâts. Les dégâts peuvent être augmentés jusqu'à 60%.",
+      "levels": {
+        "2": "Laisse 10 marques de Proie sur la cible lors du lancement de cette compétence.",
+        "3": "Chaque instance de dégâts est augmentée à 130% de l'Attaque. Le Dégât final est augmenté à 260% de l'Attaque.",
+        "4": "Chaque instance de dégâts est augmentée à 160% de l'Attaque. (Le Dégât final reste à 260% de l'Attaque.) (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Tornado Strike": {
+      "description": "Fanny tranche l'ennemi deux fois, infligeant à chaque fois des dégâts égaux à 100% de l'Attaque, et laisse 1 marque de Proie sur la cible. La marque peut se cumuler jusqu'à 10 fois.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 125% de l'Attaque.",
+        "3": "Cette compétence se transforme en triple entaille.",
+        "4": "Pendant qu'elle lance cette compétence, Fanny a 50% de chances d'être immunisée aux dégâts."
+      }
+    },
+    "Steel Cable": {
+      "description": "Fanny utilise ses grappins pour voler jusqu'à la rangée arrière ennemie et attire l'ennemi le plus éloigné vers son emplacement cible. Pendant un court laps de temps, Fanny devient moins susceptible d'être visée par les ennemis.",
+      "levels": {
+        "2": "Étourdit la cible pendant 3s après l'avoir attirée.",
+        "3": "Laisse 3 marques de Proie sur la cible après l'avoir attirée.",
+        "4": "Laisse 5 marques de Proie sur la cible après l'avoir attirée. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Hunter's Advantage": {
+      "description": "Chaque marque de Proie réduit de 3% les dégâts infligés par l'ennemi à Fanny. Quand un ennemi meurt avec des marques de Proie, chaque marque permet à Fanny de restaurer des PV égaux à 50% de son Attaque.",
+      "levels": {
+        "2": "Chaque marque de Proie réduit de 5% les dégâts infligés par l'ennemi à Fanny.",
+        "3": "Les PV restaurés par chaque marque sont augmentés à 80% de l'Attaque de Fanny.",
+        "4": "Les PV restaurés par chaque marque sont augmentés à 100% de l'Attaque de Fanny. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "feng": {
+    "Shadows Cleave": {
+      "description": "",
+      "levels": {
+        "2": "Augmente à 6% des PV max de la cible par charge d'Énergie de l'Épée les dégâts supplémentaires infligés aux ennemis dont les PV sont inférieurs à 50%.",
+        "3": "Les dégâts sont augmentés à 155% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 165% de l'Attaque. (Nécessite Ancient Twilight niveau 3)"
+      }
+    },
+    "Skyward Wind": {
+      "description": "Feng invoque des ombres d'épées pour former une Formation d'Épées qui dure 4s. Les dégâts infligés par les ennemis à l'intérieur de la formation sont réduits de 20%, et la Formation d'Épées hérite de 100% des PV de Feng.",
+      "levels": {
+        "2": "Réduit de 25% les dégâts infligés par les ennemis à l'intérieur de la Formation d'Épées.",
+        "3": "Quand la Formation d'Épées est créée, 1 charge d'Énergie de l'Épée est appliquée aux ennemis à sa portée.",
+        "4": "Réduit de 30% les dégâts infligés par les ennemis à l'intérieur de la Formation d'Épées."
+      }
+    },
+    "Will of Ethereality": {
+      "description": "Applique un Sceau d'Épée à elle-même et à l'allié ayant l'Attaque la plus élevée, leur accordant 20% de Taux de coups critiques supplémentaire, ainsi que 20% de l'Attaque des ennemis affectés par l'Énergie de l'Épée sur le champ de bataille. L'Attaque bonus obtenue de chaque porteur d'Énergie de l'Épée ne peut pas dépasser 50% de l'Attaque du porteur du Sceau d'Épée. Feng est immunisée à la plupart des effets de contrôle pendant qu'elle lance cette compétence.",
+      "levels": {
+        "2": "Quand le Sceau d'Épée est appliqué, son porteur devient immunisé à la plupart des effets de contrôle pendant 4s.",
+        "3": "Le bonus de Taux de coups critiques est augmenté à 25%.",
+        "4": "Le bonus de Taux de coups critiques est augmenté à 30%. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Traceless": {
+      "description": "Au début du combat, le Chi de l'Épée des Ombres Silencieuses se rassemble derrière Feng, capable de bloquer les dégâts dépassant 10% des PV max de Feng, et se brise après 3 blocages. Lancer Shadows Cleave restaure les 3 chances de blocage.",
+      "levels": {
+        "2": "L'attaque de base de Feng inflige 1 charge d'Énergie de l'Épée à la cible touchée.",
+        "3": "Feng restaure 15 points d'Énergie pour chaque charge d'Énergie de l'Épée portée par la cible touchée par son attaque de base.",
+        "4": "Feng restaure 30 points d'Énergie pour chaque charge d'Énergie de l'Épée portée par la cible touchée par son attaque de base. (Nécessite Ancient Twilight niveau 2)"
+      }
+    }
+  },
+  "florence": {
+    "Ensnare": {
+      "description": "Cadeau : Une fois qu'elle atteint le niveau Éveillé 2 étoiles, Florence offre un cadeau gratuit supplémentaire au Marché chaque jour.",
+      "levels": {}
+    },
+    "Wise Bet": {
+      "description": "Florence gagne 5 Or par seconde.",
+      "levels": {}
+    },
+    "Romantangle": {
+      "description": "Applique une brume tourbillonnante sur un ennemi, infligeant des dégâts égaux à 2% de ses PV max par seconde. Les dégâts ne dépasseront pas 400% de l'Attaque de Florence.",
+      "levels": {
+        "2": "Lors du lancement, applique la brume tourbillonnante à toutes les invocations ennemies.",
+        "3": "Les dégâts sont augmentés à 3% des PV max.",
+        "4": "Niv.3 : Les dégâts sont augmentés à 4% des PV max. (Nécessite Ancient Twilight niveau 1)"
+      }
+    },
+    "Investment Return": {
+      "description": "Florence gagne 40 Or au début du combat. Chaque fois qu'un ennemi subit des dégâts basés sur ses PV max, Florence gagne 1 Or. Elle peut gagner jusqu'à 1 Or par seconde de la part de chaque ennemi.",
+      "levels": {
+        "2": "Quand l'Or de Florence atteint 100, elle se libère et devient immunisée à la plupart des effets de contrôle pendant 45.",
+        "3": "Florence gagne 50 Or au début du combat.",
+        "4": "Florence gagne 60 Or au début du combat. (Nécessite Ancient Twilight niveau 2.)"
+      }
+    }
+  }
+}

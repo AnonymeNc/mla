@@ -1,0 +1,1255 @@
+[
+  {
+    "id": "miya",
+    "name": "Miya",
+    "abilities": [
+      {
+        "name": "Running Fire",
+        "tier": "Ultimate",
+        "description": "Miya fires several arrows at the target, each dealing damage equal to 120% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 145%"
+          }
+        ]
+      },
+      {
+        "name": "Frost Shot",
+        "tier": "Skill",
+        "description": "Miya fires an enchanted Ice Arrow at the target, dealing damage equal to 215% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Causes extra Slow Effect"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 250%"
+          }
+        ]
+      },
+      {
+        "name": "Arrow Storm",
+        "tier": "Skill",
+        "description": "Miya shoots arrows into the air and makes them rain down on the target area, dealing damage equal to 145% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Freezes the enemy for 1s"
+          }
+        ]
+      },
+      {
+        "name": "Stellar Blessing",
+        "tier": "Passive",
+        "description": "Miya increases all allies' Attack by 5%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 8%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "morpheus",
+    "name": "Morpheus",
+    "abilities": [
+      {
+        "name": "Nightmare Party",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 200% of her Attack to all enemies and makes Nonas enraged. For the next 10s, Nonas steal 50% more HP when fighting and gains 100% more HP Regen when resting. Passive: At the beginning of the battle, both Nonas are granted 25% of Morpheus' Max HP and float around her, resting and untargetable. Nonas are immune to Control effects; if they are about to be defeated, they will return to rest and recover 10% Max HP per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Nonas take 15% less damage while enraged."
+          },
+          {
+            "level": "3",
+            "text": "Nonas take 25% less damage while enraged."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 250% of her Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Deep Coma",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Nonas' HP is increased to 35% of Morpheus' Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by Nonas is increased to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by Nonas is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Interlaced Dreams",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Prevents the target from gaining Energy for 2s."
+          },
+          {
+            "level": "3",
+            "text": "The target of the skill takes 30% more damage for 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 300% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Sweet Dreams",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Morpheus gains 10% of Nonas' Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "Both Nonas recover 50% of their Max HP when an enemy is defeated."
+          },
+          {
+            "level": "4",
+            "text": "Morpheus gains 15% of Nonas' damage-triggered Energy Regen. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "moskov",
+    "name": "Moskov",
+    "abilities": [
+      {
+        "name": "Spear of Destruction",
+        "tier": "Ultimate",
+        "description": "Moskov releases Spear of Destruction, dealing damage equal to 88% of his Attack to all the enemies for multiple times. The enemies cursed will take 50% extra damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After the Ultimate is cast, the Hero's curse will take effect more frequently."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 130% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 160% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Abyss Walker",
+        "tier": "Skill",
+        "description": "Moskov strikes at an enemy hero with full strength, dealing damage equal to 100% of his Attack to a single enemy and cursing the target. The target cursed will take damage once every 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage caused by his curse is increased. (by some unspecified amount)"
+          },
+          {
+            "level": "3",
+            "text": "When his curse deals damage, it also reduces the target's Energy by 30 points."
+          },
+          {
+            "level": "4",
+            "text": "The damage caused by his curse is increased. (by some unspecified amount)"
+          }
+        ]
+      },
+      {
+        "name": "Spear of Doom",
+        "tier": "Skill",
+        "description": "Moskov throws 3 spears at enemies. Targets hit will be cursed.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the target hit for 1s."
+          },
+          {
+            "level": "3",
+            "text": "Stuns the target hit for 3s."
+          },
+          {
+            "level": "4",
+            "text": "Stuns the target hit for 4s. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Quiescence Curse",
+        "tier": "Passive",
+        "description": "Prolongs the duration of all his curses by 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When one unit on the battlefield dies, Moskov will curse one extra enemy."
+          },
+          {
+            "level": "3",
+            "text": "Prolongs the duration of all his curses by 5s."
+          },
+          {
+            "level": "4",
+            "text": "Prolongs the duration of all his curses by 8s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mystic-mystia",
+    "name": "Mystic Mystia",
+    "abilities": [
+      {
+        "name": "Game Changer",
+        "tier": "Ultimate",
+        "description": "Restores HP equal to 260% of Attack for all allies, providing them 40% Damage Reduction for 6s, and making them immune to most control effects for the duration.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time an enemy's Energy reaches 800 for the first time, Mystia recovers 80 points of Energy."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 320% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 380% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Arcane Eye",
+        "tier": "Skill",
+        "description": "Mystia \"gazes\" at an enemy. The effect of the gaze activates on the 2nd, 4th, 8th, and 16th seconds of the duration, dealing damage equal to 4% of Max HP to the enemy (up to 800% of Attack). Additionally, it permanently reduces the enemy's Attack by 6% and Shield Bonus by 8%. This effect can stack up to 4 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 6% of the target's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "The enemy who has been gazed at by Mystia 4 times will have their damage taken permanently increased by 16%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 8% of the target's Max HP."
+          }
+        ]
+      },
+      {
+        "name": "No Escape",
+        "tier": "Skill",
+        "description": "Dealing damage equal to 140% of Attack to the enemy with the highest Attack, stunning them for 2s. If the enemy is immune to the stun, their Damage Increase will be reduced by 40% for 2s instead.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Selects 2 targets when casting a skill."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 160% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 180% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Supercharge",
+        "tier": "Passive",
+        "description": "Every time an ally casts their Ultimate, Mystia gains a stack of Administrator Privilege, up to 4 stacks. When an ally HP drops below 40%, Mystia consumes a stack of Administrator Privilege and restores their HP equal to 180% of Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains 2 stacks of Administrator Privilege when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 220% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 240% of Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Trickster's Arena",
+        "tier": "Realm Effect",
+        "description": "Mystia starts with 2 stacks of Deceive, with a maximum limit of 4. When an enemy attempts to cast their Ultimate an even number of times, Mystia consumes a stack of Deceive, dealing damage equal to 40% of Attack to them. Additionally, she also inflicts Stun on them briefly, causing them to lose all Energy, and interrupts the Ultimate casting (with a few exceptions).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 80% Attack. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Mystia gains a stack of Deceive at the 8th and 64th seconds after the battle starts. Whenever she successfully interrupts an enemy from casting their Ultimate, she also grants all allies 8 points of Energy. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "{All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Energy restored for all allies is increased to 16 points. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naiad-rafaela",
+    "name": "Naiad Rafaela",
+    "abilities": [
+      {
+        "name": "Celestial Rejuvenation",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time this skill heals a target, it increases the amount of healing received by the target by 5%, lasting for 5s."
+          },
+          {
+            "level": "3",
+            "text": "When Celestial Rejuvenation is active, increases the healing for all allies to 220% of Naiad Rafaela's Attack."
+          },
+          {
+            "level": "4",
+            "text": "When Celestial Rejuvenation is active, increases the healing for all allies to 270% of Naiad Rafaela's Attack. (Requires Ancient Twilight Level 3.)"
+          }
+        ]
+      },
+      {
+        "name": "Guiding Light",
+        "tier": "Skill",
+        "description": "Establishes a connection between the two allies with the lowest HP, lasting for 4s. During this duration, both allies regenerate HP equal to 70% of Naiad Rafaela's Attack per second and gain Defense equal to 100% of Naiad Rafaela's Defense.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "While connecting the two allies, increases their received healing to 85% of Naiad Rafaela's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Both allies connected by Guiding Light gain 100% of each other's Damage-triggered Energy Regen."
+          },
+          {
+            "level": "4",
+            "text": "While connecting the two allies, increases their received healing to 100% of Naiad Rafaela's Attack."
+          }
+        ]
+      },
+      {
+        "name": "Ethereal Chant",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bestows blessings on 2 hero(es) with the highest Attack."
+          },
+          {
+            "level": "3",
+            "text": "Grants the target an increase of 25% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Grants the target an increase of 30% Attack. (Requires Ancient Twilight Level 1.)"
+          }
+        ]
+      },
+      {
+        "name": "Divine Calling",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When allies with shields are attacked, they gain 80% Damage-triggered Energy Regen based on the damage taken. (Takes effect only when stronger than the current buff/debuff on the same attribute.)"
+          },
+          {
+            "level": "3",
+            "text": "Increases all allies' received healing and shields by 14%."
+          },
+          {
+            "level": "4",
+            "text": "Increases all allies' received healing and shields by 16%. (Requires Ancient Twilight Level 2.)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nana",
+    "name": "Nana",
+    "abilities": []
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "abilities": [
+      {
+        "name": "Shadow Dash",
+        "tier": "Ultimate",
+        "description": "Natalia sprints across the battlefield, dealing damage equal to 90% of her Attack to random enemies 7 times, prioritizing heroes. If a hit is critical, deals damage one more time, up to 7 more times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage gains an extra 30% Lifesteal."
+          },
+          {
+            "level": "3",
+            "text": "Each damage is increased to 100% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each damage is increased to 110% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Onslaught Time",
+        "tier": "Skill",
+        "description": "Natalia charges the back row, dealing damage equal to 200% of her Attack to the target and hypnotizing them for 1.5s, during which they won't wake up from taking damage. Natalia is immune to most control effects when casting the skill.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Slash Damage is increased to 250% Attack."
+          },
+          {
+            "level": "3",
+            "text": "After casting Onslaught Time, Natalia gains 50% more Damage Reduction that decays to 0 over 15s."
+          },
+          {
+            "level": "4",
+            "text": "Slash Damage is increased to 300% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Phantom Mist",
+        "tier": "Skill",
+        "description": "Natalia tosses a smoke grenade and becomes immune to damage dealt by enemies outside the smoke when she's in it. The smoke lasts 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Deals damage equal to 120% Attack per second to enemies in the smoke."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 135% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 150% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Joint Operation",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every enemy hypnotized, Natalia gains 20% more Crit Rate for 6s. Stacks up to 4 times."
+          },
+          {
+            "level": "3",
+            "text": "Each surviving allied hero increases Crit Rate by 1.25%, stacking up to 25%. Meanwhile, Natalia gains 1.25% more Crit Damage, stacking up to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Each surviving allied hero increases Crit Rate by 1.5%, stacking up to 30%. Meanwhile, Natalia gains 1.5% more Crit Damage, stacking up to 30%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natan",
+    "name": "Natan",
+    "abilities": [
+      {
+        "name": "Entropy",
+        "tier": "Ultimate",
+        "description": "Natan summons his Shadow of Future through the Time Portal. Shadow of Future lasts for 10s, inherits Natan's Attributes, and uses the selected skills as Natan uses his own skills. Natan won't use his Ultimate again within the duration of Shadow of Future.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Duration of Shadow of Future is increased to 11s."
+          },
+          {
+            "level": "3",
+            "text": "Duration of Shadow of Future is increased to 12s."
+          }
+        ]
+      },
+      {
+        "name": "Superposition",
+        "tier": "Skill",
+        "description": "Natan shoots 5 arrows of light to attack random enemies, each dealing damage equal to 105% of his Attack. Arrows stay on the target after hitting it, and each enemy unit can have no more than 3 arrows attached to it. When Shadow of Future uses this skill, it recalls all the arrows of light that are staying on enemies, each recalled arrow dealing damage equal to 15% of its target's lost HP to the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of arrows of light is increased to 130% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Arrows of light from Natan's Basic Attacks also stay on the targets."
+          },
+          {
+            "level": "4",
+            "text": "Damage of arrows of light is increased to 150% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Interference",
+        "tier": "Skill",
+        "description": "Natan attacks the nearest enemy, dealing damage equal to 300% of his Attack and adding a spacetime mark to it that lasts for 6s. The marked target cannot receive the regen effects of energy and HP. When Shadow of Future uses this skill, it drags enemy units that don't have as spacetime mark out of the battlefield, lasting for 4s. These units cannot move and only take damage from Shadow of Future within the duration.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage taken by the enemy unit with a spacetime mark is increased by an extra 15%."
+          },
+          {
+            "level": "3",
+            "text": "The duration that the other enemy units stay out of the battlefield is increased to 5s."
+          }
+        ]
+      },
+      {
+        "name": "Theory of Everything",
+        "tier": "Passive",
+        "description": "Damage taken by Natan is reduced by 30% when Shadow of Future is on the battlefield.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Natan's Attack is increased by 40% when Shadow of Future is on the battlefield."
+          },
+          {
+            "level": "3",
+            "text": "Damage Reduction is increased to 50%."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natsu",
+    "name": "Natsu",
+    "abilities": [
+      {
+        "name": "Lightning Fire Dragon's Firing Hammer",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 16% of the target's Max HP to all enemies in front, knocking them back to the far end of the battlefield. The damage won't exceed 1600% of Natsu's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After knocking back, deals damage equal to 600% of his Attack to enemies around the target and stun them for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 18% of the target's Max HP. The damage won't exceed 1800% of Natsu's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 20% of the target's Max HP. The damage won't exceed 2000% of Natsu's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Crimson Lotus∶ Fire Dragon's Fist",
+        "tier": "Debuff",
+        "description": "Natsu attacks his nearest enemy, striking 7 times consecutively, each dealing damage equal to 3% of the target's Max HP. Each damage has a 50% chance to reduce the target's Defense by 15% for 8s, stacking up to 7 times. Damage from a single strike won't exceed 500% of Natsu's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 4% of the target's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "When cast, this skill will knock the enemy airborne."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 5% of the target's Max HP."
+          }
+        ]
+      },
+      {
+        "name": "Fire Dragon's Claw",
+        "tier": "Skill",
+        "description": "With flames swirling around his feet, Natsu attacks the nearest enemy with a flying kick, dealing damage equal to 160% of his Attack and stunning the target for 2s. This skill is automatically triggered when no enemies are within Natsu's attack range.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Healing Bonus and Shield Bonus of the target hit by Fire Dragon's Claw are reduced by 40%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 190% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 220% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Fire Dragon's Constitution",
+        "tier": "Passive",
+        "description": "Natsu converts 100% of his damage dealt into flame reserves, and gains 14% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Fire Dragon's Constitution is triggered, increases Crit Rate by 100% and Agility by 500 for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Gains 17% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Gains 20% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "night-blade",
+    "name": "Night Blade",
+    "abilities": [
+      {
+        "name": "Maius Rain",
+        "tier": "Ultimate",
+        "description": "Strikes the enemy repeatedly, dealing damage multiple times.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "night-drummer",
+    "name": "Night Drummer",
+    "abilities": [
+      {
+        "name": "Lifting Spirit",
+        "tier": "Ultimate",
+        "description": "Increases attack and haste rate of all friendly targets for 10 seconds.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "nightseer-esmeralda",
+    "name": "Nightseer Esmeralda",
+    "abilities": [
+      {
+        "name": "Chain Frenzy",
+        "tier": "Ultimate",
+        "description": "Summons weapons from the Umbral Prison to attack random enemies 4 time(s). For every 5 stack(s) of Primordial Frost possessed, consumes the corresponding number of Primordial Frost stacks to perform an additional attack on enemies. Each attack prioritizes different enemies as targets, dealing damage equal to 66% of Attack to the target and surrounding enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After Basic Attacks or Death Grip hits an enemy, if the enemy's HP is still higher than 60%, Nightseer Esmeralda performs an additional Basic Attack on the enemy, dealing damage equal to 75% of Attack. The additional Basic Attack will not trigger this effect again."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 75%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 84%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Death Grip",
+        "tier": "Skill",
+        "description": "Deals damage to the farthest enemy equal to 12% of the enemy's Max HP, capped at 1200% of Nightseer Esmeralda's Attack, and pulls the enemy closer. When resisted, the next Basic Attack becomes this skill instead. For 3s after casting, this skill prioritizes targeting different enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 16% of the enemy's Max HP, capped at 1600% of Nightseer Esmeralda's Attack."
+          },
+          {
+            "level": "3",
+            "text": "When hitting enemies, Nightseer Esmeralda gains a Shield equal to 400% of the enemy's Attack, capped at 2000% of Nightseer Esmeralda's Attack."
+          }
+        ]
+      },
+      {
+        "name": "Predator Strike",
+        "tier": "Skill",
+        "description": "Nightseer Esmeralda dashes to other positions around her, simultaneously dealing Basic Attack damage equal to 100% Attack 3 times to random enemies, then Nightseer Esmeralda gains 3 stacks of Primordial Frost.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When this skill hits enemies, Nightseer Esmeralda gains 10% of the enemy's Attack, capped at 50% of Nightseer Esmeralda's own Attack, staking up to 6 time(s) for 8s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 120%"
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 140% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Titan's Wrath",
+        "tier": "Passive",
+        "description": "When Nightseer Esmeralda takes damage exceeding 10% of her own HP in a single hit, she gains immunity to that damage, removes most control effects, and immediately triggers Predator Strike. This effect has a(n) 8s cooldown.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "In non-competitive gameplay, increases damage taken by all enemies by 5%. After the first enemy dies, this effect disappears and all allied heroes restore 100 Energy."
+          },
+          {
+            "level": "3",
+            "text": "Enhances the increased damage taken by enemies to 10%."
+          },
+          {
+            "level": "4",
+            "text": "After the first enemy dies, allied heroes also gain 100 Agility for 10s."
+          }
+        ]
+      },
+      {
+        "name": "Shackle Realm",
+        "tier": "Realm Effect",
+        "description": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 30% of their Max HP, their Defense is reduced by 50% until the end of the battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 70% of their Max HP, they lose 30 Energy per second until the end of the battle."
+          },
+          {
+            "level": "4",
+            "text": "Each time after enemy heroes have cumulatively taken damage or Shield reduction equal to 60% of their Max HP, immobilizes that enemy for 3s and deals damage equal to 50% Attack per second. Damage taken during immobilization will not trigger the next immobilization."
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Starting from the second immobilization trigger, each subsequent immobilization duration increases by 3s and ignores Control Immunity. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nimbus-eudora",
+    "name": "Nimbus Eudora",
+    "abilities": [
+      {
+        "name": "Phantom Flashes",
+        "tier": "Ultimate",
+        "description": "Summons 2 phantoms behind her that lasts 8s. 99% of damage taken by Nimbus Eudora is transferred equally to the surviving phantom(s) instead. The phantoms fly to the enemy with the lowest HP and explode upon death or disappearing, dealing damage equal to 350% of Nimbus Eudora's Attack. The phantoms use Basic Attacks when Nimbus Eudora casts her skills.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Nimbus Eudora casts Bolt Strike, her phantoms cast Bolt Strike as well."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by the phantom explosion is increased to 450% of Nimbus Eudora's Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by the phantom explosion is increased to 560% of Nimbus Eudora's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Bolt Strike",
+        "tier": "Skill",
+        "description": "Nimbus Eudora shoots lightning bolts at the nearest enemy, dealing damage equal to 60% Attack 3 times. Each time triggers the extra damage dealt by Storm Caller.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 72% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Shoots lightning bolts 5 times."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 85% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Storm Caller",
+        "tier": "Skill",
+        "description": "Nimbus Eudora grants all allies the power of lightning, making their next 18 Basic Attack(s) each deal extra damage equal to 3% of their target's Max HP (up to 150% of the ally's Attack).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Nimbus Eudora casts the skill, allies' remaining power of lightning will be converted into 2 Fatal Strike for 6s."
+          },
+          {
+            "level": "3",
+            "text": "When Nimbus Eudora casts the skill, allies' remaining power of lightning will be converted into 4 Fatal Strike for 6s."
+          },
+          {
+            "level": "4",
+            "text": "When Nimbus Eudora casts the skill, allies' remaining power of lightning will be converted into 6 Fatal Strike for 6s. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Lightning Fury",
+        "tier": "Passive",
+        "description": "When an enemy enters her team's side of the battlefield, Nimbus Eudora deals damage equal to 100% Attack to them, stunning them for 1s and reducing their Attack by 20% for 6s. This effect triggers up to once every 10s for the same enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 2s."
+          },
+          {
+            "level": "3",
+            "text": "Attack Reduction is increased to 35%."
+          },
+          {
+            "level": "4",
+            "text": "Attack Reduction is increased to 50%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "noctis-tokinibara",
+    "name": "Noctis Tokinibara",
+    "abilities": [
+      {
+        "name": "Flash Trinity",
+        "tier": "Ultimate",
+        "description": "Noctis Tokinibara enhances her blade, making her Basic Attack and Ultimate deal additional damage equal to 5% of the target's Max HP. The damage won't exceed 500% of her Attack. This effect can stack up to 3 times. Then Noctis Tokinibara deals damage equal to of her Attack to enemies in a large area in front of her three times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Whenever an enemy gains extra Energy with their skill, Noctis Tokinibara steals 40% of the extra Energy."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 235% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 275% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Myriad Souls",
+        "tier": "Skill",
+        "description": "Noctis Tokinibara grants herself a Shield equal to 285% of her Attack and reduces damage taken by her by 40% for 10s. While Noctis Tokinibara has a Shield, she becomes immune to the target-changing effects, as well as most control effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Shield is increased to 360% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "For each Tokinibara Flower accumulated, increases Noctis Tokinibara's Shield by 5%, stacking up to 10 times."
+          },
+          {
+            "level": "4",
+            "text": "The Shield is increased to 400% of her Attack."
+          }
+        ]
+      },
+      {
+        "name": "Wing Slash",
+        "tier": "Skill",
+        "description": "Noctis Tokinibara unleashes blade winds around herself, dealing damage equal to 64% of her Attack to nearby enemies and reducing their Energy by 30 per second, lasting for 8s. Each time an enemy takes damage from the blade winds, they take 2% more damage from subsequent blade winds, stacking up to 20 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time the blade winds deal damage, Noctis Tokinibara permanently gains 1% Attack bonus, stacking up to 30% Attack bonus."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 77% of her attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 90% of her attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Mourning Flower",
+        "tier": "Passive",
+        "description": "For every 1000 Energy gained by all enemies, Noctis Tokinibara gains a Tokinibara flower (max 10). When Noctis Tokinibara is near death, each Tokinibara flower grants her 0.6s of invincibility status. This effect can only trigger once every 45s. When the invincibility status ends, all current Tokinibara flowers are consumed, and each flower restores 4% of Noctis Tokinibara's Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The invincibility status has a base duration of 15."
+          },
+          {
+            "level": "3",
+            "text": "The healing is increased to 5% of Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The healing is increased to 6% of Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Nether Realm",
+        "tier": "Realm Effect",
+        "description": "For every 2 Tokinibara flowers gained, Noctis Tokinibara deals damage equal to 80% of her Attack to all enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increased to 130% of Attack. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "The Energy enemies need to consume for their Ultimate is increased by 100 points. Each time an enemy casts their Ultimate, subsequent Ultimate casts require an additional 50 points of Energy. Can stack up to requiring an additional 250 points of casts require an additional 50 points of Energy. Can stack up to requiring an additional 250 points of Energy to cast Ultimate. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "The Energy enemies need to consume for their Ultimate is increased by 200 points. Each time an enemy casts their Ultimate, subsequent Ultimate casts require an additional 100 points of Energy. Can stack up to requiring an additional 500 points of Energy to cast Ultimate. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oberon",
+    "name": "Oberon",
+    "abilities": [
+      {
+        "name": "Judgment Domain",
+        "tier": "Ultimate",
+        "description": "In the order of Sword of Justice, Sword of War and Sword of Wisdom, Oberon activates one sword at a time. Oberon summons swords that fall from above, dealing damage to 400% of his Attack to enemies with effects based on the activated swords. Sword of Justice: Permanently deals 25% extra damage to hit enemies. Sword of War: Permanently reduces healing effects on hit enemies by 80%. Sword of Wisdom: Permanently reduces hit enemies' damage by 25%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If Oberon casts his Ultimate when the three swords are activated, all hit enemies with Max HP less than 3x Oberon's Max HP will be immediately killed, and other hit enemies with higher HP receive damage equal to 3x Oberon's Max HP. Then deactivates all the three swords."
+          },
+          {
+            "level": "3",
+            "text": "Sword of Justice: Permanently deals 35% extra damage to hit enemies. Sword of War: Permanently reduces healing effects on hit enemies by 100%. Sword of Wisdom: Permanently reduces hit enemies' damage by 35%."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 600% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Glorious Strike",
+        "tier": "Skill",
+        "description": "Oberon deals damage equal to 250% of his Attack to all enemies in a small area in front, dealing extra damage equal to 100% of his Attack once for each activated sword.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Extra damage is increased to 125%."
+          },
+          {
+            "level": "3",
+            "text": "Each enemy hit restores Oberon's Energy for 100 points."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage is increased to 150%."
+          }
+        ]
+      },
+      {
+        "name": "Sword Spirit",
+        "tier": "Skill",
+        "description": "Dorothy targets the enemy furthest away from Oberon, dealing damage equal to 300% of his Attack and pulling it towards him.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When there is no enemy within Oberon's attack range, Dorothy will cast this skill at the nearest enemy. The skill triggers at most once every 10 seconds."
+          },
+          {
+            "level": "3",
+            "text": "Enemies hit have their Defense reduced by 30% for 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 420% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Art of Sword",
+        "tier": "Passive",
+        "description": "Every time Oberon activates one of his swords or loses 75% Max HP, Dorothy removes most control effects on him and opens a Shield of Swords equal to 30% of Oberon's lost HP. When the Shield is active, he can still obtain 80% of his Damage-triggered Energy Regen. Based on activated swords, Oberon gains buffs that last 3s. Sword of Justice: Turns damage dealt by Oberon into his Shield. Sword of War: Increases Crit Rate by 50%. Sword of Wisdom: Becomes immune to most control effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Buff duration is increased to 4s."
+          },
+          {
+            "level": "3",
+            "text": "Oberon is immune to lethal damage once and triggers Art of Sword when about to die."
+          },
+          {
+            "level": "4",
+            "text": "Buff duration is increased to 5s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "occult-sorcerer",
+    "name": "Occult Sorcerer",
+    "abilities": [
+      {
+        "name": "Elemental Wave",
+        "tier": "Ultimate",
+        "description": "Casts massive magic missiles, dealing damage to random enemies multiple times.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "odette",
+    "name": "Odette",
+    "abilities": [
+      {
+        "name": "Swan Song",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The magic orb can bounce 5 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 280% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 325% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blue Nova",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 135% Attack."
+          },
+          {
+            "level": "3",
+            "text": "If a split magic orb hits an enemy asleep, it will split again into two magic orbs and attack enemies."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 160% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Lakeshore Ambience",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemeies put to sleep won't be awakened when taking damage in the first 2s."
+          },
+          {
+            "level": "3",
+            "text": "The duration of sleep is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 340% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Swan Cantus",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every time she puts an enemy to sleep, Odette obtains 250 points of Energy."
+          },
+          {
+            "level": "3",
+            "text": "Attack acquired is increased to 30%."
+          },
+          {
+            "level": "4",
+            "text": "Attack acquired is increased to 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "omniversal-akashic",
+    "name": "Omniversal Akashic",
+    "abilities": [
+      {
+        "name": "Universal Law",
+        "tier": "Ultimate",
+        "description": "Inflicts an unblockable Stun on the enemy hero with the highest Energy. Every second, this enemy loses 50% Energy, while other allied heroes recover a total of 50% of this enemy's Energy (min 70 per second) for 3s.Casting Universal Law also grants other allied heroes immunity to most control effects and 21% of Akashic's Attack for 8s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also increases the damage taken by this enemy by 50% for 3s."
+          },
+          {
+            "level": "3",
+            "text": "Other allied heroes gain 23% of Akashic's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Other allied heroes gain 25% of Akashic's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ultimate Verdict",
+        "tier": "Skill",
+        "description": "Steals 25% Attack from the enemy with the highest Attack for 8s, up to 200% of his own Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Steals 30% of the enemy's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage equal to 150% of Attack to the enemy after stealing Attack."
+          },
+          {
+            "level": "4",
+            "text": "Steals 35% of the enemy's Attack."
+          }
+        ]
+      },
+      {
+        "name": "Life Reforged",
+        "tier": "Skill",
+        "description": "Clears most HP Recovery restriction effects for the allied hero with the lowest HP percentage and all allied heroes with HP below 60%, and heals them for 340% of Attack once.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also grants 20% Damage Increase for 6s to all allied units that have not received Healing."
+          },
+          {
+            "level": "3",
+            "text": "The healing is increased to 380% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "The healing is increased to 420% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Epochal Weave",
+        "tier": "Passive",
+        "description": "When an enemy casts their Ultimate, activates corresponding effects based on the target's Class for 5s.Mage: Increases allied heroes' Crit Resistance by 40%.Marksman: Restores HP equal to 40% of Omniversal Akashic's Attack for all allied heroes every second.Fighter: Reduces damage dealt by this enemy by 20% and increases their damage taken by 20%.Support: Reduces this enemy's Energy Regen by 30%.Tank: Reduces this enemy's Defense by 40%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When a Boss enemy casts their Ultimate, all the above effect are triggered."
+          },
+          {
+            "level": "3",
+            "text": "Duration is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Duration is increased to 7s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Realm of Unreality",
+        "tier": "Realm Effect",
+        "description": "Allied heroes gain 75 Energy in 5s after entering battle. Omniversal Akashic restores an extra 75 Energy",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Each time an allied Mage, Marksman, or Fighter hero uses their Ultimate, Omniversal Akashic causes them to trigger his Ultimate Verdict skill."
+          },
+          {
+            "level": "4",
+            "text": "Allied heroes gain 150 Energy in 5s after entering battle. Omniversal Akashic restores an extra 150 Energy. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Omniversal Akashic triggers the Universal Law skill for every 2 Ultimates used by other allied Support or Tank heroes. Can be triggered once every 8s. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  }
+]

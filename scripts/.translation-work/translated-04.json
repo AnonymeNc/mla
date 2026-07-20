@@ -1,0 +1,621 @@
+{
+  "forseti": {
+    "Truth Eternal": {
+      "description": "Forseti se transforme en vérité éternelle et disparaît, lançant 5 Rayons du Jugement. Lorsqu'il lance Vérité Éternelle, Forseti lance 1 Rayon du Jugement supplémentaire pour chaque tranche de 30% de PV restants. Chaque rayon rebondit aléatoirement entre les ennemis et attaque 4 fois, infligeant 90% de dégâts avec 50% de chances d'étourdir la cible. Forseti ne peut pas être ciblé pendant qu'il lance Vérité Éternelle et meurt immédiatement après.",
+      "levels": {
+        "2": "Gagne 400 points d'Énergie en entrant en combat ou en étant ressuscité.",
+        "3": "Augmente les dégâts infligés à 110% de l'Attaque.",
+        "4": "Augmente les dégâts infligés à 130% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Verdict of Truth": {
+      "description": "Inflige 235% de dégâts aux ennemis dans la zone. Ne peut être utilisé qu'une seule fois à chaque entrée en combat ou résurrection.",
+      "levels": {
+        "2": "Augmente les dégâts infligés à 260% de l'Attaque.",
+        "3": "Étourdit les ennemis avec Verdict de Vérité pendant 2s après la résurrection de Forseti.",
+        "4": "Augmente les dégâts infligés à 295% de l'Attaque."
+      }
+    },
+    "Beneficence": {
+      "description": "S'il y a un héros allié vivant lorsque Forseti meurt pour la première fois, il ressuscite avec 80% de ses PV après quelques secondes.",
+      "levels": {
+        "2": "Restaure 200 points d'Énergie à l'allié ayant le moins d'Énergie après sa résurrection.",
+        "3": "Restaure 400 points d'Énergie à l'allié ayant le moins d'Énergie après sa résurrection.",
+        "4": "Restaure 600 points d'Énergie à l'allié ayant le moins d'Énergie après sa résurrection. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Greater Trials": {
+      "description": "Forseti améliore son attaque de base trois fois après être entré en combat ou avoir été ressuscité. Chaque attaque de combat améliorée cible en priorité l'ennemi avec l'Attaque la plus élevée, infligeant des dégâts égaux à 160% de son Attaque.",
+      "levels": {
+        "2": "Les attaques de base améliorées peuvent transpercer les ennemis, infligeant des dégâts à tous les ennemis sur leur trajectoire.",
+        "3": "Augmente les dégâts infligés à 150% de l'Attaque.",
+        "4": "Augmente les dégâts infligés à 220% de l'Attaque. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "franco": {
+    "Bloody Hunt": {
+      "description": "Franco cloue au sol l'ennemi devant lui pendant 4s, tailladant la cible 6 fois, infligeant à chaque fois des dégâts égaux à 120% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 145%."
+      }
+    },
+    "Iron Hook": {
+      "description": "Franco tire un crochet de fer vers un ennemi éloigné, infligeant des dégâts égaux à 170% de son Attaque et traînant la cible vers lui.",
+      "levels": {
+        "2": "Réduit l'Énergie de la cible de 80 points.",
+        "3": "La réduction d'Énergie est augmentée à 120 points."
+      }
+    },
+    "Fury Shock": {
+      "description": "Franco frappe violemment autour de lui, infligeant des dégâts égaux à 160% de son Attaque aux ennemis proches.",
+      "levels": {
+        "2": "Applique un effet supplémentaire de réduction d'Attaque."
+      }
+    },
+    "Wasteland Force": {
+      "description": "Chaque fois que Franco inflige des dégâts avec son Ultime, il inflige des dégâts supplémentaires égaux à 2,5% de ses PV max.",
+      "levels": {
+        "2": "Restaure une quantité de PV égale à 60% de l'Attaque."
+      }
+    }
+  },
+  "freya": {
+    "Valkyrie": {
+      "description": "Freya entre dans l'État de Valkyrie, infligeant des dégâts égaux à 100% de son Attaque aux ennemis proches. Pour chaque ennemi touché, Freya gagne une charge de bouclier égale à 175% de son Attaque. Les dégâts absorbés par le bouclier sont convertis en PV pour Freya. Dans l'État de Valkyrie, l'attaque de base de Freya inflige des dégâts de zone aux ennemis devant elle.",
+      "levels": {
+        "2": "Augmente le Bouclier à 220% de l'Attaque.",
+        "3": "Augmente le Bouclier à 265% de l'Attaque."
+      }
+    },
+    "Wings of Faith": {
+      "description": "Freya bondit au cœur des lignes ennemies, infligeant des dégâts égaux à 145% de son Attaque aux ennemis proches.",
+      "levels": {
+        "2": "Augmente les dégâts à 160% de l'Attaque.",
+        "3": "Augmente les dégâts à 185% de l'Attaque.",
+        "4": "Augmente les dégâts à 205% de l'Attaque."
+      }
+    },
+    "Godspeed Strike": {
+      "description": "Freya frappe rapidement l'ennemi le plus proche 3 fois, infligeant à chaque fois des dégâts égaux à 135% de son Attaque. Dans l'État de Valkyrie, cette compétence inflige des dégâts de zone aux ennemis devant elle.",
+      "levels": {
+        "2": "Étourdit l'ennemi avec la dernière frappe.",
+        "3": "Augmente les dégâts à 170% de l'Attaque."
+      }
+    },
+    "Spirit Contact": {
+      "description": "Pour chaque ennemi proche de Freya, elle inflige des dégâts égaux à 90% de son Attaque à tous les ennemis autour d'elle toutes les 2s, cumulable jusqu'à 3 fois.",
+      "levels": {
+        "2": "Réduit l'Attaque de la cible de 5%.",
+        "3": "Réduit l'Attaque de la cible de 8%."
+      }
+    }
+  },
+  "gatotkaca": {
+    "Advent of the Guardian": {
+      "description": "Gatotkaca accumule brièvement de l'énergie puis bondit, infligeant des dégâts égaux à 290% de son Attaque aux ennemis dans la zone et les projetant dans les airs.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 345% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 405% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 555% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Blast Iron Fist": {
+      "description": "Gatotkaca fracasse le sol devant lui, infligeant des dégâts égaux à 75% de son Attaque aux ennemis dans la zone.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 82% de l'Attaque.",
+        "3": "Provoque un effet de ralentissement supplémentaire.",
+        "4": "Les dégâts sont augmentés à 93% de l'Attaque."
+      }
+    },
+    "Unbreakable": {
+      "description": "Gatotkaca pousse un puissant rugissement et charge en avant, provoquant les ennemis sur son passage et infligeant des dégâts égaux à 190% de son Attaque aux cibles touchées, pendant 2s.",
+      "levels": {
+        "2": "La durée de provocation est augmentée à 4s.",
+        "3": "Les dégâts sont augmentés à 220% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 270% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Steel Bones": {
+      "description": "Gatotkaca gagne un bouclier égal à 4% de ses PV lorsqu'il utilise une compétence.",
+      "levels": {
+        "2": "Réduit les dégâts subis de 10% tant que le bouclier est actif.",
+        "3": "Le bouclier est augmenté à 6% des PV.",
+        "4": "Le bouclier est augmenté à 9% des PV. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "gavana": {
+    "Final Verdict": {
+      "description": "Gavana s'incarne en clair de lune, infligeant à plusieurs reprises des dégâts égaux à 100% de son Attaque à l'ennemi ayant l'Attaque la plus élevée sur le champ de bataille, et infligeant à plusieurs reprises des dégâts égaux à 50% de son Attaque aux ennemis autour d'elle.",
+      "levels": {
+        "2": "La cible principale de l'Ultime de Gavana ne pourra pas restaurer d'Énergie pendant les 6s suivantes.",
+        "3": "Les dégâts de la compétence sont augmentés à 130% de son Attaque."
+      }
+    },
+    "Sky Cleaver": {
+      "description": "Gavana se déplace à toute vitesse sur le champ de bataille, infligeant des dégâts égaux à 100% de son Attaque à 3 ennemis aléatoires. Gavana ne peut pas être ciblée pendant cette action.",
+      "levels": {
+        "2": "Gavana marque l'ennemi touché, et l'ennemi marqué est brièvement étourdi lorsqu'il est attaqué par le « Fendoir Céleste » de Gavana.",
+        "3": "Cette compétence garantit un coup critique.",
+        "4": "Les dégâts de la compétence sont augmentés à 145% de l'Attaque."
+      }
+    },
+    "Moon Awakened": {
+      "description": "Toutes les 5 secondes, Gavana projette un cercle de clair de lune autour d'elle et entre en « État de Pleine Lune ». Dans cet état, Gavana gagne 10% de dégâts supplémentaires et son vol de vie est augmenté de 50. Elle devient également immunisée à la plupart des effets de contrôle. Gavana entre immédiatement en « État de Pleine Lune » au début du combat. Elle en sort temporairement lorsqu'elle est attaquée 10 fois.",
+      "levels": {
+        "2": "En « État de Pleine Lune », l'augmentation de dégâts de Gavana est portée à 15%.",
+        "3": "En « État de Pleine Lune », l'augmentation de dégâts de Gavana est portée à 20%."
+      }
+    },
+    "Moon's Reflection": {
+      "description": "Gavana utilise le clair de lune pour créer des illusions l'enveloppant, devenant ainsi immunisée à toutes les attaques de base.",
+      "levels": {
+        "2": "Pendant le combat, tous les dégâts infligés par Gavana augmentent de 2% toutes les 5 secondes.",
+        "3": "Pendant le combat, tous les dégâts infligés par Gavana augmentent de 4% toutes les 5 secondes."
+      }
+    }
+  },
+  "genesis-shar": {
+    "Voident Bind": {
+      "description": "Passif : dès le début du combat, Genesis Shar invoque le Dragon Flamme d'Or, capable de lier un ennemi aléatoire toutes les 4s en ignorant l'immunité au contrôle. L'ennemi lié ne peut plus régénérer d'Énergie déclenchée par les dégâts pendant 2s. Lorsqu'elle est utilisée activement, elle améliore elle-même et le Dragon Flamme d'Or. Le Dragon Flamme d'Or rafraîchit immédiatement la durée du lien actuel, forçant tous les ennemis à attaquer la cible liée pendant 3s. Un lien instantané s'active sur un ennemi aléatoire s'il n'y a aucune cible liée. L'attaque de base de Genesis Shar devient Résonance Dorée avec une zone d'effet augmentée pendant 5s.",
+      "levels": {
+        "2": "Lorsqu'elle est utilisée activement, la durée d'attaque forcée du Dragon Flamme d'Or est augmentée à 4s.",
+        "3": "Réduit le coût initial en Énergie de l'Ultime de Genesis Shar de 150 points.",
+        "4": "Réduit le coût initial en Énergie de l'Ultime de Genesis Shar de 300 points. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Golden Resonance": {
+      "description": "Inflige des dégâts égaux à 105% de son Attaque aux ennemis dans la zone. Augmente les dégâts subis de 10% et augmente les dégâts des attaques de base de 30% pendant 4s.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 120% de l'Attaque.",
+        "3": "Inflige des dégâts supplémentaires égaux à 8% des PV max de l'ennemi, sans dépasser 800% de son Attaque.",
+        "4": "Les dégâts infligés sont augmentés à 135% de l'Attaque."
+      }
+    },
+    "Cosmic Duet": {
+      "description": "Lorsqu'elle est utilisée activement, Genesis Shar devient inciblable pendant 3s si ses PV sont inférieurs à 80%, ou gagne 80 points d'Énergie si ses PV sont supérieurs à 80%.",
+      "levels": {
+        "2": "Restaure 30% des PV perdus de Genesis Shar si ses PV sont inférieurs à 80%.",
+        "3": "Augmente l'Énergie accordée à 120.",
+        "4": "Augmente l'Énergie accordée à 160. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Void Lullaby": {
+      "description": "Plonge 1 cible ennemie aléatoire dans un état de peur pendant 2s pour chaque héros ou clone éliminé, en priorisant ceux qui ne sont pas immunisés aux effets de peur.",
+      "levels": {
+        "2": "Les ennemis en état de peur voient leur Défense réduite de 30%.",
+        "3": "La durée de la peur est augmentée à 3s.",
+        "4": "La durée de la peur est augmentée à 4s. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Creation Fantasia": {
+      "description": "Invoque un clone de la cible ennemie la plus proche au début du combat. Le clone ne peut pas utiliser activement son Ultime, mais peut utiliser toutes ses compétences de base ainsi que certains effets passifs de l'Ultime. Le clone possède 70% de ses attributs de base, sans dépasser 350% des attributs correspondants de Genesis Shar.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent PV +3%. (Débloqué à 32px)",
+        "3": "Invoque un autre clone 18s après l'élimination du précédent. (Débloqué à 48px)",
+        "4": "Le clone possède 140% de ses attributs, sans dépasser 700% des attributs correspondants de Genesis Shar. (Débloqué à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent Attaque +3%. (Débloqué à 80px)",
+        "6": "Le clone partage la Compétence d'Âme et la Compétence d'Orlay au niveau de Genesis Shar. (Débloqué à 16px)"
+      }
+    }
+  },
+  "gord": {
+    "Energy Overflow": {
+      "description": "Gord libère une puissante vague d'Énergie Runique devant lui, infligeant des dégâts égaux à 40% de son Attaque aux ennemis dans la grande zone devant lui.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 50% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 60% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 70% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Active Energy": {
+      "description": "Au début du combat, l'Agilité de tous les alliés est augmentée de 50 pendant 10s.",
+      "levels": {
+        "2": "Augmente l'Énergie de tous les alliés de 60.",
+        "3": "L'augmentation d'Énergie est portée à 120 points.",
+        "4": "L'augmentation d'Agilité est portée à 100."
+      }
+    },
+    "Arcane Restriction": {
+      "description": "Gord invoque une Zone de Restriction Magique ; les ennemis présents dans la zone subissent des dégâts égaux à 58% de l'Attaque de Gord toutes les 0,4s.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 69% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 81% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 93% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Arcane Weakness": {
+      "description": "La cible touchée par Gord voit sa Défense temporairement réduite de 5%. Cet effet peut se cumuler jusqu'à 3 fois.",
+      "levels": {
+        "2": "Le nombre maximum de charges est augmenté à 5.",
+        "3": "Réduit la Défense de la cible de 10% supplémentaires lorsque le nombre maximum de charges est atteint.",
+        "4": "Chaque charge augmente la réduction de Défense de 8%. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "granger": {
+    "Death Sonata": {
+      "description": "Granger transforme son violon en canon et tire 3 coups. Chaque coup cible un ennemi aléatoire, infligeant des dégâts égaux à 200% de son Attaque.",
+      "levels": {
+        "2": "Chaque coup inflige des dégâts supplémentaires égaux à 4% des dégâts subis par tous les héros alliés en 10s.",
+        "3": "Chaque coup inflige des dégâts supplémentaires égaux à 8% des dégâts subis par tous les héros alliés en 10s.",
+        "4": "Chaque coup inflige des dégâts supplémentaires égaux à 10% des dégâts subis par tous les héros alliés en 10s. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Rhapsody": {
+      "description": "Granger tire une balle qui ricoche entre plusieurs ennemis, leur infligeant des dégâts égaux à 56% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts de la balle augmentent de 20% à chaque ennemi sur lequel elle ricoche.",
+        "3": "Les dégâts de base des balles tirées sont augmentés à 68% de l'Attaque.",
+        "4": "Les dégâts de base des balles tirées sont augmentés à 80% de l'Attaque."
+      }
+    },
+    "Rondo": {
+      "description": "Lorsque Granger inflige un coup critique ou utilise la compétence Rhapsodie, sa prochaine attaque de base est remplacée par une rafale de tirs, envoyant 4 balles infligeant chacune 50% de dégâts à l'ennemi le plus proche.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 60% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 70% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 80% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Sonata": {
+      "description": "Chaque instance de dégâts de compétence non critiques infligés augmente le Taux de coups critiques de Granger de 15%. Ce bonus se réinitialise dès qu'il inflige un coup critique.",
+      "levels": {
+        "2": "Lorsque Granger inflige un coup critique, il s'octroie un Bouclier égal à 40% de son Attaque ; la valeur du Bouclier est également affectée par les bonus de dégâts critiques.",
+        "3": "Lorsque Granger inflige un coup critique, il s'octroie un Bouclier égal à 70% de son Attaque ; la valeur du Bouclier est également affectée par les bonus de dégâts critiques.",
+        "4": "Lorsque Granger inflige un coup critique, il s'octroie un Bouclier égal à 100% de son Attaque ; la valeur du Bouclier est également affectée par les bonus de dégâts critiques. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "grock": {
+    "Wild Charge": {
+      "description": "Grock charge vers les ennemis, infligeant des dégâts égaux à 500% de son Attaque aux ennemis dans la petite zone.",
+      "levels": {
+        "2": "Étourdit la cible pendant 2s.",
+        "3": "Les dégâts sont augmentés à 750% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 1000% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Ground Slam": {
+      "description": "Grock frappe le sol pour envoyer une puissante onde de choc, infligeant des dégâts égaux à 145% de son Attaque à tous les ennemis devant lui. L'onde de choc se transforme en mur de pierre à la fin de sa course, projetant les ennemis dans les airs pendant un court instant.",
+      "levels": {
+        "2": "Augmente les dégâts à 170% de l'Attaque.",
+        "3": "Augmente les dégâts à 210% de l'Attaque.",
+        "4": "Augmente les dégâts à 250% de l'Attaque."
+      }
+    },
+    "Power of Nature": {
+      "description": "Grock accumule de l'énergie pendant un instant puis inflige des dégâts égaux à 200% de son Attaque aux ennemis proches, réduisant leur Agilité de 100.",
+      "levels": {
+        "2": "Soigne les alliés de la ligne avant d'une quantité de PV égale à 400% de l'Attaque.",
+        "3": "Immunisé aux effets de contrôle pendant l'accumulation d'énergie.",
+        "4": "Les dégâts sont augmentés à 300% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Ancestral Gift": {
+      "description": "Grock se soigne lui-même ainsi que les alliés autour de lui d'une quantité de PV égale à 45% de son Attaque toutes les 3s.",
+      "levels": {
+        "2": "Augmente leur Défense de 25%.",
+        "3": "La quantité de PV soignés est augmentée à 75% de l'Attaque.",
+        "4": "La quantité de PV soignés est augmentée à 100% de l'Attaque. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "guinevere": {
+    "Violet Requiem": {
+      "description": "Guinevere fait exploser toute l'Énergie du héros ennemi possédant le plus d'Énergie et lui inflige d'énormes dégâts au prix d'une quantité équivalente d'Énergie. Un minimum de 200 points d'Énergie sera consommé. Cette compétence inflige un minimum de dégâts égal à 230% de l'Attaque de Guinevere. Et pour chaque tranche de 10 points d'Énergie consommés, elle inflige des dégâts supplémentaires égaux à 4% de son Attaque. Les dégâts supplémentaires maximum ne dépasseront pas 400% de l'Attaque de Guinevere. Lorsqu'elle utilise son Ultime contre un Boss, elle dépense toute son Énergie pour infliger le double des dégâts maximum de cette compétence.",
+      "levels": {
+        "2": "Pour chaque tranche de 10 points d'Énergie consommés, Guinevere inflige désormais des dégâts supplémentaires égaux à 6% de son Attaque. Les dégâts supplémentaires maximum ne dépasseront pas 600% de l'Attaque de Guinevere.",
+        "3": "Cette compétence inflige un minimum de dégâts égal à 460% de l'Attaque de Guinevere.",
+        "4": "Cette compétence inflige un minimum de dégâts égal à 600% de l'Attaque de Guinevere. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Anti-gravity Blast": {
+      "description": "Guinevere utilise la magie anti-gravité pour déclencher une explosion infligeant des dégâts égaux à 150% de son Attaque aux ennemis dans la zone et les projetant dans les airs. Pendant les 3s suivantes, Guinevere continue de leur infliger des dégâts égaux à 40% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts continus sont augmentés à 55% de l'Attaque.",
+        "3": "Les ennemis touchés subiront des dégâts magiques accrus pendant un certain temps.",
+        "4": "Les dégâts continus sont augmentés à 70% de l'Attaque."
+      }
+    },
+    "Energy Wave": {
+      "description": "Guinevere inflige des dégâts égaux à 250% de son Attaque à l'ennemi ciblé et lui laisse une marque pendant 6s. L'ennemi marqué perd 100 points d'Énergie pour 5 attaques subies.",
+      "levels": {
+        "2": "La marque restaure également 100 points d'Énergie à Guinevere à chaque déclenchement.",
+        "3": "Les dégâts de la compétence sont augmentés à 315% de l'Attaque.",
+        "4": "Les dégâts de la compétence sont augmentés à 365% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Super Magic": {
+      "description": "Chaque tranche de 450% de points d'Énergie perdus par l'ennemi augmente de façon permanente l'Agilité de Guinevere de 60% et sa capacité d'acquisition d'Énergie de 10% pour le combat en cours, cumulable jusqu'à 3 fois.",
+      "levels": {
+        "2": "Cela augmente également l'Attaque de Guinevere de 10%.",
+        "3": "Désormais, 300 points d'Énergie perdus par l'ennemi déclenchent les effets.",
+        "4": "Cela augmente également l'Attaque de Guinevere de 15%. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "gusion": {
+    "Incandescence": {
+      "description": "Gusion lance deux salves totalisant 10 poignards devant lui, infligeant chacun des dégâts égaux à 220% de son Attaque à la cible touchée. Après un certain temps, Gusion récupère tous les poignards ; chaque poignard inflige des dégâts égaux à 115% de son Attaque à la cible touchée sur le chemin du retour.",
+      "levels": {
+        "2": "Gusion est immunisé aux effets de contrôle pendant cet état amélioré.",
+        "3": "Les dégâts de l'attaque de base améliorée sont augmentés à 120% de l'Attaque.",
+        "4": "Les dégâts des poignards lancés sont augmentés à 260% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Shadowblade Slaughter": {
+      "description": "Gusion lance deux salves totalisant 4 poignards devant lui, infligeant chacun des dégâts égaux à 80% de son Attaque à la cible touchée. Après un certain temps, Gusion récupère tous les poignards ; chaque poignard inflige des dégâts égaux à 115% de son Attaque à la cible touchée sur le chemin du retour.",
+      "levels": {
+        "2": "Les dégâts des poignards lancés sont augmentés à 91% de l'Attaque.",
+        "3": "Les dégâts des poignards lancés sont augmentés à 105% de l'Attaque.",
+        "4": "Les dégâts des poignards lancés sont augmentés à 115% de l'Attaque."
+      }
+    },
+    "Sword Spike": {
+      "description": "Gusion inflige des dégâts égaux à 370% de son Attaque à une cible, qui est alors marquée. Si la cible marquée est touchée par trois poignards lorsque Gusion les récupère, elle est étourdie pendant 1s.",
+      "levels": {
+        "2": "La durée d'étourdissement est augmentée à 3s.",
+        "3": "Les dégâts sont augmentés à 430% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 500% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Dagger Specialist": {
+      "description": "Pour chaque poignard récupéré, Gusion gagne une rune. Si Gusion lance une attaque de base alors qu'il possède suffisamment de runes, 3 runes sont consommées pour améliorer sa prochaine attaque de base. L'attaque de base améliorée inflige des dégâts supplémentaires égaux à 100% de son Attaque.",
+      "levels": {
+        "2": "Restaure des PV égaux à 80% des dégâts infligés.",
+        "3": "Augmente le pourcentage de PV restaurés à 120%.",
+        "4": "Augmente les dégâts supplémentaires à 180%. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "hanabi": {
+    "Forbidden Jutsu - Higanbana": {
+      "description": "Hanabi lance Higanbana sur un ennemi, infligeant des dégâts égaux à 400% de son Attaque et l'immobilisant pendant 2s. Higanbana atteint sa pleine floraison lorsque l'ennemi touché est éliminé, immobilisant tous les ennemis dans la zone d'effet. Les ennemis immobilisés font à leur tour éclore Higanbana à leur mort.",
+      "levels": {
+        "2": "La durée d'immobilisation est augmentée à 3s.",
+        "3": "Les dégâts sont augmentés à 505%.",
+        "4": "Les dégâts sont augmentés à 610%. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Ninjutsu - Petal Barrage": {
+      "description": "Les attaques de base de Hanabi réduisent l'Énergie des cibles de 30 points.",
+      "levels": {
+        "2": "La réduction d'Énergie est augmentée à 40 points.",
+        "3": "Une unité ennemie ayant perdu 200 points d'Énergie est étourdie.",
+        "4": "La réduction d'Énergie est augmentée à 50 points."
+      }
+    },
+    "Ninjutsu - Soul Scroll": {
+      "description": "Hanabi libère un parchemin d'énergie explosif, infligeant des dégâts égaux à 85% de son Attaque à la cible et lui laissant une marque explosive. La marque explose lorsque son porteur perd 15% de ses PV max, infligeant des dégâts égaux à 130% de l'Attaque de Hanabi aux ennemis dans le rayon d'explosion.",
+      "levels": {
+        "2": "Les dégâts du parchemin sont augmentés à 135% de l'Attaque.",
+        "3": "Les dégâts du parchemin sont augmentés à 185% de l'Attaque.",
+        "4": "Les dégâts du parchemin sont augmentés à 230% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Ninjutsu - Equinox": {
+      "description": "L'attaque de base de Hanabi peut infliger des dégâts à 2 cibles supplémentaires, avec des dégâts décroissants.",
+      "levels": {
+        "2": "L'attaque de base qui ricoche bénéficie de 5% de Taux de coups critiques supplémentaire.",
+        "3": "L'attaque de base qui ricoche bénéficie de 10% de Taux de coups critiques supplémentaire.",
+        "4": "L'attaque de base qui ricoche bénéficie de 15% de Taux de coups critiques supplémentaire. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "hanzo": {
+    "Kinjutsu - Pinnacle Ninja": {
+      "description": "Hanzo lance le ninjutsu interdit, se transformant en Pneuma Démoniaque. Il gagne alors 50 charges de Sang Démoniaque et attire les ennemis autour de lui. Lorsque Hanzo est sous sa forme démoniaque, son attaque de base inflige des dégâts deux fois. Chaque charge de Sang Démoniaque augmente son Attaque de 0,8% et son Taux de coups critiques de 0,2%. Chaque seconde sous sa forme démoniaque, Hanzo consomme 10 points de Sang Démoniaque. Lorsque le Sang Démoniaque est épuisé, Hanzo revient à sa forme originelle.",
+      "levels": {
+        "2": "Chaque charge de Sang Démoniaque augmente l'Attaque du Pneuma Démoniaque de 1% et son Taux de coups critiques de 0,3%.",
+        "3": "Soigne 35% des PV max lors de l'activation de l'Ultime.",
+        "4": "Soigne 50% des PV max lors de l'activation de l'Ultime. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Ninjutsu - Soul Reap": {
+      "description": "Hanzo invoque des pointes démoniaques à l'endroit ciblé, infligeant des dégâts égaux à 45% de son Attaque aux ennemis dans la zone, 4 fois en 2s. Chaque fois que les pointes démoniaques infligent des dégâts, Hanzo gagne 1 charge de Sang Démoniaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 58% de l'Attaque.",
+        "3": "La durée est augmentée à 3s.",
+        "4": "Hanzo gagne 1 charge supplémentaire de Sang Démoniaque à chaque fois qu'il inflige des dégâts."
+      }
+    },
+    "Ninjutsu - Demon Feast": {
+      "description": "Hanzo tranche la cible ennemie, infligeant des dégâts égaux à 325% de son Attaque et la repoussant.",
+      "levels": {
+        "2": "Lorsque Hanzo est sous sa forme démoniaque, il inflige des dégâts aux ennemis dans une certaine portée en ligne droite.",
+        "3": "Les dégâts sont augmentés à 415% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 470% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Demonic Corruption": {
+      "description": "L'attaque de base de Hanzo augmente son Sang Démoniaque de 3 points.",
+      "levels": {
+        "2": "Chaque héros ennemi éliminé augmente le Sang Démoniaque de Hanzo de 25 charges.",
+        "3": "L'attaque de base de Hanzo augmente son Sang Démoniaque de 3 charges.",
+        "4": "L'attaque de base de Hanzo augmente son Sang Démoniaque de 5 charges. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "harley": {
+    "Poker Trick": {
+      "description": "Harley tire 3 salves de cartes devant lui, infligeant des dégâts égaux à 77% de son Attaque aux ennemis touchés.",
+      "levels": {
+        "2": "Les dégâts infligés par les cartes sont augmentés à 105% de l'Attaque.",
+        "3": "Les dégâts infligés par les cartes sont augmentés à 135% de l'Attaque.",
+        "4": "Les dégâts infligés par les cartes sont augmentés à 155% de l'Attaque. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Magic Hat": {
+      "description": "Harley attaque l'ennemi le plus menaçant, infligeant des dégâts égaux à 100% de son Attaque et exilant la cible dans son chapeau magique pendant 6s. Pendant cette période, la cible ne subit aucun dégât et ne peut pas se déplacer.",
+      "levels": {
+        "2": "La durée d'exil est augmentée à 7s.",
+        "3": "La durée d'exil est augmentée à 8s.",
+        "4": "La durée d'exil est augmentée à 9s."
+      }
+    },
+    "Deadly Magic": {
+      "description": "Harley tire un missile magique sur l'ennemi le plus proche et génère un anneau de feu qui persiste 4s sous les pieds de la cible. L'anneau de feu inflige des dégâts égaux à 130% de l'Attaque de Harley. Après 4s, l'anneau de feu explose, infligeant des dégâts égaux à 110% de l'Attaque de Harley à la cible et aux ennemis proches.",
+      "levels": {
+        "2": "Chaque ennemi touché par l'explosion restaure 100 points d'Énergie à Harley.",
+        "3": "Les dégâts de l'explosion sont augmentés à 220% de l'Attaque.",
+        "4": "Les dégâts continus sont augmentés à 160% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Magic Master": {
+      "description": "Harley tire 2 salves de cartes supplémentaires lorsqu'il utilise Tour de Cartes, infligeant des dégâts égaux à 100% de son Attaque aux ennemis touchés.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 135% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 170% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 200% de l'Attaque. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "hayabusa": {
+    "Ougi - Shadow Kill": {
+      "description": "Hayabusa rappelle tous ses fantômes présents sur le champ de bataille, infligeant des dégâts égaux à 100% de son Attaque aux ennemis sur leur trajectoire alors qu'ils reviennent vers lui. Après avoir récupéré ses fantômes, Hayabusa tranche instantanément les ennemis devant lui, infligeant des dégâts égaux à 325% de son Attaque 2 fois.",
+      "levels": {
+        "2": "Pour chaque fantôme récupéré, le Taux de coups critiques de Hayabusa augmente de 10% et son Attaque de 15% pour le reste du combat.",
+        "3": "Les dégâts de la taillade sont augmentés à 430% de l'Attaque.",
+        "4": "(Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Ninjutsu - Mist Conceal": {
+      "description": "Hayabusa tend une embuscade derrière l'équipe ennemie au début du combat, infligeant des dégâts égaux à 200% de son Attaque à la cible et la déroutant de sorte que ses compétences ne puissent plus cibler Hayabusa. Cet effet dure 20s, sauf si Hayabusa est le seul héros survivant. Une fois l'embuscade terminée, Hayabusa utilise des shurikens, infligeant des dégâts égaux à 220% de son Attaque aux ennemis à proximité immédiate.",
+      "levels": {
+        "2": "Lorsque l'ennemi dérouté meurt, Hayabusa utilise à nouveau cette compétence et l'effet se réinitialise.",
+        "3": "Réduit l'Énergie des unités ennemies de 80 lorsqu'elles subissent des dégâts des shurikens.",
+        "4": "Les dégâts infligés par les shurikens sont augmentés à 280% de l'Attaque."
+      }
+    },
+    "Ninjutsu - Quad Shadow": {
+      "description": "Hayabusa invoque 1 fantôme derrière l'ennemi ayant la Défense la plus élevée, infligeant des dégâts égaux à 280% de son Attaque. Le fantôme réduit ensuite la Défense des unités ennemies proches de 10% toutes les 2 secondes pendant 10 secondes, cumulable jusqu'à 5 fois. Il peut invoquer jusqu'à 3 fantômes sur le champ de bataille.",
+      "levels": {
+        "2": "Lorsque Hayabusa utilise des shurikens, ses fantômes en utilisent également, infligeant des dégâts égaux à 110% de son Attaque.",
+        "3": "Les dégâts de la compétence sont augmentés à 360% de l'Attaque.",
+        "4": "(Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Ninjutsu - Kamaitachi": {
+      "description": "",
+      "levels": {
+        "2": "Les fantômes de Hayabusa infligent également des dégâts supplémentaires à la cible ennemie par-derrière.",
+        "3": "Pour chaque 1% de Taux de coups critiques de Hayabusa, les dégâts supplémentaires infligés à la cible ennemie par-derrière sont augmentés à 3% de l'Attaque.",
+        "4": "(Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "heartcore-angela": {
+    "Primordial Protocol": {
+      "description": "Heartcore Angela devient brièvement inciblable et libère un orbe d'énergie sur l'ennemi ayant infligé le plus de dégâts cumulés. L'orbe rebondit 5 fois entre cet ennemi et le héros allié ayant infligé le plus de dégâts cumulés. Lorsque l'orbe d'énergie touche des ennemis, il inflige aux ennemis proches des dégâts égaux à 100% de l'Attaque de Heartcore Angela plus 8% des PV max de l'ennemi. Les dégâts liés aux PV max ne dépasseront pas 800% de l'Attaque de Heartcore Angela. Lorsque l'orbe d'énergie touche un héros allié, il retire la plupart des effets de contrôle et de changement de cible de ce héros et lui restaure 100 points d'Énergie. Passif : l'Énergie max de Heartcore Angela est de 8. Elle gagne 1 point d'Énergie lorsqu'elle utilise Verrouillage Algorithmique ou Vengeance de l'Amour. Son Énergie n'est affectée par aucun autre effet.",
+      "levels": {
+        "2": "Lorsque Heartcore Angela gagne de l'Énergie par un autre moyen que Verrouillage Algorithmique ou Vengeance de l'Amour, elle convertit chaque tranche de 100 points d'Énergie gagnés en 10% d'Attaque, jusqu'à un maximum de 100% d'Attaque.",
+        "3": "Les dégâts infligés sont augmentés à 110%.",
+        "4": "Les dégâts infligés sont augmentés à 120%. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Algorithm Lock": {
+      "description": "Heartcore Angela ordonne à la Poupée Cœur Sombre d'infliger des dégâts égaux à 70% de son Attaque aux 3 héros ennemis les plus éloignés et de les marquer pendant 6s. Les ennemis marqués subissent 15% de dégâts supplémentaires pendant cette période, tandis que les héros alliés subissent 20% de dégâts en moins de la part des unités non marquées.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 85%.",
+        "3": "Heartcore Angela gagne 2 points d'Énergie initiale.",
+        "4": "Les dégâts infligés sont augmentés à 100%."
+      }
+    },
+    "Love's Vengeance": {
+      "description": "Heartcore Angela inflige à un ennemi des dégâts égaux à 2% de ses PV max par seconde jusqu'à la fin du combat, plafonnés à 200% de l'Attaque de Heartcore Angela. Cet effet peut se cumuler jusqu'à 5 fois. Priorise les ennemis non affectés par cet effet. Lorsqu'un ennemi affecté par cette compétence meurt, Heartcore Angela gagne 1 point d'Énergie.",
+      "levels": {
+        "2": "Les dégâts infligés lors du premier impact sur un ennemi sont égaux à 100% de l'Attaque.",
+        "3": "Les dégâts infligés sont augmentés à 2,5%, plafonnés à 250% de l'Attaque de Heartcore Angela.",
+        "4": "Les dégâts infligés sont augmentés à 3%, plafonnés à 300% de l'Attaque de Heartcore Angela. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Neural Override": {
+      "description": "Toutes les 10s, si l'Énergie max de Heartcore Angela est égale ou supérieure à 7, elle convertit 1 point d'Énergie max en 1 Source d'Énergie. Chaque Source d'Énergie augmente de 1 le nombre de ricochets de son Ultime. Lorsque les PV de Heartcore Angela passent sous 65%, si son Énergie max est égale ou supérieure à 6, elle réduit son Énergie max de 1, retire la plupart des effets de contrôle et des restrictions de régénération de PV (y compris la réduction de soin, le blocage des PV et la conversion des PV régénérés en bouclier), récupère tous les PV perdus, déclenche immédiatement l'effet de son Ultime et réinitialise le minuteur de conversion d'Énergie.",
+      "levels": {
+        "2": "Lorsque l'Énergie max est réduite à 6, Heartcore Angela gagne 5% de Taux de coups critiques.",
+        "3": "Lorsque l'Énergie max est réduite à 6, Heartcore Angela gagne 10% de Taux de coups critiques.",
+        "4": "Lorsque l'Énergie max est réduite à 6, Heartcore Angela gagne 15% de Taux de coups critiques. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Code Domain": {
+      "description": "Au début du combat, sélectionne 1 héros allié (peut sélectionner Heartcore Angela elle-même). Après que ce héros a activement lancé son Ultime, il peut le relancer une fois de plus sans coût en Énergie. Cela peut se déclencher une fois toutes les 12s. Lorsque ce héros meurt, un autre héros allié est immédiatement sélectionné pour bénéficier de cet effet.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent PV +3%. (Débloqué à 32px)",
+        "3": "Au début du combat, sélectionne 1 héros allié. Après que ce héros a activement lancé son Ultime, il peut le relancer une fois de plus sans coût en Énergie. Cela peut se déclencher une fois toutes les 12s. Lorsque ce héros meurt, un autre héros allié est immédiatement sélectionné pour bénéficier de cet effet. (Débloqué à 32px)",
+        "4": "Lorsque ce héros lance son Ultime, tous les autres héros alliés récupèrent 50 points d'Énergie. (Débloqué à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent Attaque +3%. (Débloqué à 80px)",
+        "6": "Lorsque ce héros lance son Ultime, tous les autres héros alliés récupèrent 100 points d'Énergie. (Débloqué à 16px)"
+      }
+    }
+  },
+  "hel": {
+    "Echoes of Helheim": {
+      "description": "Passif : lorsqu'elle inflige des dégâts avec ses compétences et ses attaques de base, inflige des dégâts supplémentaires égaux à 3% des PV max de la cible et en verrouille 3% (jusqu'à 350% de l'Attaque de Hel). Actif : inflige des dégâts égaux à 75% de l'Attaque 5 fois à la cible la plus proche et aux ennemis autour d'elle. Exile pendant 10s la cible ennemie ayant le plus grand pourcentage de PV verrouillés (ignore la plupart des immunités et résistances au contrôle). Pendant l'exil, inflige des dégâts égaux à 3% des PV max de la cible par seconde et en verrouille 3% (jusqu'à 500% de l'Attaque de Hel). S'il y a déjà un ennemi en exil lorsque la compétence est activée, elle verrouille alors 60% des PV max de cette cible exilée et réinitialise le minuteur d'exil. De plus, s'il n'existe aucune autre cible ennemie possible à part celle exilée, le statut « ne peut pas être ciblé » de la cible exilée est levé, permettant de la sélectionner à nouveau.",
+      "levels": {
+        "2": "Les dégâts infligés par l'Ultime sont augmentés à 100% de l'Attaque.",
+        "3": "Les dégâts et les PV verrouillés pendant l'exil sont augmentés à 5% des PV max de la cible.",
+        "4": "Les dégâts supplémentaires infligés et les PV verrouillés par le Passif sont augmentés à 3,5% des PV max. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Phantom Strike": {
+      "description": "Tranche les ennemis dans une petite zone devant elle 3 fois, infligeant à chaque fois des dégâts égaux à 60% de l'Attaque.",
+      "levels": {
+        "2": "Chaque cible ennemie décimée augmente de façon permanente le nombre d'instances de dégâts de la compétence de 1.",
+        "3": "Chaque cible ennemie décimée augmente de façon permanente le nombre d'instances de dégâts de la compétence de 2.",
+        "4": "Les dégâts sont augmentés à 80% de l'Attaque."
+      }
+    },
+    "Death Knell": {
+      "description": "Lorsqu'elle est touchée par un projectile ennemi, Hel a 60% de chances d'en ignorer les dégâts et les effets.",
+      "levels": {
+        "2": "Restaure 20 points d'Énergie supplémentaires lorsque déclenché.",
+        "3": "Restaure 30 points d'Énergie supplémentaires lorsque déclenché.",
+        "4": "Restaure 40 points d'Énergie supplémentaires lorsque déclenché. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Twilight Carves": {
+      "description": "L'attaque de base inflige désormais des dégâts à l'ennemi deux fois. Lorsqu'elle inflige des dégâts avec ses compétences ou son attaque de base, Hel a 30% de chances de créer une brume venue de Helheim, infligeant des dégâts égaux à 100% de l'Attaque à la cible et à tous les ennemis derrière elle.",
+      "levels": {
+        "2": "Lorsque Hel subit des dégâts, ces dégâts sont réduits en fonction du pourcentage de PV max verrouillés de la cible, jusqu'à un maximum de 30%.",
+        "3": "Les dégâts sont augmentés à 125% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 150% de l'Attaque. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "helcurt": {
+    "Dark Night Falls": {
+      "description": "Helcurt invoque la nuit pour réduire au silence toutes les unités ennemies pendant 2s, infligeant des dégâts égaux à 105% de son Attaque.",
+      "levels": {
+        "2": "La durée de silence est augmentée à 4s.",
+        "3": "Augmente les dégâts à 125% de l'Attaque.",
+        "4": "La durée de silence est augmentée à 5s. (Nécessite Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Shadow Transition": {
+      "description": "Helcurt se téléporte dans la ligne arrière ennemie, infligeant des dégâts égaux à 125% de son Attaque aux ennemis à portée. Et pendant un court instant, Helcurt ne pourra pas être facilement ciblé par les ennemis à distance.",
+      "levels": {
+        "2": "Réduit la cible au silence pendant 3s.",
+        "3": "Augmente les dégâts à 140% de l'Attaque.",
+        "4": "Augmente les dégâts à 160% de l'Attaque."
+      }
+    },
+    "Deadly Stinger": {
+      "description": "Helcurt gagne un Dard chaque fois qu'il subit des dégâts. Helcurt libère ses dards, infligeant chacun des dégâts égaux à 70% de son Attaque.",
+      "levels": {
+        "2": "Augmente les dégâts à 84% de l'Attaque.",
+        "3": "Augmente les dégâts à 100% de l'Attaque.",
+        "4": "Augmente les dégâts à 115% de l'Attaque. (Nécessite Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Race Advantage": {
+      "description": "Helcurt gagne un Bouclier Magique toutes les 8s. Le bouclier bloque la prochaine attaque des ennemis et réduit l'attaquant au silence.",
+      "levels": {
+        "2": "Inflige des dégâts égaux à 80% de l'Attaque à l'attaquant.",
+        "3": "Augmente les dégâts à 100% de l'Attaque.",
+        "4": "Augmente les dégâts à 200% de l'Attaque. (Nécessite Crépuscule Ancien niveau 2)"
+      }
+    }
+  }
+}

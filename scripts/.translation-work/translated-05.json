@@ -1,0 +1,526 @@
+{
+  "helia-karihmet": {
+    "Flamestorm Devastation": {
+      "description": "Libère un Tir Enflammé infligeant des dégâts de zone égaux à 365% de l'Attaque aux ennemis. Le Tir Enflammé inflige également des brûlures aux ennemis, infligeant des dégâts égaux à 50% de l'Attaque pendant 3s, et réduit leur Énergie de 40 points. Si les dégâts totaux infligés par les ennemis pendant ce sort sont inférieurs à 50% des dégâts de Helia Karihmet, ils subissent 50% de dégâts supplémentaires.",
+      "levels": {
+        "2": "Lors du premier lancement de l'Ultime, celui-ci consomme 700 points d'Énergie. Chaque lancement suivant de l'Ultime augmente son coût en Énergie de 150, jusqu'à un maximum de 1 000 points.",
+        "3": "Les dégâts du Tir Enflammé sont augmentés à 440% de l'Attaque.",
+        "4": "Les dégâts du Tir Enflammé sont augmentés à 475% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Dawnfire Pierce": {
+      "description": "Libère une Flèche Enflammée, infligeant des dégâts égaux à 175% de l'Attaque à la ou aux cible(s) ennemie(s) à portée et les étourdissant brièvement.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 220% de l'Attaque.",
+        "3": "Lors de la première utilisation en combat, Dawnfire Pierce inflige 60% de dégâts supplémentaires. À chaque utilisation suivante, les dégâts supplémentaires diminuent de 15%, jusqu'à atteindre 0.",
+        "4": "Les dégâts sont augmentés à 245% de l'Attaque."
+      }
+    },
+    "Daybreak Duel": {
+      "description": "Gagne 2 charges de Fiery Shield. Lorsqu'elle subit des dégâts dépassant 10% de ses PV max, 1 charge du Bouclier est consommée pour annuler les dégâts. De plus, inflige des dégâts égaux à 160% de l'Attaque à l'ennemi ayant le moins de PV. Fiery Shield peut s'accumuler jusqu'à 4 charges.",
+      "levels": {
+        "2": "Gagne 2 charges de Fiery Shield au début du combat.",
+        "3": "Les dégâts sont augmentés à 190% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 220% de l'Attaque. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Blazing Waltz": {
+      "description": "L'Attaque de base tire un projectile qui rebondit et touche deux ennemis, infligeant des dégâts supplémentaires égaux à 10% des PV max du premier ennemi touché au second ennemi touché (jusqu'à 1500% de l'Attaque de Karihmet).",
+      "levels": {
+        "2": "Le projectile rebondissant gagne 40% de Taux de coups critiques supplémentaire.",
+        "3": "Les dégâts sont augmentés à 12% des PV max de la cible.",
+        "4": "Les dégâts sont augmentés à 15% des PV max de la cible. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    },
+    "Incinerating Supremacy": {
+      "description": "Niv. 1 : Toutes les 4s pendant les 20 premières secondes du combat, les ennemis infligeant moins de 50% des dégâts de Helia Karihmet perdent 30 points d'Énergie, tandis que les alliés infligeant plus de 50% de ses dégâts gagnent 30 points d'Énergie.",
+      "levels": {
+        "2": "[Bonus PV pour toute l'équipe] Tous les alliés de la même équipe gagnent +3% PV. (Se débloque à 32px)",
+        "3": "Toutes les 4s pendant les 20 premières secondes du combat, les ennemis infligeant moins de 50% des dégâts de Helia Karihmet perdent 50 points d'Énergie, tandis que les alliés infligeant plus de 50% de ses dégâts gagnent 50 points d'Énergie. (Se débloque à 48px)",
+        "4": "Toutes les 4s pendant les 20 premières secondes du combat, lorsqu'un allié inflige les dégâts les plus élevés, Helia Karihmet lance un Dawnfire Pierce supplémentaire, infligeant des dégâts égaux à 220% de l'Attaque. (Se débloque à 64px)",
+        "5": "[Bonus Attaque pour toute l'équipe] Tous les alliés de la même équipe gagnent +3% Attaque. (Se débloque à 80px)",
+        "6": "Toutes les 4s pendant les 20 premières secondes du combat, lorsqu'un allié inflige les dégâts les plus élevés, Helia Karihmet lance un Dawnfire Pierce supplémentaire, infligeant des dégâts égaux à 245% de l'Attaque. (Se débloque à 16px)"
+      }
+    }
+  },
+  "hestia": {
+    "Blazing Hearthfire": {
+      "description": "Restaure les PV de tous les alliés à 100% et augmente leur Taux de coups critiques et leurs Dégâts critiques pendant 8s en fonction du pourcentage de PV de chaque allié. Les alliés ayant plus de PV reçoivent des bonus de Taux de coups critiques et de Dégâts critiques plus importants, cumulables jusqu'à 8% de Taux de coups critiques et 15% de Dégâts critiques.",
+      "levels": {
+        "2": "Accorde 30% de l'Augmentation des dégâts de Hestia à chaque autre allié.",
+        "3": "Le bonus de Taux de coups critiques peut s'accumuler jusqu'à 15%.",
+        "4": "Le bonus de Taux de coups critiques peut s'accumuler jusqu'à 30%. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Holy Blessing": {
+      "description": "",
+      "levels": {
+        "2": "La Réduction des dégâts augmente à 6% de l'Attaque.",
+        "3": "Les alliés sélectionnés sont immunisés à la plupart des effets de contrôle pendant 2s après l'activation du sort.",
+        "4": "La Réduction des dégâts augmente à 8% de l'Attaque."
+      }
+    },
+    "Prioritized Offerings": {
+      "description": "Hestia sélectionne 2 cibles supplémentaires à chaque Attaque de base et augmente la Régénération de PV en fonction des PV perdus des cibles, cumulable jusqu'à 20%.",
+      "levels": {
+        "2": "Les alliés soignés gagnent de l'Attaque supplémentaire en fonction de leur pourcentage de PV en temps réel au-delà de 45, cumulable jusqu'à 15%.",
+        "3": "La régénération basée sur les PV perdus des cibles peut s'accumuler jusqu'à 40%.",
+        "4": "La régénération basée sur les PV perdus des cibles peut s'accumuler jusqu'à 60%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Goddess's Might": {
+      "description": "Au lieu de quitter le combat, Hestia continue de soigner ses alliés avec ses Attaques de base après avoir été vaincue, mais son Attaque est réduite à 50%. Dans cet état, Hestia ne peut pas être ciblée par les ennemis.",
+      "levels": {
+        "2": "Dans cet état, Hestia peut également lancer Holy Blessing.",
+        "3": "L'Attaque est augmentée à 60%.",
+        "4": "L'Attaque est augmentée à 70%. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "hilda": {
+    "Bloodlust Axe": {
+      "description": "Hilda étourdit et inflige des dégâts égaux à 450% de son Attaque à une cible unique dans la ligne avant ennemie ; les ennemis autour de la cible subissent des dégâts égaux à 150% de son Attaque. Les dégâts de ce sort augmentent avec le temps. Toutes les 5s, les dégâts augmentent de 10%.",
+      "levels": {
+        "2": "Pour chaque allié de type Héros, augmente ses dégâts de 5% toutes les 5s."
+      }
+    },
+    "Combat Ritual": {
+      "description": "Hilda inflige des dégâts égaux à 150% de son Attaque aux ennemis des lignes avant et médiane.",
+      "levels": {
+        "2": "Hilda augmente son Agilité de 50 pendant 4s.",
+        "3": "Le bonus d'Agilité est augmenté à 100."
+      }
+    },
+    "Art of Hunting": {
+      "description": "Hilda frappe les ennemis 3 fois. La première frappe inflige des dégâts égaux à 76% de son Attaque à l'ennemi le plus proche ; la deuxième frappe inflige des dégâts égaux à 76% de son Attaque aux ennemis de la ligne avant ; la troisième frappe inflige des dégâts égaux à 76% de son Attaque aux ennemis de la ligne avant et les repousse.",
+      "levels": {
+        "2": "Les dégâts de la première frappe sont augmentés à 91% de l'Attaque, les dégâts de la deuxième et de la troisième frappe sont augmentés à 91% de l'Attaque."
+      }
+    },
+    "Blessing of Wilderness": {
+      "description": "Accumule les dégâts infligés par les alliés du même type, et soigne 25% des dégâts accumulés sur 5 secondes lorsque les PV descendent en dessous de 20%.",
+      "levels": {
+        "2": "La quantité de PV restaurés est augmentée à 30% des dégâts accumulés par Hilda."
+      }
+    }
+  },
+  "hwang-jini": {
+    "Lunar Luminescence": {
+      "description": "Hwang Jini gagne 5 charges de Melody, projetant dans les airs successivement l'ennemi avec le plus d'Attaque, l'ennemi avec le plus d'Énergie et l'ennemi avec le pourcentage de PV le plus bas, et leur infligeant des dégâts égaux à 505% de l'Attaque. Lorsqu'une unité alliée utilise son Ultime pour infliger des dégâts à un ennemi, Hwang Jini utilise sa Melody pour infliger des dégâts supplémentaires égaux à 250% de son Attaque à cet ennemi, ce qui coûte 1 charge de Melody pour infliger des dégâts à 1 ennemi. Lorsqu'une unité alliée utilise son Ultime pour soigner un autre allié, Hwang Jini utilise sa Melody pour accorder un Bouclier égal à 250% de son Attaque à cet allié, ce qui coûte 1 charge de Melody pour ajouter un Bouclier à 1 allié. Hwang Jini peut posséder jusqu'à 20 charges de Melody.",
+      "levels": {
+        "2": "Les dégâts infligés grâce à Melody augmentent à 300% de l'Attaque. Le Bouclier généré grâce à Melody augmente à 300% de l'Attaque.",
+        "3": "Les dégâts infligés grâce à Melody augmentent à 350% de l'Attaque. Le Bouclier généré grâce à Melody augmente à 350% de l'Attaque.",
+        "4": "Les dégâts infligés grâce à Melody augmentent à 400% de l'Attaque. Le Bouclier généré grâce à Melody augmente à 400% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Joyous Note": {
+      "description": "",
+      "levels": {
+        "2": "Les dégâts du sort sont augmentés à 160% de l'Attaque.",
+        "3": "Le nombre de projectiles d'onde sonore est augmenté à 3.",
+        "4": "Les dégâts du sort sont augmentés à 200% de l'Attaque."
+      }
+    },
+    "Variation": {
+      "description": "Hwang Jini utilise une onde sonore pour attaquer un ennemi, infligeant des dégâts égaux à 370% de son Attaque et réduisant son Énergie de 200.",
+      "levels": {
+        "2": "Si ce sort fait descendre l'Énergie de l'ennemi en dessous de 500 points, il l'étourdit pendant 3s.",
+        "3": "L'Énergie réduite par le sort est augmentée à 280 points.",
+        "4": "L'Énergie réduite par le sort est augmentée à 360 points. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Legato": {
+      "description": "",
+      "levels": {
+        "2": "Chaque charge de Melody accorde à Hwang Jini un Bouclier égal à 83% de son Attaque.",
+        "3": "Chaque charge de Melody accorde à Hwang Jini un Bouclier égal à 98% de son Attaque.",
+        "4": "Chaque charge de Melody accorde à Hwang Jini un Bouclier égal à 113% de son Attaque. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "hylos": {
+    "Glorious Pathway": {
+      "description": "",
+      "levels": {
+        "2": "L'Agilité des ennemis présents sur le chemin est réduite de 50.",
+        "3": "Le bonus d'Attaque accordé aux alliés est augmenté à 15%.",
+        "4": "Le bonus d'Attaque accordé aux alliés est augmenté à 20%. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Thickened Blood": {
+      "description": "",
+      "levels": {
+        "2": "Hylos lance immédiatement Glorious Pathway au début du combat.",
+        "3": "Les PV régénérés par seconde par Hylos sont augmentés à 24%.",
+        "4": "Les PV régénérés par seconde par Hylos sont augmentés à 30%."
+      }
+    },
+    "Law and Order": {
+      "description": "Hylos verrouille sa cible avec l'énergie de la nature, lui infligeant des dégâts égaux à 215% de son Attaque et l'étourdissant.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 300% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 360% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 420% de l'Attaque. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Ring of Punishment": {
+      "description": "",
+      "levels": {
+        "2": "Applique une charge supplémentaire de Warden's Fury à l'ennemi ; chaque charge augmente les dégâts de Ring of Punishment de 20%, cumulable jusqu'à 15 fois.",
+        "3": "Les dégâts sont augmentés à 30% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 45% de l'Attaque. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "imperial-arbalist": {
+    "Stunning Arrow": {
+      "description": "Tire un puissant carreau, repoussant l'ennemi et l'étourdissant brièvement.",
+      "levels": {}
+    }
+  },
+  "imperial-drillmaster": {
+    "Magic Lure": {
+      "description": "Soigne les cibles alliées dans le rayon d'action pour un montant massif de PV.",
+      "levels": {}
+    }
+  },
+  "imperial-sorcerer": {
+    "Sun Emblem": {
+      "description": "Utilise le pouvoir du soleil pour infliger des dégâts aux ennemis éloignés et réduire leur énergie.",
+      "levels": {}
+    }
+  },
+  "infinia-crocell": {
+    "Shattered Destiny": {
+      "description": "Inflige des dégâts 4 fois, égaux à 55% de son Attaque, à tous les ennemis. Le nombre d'instances de dégâts augmente en fonction du bonus d'Attaque d'Infinia Crocell, jusqu'à un maximum de 8 instances.",
+      "levels": {
+        "2": "Chaque charge de Beacon augmente le taux d'acquisition d'Énergie d'Infinia Crocell de 15%.",
+        "3": "Les dégâts infligés sont augmentés à 70%.",
+        "4": "Les dégâts infligés sont augmentés à 85%. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Radiant Volley": {
+      "description": "Lance 2 attaques, chacune ciblant un ennemi aléatoire et infligeant des Dégâts véritables égaux à 140% de son Attaque, ignorant la Défense. Chaque charge de Beacon ajoute une frappe d'attaque supplémentaire.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 170%.",
+        "3": "Chaque fois que des dégâts sont infligés, réduit le soin reçu et le Bouclier de l'ennemi de 30% pendant 8s, cumulable jusqu'à 3 fois.",
+        "4": "Les dégâts infligés sont augmentés à 200%."
+      }
+    },
+    "Insight Pierce": {
+      "description": "Inflige des dégâts égaux à 105% de son Attaque aux 2 ennemis ayant le pourcentage de PV le plus bas, plus des Dégâts véritables égaux à 50% de leurs PV perdus qui ignorent la Défense et la Réduction des dégâts. Les dégâts ne peuvent pas dépasser 2500% de l'Attaque d'Infinia Crocell.",
+      "levels": {
+        "2": "Après que ce sort a infligé ses dégâts, il élimine directement les ennemis dont les PV sont inférieurs à 10%.",
+        "3": "Les dégâts infligés sont augmentés à 130%.",
+        "4": "Les dégâts infligés sont augmentés à 155%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Convergent Fate": {
+      "description": "Lorsqu'un ennemi entre en combat ou revient à la vie, Infinia Crocell lui inflige des dégâts égaux à 80% de son Attaque. Si l'Attaque d'Infinia Crocell est inférieure à celle de la cible, elle gagne un bonus d'Attaque égal à 70% de la différence entre leurs Attaques. Chaque bonus ne peut pas dépasser 50% de l'Attaque d'Infinia Crocell, cumulable jusqu'à 10 fois.",
+      "levels": {
+        "2": "Si l'Attaque d'Infinia Crocell est inférieure à celle de la cible, elle l'Étourdit également pendant 2s. Si son Attaque est supérieure à celle de la cible, elle inflige des dégâts supplémentaires égaux à 100% des PV perdus de la cible.",
+        "3": "Les dégâts infligés sont augmentés à 100%.",
+        "4": "Les dégâts infligés sont augmentés à 120%. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    },
+    "Infinite Domain": {
+      "description": "Au début du combat et à chaque fin de pause temporelle, Infinia Crocell devient inciblable pendant 5s s'il existe d'autres héros alliés ciblables sur le champ de bataille.",
+      "levels": {
+        "2": "[Bonus PV pour toute l'équipe] Tous les alliés de la même équipe gagnent +3% PV. (Se débloque à 32px)",
+        "3": "Lorsqu'un héros allié devient inciblable, il restaure 100 Énergie. Chaque héros ne peut déclencher cet effet qu'une fois toutes les 10s. (Se débloque à 48px)",
+        "4": "À chaque déclenchement de la pause temporelle, Infinia Crocell inflige des Dégâts véritables égaux à 50% de son Bouclier actuel à tous les ennemis, en ignorant la Réduction des dégâts. (Se débloque à 64px)",
+        "5": "[Bonus Attaque pour toute l'équipe] Tous les alliés de la même équipe gagnent +3% Attaque. (Se débloque à 80px)",
+        "6": "À chaque déclenchement de la pause temporelle, Infinia Crocell inflige des Dégâts véritables égaux à 100% de son Bouclier actuel à tous les ennemis, en ignorant la Réduction des dégâts. (Se débloque à 16px)"
+      }
+    }
+  },
+  "irithel": {
+    "Heavy Crossbow": {
+      "description": "Irithel s'équipe d'une arbalète lourde, infligeant des Dégâts de zone avec ses Attaques de base ; elle réduit également la Défense des ennemis de 8%. Cet effet peut se cumuler jusqu'à 5 fois.",
+      "levels": {
+        "2": "Augmente l'Attaque de 60% après avoir lancé l'Ultime.",
+        "3": "Le bonus d'Attaque est augmenté à 100%.",
+        "4": "Le bonus d'Attaque est augmenté à 120%. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Strafe": {
+      "description": "Irithel tire une volée de flèches, infligeant des dégâts égaux à 235% de son Attaque aux ennemis dans la zone.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 270% de l'Attaque.",
+        "3": "Applique un effet de Réduction de Défense.",
+        "4": "Les dégâts sont augmentés à 305% de l'Attaque."
+      }
+    },
+    "Force of The Queen": {
+      "description": "Leo pousse un rugissement, augmentant l'Attaque de tous les alliés de 10% pendant 8s. Les Héros de type Martial reçoivent le double du bonus.",
+      "levels": {
+        "2": "La Pénétration de tous les alliés est augmentée de 20%.",
+        "3": "Le bonus de Pénétration est augmenté à 30%.",
+        "4": "Le bonus d'Attaque est augmenté de 12,5%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Child of the Forest": {
+      "description": "Irithel tire 3 carreaux d'arbalète lourde à chaque Attaque de base, chaque carreau infligeant des dégâts égaux à 100% de son Attaque à la cible. Tous ses carreaux bénéficient du bonus de Dégâts d'Attaque de base accordé par ses alliés.",
+      "levels": {
+        "2": "Acquiert 200 points d'Énergie initiale au début du combat.",
+        "3": "L'Énergie initiale est augmentée à 300 points.",
+        "4": "Les dégâts sont augmentés à 115% de l'Attaque. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "jawhead": {
+    "Unstoppable Force": {
+      "description": "Jawhead charge vers l'ennemi le plus proche, infligeant des dégâts égaux à 650% de son Attaque et étourdissant la cible brièvement. Jawhead est immunisé aux effets de repoussement pendant sa charge vers l'ennemi.",
+      "levels": {
+        "2": "Applique un effet de repoussement supplémentaire."
+      }
+    },
+    "Smart Missiles": {
+      "description": "Jawhead tire 12 missiles en peu de temps, chacun infligeant des dégâts égaux à 43% de son Attaque à l'ennemi touché.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 48% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 54% de l'Attaque."
+      }
+    },
+    "Ejector": {
+      "description": "Jawhead acquiert un bouclier égal à 120% de son Attaque et projette l'ennemi le plus proche au loin. Lorsque l'ennemi touche le sol, les autres ennemis autour du point de chute sont étourdis et subissent des dégâts égaux à 120% de l'Attaque de Jawhead.",
+      "levels": {
+        "2": "Étourdit brièvement les ennemis autour du point de chute."
+      }
+    },
+    "Mecha Suppression": {
+      "description": "Chaque fois que Jawhead inflige des dégâts à une cible, il lui applique une charge de Compression qui dure 4s. L'Attaque de base de Jawhead retire toutes les charges de Compression de la cible, mais celle-ci subit des dégâts supplémentaires selon le nombre de charges de Compression retirées. Chaque charge retirée inflige des dégâts supplémentaires égaux à 15% de son Attaque.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 25% de l'Attaque."
+      }
+    }
+  },
+  "kadita": {
+    "Rough Waves": {
+      "description": "Kadita invoque un tsunami pour attaquer les ennemis. Le tsunami revient vers Kadita après avoir atteint son point final, infligeant des dégâts aux ennemis touchés sur son passage. Plus les ennemis sont proches, plus ils subissent de dégâts. Les ennemis subissent au maximum des dégâts égaux à 280% de l'Attaque de Kadita.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 340% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 400% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 480% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Breath of the Ocean": {
+      "description": "Kadita marque une zone cible, d'où une vague océanique surgira après un certain temps, infligeant des dégâts égaux à 320% de son Attaque aux ennemis touchés.",
+      "levels": {
+        "2": "La vague océanique peut projeter les ennemis dans les airs.",
+        "3": "Les dégâts sont augmentés à 360% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 400% de l'Attaque."
+      }
+    },
+    "Ocean Oddity": {
+      "description": "Kadita chevauche une vague océanique et charge vers les ennemis. La cible touchée subit des dégâts égaux à 155% de l'Attaque de Kadita.",
+      "levels": {
+        "2": "Acquiert temporairement 60% de Réduction des dégâts.",
+        "3": "Les dégâts sont augmentés à 185% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 220% de l'Attaque. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Thalassophobia": {
+      "description": "Kadita relance son Ultime à sa mort, celui-ci infligeant moins de dégâts qu'un lancement normal.",
+      "levels": {
+        "2": "Lorsque les PV de Kadita descendent en dessous de 30%, elle reçoit une bénédiction de la Puissance de l'Océan, restaurant des PV égaux à 250% de son Attaque.",
+        "3": "La quantité de PV soignés est augmentée à 400% de l'Attaque.",
+        "4": "L'effet de soin est augmenté à 600% de l'Attaque. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "kagura": {
+    "Shikigami Summon": {
+      "description": "Kagura invoque un Shikigami pour l'assister au combat ; le Shikigami ne subit aucun dégât. Le Shikigami hérite de l'Attaque actuelle de Kagura et tire 3 flèches d'énergie sur l'ennemi ayant le moins de PV, chacune infligeant des dégâts égaux à 95% de son Attaque. Un maximum de 3 Shikigami peuvent être présents sur le champ de bataille en même temps.",
+      "levels": {
+        "2": "La Défense de la cible est réduite de 3% lorsqu'elle est attaquée par un Shikigami. Cet effet peut se cumuler jusqu'à 20 fois.",
+        "3": "Les dégâts de la flèche d'énergie sont augmentés à 120% de l'Attaque.",
+        "4": "Les dégâts de la flèche d'énergie sont augmentés à 135% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Dream Recall": {
+      "description": "Kagura lève son Ombrelle Seimei et continue de régénérer son énergie, jusqu'à un total de 300 points d'Énergie régénérée.",
+      "levels": {
+        "2": "L'Énergie totale restaurée est augmentée à 440 points.",
+        "3": "Si le processus complet de régénération d'énergie est terminé, l'Attaque de Kagura et du Shikigami est augmentée de 20%.",
+        "4": "L'Énergie totale restaurée est augmentée à 600 points."
+      }
+    },
+    "Yin Yang Twist": {
+      "description": "Kagura libère le Pouvoir Yin Yang pour infliger des dégâts égaux à 220% de son Attaque à l'ennemi ayant le moins de PV.",
+      "levels": {
+        "2": "Chaque fois que Kagura libère le Pouvoir Yin Yang, elle augmente les dégâts du Pouvoir Yin Yang suivant de 20%. Cet effet peut se cumuler jusqu'à 5 fois.",
+        "3": "Les dégâts du Pouvoir Yin Yang sont augmentés à 280%.",
+        "4": "Les dégâts du Pouvoir Yin Yang sont augmentés à 320%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Yin Yang Boost": {
+      "description": "Kagura acquiert un Bouclier égal à 300% de son Attaque lorsque ses PV descendent en dessous de 25%.",
+      "levels": {
+        "2": "Le bouclier est augmenté à 450% de l'Attaque.",
+        "3": "Le bouclier est augmenté à 600% de l'Attaque.",
+        "4": "Le bouclier est augmenté à 750% de l'Attaque. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "kaja": {
+    "Ring of Order": {
+      "description": "Kaja libère une Lame Électrique Circulaire qui se dilate et se contracte rapidement, infligeant des dégâts égaux à 245% de son Attaque à chaque fois qu'elle touche un ennemi.",
+      "levels": {
+        "2": "Applique un effet de Ralentissement supplémentaire."
+      }
+    },
+    "Lightning Bomb": {
+      "description": "Kaja libère un éclair qui rebondit entre les ennemis jusqu'à 3 fois. L'éclair inflige des dégâts égaux à 120% de son Attaque à chaque fois qu'il touche une cible.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 135% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 150% de l'Attaque."
+      }
+    },
+    "Judgment Befalls": {
+      "description": "Au début du combat, Kaja vole un certain pourcentage d'Attaque à l'ennemi le plus puissant. L'effet dure 20s.",
+      "levels": {
+        "2": "Le vol de vie dérobé à l'ennemi dure tout le combat."
+      }
+    },
+    "Wrath Sanction": {
+      "description": "À sa mort, Kaja réduit l'Énergie de toutes les unités ennemies de 100 points.",
+      "levels": {
+        "2": "L'Énergie réduite est augmentée à 200 points."
+      }
+    }
+  },
+  "karihmet": {
+    "Supreme Light": {
+      "description": "Karihmet fait pleuvoir la lumière sur tous les ennemis, infligeant des dégâts égaux à 240% de son Attaque et ramenant ses PV à 50% ; durant cet état, si Karihmet perd des PV, son Ultime inflige des dégâts supplémentaires selon les PV perdus ; si Karihmet regagne des PV, les dégâts de son Ultime sont réduits d'un montant selon les PV regagnés.",
+      "levels": {
+        "2": "Les dégâts de la pluie de lumière sont augmentés à 280% de son Attaque.",
+        "3": "Les dégâts de la pluie de lumière sont augmentés à 320% de son Attaque.",
+        "4": "Les dégâts de la pluie de lumière sont augmentés à 360% de son Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Blazing Spear": {
+      "description": "Lorsque les PV de Karihmet descendent pour la première fois en dessous de 90%/60%/30% durant le combat en cours, une lance de lumière solaire s'abat sur la zone ciblée et inflige des dégâts égaux à 145%/185%/250% de l'Attaque de Karihmet. La zone d'effet diminue à chaque frappe.",
+      "levels": {
+        "2": "Lorsque les PV de Karihmet descendent pour la première fois en dessous de 90%/60%/30% durant le combat en cours, les dégâts infligés sont augmentés à 160%/205%/275% de son Attaque.",
+        "3": "La lance de lumière restaure également 100 points d'Énergie de Karihmet.",
+        "4": "Lorsque les PV de Karihmet descendent pour la première fois en dessous de 90%/60%/30% durant le combat en cours, les dégâts infligés sont augmentés à 175%/225%/300% de son Attaque."
+      }
+    },
+    "Shield of Divinity": {
+      "description": "Karihmet lance son bouclier sur les ennemis. Le bouclier rebondit entre jusqu'à 3 ennemis, infligeant des dégâts égaux à 200% de son Attaque au premier ennemi touché et des dégâts décroissants aux cibles suivantes.",
+      "levels": {
+        "2": "Shield of Divinity offre 50% de Vol de vie.",
+        "3": "Les dégâts infligés au premier ennemi touché sont augmentés à 230% de l'Attaque de Karihmet, les dégâts infligés aux cibles suivantes sont également augmentés.",
+        "4": "Les dégâts infligés au premier ennemi touché sont augmentés à 260% de l'Attaque de Karihmet, les dégâts infligés aux cibles suivantes sont également augmentés. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Spear of Divinity": {
+      "description": "Karihmet lance une puissante lance sur l'ennemi ciblé, infligeant des dégâts égaux à 300% de son Attaque et le repoussant.",
+      "levels": {
+        "2": "Spear of Divinity étourdit la cible pendant 2s lorsqu'elle la touche.",
+        "3": "Les dégâts infligés sont augmentés à 360% de l'Attaque de Karihmet.",
+        "4": "Les dégâts infligés sont augmentés à 420% de l'Attaque de Karihmet. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "karina": {
+    "Shadow Rush": {
+      "description": "Karina se précipite vers l'ennemi Distance ayant le moins de PV, infligeant des dégâts égaux à 320% de son Attaque. Ensuite, le Taux de coups critiques de Karina augmente de 100% pendant 10s. Son Attaque de base est également renforcée. Si la cible meurt pendant le lancement de son Ultime, elle peut récupérer 500 points d'Énergie.",
+      "levels": {
+        "2": "L'Énergie restaurée est augmentée à 800.",
+        "3": "Les dégâts sont augmentés à 400% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 480% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Dance of Death": {
+      "description": "Inflige des dégâts égaux à 60% de l'Attaque 3 fois à l'unité ennemie et réduit sa Défense de 10%.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 70% de l'Attaque.",
+        "3": "Chaque attaque peut également faire perdre 30 points d'Énergie à l'ennemi.",
+        "4": "Les dégâts sont augmentés à 80% de l'Attaque."
+      }
+    },
+    "Joint Action": {
+      "description": "Au combat, chaque Héros allié survivant accorde à Karina un bonus d'Esquive de 20%.",
+      "levels": {
+        "2": "Chaque Héros allié survivant accorde également à Karina un bonus de Dégâts critiques de 10%.",
+        "3": "Le bonus de Dégâts critiques est augmenté à 15%.",
+        "4": "Le bonus de Dégâts critiques est augmenté à 20%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Moonshadow": {
+      "description": "Au combat, lorsque Karina a déclenché l'Esquive 5 fois, elle gagne de façon permanente 50 points d'Agilité. Cet effet peut se cumuler jusqu'à 6 fois.",
+      "levels": {
+        "2": "Lorsque Karina a déclenché l'Esquive 5 fois, elle restaure des PV égaux à 5% de ses PV max.",
+        "3": "Les PV soignés sont augmentés à 8% des PV max.",
+        "4": "Les PV soignés sont augmentés à 11% des PV max. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "karrie": {
+    "Speedy Lightwheel": {
+      "description": "Karrie attaque 4 fois l'ennemi ayant le plus de PV max, infligeant à chaque fois des dégâts égaux à 140% de son Attaque et l'étourdissant brièvement. Elle passe ensuite en Mode Double Maniement, qui dure 4s. Cela lui permet d'attaquer avec 2 Lightwheels et d'infliger des dégâts égaux à 75% des dégâts de son Attaque de base. Effet passif : Karrie vise l'ennemi ayant le plus de PV max et lance une Attaque de base.",
+      "levels": {
+        "2": "La durée du Mode Double Maniement est augmentée à 8s.",
+        "3": "Les dégâts sont augmentés à 190% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 230% de l'Attaque. (Nécessite Ancient Twilight Niveau 3)"
+      }
+    },
+    "Destructor Blade": {
+      "description": "Chaque attaque de Karrie sur le même ennemi augmente sa Vitesse de 5 et son Attaque de 3%, cumulable jusqu'à 20 fois. Se réinitialise lorsqu'elle change de cible ou que son attaque est interrompue.",
+      "levels": {
+        "2": "Une fois 20 charges atteintes, tous les Héros alliés bénéficient également du bonus de Vitesse de ce sort.",
+        "3": "Chaque charge augmente la Vitesse de 10 et l'Attaque de 4,5%.",
+        "4": "Chaque charge augmente la Vitesse de 20 et l'Attaque de 6%."
+      }
+    },
+    "Iceborne Cutter": {
+      "description": "Karrie libère un Lightwheel vers l'ennemi ayant le plus de PV max, infligeant des dégâts égaux à 280% de son Attaque et entrant en état de Shieldbreaker, réduisant la Défense de l'ennemi de 25% pendant 4s.",
+      "levels": {
+        "2": "La réduction de Défense de l'ennemi est augmentée à 50%.",
+        "3": "Les dégâts de base de ce sort sont augmentés à 375%.",
+        "4": "Les dégâts de base de ce sort sont augmentés à 450%. (Nécessite Ancient Twilight Niveau 1)"
+      }
+    },
+    "Lightwheel Mark": {
+      "description": "Lorsque Karrie touche un ennemi avec son Attaque de base ou son sort, elle laisse une Lightwheel Mark sur la cible. Lorsque la Lightwheel Mark atteint 4 charges, elle se transforme en un véritable Lightwheel et transperce la cible, infligeant des Dégâts véritables égaux à 10% des PV max de la cible.",
+      "levels": {
+        "2": "Augmente tous les dégâts subis par la cible de 10% pendant 15s, cumulable jusqu'à 3 fois.",
+        "3": "Augmente cet effet de bonus de dégâts à 15%.",
+        "4": "Les dégâts sont augmentés à 15% des PV max de la cible. (Nécessite Ancient Twilight Niveau 2)"
+      }
+    }
+  },
+  "kimmy": {
+    "Maximum Charge": {
+      "description": "Kimmy tire un énorme projectile chimique lumineux sur le héros ennemi le plus proche, infligeant 750% de son Attaque en dégâts et appliquant sur la cible le statut « Energy Disturbance » pendant 8s, durant lequel elle ne peut pas être ciblée par ses coéquipiers. Si la cible meurt pendant cette période, l'Agilité de Kimmy augmente considérablement, puis redescend progressivement à 0 sur 10s.",
+      "levels": {
+        "2": "La durée du statut Energy Disturbance est augmentée à 12s.",
+        "3": "Les dégâts de base de ce sort sont augmentés à 1000% de l'Attaque."
+      }
+    },
+    "Energy Transformation": {
+      "description": "Kimmy tire une volée de 5 projectiles sur l'unité ennemie la plus proche, chacun infligeant 80% de son Attaque en dégâts.",
+      "levels": {
+        "2": "Energy Transformation a 35% de chances de repousser la cible.",
+        "3": "Le nombre de projectiles est augmenté à 8.",
+        "4": "Les dégâts de chaque projectile sont augmentés à 100% de l'Attaque."
+      }
+    },
+    "Chemical Refinement": {
+      "description": "Kimmy lance un « Chemical Refinement » sur l'unité ennemie la plus proche, infligeant 100% de son Attaque en dégâts aux ennemis dans la zone d'effet. Les ennemis touchés subissent 80% de l'Attaque de Kimmy en dégâts par seconde, tandis que les alliés touchés sont soignés de 80% de son Attaque par seconde. Dure 3s.",
+      "levels": {
+        "2": "Les dégâts subis par les unités ennemies touchées sont augmentés de 15% pendant toute la durée.",
+        "3": "La durée est augmentée à 5s."
+      }
+    },
+    "Bio Blast": {
+      "description": "Tant qu'ils sont affectés par le statut « Energy Disturbance », les héros ennemis voient leur Agilité réduite de 50, leur Défense de 50% et leur Régénération d'Énergie déclenchée par les dégâts de 50%. Si la cible meurt pendant cette période, toutes les unités ennemies à proximité subissent des Dégâts véritables égaux à 15% des PV max de ce héros.",
+      "levels": {
+        "2": "Lorsque la cible meurt, toutes les unités ennemies à proximité subissent des Dégâts véritables égaux à 20% des PV max de ce héros.",
+        "3": "Lorsque la cible meurt, toutes les unités ennemies à proximité subissent des Dégâts véritables égaux à 25% des PV max de ce héros."
+      }
+    }
+  }
+}

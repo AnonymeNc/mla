@@ -1,0 +1,1149 @@
+[
+  {
+    "id": "astraia-sipra",
+    "name": "Astraia Sipra",
+    "abilities": [
+      {
+        "name": "Astral Wish",
+        "tier": "Ultimate",
+        "description": "Sipra summons a support hero who inherits 100% of basic attributes from her and fights for 30s. While casting this skill, Sipra is immune to charm. Only 1 support hero can exist at the same time, during which Sipra cannot use her Ultimate.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The support hero acquires 300 points of Initial Energy when coming out."
+          },
+          {
+            "level": "3",
+            "text": "The support hero acquires 400 points of Initial Energy when the arrive."
+          },
+          {
+            "level": "4",
+            "text": "The support hero acquires 500 points of Initial Energy when the arrive. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Help at Hand",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allows the common support character to can an Ultimate when they arrive."
+          },
+          {
+            "level": "3",
+            "text": "Increases inherited HP to 60%."
+          },
+          {
+            "level": "4",
+            "text": "Increases inherited HP to 70%."
+          }
+        ]
+      },
+      {
+        "name": "Aiding Chant",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If there are no support heroes, Sipra gains immunity to control effects while casting the skill. If there are support heroes, Sipra grants support heroes and support characters immunity to most control effects while casting the skill."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy that Sipra gains to 300 points."
+          },
+          {
+            "level": "4",
+            "text": "Increases Energy that Sipra gains to 400 points. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Elven Acumen",
+        "tier": "Passive",
+        "description": "Every time a support hero deals a total of 600% attack damage, Sipra reduces a random enemy's attack by 30% for 6s, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every time a support hero deals a total of 600% attack damage, Sipra reduces a random enemy's attack by 30% for 6s, stacking up to 3 times."
+          },
+          {
+            "level": "3",
+            "text": "Increases Damage Increase to 35% and Attack Reduction to 35%."
+          },
+          {
+            "level": "4",
+            "text": "Increases Damage Increase to 40% and Attack Reduction to 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "abilities": [
+      {
+        "name": "Depth Charge",
+        "tier": "Ultimate",
+        "description": "Atlas issues a shock wave at the enemy with the highest Attack, dealing 400% of his Attack to it and all enemies in the shock wave's path, knocking them airbourne.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also reduces these enemies' Attack by 25% for a short time."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 560% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 720% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Breakthrough",
+        "tier": "Skill",
+        "description": "Atlas strikes on the ground, dealing damage equal to 80% of his Attack to enemies before him for multiple times and knocking them slightly airbourne.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 95% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Once an enemy is knocked airbourne by this skill 3 times, it loses and its Defense and Damage Reduction status boosts for a time."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 110% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Wandering Soul",
+        "tier": "Skill",
+        "description": "Atlas grants himself Shield equal to 800% his Attack and launches a core at enemies that bounces between them, absorbing 5% Attack from each enemy. Lasts 8s. While casting this skill, Atlas is immune to most Control Effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also steals 15% Defense from these enemies."
+          },
+          {
+            "level": "3",
+            "text": "Attack stolen is boosted to 6%."
+          },
+          {
+            "level": "4",
+            "text": "Attack stolen is boosted to 8%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Armor Repairs",
+        "tier": "Passive",
+        "description": "For each 20% HP lost, Atlas gains Shield equal to 150% his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When this skill is cast, it dispels him of the majority of Control Effects."
+          },
+          {
+            "level": "3",
+            "text": "Shield gained is increased to 250%."
+          },
+          {
+            "level": "4",
+            "text": "Shield gained is increased to 320%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "abilities": [
+      {
+        "name": "Cold Destruction",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The frozen meteor will freeze the target hit for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 700% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 800% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Frost Shock",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Aurora will release 4 ice projectiles."
+          },
+          {
+            "level": "3",
+            "text": "The ice projectiles deal true damage to frozen enemies."
+          },
+          {
+            "level": "4",
+            "text": "Aurora will release 5 ice projectiles."
+          }
+        ]
+      },
+      {
+        "name": "Bitter Frost",
+        "tier": "Skill",
+        "description": "Aurora blows wintry wind at the enemies in front of her, reducing their shield and inflicting damage equal to 120% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The wind will reduce enemies' Energy by 40 points."
+          },
+          {
+            "level": "3",
+            "text": "The wind will reduce enemies' Energy by 80 points."
+          },
+          {
+            "level": "4",
+            "text": "The wind will reduce enemies' Energy by 100 points. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Pride of Ice",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies fall into the frozen state will have their Damage-triggered Energy Regen reduced by 50%."
+          },
+          {
+            "level": "3",
+            "text": "Enemies fall into the frozen state will have their Damage-triggered Energy Regen reduced by 100%."
+          },
+          {
+            "level": "4",
+            "text": "Increase the chance of enemies falling into the frozen state to 25%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "automatic-turret",
+    "name": "Automatic Turret",
+    "abilities": [
+      {
+        "name": "Dynamic Blast",
+        "tier": "Ultimate",
+        "description": "Shoots multiple bullets to the enemy with lowest HP percentage, dealing massive damage.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "badang",
+    "name": "Badang",
+    "abilities": [
+      {
+        "name": "Fist Crack",
+        "tier": "Ultimate",
+        "description": "Badang quickly throws his fists forward, dealing damage equal to 4% Max HP to enemies hit multiple times, and enemies hit won't be able to move.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Badang acquires a shield equal to 25% of his Max HP when throwing punches."
+          },
+          {
+            "level": "3",
+            "text": "Badang is immune to Control Effects when the shield is on."
+          },
+          {
+            "level": "4",
+            "text": "Badang acquires a shield equal to 30% of his Max HP when throwing punches. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Fist Break",
+        "tier": "Skill",
+        "description": "Badang quickly attacks the closest enemy for 4 times, each time dealing damage equal to 80% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 95% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Stuns the enemy for 1s with the last strike."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage to 110% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Qigong Fist",
+        "tier": "Skill",
+        "description": "Badang receives a 5% boost in Damage each time he damages an enemy, up to 10 stacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The max stacks increases to 16. Adds 2 stacks of Damage boost each time dealing damage."
+          },
+          {
+            "level": "3",
+            "text": "Badang increases his Lifesteal when reaching full stacks and slowly restores Energy."
+          },
+          {
+            "level": "4",
+            "text": "Lifesteal and Energy are increased when full stacks are reached. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Chivalry Fist",
+        "tier": "Passive",
+        "description": "Removes the de-buff on him when the de-buff takes effect. Triggered at most once every 3s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires a shield equal to 8% of his Max HP when the skill is triggered."
+          },
+          {
+            "level": "3",
+            "text": "The shield is increased to 10% Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The Shield is increased to 12% Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bai",
+    "name": "Bai",
+    "abilities": [
+      {
+        "name": "Rising Tide",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 130% of Attack to all enemies multiple times, each time knocking the target back some distance.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When using Ultimate, reduces enemies' Defense by 20% for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 150% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 170% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Python Shake",
+        "tier": "Skill",
+        "description": "Selects an ally who has the most enemies around them and launches three Attacks centered on them, with the range getting larger each time, dealing damage equal to 100% of Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 115% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals extra damage equal to 20% Attack of the selected ally."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 130% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Snake Breath",
+        "tier": "Skill",
+        "description": "Selects an enemy to cast the spell, dealing damage equal to 100% of her Attack every 0.5s, converting 30% of the damage into HP for Bai, and absorbing their energy by 60 for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 115% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy absorbed to 80."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 130% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Power of Waves",
+        "tier": "Passive",
+        "description": "Every 6s, deals 120% damage to enemies on their half of the battlefield and regenerates Bai's HP equal to 15% of the damage dealt, while reducing the enemies' Agility by 40 for 8s; stacks up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 130% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 140% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 150% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "balmond",
+    "name": "Balmond",
+    "abilities": [
+      {
+        "name": "Jungle Justice",
+        "tier": "Ultimate",
+        "description": "Balmond deals damage equal to 250% of his Attack to the enemies in front of him. If the enemy target’s HP is below 30%, Balmond deals 2.5 times the damage with this Skill.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores 200 Energy when this skill eliminates the target"
+          }
+        ]
+      },
+      {
+        "name": "Incise",
+        "tier": "Skill",
+        "description": "Balmond deals damage equal to 60% of his Attack to enemies hit and incises the target for 6%, dealing Bleeding Damage equals to 60% of his Attack per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bleeding Damage is increased to 69%"
+          },
+          {
+            "level": "3",
+            "text": "Bleeding Damage is increased to 78%"
+          }
+        ]
+      },
+      {
+        "name": "Stormy Strike",
+        "tier": "Passive",
+        "description": "Balmond has a chance to cast Cyclone Sweep when taking damage, which deals damage equal to 120% of his Attack to all enemies nearby.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage of the counterattack is increased to 140%"
+          }
+        ]
+      },
+      {
+        "name": "Unyielding Will",
+        "tier": "Passive",
+        "description": "Increases Balmond's Defense by 15%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Defense is increased to 25%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bane",
+    "name": "Bane",
+    "abilities": [
+      {
+        "name": "Deadly Catch",
+        "tier": "Ultimate",
+        "description": "Bane summons a school of furious deep sea fish with Tidal Energy, which will deal damage equal to 90% of his Attack to enemies within the area for 4s. The fish will deal 25% damage to “inked” enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The duration is increased to 7s"
+          }
+        ]
+      },
+      {
+        "name": "Crab Claw Cannon",
+        "tier": "Skill",
+        "description": "Bane fires a Crab Claw Cannon, dealing damage equal to 120% of his Attack to the target hit. The target hit by Crab Claw Cannon will be \"inked\".",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The explosion of Crab Claw Cannon will radiate afterwards, dealing damage equal to 120% of his Attack to enemies behind the target's back"
+          },
+          {
+            "level": "3",
+            "text": "The radiated damage is increased to 180% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Rum",
+        "tier": "Skill",
+        "description": "Bane takes a sip of rum and restores HP equal to 170% of his Attack. Then Bane spits venom forward, dealing damage equal to 170% of his Attack to enemies within the area, enemies hit will be \"inked\".",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 220% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Shark Bite",
+        "tier": "Passive",
+        "description": "For every skill released, Bane will infuse Tidal Energy into his weapon. His next Basic Attack will deal Splash Damage equal to 80% of his Attack to enemies around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 120%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beatrice",
+    "name": "Beatrice",
+    "abilities": [
+      {
+        "name": "Blood Bargain",
+        "tier": "Ultimate",
+        "description": "Grants all allied heroes a Shield equal to 10% of their Max HP. Allied Heroes with more than 40% Max HP lose 35% of their current HP and gain an additional Shield equal to 30% of their Max HP, lasting 12s. Meanwhile, enhances all allied heroes, causing them to deal increased damage to enemies when their HP percentage is lower, reaching a maximum of 60% increased damage when HP is at 50%. Converts all HP regen effects to Shields at a 100% ratio, capped at 200% of the hero's Max HP, lasting 12s. Shield persists after the enhancement ends.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Dispels targets' received healing reduction and Shield reduction effects before granting a Shield. While the effect lasts, allied heroes with Shield gain 70% Damage-triggered Energy Regen when taking damage."
+          },
+          {
+            "level": "3",
+            "text": "Increases all allied heroes' Shield gained to 15% of Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Increases all allied heroes' Shield gained to 20% of Max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Grace",
+        "tier": "Skill",
+        "description": "Heals 2 allied heroes with the lowest HP percentage for 120% of Beatrice's Attack, and restores 15 Energy per second for 4s.This skill affects all other allied heroes with HP percentage lower than or equal to 60%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The healing is increased to 160%."
+          },
+          {
+            "level": "3",
+            "text": "When allied heroes receive healing from other Astral heroes, both the hero and the healer restore 30 Energy. Can only trigger once evert 4s."
+          },
+          {
+            "level": "4",
+            "text": "The healing is increased to 200%."
+          }
+        ]
+      },
+      {
+        "name": "Enchanted Trick",
+        "tier": "Skill",
+        "description": "Targets 2 other allied heroes with the fewest Enchanted Trick stacks, reducing their Defense by 40% but granting them 1 stack of Enchanted Trick. Enemy heroes reduce Enchanted Trick stacks by 1 every 5 cast(s) of Ultimate.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allied heroes with HP at or below 60% and Astral Heroes gain 2 stacks of Enchanted Trick each time."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy acquisition efficiency to 8%."
+          },
+          {
+            "level": "4",
+            "text": "Increases Energy acquisition efficiency to 12%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Benevolent Elder",
+        "tier": "Passive",
+        "description": "When allied heroes' HP drops below 30%, they can cast their Ultimate once without consuming Energy every 40s. Additionally, when their HP first drops below 30%, they remove most control and target-changing effects and gain 10 Lifesteal for the rest of the battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Beatrice's HP drops below 75%, becomes immune to control and target-changing effects."
+          },
+          {
+            "level": "3",
+            "text": "Increases Lifesteal gained to 15."
+          },
+          {
+            "level": "4",
+            "text": "Increases Lifesteal gained to 20. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "belerick",
+    "name": "Belerick",
+    "abilities": [
+      {
+        "name": "Photosynthesis",
+        "tier": "Ultimate",
+        "description": "Belerick instantly restores 25% of Max HP. In the next 8s, he can regen 10% of his lost HP per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Belerick is casting his Ultimate, his Defense increases by 30%"
+          },
+          {
+            "level": "3",
+            "text": "While casting his Ultimate, Belerick can help the weakest ally restore 15% Max HP"
+          },
+          {
+            "level": "4",
+            "text": "The continuous Healing Effect is increased to 12% of Belerick's lost HP (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Wrath of Nature",
+        "tier": "Skill",
+        "description": "Belerick strikes on the ground, dealing damage equal to 180% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 215% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Agility of the enemy hit by this Skill will be reduced by 100"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 250% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Vampiric Vines",
+        "tier": "Skill",
+        "description": "Belerick extracts 10% of the target's Max HP and restore the same amount of health. Damage dealt cannot exceed 1500% of Belerick's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Belerick gains a Bonus equal to 30% Defense of the target"
+          },
+          {
+            "level": "3",
+            "text": "The amount of extracted HP is increased to 15%"
+          },
+          {
+            "level": "4",
+            "text": "The amount of extracted HP is increased to 20% (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Strengthened Trunk",
+        "tier": "Passive",
+        "description": "50% damage dealt on Belerick will not be effective immediately, but will be deducted continuously in the next 6s in the form of bleeding.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bleeding Damage is increased to 65%"
+          },
+          {
+            "level": "3",
+            "text": "Bleeding Damage is increased to 80%"
+          },
+          {
+            "level": "4",
+            "text": "Bleeding Damage is increased to 85% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "abilities": [
+      {
+        "name": "Argo Vesta",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Resets the cooldown of \"Familia of the Goddess of the Hearth\" when this skill is cast."
+          },
+          {
+            "level": "3",
+            "text": "Extra damage dealt based on his HP percentage stacks up to 150%."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage dealt based on his HP percentage stacks up to 200%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Flameblade",
+        "tier": "Skill",
+        "description": "Deals damage equal to 75% of his Attack to enemies within the designated area in front 5 times and burns them, making them lose HP equal to 15% of his Attack per second for 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Can stack the burn effect up to 10 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage of each burn effect stack increased to 30% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage of each burn effect stack increased to 45% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Familia of the Goddess of the Hearth",
+        "tier": "Skill",
+        "description": "When HP is below 60%, Bell Cranel stops his current action and heals himself with a healing potion, recovering 30% of his Max HP over 2s. This effect can only be triggered up to once every 7s. Once it is triggered, he adds 1 burn effect stack to his enemy with each Basic Attack for the next 5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bell Cranel gains 100% Dodge when this skill is cast."
+          },
+          {
+            "level": "3",
+            "text": "HP Regen within 2s increased to 45% Max HP."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen within 2s increased to 60% Max HP. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Realis Phrase",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bell Cranel gains Penetration equal to 40% of his Attack after restoring 100% of his Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Each time Bell Cranel restores 10% of his Max HP (excess HP included), he gains 4% extra Attack, stacking up to 80%."
+          },
+          {
+            "level": "4",
+            "text": "Each time Bell Cranel restores 10% of his Max HP (excess HP included), he gains 5% extra Attack, stacking up to 100%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "blue-eyed-raven",
+    "name": "Blue-eyed Raven",
+    "abilities": [
+      {
+        "name": "Piercing Shot",
+        "tier": "Ultimate",
+        "description": "Shoots a powerful arrow, dealing massive damage to enemies along the way.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno",
+    "abilities": [
+      {
+        "name": "World Ball",
+        "tier": "Ultimate",
+        "description": "Bruno infuses all his strength into multiple energy balls and shoots them towards enemy units, each dealing damage equal to 180% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 215%"
+          }
+        ]
+      },
+      {
+        "name": "Volley Shot",
+        "tier": "Skill",
+        "description": "Bruno kicks an energy ball forward, dealing damage equal to 215% of his Attack to the enemy hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lowers the target enemy's Defense"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 250%"
+          }
+        ]
+      },
+      {
+        "name": "Perfect Angle",
+        "tier": "Passive",
+        "description": "Bruno's Basic Attacks will bounce among enemies and for each bounce the damage it deals decays by 50%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage decay is lowered to 40%"
+          }
+        ]
+      },
+      {
+        "name": "Mecha Legs",
+        "tier": "Passive",
+        "description": "Increases all allied Tech-type Heroes' Attack by 8%",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the Crit Rate to 4%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chang-e",
+    "name": "Chang'e",
+    "abilities": []
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "abilities": [
+      {
+        "name": "Blazing Duet",
+        "tier": "Ultimate",
+        "description": "Claude cooperates with Dexter, shooting loads of bullets at the enemy with lowest Defense. Each bullet deals damage equal to 40% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains one more shot for every other Tech Hero on the battlefield"
+          },
+          {
+            "level": "3",
+            "text": "The damage of each bullet is increased to 50% of Claude's Attack"
+          },
+          {
+            "level": "4",
+            "text": "The damage of each bullet is increased to 60% of Claude's Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dexter’s Mirror Image",
+        "tier": "Skill",
+        "description": "When battle initiates, Claude leaves a mirror image of Dexter to draw enemies’ attention. The mirror image will attack enemies nearby.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "30% of the Damage-trigger Energy Regen obtained by Dexter's mirror image will be passed to Claude."
+          },
+          {
+            "level": "3",
+            "text": "When Dexter's mirror image appears, it will taunt the enemies nearby"
+          },
+          {
+            "level": "4",
+            "text": "60% of the Damage-trigger Energy Regen obtained by Dexter's mirror image will be passed to Claude."
+          }
+        ]
+      },
+      {
+        "name": "Sonic Shot",
+        "tier": "Skill",
+        "description": "Claude fires a sonic wave shot forward, dealing damage equal to 170% of his attack to enemies within the area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the enemy's Defense"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 235% of Claude's Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 270% of Claude's Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Battleground Partner",
+        "tier": "Passive",
+        "description": "When Dexter and Dexter’s mirror image attack enemies, they steal 4 points of the enemy’s agility and grant them to Claude for 5 seconds, stacking up to 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Agility stole from the enemy is increased to 6 points"
+          },
+          {
+            "level": "3",
+            "text": "Other allied Tech Heroes gain 50% Agility bonus"
+          },
+          {
+            "level": "4",
+            "text": "Agility stole from the enemy is increased to 10 points (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "clint",
+    "name": "Clint",
+    "abilities": [
+      {
+        "name": "Howitzer",
+        "tier": "Ultimate",
+        "description": "Allied heroes of the same Type will add one grenade to Clint every time they cast their skill. Clint will throw all his grenades to the enemy nearest to him (at least two grenades) when he unleashes his Ultimate. Each grenade deals damage equal to 235% of his Attack and up to 8 grenades can be stored.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 280% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 330% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 375% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Full Attention",
+        "tier": "Skill",
+        "description": "Clint concentrates and enhances the next two Basic Attacks. The enhanced Basic Attacks will cause True Damage, and the damage increases by 60%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage caused by enhanced Basic Attacks increases by 80%."
+          },
+          {
+            "level": "3",
+            "text": "If the enhanced Basic Attack causes Crit Damage, it will cause extra True Damage equal to 7% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Damage caused by enhanced Basic Attacks increases by 100%."
+          }
+        ]
+      },
+      {
+        "name": "Blinding Smoke",
+        "tier": "Skill",
+        "description": "Clint throws explosives towards an enemy, dealing damage equal to 200% Attack. The chance that the target takes Crit Damage increases by 25%. Lasts 8s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Clint restores HP equal to 30% of the damage dealt by his allies. Lasts 8s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 250% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 320% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Quick Draw",
+        "tier": "Passive",
+        "description": "All allied Heroes obtain a Basic Attack Damage Bonus equal to 25% of their Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Martial-type Heroes get double the Basic Attack Damage Bonus."
+          },
+          {
+            "level": "3",
+            "text": "All allied Heroes obtain a Basic Attack Damage Bonus equal to 40% of their Attack."
+          },
+          {
+            "level": "4",
+            "text": "All allied Heroes obtain a Basic Attack Damage Bonus equal to 50% of their Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crocell",
+    "name": "Crocell",
+    "abilities": [
+      {
+        "name": "Mischievous Meteor",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "As Crocell's Attack increases, she deals damage with Mischievous Meteor for more times, up to 10 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 60% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 70% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Crystal Pop",
+        "tier": "Skill",
+        "description": "Deals True Damage equal to 150% Attack to two closest enemies, before dealing True Damage equal to 50% Attack per second for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Initial damage is increased to 170% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the enemy's healed HP by 100% for the duration."
+          },
+          {
+            "level": "4",
+            "text": "Initial damage is increased to 200% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Double Surprise",
+        "tier": "Skill",
+        "description": "Crocell marks two enemy heroes closest to her for 6s and makes them splash 10% of the damage taken in the duration to other enemies, before dealing 150% of her Attack to the two enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Crocell gains 20% of the two enemies' Attack for 6s. The Attack Bonus cannot exceed her own Attack."
+          },
+          {
+            "level": "3",
+            "text": "Splash damage is increased to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Splash damage is increased to 20%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Hide & Seek",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "At the beginning of the battle, if Crocell has less Attack than the enemy hero with the most Attack, she gains 70% of the hero's Attack minus her own Attack. The Attack Bonus cannot exceed her own Attack."
+          },
+          {
+            "level": "3",
+            "text": "Crocell loses the effect 8s after the battle starts or when any enemy hero dies."
+          },
+          {
+            "level": "4",
+            "text": "Crocell loses the effect 10s after the battle starts or when any enemy hero dies. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "cyclops",
+    "name": "Cyclops",
+    "abilities": [
+      {
+        "name": "Star Power Lockdown",
+        "tier": "Ultimate",
+        "description": "Cyclops gives full play to the power of stars and creates a Magic Sphere filled with planetary power to hunt a target down, dealing damage equal to 630% of his Attack and stunning the target for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 4s"
+          }
+        ]
+      },
+      {
+        "name": "Stardust Power",
+        "tier": "Skill",
+        "description": "Cyclops borrows power from the stars, increasing his attack by 30% for a short time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 35%"
+          },
+          {
+            "level": "3",
+            "text": "Attack Bonus is increased to 40%"
+          }
+        ]
+      },
+      {
+        "name": "Planets Attack",
+        "tier": "Skill",
+        "description": "Cyclops uses the power of stars to generate 4 starlit spheres to attack the closest enemy, each dealing damage equal to 135% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 160% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Starlit Hourglass",
+        "tier": "Passive",
+        "description": "The deep bond with the stars gives Cyclops the power to control time. Cyclops obtains extra 15% Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Acquires 50 points of Agility"
+          }
+        ]
+      }
+    ]
+  }
+]

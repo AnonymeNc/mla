@@ -1,0 +1,1239 @@
+[
+  {
+    "id": "phantom-drone",
+    "name": "Phantom Drone",
+    "abilities": [
+      {
+        "name": "Self-Destruction",
+        "tier": "Passive",
+        "description": "Upon losing all HP, flies towards the enemy with the lowest HP percentage and commit a suicide explosion, dealing massive damage to all enemies nearby.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "pharsa",
+    "name": "Pharsa",
+    "abilities": [
+      {
+        "name": "Feather Storm",
+        "tier": "Ultimate",
+        "description": "Pharsa temporarily gains Attack equal to 25% of the total Attack of all allied heroes, dealing damage equal to 140% of the Attack to random enemies 4 times one by one.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each allied hero whose current Attack is higher than their base Attack, Pharsa deals damage 1 more time."
+          },
+          {
+            "level": "3",
+            "text": "Damage each time is increased to 170% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage each time is increased to 200% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Temporary Alliance",
+        "tier": "Skill",
+        "description": "Enhances the allied hero with the most Attack other than herself, increasing both of their Attack by 20% for 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 25%"
+          },
+          {
+            "level": "3",
+            "text": "The enhanced allies' Basic Attack deals extra damage equal to 80% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus is increased to 30%"
+          }
+        ]
+      },
+      {
+        "name": "Askati Ritual",
+        "tier": "Skill",
+        "description": "Pharsa casts a Crow Spell at the area with the most enemies. which explodes at the end of the flight, dealing damage equal to 180% Attack to enemies in the area.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The healing received by enemies hit is reduced by 80% for 6s."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt is increased to 240% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 300% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Crow Feathers",
+        "tier": "Skill",
+        "description": "Pharsa lets the Crow fly in the air when the battle starts. The Crow attacks a random enemy once every 3 seconds, dealing damage equal to 150% Attack and silencing them for 0.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each allied hero whose current Attack is higher than their base Attack, the Crow gains 10% Damage Increase and 10% more Attack Speed."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by the Crow is increased to 200% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by the Crow is increased to 250% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rafaela",
+    "name": "Rafaela",
+    "abilities": [
+      {
+        "name": "Blessing Light (U)",
+        "tier": "Ultimate",
+        "description": "Rafaela summons the Holy Light to heal the ally with the lowest HP. The amount of HP to be restored equals to 640% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed is increased to 765% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Healing Light",
+        "tier": "Skill",
+        "description": "Rafaela summons the Holy Light to attack the enemies, dealing damage equal to 115% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the target hit for 1s"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 135%"
+          }
+        ]
+      },
+      {
+        "name": "Light of Retribution",
+        "tier": "Skill",
+        "description": "Rafaela utilizes the power of the Holy Light to heal two allies for an amount of HP equal to 175% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Heals three allies"
+          }
+        ]
+      },
+      {
+        "name": "Blessing Light (P)",
+        "tier": "Passive",
+        "description": "Rafaela's healing increases the target's Attack by 10%. Lasts 7s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 15%"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "rampant-rhino",
+    "name": "Rampant Rhino",
+    "abilities": [
+      {
+        "name": "Gravitational Shot",
+        "tier": "Ultimate",
+        "description": "Casts a venomous orb to a distant enemy, dealing damage to all targets within the radius upon explosion.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "rista",
+    "name": "Rista",
+    "abilities": [
+      {
+        "name": "Wrath of Thorns",
+        "tier": "Ultimate",
+        "description": "Rista suppresses the enemy unit with the highest Attack, dealing damage equal to 150% of her Attack per second and stunning them for 5s. Within the duration, Rista is immune to control effects.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Erebus follows Rista and casts Wrath of Thorns, dealing damage equal to 150% Attack to an enemy that is not suppressed in priority and stunning them."
+          },
+          {
+            "level": "3",
+            "text": "Rista's Suppression Damage is increased to 200% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Rista's Suppression Damage is increased to 250% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Demonic Thorns",
+        "tier": "Skill",
+        "description": "Rista enhances an ally hero, making them lose 10% Max HP per second in exchange for 20% extra Attack and 25% Damage Increase and regain 120 Energy per second in the enhanced state. The effects cannot stack. 10% more Max HP will be lost per second every 8 seconds the enhanced state lasts. After the hero enhanced by Rista dies, the enhanced state will be passed to another surviving ally hero.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Attack Bonus is increased to 30%."
+          },
+          {
+            "level": "3",
+            "text": "100% of the ally's lost HP is converted to Rista's shield."
+          },
+          {
+            "level": "4",
+            "text": "Attack Bonus increases to 40%."
+          }
+        ]
+      },
+      {
+        "name": "Dance With Erebus",
+        "tier": "Skill",
+        "description": "Rista fires two demonic energy blasts, dealing damage equal to 180% her Attack to a random enemy and reducing their Damage Reduction by 30%. Erebus follows Rista and casts Dance With Erebus, dealing damage equal to 180% Attack and reducing the target's Damage Reduction.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by 3 demonic energy blasts in a row will be temporarily stunned."
+          },
+          {
+            "level": "3",
+            "text": "Demonic energy damage increases to 240% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Demonic energy damage increases to 300% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Guardian Erebus",
+        "tier": "Passive",
+        "description": "When an ally hero enhanced by Rista's Demonic Thorns dies, Rista converts them into 1 Erebus. There can be up to 5 copies of Erebus on the battlefield. If an enemy is attacked by Erebus 3 times, they will take extra damage equal to 10% of their Max HP, while Rista regains 100 Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Erebus gains 25% of Rista's Attack and Defense."
+          },
+          {
+            "level": "3",
+            "text": "Rista heals herself and all copies of Erebus for an amount of HP equal to 100% of her Attack when she regains Energy."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage is increased to 15% Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "abilities": [
+      {
+        "name": "Fury of the Scythe",
+        "tier": "Ultimate",
+        "description": "Ruby pulls all enemies within mid rangre towards herself with her giant scythe, dealing damage equal to 370% of her Attack to them.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns all dragged enemies for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 480% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 590% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Swift Strike",
+        "tier": "Skill",
+        "description": "Ruby waves her scythe, dealing damage equal to 240% of her Attack to enemies around her and reducing their Attack by 25% for 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 290% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Enemies hit by Swift Strike have 50% less Attack for 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 350% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Hunting Time",
+        "tier": "Skill",
+        "description": "Ruby jumps and strikes the enemy with the lowest HP in a small area, dealing damage equal to 140% of her Attack to the target and enemies around and knocking them airborne for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The main target takes extra True Damage equal to 10% of their lost HP (no more than 1500% of Ruby's Attack) when they land."
+          },
+          {
+            "level": "3",
+            "text": "The main target takes extra True Damage equal to 15% of their lost HP (no more than 1500% of Ruby's Attack) when they land."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increased to 240% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "No Surrender",
+        "tier": "Passive",
+        "description": "Ruby recovers 10% of her lost HP every time she deals damage to an enemy with skills or Basic Attacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If an enemy near Ruby is knocked airborne or dragged, Ruby reduces their Defense by 25% and healing received by 60% for 5s."
+          },
+          {
+            "level": "3",
+            "text": "Ruby recovers 12% of her lost HP every time she deals damage to an enemy with skills or Basic Attacks."
+          },
+          {
+            "level": "4",
+            "text": "If an enemy near Ruby is knocked airborne or dragged, Ruby reduces their Defense by 40% and healing received by 90% of 5s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "saber",
+    "name": "Saber",
+    "abilities": [
+      {
+        "name": "Triple Sweep",
+        "tier": "Ultimate",
+        "description": "Saber knocks enemy airbourne for 1.5s and slashes them three times, each time dealing damage equal to 210% of his Attack. During this period of time, Saber cannot be targeted at.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 255% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 295% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 325% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Charge",
+        "tier": "Skill",
+        "description": "Saber charges towards an enemy, dealing damage equal to 235% of his Attack. And for a short period of time, Saber won't be easily targeted by ranged enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increase the damage to 270% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Stuns them for 2s"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 300% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Flying Sword",
+        "tier": "Skill",
+        "description": "Saber shoots out 4 flying swords, each dealing damage equal 15% of his Attack to the enemy hit. The flying swords will return to Saber after a while. If Saber uses Charge, the flying swords will be retrieved in advance.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Saber increases his Defense by 25% in the duration of Flying Sword"
+          },
+          {
+            "level": "3",
+            "text": "Increase the damage to 20% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Increase the damage to 23% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Enemy's Bane",
+        "tier": "Passive",
+        "description": "Each time Saber deals damage to an enemy, he reduces the target's Defense by 4%, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stacks up to 5 times"
+          },
+          {
+            "level": "3",
+            "text": "Defense Reduction is increased to 6%"
+          },
+          {
+            "level": "4",
+            "text": "Each time he deals damage, he reduces the enemy's Attack by 1.5%, stacking 5 times max. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sekhet",
+    "name": "Sekhet",
+    "abilities": [
+      {
+        "name": "Outrider of Strength",
+        "tier": "Ultimate",
+        "description": "Sekhet provides all her allies with a shield equal to 460% of her Attack and gains a shield that absorbs twwice the damage. 3s later, she provides each ally with a shield equal to 50% of the damage they dealt within the duration. The shields last 8s. The second shield on the allies can't exceed 100% of Sekhet's Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Regenerates 120 points of Energy for allies in 3s."
+          },
+          {
+            "level": "3",
+            "text": "The shield is increased to 530% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "The shield is increased to 600% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Lion Shock",
+        "tier": "Skill",
+        "description": "Slashes enemies in front 3 times, each time dealing damage equal to 9% of the target's Max HP. If two allied heroes (Sekhet excluded) have shields during the skill cast, slashes 2 more times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 10% of the target's Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Each time Sekhet slashes, she gains a shield equal to 180% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 12% of the target's Max HP."
+          }
+        ]
+      },
+      {
+        "name": "Lion Roar",
+        "tier": "Skill",
+        "description": "Slashes an enemy, dealing damage equal to 160% of Sekhet's Attack and scaring them. When the enemy is silenced, they receive extra damage equal to 15% of their Max HP. The effect can be triggered once every 2s. The damage won't exceed 1500% of Sekhet's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When an enemy is scared, increases the damage they receive by 50% and reduces the healing they receive by 60%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 195% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 225% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Opportunism",
+        "tier": "Passive",
+        "description": "Whenever an ally is under control (stunned, taunted, knocked airborne, terrified, hypnotized, bewitched, immobilized or forced to attack allies), Sekhet will silence a random enemy for 2.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the effect is triggered, adds a shield equal to 185% Attack to herself and the ally with the lowest HP; the shield lasts 6s. This effect can be stacked up to 10 times."
+          },
+          {
+            "level": "3",
+            "text": "The Shield is increased by 210% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The Shield is increased by 240% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "selena",
+    "name": "Selena",
+    "abilities": [
+      {
+        "name": "Primal Darkness",
+        "tier": "Ultimate",
+        "description": "Charm 2 random enemy units for 6s. While charmed, they take damage equal to 150% of her Attack per second, and gain an Abyssal Mark. Casting this a second time switches her into Abyssal Form, greatly increasing Selena's Agility and Lifesteal. Selena's Ultimate now deals AoE Damage, inflicting Abyssal Marks on those damaged.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "While charmed by Selena, enemy units transfer all Regen and Shield received to her instead."
+          },
+          {
+            "level": "3",
+            "text": "Attack increases by 30% while enemy units are charmed by Selena."
+          },
+          {
+            "level": "4",
+            "text": "Attack increases by 50% while enemy units are charmed by Selena. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Abyssal Incarnate",
+        "tier": "Skill",
+        "description": "Summon 2 random Abyssal Devils that increase allied heroes' Attack by 25% and Critical Chance by 25% for 5s when flying over and possessing them. When flying over to enemy heroes instead, the Abyssal Devils deal damage equal to 100% of Selena's Attack per second for 5s. If used while in Abyssal Form, Selena also gains an Attack and Critical Chance boost.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allied units possessed by Abyssal Devils gain an extra 100 Agility."
+          },
+          {
+            "level": "3",
+            "text": "Enemy units possessed by Selena's Abyssal Devils have their Agility reduced by an extra 100."
+          },
+          {
+            "level": "4",
+            "text": "The continuous damage inflicted upon enemies possessed by Abyssal Devils is increased to 120% of Selena's Attack."
+          }
+        ]
+      },
+      {
+        "name": "Chaos Ender",
+        "tier": "Skill",
+        "description": "Summon an Abyssal Devil to deal damage equal to 375% of Selena's Attack to the enemy unit with the lowest HP percentage. Using this skill while in Abyssal Form has Selena rush over to the enemy unit with the lowest HP, and deal damage equal to 100% of her Attack multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Abyssal Devils' damage increases by 5% for every 0.2s of flight."
+          },
+          {
+            "level": "3",
+            "text": "The Abyssal Devils' damage increases by 10% for every 0.2s of flight."
+          },
+          {
+            "level": "4",
+            "text": "The Abyssal Devils' damage increases by 15% for every 0.2s of flight. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Dark Symbiosis",
+        "tier": "Passive",
+        "description": "Units with Abyssal Marks take damage equal to 5% of their Max HP every 2s. This amount caps at 500% of Selena's Attack, and she regenerates HP equal to the target's lost HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Selena's Attack is increased by 20% for every enemy with Abyss Marks on the battlefield."
+          },
+          {
+            "level": "3",
+            "text": "Selena's Attack is increased by 30% for every enemy with Abyss Marks on the battlefield."
+          },
+          {
+            "level": "4",
+            "text": "Selena's Attack is increased by 45% for every enemy with Abyss Marks on the battlefield. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sentient-alina",
+    "name": "Sentient Alina",
+    "abilities": [
+      {
+        "name": "Inviolable Aura",
+        "tier": "Ultimate",
+        "description": "Adds a shield equal to 30% of Attack to all allies 3 times and deals damage equal to 30% of her Attack to all enemies 3 times. The shield lasts for 125. When protecting a hero with Lumiguard created by her Bionic Grace, each instance of damage or provides an extra shield equal to 4% of the protected hero's accumulated damage dealt. Accumulated damage is reset after each cast.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Before casting, increases all allies' received shields by 10% and damage dealt to enemies by 10% for 12s."
+          },
+          {
+            "level": "3",
+            "text": "Increases Base Shield and Base Damage to 40%"
+          },
+          {
+            "level": "4",
+            "text": "Increases Base Shield and Base Damage to 50%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Bionic Grace",
+        "tier": "Skill",
+        "description": "Creates Lumiguard to protect an Allied Hero, reducing damage taken by this hero by 6%, and Sentient Alina takes 99% of the remaining damage instead. 100% of excess healing received by this hero is transferred to Sentient Alina.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces damage taken by this hero by 12%."
+          },
+          {
+            "level": "3",
+            "text": "After Sentient Alina dies, the hero protected by Lumiguard becomes immune to damage for 45."
+          },
+          {
+            "level": "4",
+            "text": "Reduces damage taken by this hero by 18%."
+          }
+        ]
+      },
+      {
+        "name": "Luminous Blast",
+        "tier": "Skill",
+        "description": "Deals damage equal to 100% of her Attack to the enemy with the highest Attack and reduces their Attack by 20% for 6s, stacking up to 3 times. This skill is immediately triggered whenever Sentient Alina takes damage equal to 40% of her Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time this skill is used or triggered, increases the Crit Rate of the Allied Hero protected by Lumiguard by 5%, up to 6 times."
+          },
+          {
+            "level": "3",
+            "text": "Increases damage dealt to 120%."
+          },
+          {
+            "level": "4",
+            "text": "Increases damage dealt to 140%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Glimmer Sync",
+        "tier": "Passive",
+        "description": "The hero protected by Lumiguard gains 8% of Sentient Alina's Damage-triggered Energy Regen. 30% of damage dealt by the protected hero is converted into a shield for Sentient Alina, up to 500% of her Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases Sentient Alina's Damage-triggered Energy Regen by 30%. While shielded, Sentient Alina can gain 40% of Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "Increases the protected hero's Damage-triggered Energy Regen from Sentient Alina to 16%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the protected hero's Damage-triggered Energy Regen from Sentient Alina to 24%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Empyrean Aegis",
+        "tier": "Realm Effect",
+        "description": "When an Allied Hero takes damage equal to 40% of their Max HP, all allies gain a shield equal to 1% of that hero's HP for 35.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "When an Allied Hero takes damage equal to 40% of their Max HP, all allies gain a shield equal to 2% of that hero's HP for 35. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "After battle starts, all Allied Heroes are immune to damage for 45. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "After battle starts, all Allied Heroes are immune to damage for 7s. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shah-torre",
+    "name": "Shah Torre",
+    "abilities": [
+      {
+        "name": "Feral Phantom of Apep",
+        "tier": "Ultimate",
+        "description": "Shah Torre unleashes Apep upon enemies nearby to deal damage equal to 250% Attack, absorbing 1% of their Attack every 0.6s for a short time afterwards. The absorbed Attack will be returned after 6s. Upon having absorbed 12% Attack, Apep deals damage to nearby enemies equal to 160% Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When casting his Ultimate, Shah Torre increases Apep's area of effect based on his own Attack Bonus."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by Apep after absorbing Attack is increased to 200% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Corruptive Touch",
+        "tier": "Skill",
+        "description": "Over 3s, Shah Torre absorbs Attack continuously from the unit with the highest Attack on the field, permanently absorbing 2% Attack from the target every 0.5s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each instance of Attack absorbed is boosted to 2.5%."
+          },
+          {
+            "level": "3",
+            "text": "Stun the target for the skill's duration."
+          },
+          {
+            "level": "4",
+            "text": "Each instance of Attack absorbed is boosted to 3%."
+          }
+        ]
+      },
+      {
+        "name": "Shadow Fang",
+        "tier": "Passive",
+        "description": "Shah Torre's Basic Attack is replaced with Shadow Fang that deals damage to the two nearest enemies equal to 220% Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "While Shah Torre has an Attack Bonus equal to 20% of his Attack, Shadow Fang will hit an additional target. It can hit up to 3 additional targets."
+          },
+          {
+            "level": "3",
+            "text": "Shadow Fang's damage is increased to 280% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Blasphemous Form",
+        "tier": "Passive",
+        "description": "For every Attack Bonus gained equal to 1% of his Attack, Shah Torre gains an extra 0.3% Damage Increase to a max of 75% in total.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every Attack Bonus gained equal to 1% of his Attack, Shah Torre gains an extra 0.4% Damage Reduction. Up to 60% can be gained."
+          },
+          {
+            "level": "3",
+            "text": "Damage Increase is boosted to 0.5% for every 1% Attack."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "shar",
+    "name": "Shar",
+    "abilities": [
+      {
+        "name": "Shackles of Spirit",
+        "tier": "Ultimate",
+        "description": "Shar corrupts the enemy with the highest Attack, immobilizing it for 3s. In addition, nearby enemies are forced to attack their former ally, using Basic Attacks only. While corrupted, the unit does not generate Energy when taking damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Should an enemy die while corrupted, Shar permanently gains 15% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Corruption duration is increased to 4s."
+          },
+          {
+            "level": "4",
+            "text": "Corruption duration is increased to 4.5s. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Nightsinger",
+        "tier": "Skill",
+        "description": "Shar unleashes the Nightsinger, Dealing damage equal to 150% of her Attack to enemies in front of her. She also silences them for 2s, preventing them from using Ultimates.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 180% attack."
+          },
+          {
+            "level": "3",
+            "text": "The Ultimate-silencing effect's duration is increased to 3s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 210% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Dark Dancer",
+        "tier": "Skill",
+        "description": "Lashes out with an energy whip, dealing damage equal to 220% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "100% of the damage this skill deals is converted into HP for Shar."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 280% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 320% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Frantic Whisper",
+        "tier": "Passive",
+        "description": "Shar recovers 100% of her Attack as HP whenever an enemy loses 25% of their Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Healing that exceeds Shar's Max HP will instead be converted into Energy."
+          },
+          {
+            "level": "3",
+            "text": "HP recovery is increased to 150% Attack."
+          },
+          {
+            "level": "4",
+            "text": "HP recovery is increased to 180% Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "silvanna",
+    "name": "Silvanna",
+    "abilities": [
+      {
+        "name": "Verdict of Glory",
+        "tier": "Ultimate",
+        "description": "Silvanna obtains an Attack Bonus equal to 5% of her Shield at the moment, while her Attack gets another 20% increase. The effect lasts for 12s. Then she knocks back enemy units in a wide range in front, dealing damage equal to 300% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After knocking back an enemy unit, stuns it for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Skill Damage is increased to 350% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Skill Damage is increased to 400% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Hawk of the Empire",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the Hawk of Light returns to Silvanna, it adds a Shield for her that is equal to 100% of the damage dealt by the ally in the 4s."
+          },
+          {
+            "level": "3",
+            "text": "After the Hawk of Light returns to Silvanna, it increases Silvanna's Agility by 50 and Crit Rate by 20% for 6s."
+          },
+          {
+            "level": "4",
+            "text": "When the Hawk of Light returns to Silvanna, it adds a Shield for her that is equal to 120% of the damage dealt by the ally in the 4s."
+          }
+        ]
+      },
+      {
+        "name": "Rapid Attack",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 40%, capped at 50%."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 80%, capped at 100%."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 120%, capped at 150%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Knightess's Path",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 60% of her normal Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 80% of her normal Damage-triggered Energy Regen."
+          },
+          {
+            "level": "4",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 100% of her normal Damage-triggered Energy Regen. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "singularity-lunox",
+    "name": "Singularity Lunox",
+    "abilities": [
+      {
+        "name": "Dusk Till Dawn",
+        "tier": "Ultimate",
+        "description": "Losing 40% of her current HP, Singularity Lunox gains a shield equal to 40% of her Max HP and unleashes Twilight Cosmos for 6s. When the Twilight Cosmos is active, allied units deal 20% more damage, and enemy units deal 20% less damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Within the Twilight Cosmos, allies whose HP is above 80% remove and become immune to most control effects, while enemies whose HP is above 80% receive 30% less healing."
+          },
+          {
+            "level": "3",
+            "text": "During the skill duration, allies deal an extra 25% damage."
+          },
+          {
+            "level": "4",
+            "text": "During the skill duration, allies deal an extra 30% damage. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Singularity Pulse",
+        "tier": "Skill",
+        "description": "Teleports to the location with the most enemies, dealing damage equal to 100% of Attack to nearby enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 110% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Every time she casts Singularity Pulse, her basic attacks gain an extra 10% Lifesteal, stacking up to 3 times."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 120% of Attack."
+          }
+        ]
+      },
+      {
+        "name": "Starfall Strike",
+        "tier": "Skill",
+        "description": "Unleashes Starfall Strike, dealing damage equal to 30% of Attack to targets in the range 3 times.Additionally, each time deals extra damage equal to 5% of the target's Max HP (cannot exceed 500% of her Attack). This skill also grants an extra 10% Lifesteal.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time dealing damage, reduces the targets' received healing and shields by 5%, up to 60%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 35% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 40% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Call of Fate",
+        "tier": "Passive",
+        "description": "For every 10% of Singularity Lunox's HP lost, she heals all allies for an amount of HP equal to 70% of her Attacks.While in the Twilight's Dawn form, every second she deals damage equal to 20% of Attack to nearby enemies and absorbs 0.5% of their Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For allies whose HP is below 50%, the healing effect of the Call of Fate is increased by 50%.While in the Twilight Dawn form, Singularity Lunox reduces the Energy of nearby enemies by 10 per second and converts 50% of it into her own Energy"
+          },
+          {
+            "level": "3",
+            "text": "The healing is increased to 80% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "The healing is increased to 90% of Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Singularity Domain",
+        "tier": "Realm Effect",
+        "description": "Whenever an ally dies, they leave behind a small amount of Twilight Power, enabling them to revive with 30% HP at their original location in 10s. Each time an ally is revived by this effect, their next revival time will be doubled. Allies revived by any effect will receive 50% less healing and shields.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Allied heroes revive with 45% HP. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Allied heroes revive with 60% HP. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "The initial revival time for each ally is reduced to 5s. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skuld-norns",
+    "name": "Skuld Norns",
+    "abilities": [
+      {
+        "name": "Call of Fate (Skuld Norns)",
+        "tier": "Ultimate",
+        "description": "Draws all enemies toward the center of the circular area three times, and deals damage equal to 60% of her attack to targets in the area 3 times. After dealing damage, summons a parallel self at the center of the area. The parallel self lasts for 10s, is untargetable, and has 100% of Norns' attack while capable of dealing damage with basic attacks. A maximum of two parallel selves can exist simultaneously.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The number of damage instances dealt by Call of Fate increases by 2, and the duration of the parallel self is extended by 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 70% of her attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 80% of her attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Destined Seal",
+        "tier": "Skill",
+        "description": "Deals damage equal to 70% of her attack to nearby enemies twice. 50% of the damage dealt by this skill is converted to HP restoration for Norns. The parallel self alternates between casting this skill and dealing damage with basic attacks. Any excess healing received by the parallel self is transferred to Norns.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 90% of her attack."
+          },
+          {
+            "level": "3",
+            "text": "After the Inevitable Cycle is passively activated, Norns and the current parallel self deal damage 2 additional times when casting Destined Seal."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 110% of her attack."
+          }
+        ]
+      },
+      {
+        "name": "Inevitable Cycle",
+        "tier": "Skill",
+        "description": "The cast duration lasts 3s, during which absorbs all damage taken and becomes immune to most control effects. Gains energy based on damage absorbed upon ending, capped at 300 energy when damage absorbed equals 100% of Max HP. When this skill cast during a time pause, restores an additional 100 energy and 20% HP per second. When her HP drops below 40%, Norns will stop her current action to remove most control effects on her and cast the Inevitable Cycle. This effect can only be triggered once every 16s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains a shield based on the damage absorbed upon ending. The shield is capped at 100% of her Max HP when damage absorbed equals 100% of her Max HP, lasting for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Recovers up to 400 energy when damage absorbed 100% of her Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Recovers up to 500 energy when damage absorbed 100% of her Max HP. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Doomed Course",
+        "tier": "Passive",
+        "description": "When Norns or her parallel self deals damage with Call of Fate, Destined Seal, or basic attacks, they apply 1 stack of Mark of Fate to the target. Each stack allows allied Astral units to ignore 3% of the target's defense, up to 20 stacks, lasting until the battle ends.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For each stack of Mark of Fate on the enemy, they take damage equal to 1.2% of their Max HP per second, capped at 120% of Norns' Attack."
+          },
+          {
+            "level": "3",
+            "text": "Each stack of Mark of Fate allows allied Astral units to ignore 4% of the target's defense."
+          },
+          {
+            "level": "4",
+            "text": "Each stack of Mark of Fate allows allied Astral units to ignore 5% of the target's defense. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "End's Realm",
+        "tier": "Realm Effect",
+        "description": "Each time a time pause is triggered, energy consumed by all allied Astral heroes when casting their Ultimate is reduced by 90, stacking up to 2 times and lasting until the battle ends.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Each time a time pause is triggered, energy consumed by all allied Astral heroes when casting their Ultimate is reduced by 180, stacking up to 2 times and lasting until the battle ends. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Each time a time pause is triggered, all allied Astral heroes' attack is increased by 15%, lasting until the battle ends. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "When allied Astral units deal basic attack damage 3 times to a target, Norns deals damage equal to 30% of the target's Max HP, capped at 3000% of Norns' Attack, and reduces their energy by 200. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "skullcrusher",
+    "name": "Skullcrusher",
+    "abilities": [
+      {
+        "name": "Attack & Defense",
+        "tier": "Ultimate",
+        "description": "Puts a damage-absorbing shield on self for a period of time.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "steel-guard",
+    "name": "Steel Guard",
+    "abilities": [
+      {
+        "name": "Triple Thump",
+        "tier": "Ultimate",
+        "description": "Strikes all enemies in the front repeatedly, with the last strike knocking them back.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "tefnut",
+    "name": "Tefnut",
+    "abilities": [
+      {
+        "name": "Psionic Storm",
+        "tier": "Ultimate",
+        "description": "Passive: When the battle starts, summons a storm in the allied areas. The storm moves toward the furthest enemy when there are no enemies nearby, and deals damage equal to 60% of Tefnut's Attack to nearby enemies every second, removing thir Defense bonuses.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the battle starts, Tefnut gains 90% Damage Reduction. She loses 20% of this Damage Reduction each time the first two Time Pauses end."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage dealt by the storm's movement when the Ultimate is actively cast to 9% of enemies' Max HP, up to 900% of Tefnut's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt by the storm's movement when the Ultimate is actively cast to 10% of enemies' Max HP, up to 1000% of Tefnut's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Astral Scar",
+        "tier": "Skill",
+        "description": "Deals damage equal to 70% of Attack to enemies near herself and near the storm 3 times. Each hit reduces the target's Defense by 5% and converts 60% of it into her own Attack, up to 15% of her Attack. This effect stacks up to 15 times and lasts until the end of the battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage dealt to 80%."
+          },
+          {
+            "level": "3",
+            "text": "Each attack deals extra damage equal to 30% of the target's current Shield. The damage won't exceed 1500% of Telnut's Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 90%."
+          }
+        ]
+      },
+      {
+        "name": "Star Devourer",
+        "tier": "Skill",
+        "description": "Deals damage equal to 205% of Attack to an enemy and gains a Shield equal to 40% of the enemy's Max HP. The Shield won't exceed 250% of her own Max HP, lasts until the end of the battle, and stacks up to 2 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Also stuns the enemy for 4s if the target's Max HP is higher than 2 times her own."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage dealt to 255%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 305%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Storm Ascendant",
+        "tier": "Passive",
+        "description": "When taking fatal damage, Tefnut does not die but merges into the storm, restoring 85 Energy per second. She can trigger her Ultimate effect when her Energy reaches 1000, consuming 1000 Energy. After merging into the storm, she cannot use other skills. The battle is considered lost if all other allied heroes are defeated.While merged into the storm, the last hit of her Ultimate knocks enemies airborne.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Gains 800 extra Energy within 4s after merging into the storm."
+          },
+          {
+            "level": "3",
+            "text": "Restores 100 Energy per second after merging into the storm."
+          },
+          {
+            "level": "4",
+            "text": "Restores 115 Energy per second after merging into the storm. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  }
+]

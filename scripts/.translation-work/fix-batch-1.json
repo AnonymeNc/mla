@@ -1,0 +1,624 @@
+[
+  {
+    "id": "aeon-rista",
+    "name": "Aeon Rista",
+    "abilities": [
+      {
+        "name": "Rose Covenant",
+        "tier": "Skill",
+        "description": "Aeon Rista inflicts Cursed Rose on an enemy, prioritizing those without Cursed Rose. Cursed Rose immediately deals damage equal to 100% of her Attack to the enemy and triggers the damage effect again after 8s. Each trigger reduces the interval of the next trigger by 1s, down to a minimum of 4s, and can be stacked up to 3 tims. When the bearer of Cursed Rose dies, Aeon Rista's servant gains 1 arm.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the damage dealt to 120%."
+          },
+          {
+            "level": "3",
+            "text": "Each time the effect is triggered on an enemy, Chaos units will ignore 25% of that enemy's Defense in the subsequent battle, up to 75% Defense ignored."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt to 140%."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ais",
+    "name": "Ais",
+    "abilities": [
+      {
+        "name": "Ariel Rush",
+        "tier": "Skill",
+        "description": "Ais Wallenstein's Basic Attacks deal damage equal to 100% of her Attack to enemies in the front area multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies hit by this skill deal 50% less damage to her for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt increases to 120% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt increases to 140% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Spirit Healing",
+        "tier": "Passive",
+        "description": "When HP is above 60%, Ais Wallenstein gains 40% extra Damage Reduction and 70 extra Agility.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When HP is above 60%, increases the AoE of Lil Rafaga and Ariel Piercing by 30%."
+          },
+          {
+            "level": "3",
+            "text": "When HP is above 60%, Ais Wallenstein gains 60% extra Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "When HP is above 60%, Ais Wallenstein gains 120 extra Agility. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "akashic",
+    "name": "Akashic",
+    "abilities": [
+      {
+        "name": "Omniscience",
+        "tier": "Passive",
+        "description": "When an enemy uses its Ultimate, an effect is triggered depending on the target's Type that lasts for 4s. 15px Elemental: Heal all allies equal to 50% of Akashic's Attack every 2s. 15px Martial: Grant each front row ally a Shield equal to 150% of Akashic's Attack. 15px Tech: Increase all allies' Crit Rate by 6%. 15px Light: Have all allied heroes recover 80 Energy. 15px Dark: Increase all allies' Lifesteal by 30. 15px Order: Increase all allies' Damage Reduction by 6%. 15px Chaos: Increase all allies' Damage Increase by 6%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When a Boss uses their Ultimate, all the above effects are activated."
+          },
+          {
+            "level": "3",
+            "text": "Duration is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Duration is increased to 8s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arcus-miya",
+    "name": "Arcus Miya",
+    "abilities": [
+      {
+        "name": "Magnetic Arrowsong",
+        "tier": "Ultimate",
+        "description": "Arcus Miya teleports and shoots an electromagnetic arrow towards the nearest enemy hero, dealing damage equal to 300% Attack to the target and all enemy units on the line behind. In the next 10s, Arcus Miya's Basic Attack deals extra damage equal to 150% Attack and shoots an extra arrow, which is supposed to attack a different target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Extra damage of arrows of Basic Attack is increased to 200% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Shoot 2 extra arrows from Basic Attack."
+          },
+          {
+            "level": "4",
+            "text": "Electromagnetic arrow's damage is increased to 500% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Crystalline Mapping",
+        "tier": "Skill",
+        "description": "Casts Elemental Magic towards the nearest enemy hero to Arcus Miya and summons two magnetic crystals for 12s, having 40% of the target's max HP as their HP and the same Defense as the target's Basic Defense. The enemy hero takes 50% less damage, but when the crystals take damage, the target takes the same amount of damage as well, and the control effects the crystals take will work on the enemy hero.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The defense of the magnetic crystals Arcus Miya summons is turned to 50% of the target."
+          },
+          {
+            "level": "3",
+            "text": "Max HP of magnetic crystals summoned by Arcus Miya is increased to 70% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The defense of the magnetic crystals Arcus Miva summons is turned to 30% of the target."
+          }
+        ]
+      },
+      {
+        "name": "Anionic Trap",
+        "tier": "Skill",
+        "description": "Creates an Anionic Trap under the nearest enemy hero that lasts for 4s. Then it will explode, dealing damage equal to 30% of the damage the enemy has taken in the trap plus 400% of Arcus Miya's Attack to all enemies in range.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "All enemy units' Movement Speed in the Anionic Trap is reduced by 50%."
+          },
+          {
+            "level": "3",
+            "text": "Stun all enemies in the Anionic Trap for 1s after the explosion."
+          },
+          {
+            "level": "4",
+            "text": "Damage of the electromagnetic explosion is increased to 50% of the damage that the hero takes.(Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Lazer Blaze",
+        "tier": "Passive",
+        "description": "When Arcus Miya's Basic Attack hits, the two ion cannons behind her each have a 50% chance to use an extra laser attack, dealing True Damage equal to 8% of the target's Max HP but less than 1200% of Arcus Miva's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Within 3s, the damage of laser attack on the same target is increased by 5%, stacking up 5 times."
+          },
+          {
+            "level": "3",
+            "text": "The chance of ion cannons using extra attack is increased to 70%."
+          },
+          {
+            "level": "4",
+            "text": "Deal True Damage equal to 12% of their Max HP but less than 1200% of Arcus Miya's Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "astraia-sipra",
+    "name": "Astraia Sipra",
+    "abilities": [
+      {
+        "name": "Help at Hand",
+        "tier": "Skill",
+        "description": "Summons a common support character for 12s, who inherits 100% basic attack and 50% basic HP from Sipra. Up to 3 common support characters can exist at the same time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allows the common support character to can an Ultimate when they arrive."
+          },
+          {
+            "level": "3",
+            "text": "Increases inherited HP to 60%."
+          },
+          {
+            "level": "4",
+            "text": "Increases inherited HP to 70%."
+          }
+        ]
+      },
+      {
+        "name": "Aiding Chant",
+        "tier": "Skill",
+        "description": "When there's a support hero, all support heroes and support characters gain 30% attack and defense, stacking up to 3 times.When there's no support hero, Sipra gains 200 points of Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If there are no support heroes, Sipra gains immunity to control effects while casting the skill. If there are support heroes, Sipra grants support heroes and support characters immunity to most control effects while casting the skill."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy that Sipra gains to 300 points."
+          },
+          {
+            "level": "4",
+            "text": "Increases Energy that Sipra gains to 400 points. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "aurora",
+    "name": "Aurora",
+    "abilities": [
+      {
+        "name": "Cold Destruction",
+        "tier": "Ultimate",
+        "description": "Aurora summons a frost meteor to strike enemies in the target area, dealing damage equal to 550% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The frozen meteor will freeze the target hit for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 700% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 800% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Frost Shock",
+        "tier": "Skill",
+        "description": "Aurora releases 3 ice projectiles to attack an enemy, dealing damage equal to 120% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Aurora will release 4 ice projectiles."
+          },
+          {
+            "level": "3",
+            "text": "The ice projectiles deal true damage to frozen enemies."
+          },
+          {
+            "level": "4",
+            "text": "Aurora will release 5 ice projectiles."
+          }
+        ]
+      },
+      {
+        "name": "Pride of Ice",
+        "tier": "Passive",
+        "description": "Enemies selected as targets by Aurora's Skill have a 20% chance to fall into a frozen state for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies fall into the frozen state will have their Damage-triggered Energy Regen reduced by 50%."
+          },
+          {
+            "level": "3",
+            "text": "Enemies fall into the frozen state will have their Damage-triggered Energy Regen reduced by 100%."
+          },
+          {
+            "level": "4",
+            "text": "Increase the chance of enemies falling into the frozen state to 25%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "badang",
+    "name": "Badang",
+    "abilities": [
+      {
+        "name": "Fist Crack",
+        "tier": "Ultimate",
+        "description": "Badang quickly throws his fists forward, dealing damage equal to 4% Max HP to enemies hit multiple times, and enemies hit won't be able to move. A single hit deals no more damage than 400% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Badang acquires a shield equal to 25% of his Max HP when throwing punches."
+          },
+          {
+            "level": "3",
+            "text": "Badang is immune to Control Effects when the shield is on."
+          },
+          {
+            "level": "4",
+            "text": "Badang acquires a shield equal to 30% of his Max HP when throwing punches. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "beatrice",
+    "name": "Beatrice",
+    "abilities": [
+      {
+        "name": "Enchanted Trick",
+        "tier": "Skill",
+        "description": "Targets 2 other allied heroes with the fewest Enchanted Trick stacks, reducing their Defense by 40% but granting them 1 stack of Enchanted Trick. Enemy heroes reduce Enchanted Trick stacks by 1 every 5 cast(s) of Ultimate. Enchanted Trick:1 or more stacks: Energy acquisition efficiency increases by 4%2 or more stacks: Damage dealt and healing increase by 10%3 or more stacks: Attack increases by 10%, Agility increases by 50This skill won't be used when all other allied heroes have 3 stacks of Enchanted Trick.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allied heroes with HP at or below 60% and Astral Heroes gain 2 stacks of Enchanted Trick each time."
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy acquisition efficiency to 8%."
+          },
+          {
+            "level": "4",
+            "text": "Increases Energy acquisition efficiency to 12%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bell",
+    "name": "Bell",
+    "abilities": [
+      {
+        "name": "Argo Vesta",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 450% of his Attack to enemies in front. Deals more extra damage with more HP percentage remaining, stacking up to 100%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Resets the cooldown of \"Familia of the Goddess of the Hearth\" when this skill is cast."
+          },
+          {
+            "level": "3",
+            "text": "Extra damage dealt based on his HP percentage stacks up to 150%."
+          },
+          {
+            "level": "4",
+            "text": "Extra damage dealt based on his HP percentage stacks up to 200%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Realis Phrase",
+        "tier": "Passive",
+        "description": "Each time Bell Cranel restores 10% of his Max HP (excess HP included), he gains 3% extra Attack, stacking up to 50%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bell Cranel gains Penetration equal to 40% of his Attack after restoring 100% of his Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Each time Bell Cranel restores 10% of his Max HP (excess HP included), he gains 4% extra Attack, stacking up to 80%."
+          },
+          {
+            "level": "4",
+            "text": "Each time Bell Cranel restores 10% of his Max HP (excess HP included), he gains 5% extra Attack, stacking up to 100%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "crocell",
+    "name": "Crocell",
+    "abilities": [
+      {
+        "name": "Mischievous Meteor",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 50% Attack 6 times to enemies in a large area, stunning enemy attacked (sic) 5 times for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "As Crocell's Attack increases, she deals damage with Mischievous Meteor for more times, up to 10 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 60% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 70% Attack (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Hide & Seek",
+        "tier": "Passive",
+        "description": "At the beginning of the battle, Crocell cannot be targeted until 6s later or any enemy dies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "At the beginning of the battle, if Crocell has less Attack than the enemy hero with the most Attack, she gains 70% of the hero's Attack minus her own Attack. The Attack Bonus cannot exceed her own Attack."
+          },
+          {
+            "level": "3",
+            "text": "Crocell loses the effect 8s after the battle starts or when any enemy hero dies."
+          },
+          {
+            "level": "4",
+            "text": "Crocell loses the effect 10s after the battle starts or when any enemy hero dies. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "darksteel-dullahan",
+    "name": "Darksteel Dullahan",
+    "abilities": [
+      {
+        "name": "Umbral Aegis",
+        "tier": "Ultimate",
+        "description": "Grants all allied heroes 3 stack(s) of Umbral Aegis. When cast, for each stack of Umbral Aegis on the target, restores HP equal to 200% of Darksteel Dullahan's Attack for them, and increases their Attack by 5% for 15s.Umbral Aegis: Can stack up to 3 times. Each time the aegis bearer takes damage exceeding 15% of their Max HP from enemies, 1 stack of Umbral Aegis is consumed to reduce the damage taken by 90% and the bearer restores HP equal to 100% of Darksteel Dullahan's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When each allied hero's HP drops below 50% for the first time, Dullahan immediately gains 200 Energy."
+          },
+          {
+            "level": "3",
+            "text": "When Umbral Aegis is consumed, the bearer restores HP equal to 150% of Darksteel Dullahan's Attack."
+          },
+          {
+            "level": "4",
+            "text": "When Umbral Aegis is consumed, the bearer restores HP equal to 200% of Darksteel Dullahan's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edith",
+    "name": "Edith",
+    "abilities": [
+      {
+        "name": "Lightning Charge",
+        "tier": "Skill",
+        "description": "Increase mecha shield by 8% of each nearby enemy unit's max HP. Shield granted from each enemy cannot exceed 50% of her max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Absorb 6% defense from all enemies within the area for 6 seconds."
+          },
+          {
+            "level": "3",
+            "text": "Shield absorbed is increased to 9% of max HP."
+          },
+          {
+            "level": "4",
+            "text": "Shield absorbed is increased to 10% of max HP. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Eternal Guard",
+        "tier": "Passive",
+        "description": "Edith gains 4% damage reduction for every 20% damage absorbed by all her shields. Lasts 5s and stacks up to 5 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every 20% damage absorbed by the mecha's shield, Edith restores energy by 100."
+          },
+          {
+            "level": "3",
+            "text": "Each stack provides 5% Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "Each stack provides 6% Damage Reduction. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ember-irithel",
+    "name": "Ember Irithel",
+    "abilities": [
+      {
+        "name": "The Hunt Begins",
+        "tier": "Ultimate",
+        "description": "Ember Irithel builds up a cannon, dealing wide-range AoE damage equal to 320% of her Attack. Meanwhile, Leo attacks the hunted targets on the enemy half of the field, each time dealing damage equal to 75% his Attack. Cannon Mode: Ember Irithel becomes immobile, but gains immunity to effects that will change the hero's status (charmed, taunted, or changing targets), as well as most control effects. Ember Irithel continuously consumes her Energy to launch Basic Attacks shooting out multiple arrows without attack intervals. Each Basic Attack she launches grants her 12% extra Basic Attack damage permanently. The Cannon Mode ends when she exhausts her Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Ember Irithel acquires 460 point of Energy when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage detailt by Ember Irithel in Cannon Mode by 50%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage detailt by Ember Irithel in Cannon Mode by 60%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Hunter's Mark",
+        "tier": "Skill",
+        "description": "When the battle begins, fires a marking arrow at the nearest enemy, dealing damage equal to 140% of Attack, stunning them for 3s and marking them as the hunted target. Ember Irithel uses this skill wwhen the hunted target dies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases damage to 155% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the hunted target's HP regen and shield regen rate by 60%."
+          },
+          {
+            "level": "4",
+            "text": "Reduces the hunted target's HP regen and shield regen rate by 80%."
+          }
+        ]
+      },
+      {
+        "name": "Infernal Onset",
+        "tier": "Passive",
+        "description": "Ember Irithel fires 2 arrows with her Basic Attack, and Leo attacks twice with his. Each time Ember Irithel and Leo deal damage with their Basic Attacks, they have a 12% chance to severely wound the target, stunning them for 2s and increasing their damage by 10% permanently, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Leo attacks 3 times with his Basic Attack."
+          },
+          {
+            "level": "3",
+            "text": "Ember Irithel fires 4 arrows with her Basic Attack."
+          },
+          {
+            "level": "4",
+            "text": "Enemies wounded by Ember Irithel and Leo take 12% more damage permanently. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eos-silvanna",
+    "name": "Eos Silvanna",
+    "abilities": [
+      {
+        "name": "Bathe in Glory",
+        "tier": "Skill",
+        "description": "Both Eos Silvanna and the ally with the lowest HP gain a shield equal to 400% of her Attack. Meanwhile, their Shield is increased by 30% of their lost HP for 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time an ally is granted a Shield by this skill, permanently increases their Shield Bonus by 20% (up to 100%)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Shield to 500% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases Shield to 600% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Imperial Blessing",
+        "tier": "Passive",
+        "description": "Each time Eos Silvanna gains a Shield to 25% of her Max HP, her Attack permanently increases by 5%, up to 50%. When taking lethal damage, Eos Silvanna enters Fortitude state that lasts 3s, during which she becomes invincible. When Fortitude ends, Eos Silvanna gains a Shield equal to 600% of her Attack. The Shield is increased by 50% of the total damage dealt by the team during Fortitude state. Fortitude takes effect at most once every 12s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time Eos Silvanna gains a Shield equal to 25% of her Max HP, her Attack is increased by 10% (up to 100%)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Fortitude duration to 4s."
+          },
+          {
+            "level": "4",
+            "text": "Each time Eos Silvanna gains a Shield equal to 25% of her Max HP, her Attack is increased by 15% (up to 150%). (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ethereal-zhuxin",
+    "name": "Ethereal Zhuxin",
+    "abilities": [
+      {
+        "name": "Crimson Beacon",
+        "tier": "Ultimate",
+        "description": "Ethereal Zhuxin summons a lantern, dealing damage equal to 110% of Attack to all enemies within range every second and inflicting 1 stack(s) of Soul Snare for 6s. When an enemy has 8 stacks of Soul Snare, 8 stacks are consumed to knock them airborne for 1s. Upon landing, the enemy takes damage equal to 20% of their Max HP. The damage won't exceed 3000% of Ethereal Zhuxin's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the enemy lands, deals damage equal to 6% of Max HP to other surrounding enemies. The damage won't exceed 600% of Ethereal Zhuxin's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage equal to 135% of Attack to all enemies within range every second."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 160% of Attack to all enemies within range every second. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  }
+]

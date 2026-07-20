@@ -1,0 +1,208 @@
+{
+  "everblight-shah-torre": {
+    "Everblight Apocalypse": {
+      "description": "Inflige des dégâts égaux à 100% de l'Attaque plus un pourcentage des PV actuels des cibles à tous les ennemis. Ces dégâts ne peuvent pas dépasser de l'Attaque d'Everblight Shah Torre. Passif : les attaques de base d'Everblight Shah Torre nécessitent une canalisation, infligeant de l'Attaque en dégâts deux fois par seconde, pendant 3s.",
+      "levels": {
+        "2": "Nv.2 : Si un ennemi conserve 60% de PV ou plus après avoir été touché par l'effet actif de cette compétence, les dégâts qu'il subit augmentent de façon permanente de 20% jusqu'à la fin du combat, cumulable jusqu'à 5 fois.",
+        "3": "Les dégâts infligés sont augmentés à 130% de l'Attaque.",
+        "4": "Les dégâts infligés sont augmentés à 160% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "feng": {
+    "Shadows Cleave": {
+      "description": "L'Énergie de l'Épée s'accumule et tombe comme la pluie. Inflige des dégâts égaux à 130% de l'Attaque aux ennemis dans une grande zone à 3 reprises, leur infligeant une charge d'Énergie de l'Épée. De plus, inflige des dégâts supplémentaires égaux à 4% des PV max de la cible par charge aux ennemis possédant l'Énergie de l'Épée. Les dégâts supplémentaires totaux ne peuvent pas dépasser 2000% de l'Attaque de Feng. Chaque charge d'Énergie de l'Épée inflige des dégâts égaux à 1% des PV max de la cible toutes les 2s, jusqu'à 100% de l'Attaque de Feng. Elle peut se cumuler jusqu'à 5 fois.",
+      "levels": {
+        "2": "Augmente les dégâts supplémentaires infligés aux ennemis ayant moins de 50% de PV à 6% des PV max de la cible par charge d'Énergie de l'Épée.",
+        "3": "Les dégâts sont augmentés à 155% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 165% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "florence": {
+    "Ensnare": {
+      "description": "Cadeau : après que Florence atteigne Éveil - 2 étoiles, elle offre un cadeau gratuit supplémentaire au Marché chaque jour. Actif : Florence libère une fumée qui recouvre le champ de bataille pendant 65. Dans la fumée, les alliés obtiennent un bonus d'attaque de 30%, tandis que les ennemis subissent des dégâts égaux à 60% de son Attaque par seconde. Les ennemis dans la fumée subissent également des dégâts supplémentaires égaux à 40% de son Attaque lorsqu'ils sont touchés par les alliés de Florence, jusqu'à 5 fois par seconde sur chaque ennemi.",
+      "levels": {
+        "2": "La fumée inflige également des dégâts supplémentaires à tous les ennemis égaux à 2% de leurs PV max. Ces dégâts ne peuvent pas dépasser 200% de l'Attaque de Florence.",
+        "3": "Les dégâts de la fumée sont augmentés à 70% de l'Attaque par seconde.",
+        "4": "Nv.3 : Les dégâts de la fumée sont augmentés à 80% de l'Attaque par seconde. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Wise Bet": {
+      "description": "Florence gagne 5 Or par seconde. Actif : lorsqu'elle possède 100 Or, elle restaure 1200 Énergie à l'allié infligeant le plus de dégâts, l'Énergie excédentaire étant répartie équitablement entre les autres alliés.",
+      "levels": {
+        "2": "L'Or gagné par seconde est augmenté à 10.",
+        "3": "Lorsqu'elle est activée, augmente de façon permanente l'Attaque de l'allié infligeant le plus de dégâts de 30% de l'Attaque de Florence, cumulable jusqu'à 2 fois.",
+        "4": "Lorsqu'elle est activée, augmente de façon permanente l'Attaque de l'allié infligeant le plus de dégâts de 40% de l'Attaque de Florence, cumulable jusqu'à 2 fois."
+      }
+    }
+  },
+  "hayabusa": {
+    "Ninjutsu - Quad Shadow": {
+      "description": "Hayabusa invoque 1 fantôme derrière l'ennemi ayant la plus haute Défense, infligeant des dégâts égaux à 280% de son Attaque. Le fantôme réduit ensuite la Défense des unités ennemies proches de 10% toutes les 2 secondes pendant 10 secondes, cumulable jusqu'à 5 fois. Il peut invoquer jusqu'à 3 fantômes sur le champ de bataille. Les fantômes sont considérés comme des invocations de Hayabusa.",
+      "levels": {
+        "2": "Lorsque Hayabusa utilise ses shurikens, ses fantômes utilisent également les leurs, infligeant des dégâts égaux à 110% de son Attaque.",
+        "3": "Les dégâts de la compétence sont augmentés à 360% de l'Attaque.",
+        "4": "(Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Ninjutsu - Kamaitachi": {
+      "description": "Pour chaque 1% de son Taux de coups critiques, Hayabusa inflige des dégâts supplémentaires égaux à 2% de son Attaque à l'ennemi ciblé par-derrière.",
+      "levels": {
+        "2": "Les fantômes de Hayabusa infligent également des dégâts supplémentaires à l'ennemi ciblé par-derrière.",
+        "3": "Pour chaque 1% du Taux de coups critiques de Hayabusa, les dégâts supplémentaires infligés à l'ennemi ciblé par-derrière sont augmentés à 3% de l'Attaque.",
+        "4": "(Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "hestia": {
+    "Holy Blessing": {
+      "description": "Réduit les dégâts subis par les deux alliés ayant le pourcentage de PV le plus bas de 4% de l'Attaque de Hestia pendant 6s, cumulable jusqu'à 30%.",
+      "levels": {
+        "2": "La réduction des dégâts augmente à 6% de l'Attaque.",
+        "3": "Les alliés sélectionnés sont immunisés à la plupart des effets de contrôle pendant 2s après l'activation de la compétence.",
+        "4": "La réduction des dégâts augmente à 8% de l'Attaque."
+      }
+    }
+  },
+  "hwang-jini": {
+    "Joyous Note": {
+      "description": "Hwang Jini tire 2 projectiles d'ondes sonores qui rebondissent entre les ennemis, infligeant des dégâts égaux à 145% de son Attaque, chaque projectile d'onde sonore rebondissant 2 fois.",
+      "levels": {
+        "2": "Les dégâts de la compétence sont augmentés à 160% de l'Attaque.",
+        "3": "Le nombre de projectiles d'ondes sonores est augmenté à 3.",
+        "4": "Les dégâts de la compétence sont augmentés à 200% de l'Attaque."
+      }
+    },
+    "Legato": {
+      "description": "Chaque fois que Hwang Jini utilise sa compétence, la Mélodie augmente de 2 charge(s), et chacune de ses attaques de base augmente la Mélodie de 1 charge(s).",
+      "levels": {
+        "2": "Chaque charge de Mélodie accorde à Hwang Jini un Bouclier égal à 83% de son Attaque.",
+        "3": "Chaque charge de Mélodie accorde à Hwang Jini un Bouclier égal à 98% de son Attaque.",
+        "4": "Chaque charge de Mélodie accorde à Hwang Jini un Bouclier égal à 113% de son Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "hylos": {
+    "Glorious Pathway": {
+      "description": "Hylos crée un chemin ; les alliés sur ce chemin voient leur Attaque augmenter de 8%.",
+      "levels": {
+        "2": "L'Agilité des ennemis se trouvant sur le chemin est réduite de 50.",
+        "3": "Le bonus d'Attaque accordé aux alliés est augmenté à 15%.",
+        "4": "Le bonus d'Attaque accordé aux alliés est augmenté à 20%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Thickened Blood": {
+      "description": "Tant qu'il se trouve sur le chemin, Hylos régénère des PV égaux à 19% de son Attaque.",
+      "levels": {
+        "2": "Hylos active immédiatement Chemin Glorieux dès le début du combat.",
+        "3": "Les PV régénérés par seconde par Hylos sont augmentés à 24%.",
+        "4": "Les PV régénérés par seconde par Hylos sont augmentés à 30%."
+      }
+    },
+    "Ring of Punishment": {
+      "description": "Hylos libère le pouvoir des centaures pour invoquer un Anneau du Châtiment, infligeant des dégâts égaux à 19% de son Attaque aux ennemis environnants toutes les 2s.",
+      "levels": {
+        "2": "Applique une Fureur du Gardien supplémentaire à l'ennemi ; chaque charge augmente les dégâts de l'Anneau du Châtiment de 20%, cumulable jusqu'à 15 fois.",
+        "3": "Les dégâts sont augmentés à 30% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 45% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "infinia-crocell": {
+    "Shattered Destiny": {
+      "description": "Inflige des dégâts 4 fois égaux à 55% de son Attaque à tous les ennemis. Le nombre d'instances de dégâts augmente en fonction du bonus d'Attaque d'Infinia Crocell, jusqu'à un maximum de 8 instances. Infinia Crocell commence le combat avec 2 charges de Balises. Lorsqu'elle lance l'Ultime, chaque charge de Balise possédée ajoute des dégâts supplémentaires égaux à 15% de son Attaque par coup, puis fait perdre 1 charge de Balise. Gagne 1 charge de Balise lorsqu'un héros ennemi est vaincu, jusqu'à 3 charges.",
+      "levels": {
+        "2": "Chaque charge de Balise augmente le taux d'acquisition d'Énergie d'Infinia Crocell de 15%.",
+        "3": "Les dégâts infligés sont augmentés à 70%.",
+        "4": "Les dégâts infligés sont augmentés à 85%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "kryos-sinmara": {
+    "Chain Frenzy": {
+      "description": "Invoque des armes de la Prison des Ombres pour attaquer des ennemis aléatoires 4 fois. Pour chaque 5 charges de Givre Primordial possédées, consomme le nombre correspondant de charges de Givre Primordial pour effectuer une attaque supplémentaire sur les ennemis. Chaque attaque cible en priorité des ennemis différents, infligeant des dégâts égaux à 66% de l'Attaque à la cible et aux ennemis environnants. Passif : les attaques de base de Kryos Sinmara infligent des dégâts égaux à 150% de l'Attaque et ciblent en priorité les ennemis ayant le pourcentage de PV le plus bas. Après qu'une attaque de base ou Death Grip touche un ennemi, Kryos Sinmara gagne 1 charge de Givre Primordial, jusqu'à 30 charges.",
+      "levels": {
+        "2": "Après qu'une attaque de base ou Death Grip touche un ennemi, si les PV de l'ennemi sont encore supérieurs à 60%, Kryos Sinmara effectue une attaque de base supplémentaire sur l'ennemi, infligeant des dégâts égaux à 75% de l'Attaque. Cette attaque de base supplémentaire ne déclenche pas à nouveau cet effet.",
+        "3": "Les dégâts infligés sont augmentés à 75%.",
+        "4": "Les dégâts infligés sont augmentés à 84%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "lionheart-sekhet": {
+    "Glorious Mane": {
+      "description": "Tous les héros alliés obtiennent un bouclier égal à 460% de l'Attaque de Lionheart Sekhet. Lionheart Sekhet gagne 1 charge de bouclier supplémentaire égale à 400% de son Attaque. Tous les héros 20% des dégâts qu'ils infligent individuellement pendant 10s dans leur propre bouclier, d'une durée de 10s. Lorsqu'un allié possédant ce bouclier subit des dégâts, il inflige des dégâts égaux à 10% de son Attaque à l'attaquant et le réduit au silence pendant 2s. Cet effet se déclenche jusqu'à 1 fois par Ultime pour chaque allié. Lorsque l'effet de silence infligé par Lionheart Sekhet est annulé par une immunité, il réduit à la place l'Énergie de l'ennemi de 100. Lorsque le silence est infligé plusieurs fois de suite sur la même unité, la durée se cumule.",
+      "levels": {
+        "2": "Augmente également l'Attaque de tous les héros alliés de 20% pendant 10s.",
+        "3": "Augmente le bouclier obtenu par tous les héros à 560%.",
+        "4": "Augmente le bouclier obtenu par tous les héros à 660%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "lolita": {
+    "Guardian's Bulwark": {
+      "description": "Lolita lève son bouclier pour bloquer tous les projectiles entrants.",
+      "levels": {
+        "2": "Obtient 45% de réduction des dégâts lorsque le bouclier est levé.",
+        "3": "Augmente la réduction des dégâts à 55%.",
+        "4": "Augmente la réduction des dégâts à 65%."
+      }
+    },
+    "Smite": {
+      "description": "Lolita inflige des dégâts égaux à 400% de son Attaque à la cible.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 480% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 565% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 645% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Noumenon Energy Core": {
+      "description": "Le Noyau d'Énergie Nouménal se charge au fil du temps. Toutes les 10s, le noyau génère pour Lolita un bouclier égal à 215% de son Attaque.",
+      "levels": {
+        "2": "Fournit un bouclier à l'allié le plus faible.",
+        "3": "Obtient 20% de réduction des dégâts lorsque le bouclier est actif.",
+        "4": "Le bouclier est augmenté à 280% de l'Attaque. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "lucy": {
+    "Celestial Spirit Gate": {
+      "description": "Passif : Lucy déclenche son Ultime dès le début du combat. Actif : Lucy ouvre la Porte du Porteur d'Eau avec sa Clé de la Porte des Esprits Célestes, invoquant Aquarius, l'Esprit Céleste du Porteur d'Eau. Aquarius est impossible à cibler et hérite de 160% de",
+      "levels": {
+        "2": "Les ennemis touchés par la vague déferlante perdent leur immunité aux effets de projection dans les airs et de déplacement infligés par les héros d'Ishgar (Natsu, Lucy et Erza) pendant 5s.",
+        "3": "Les dégâts d'Aquarius sont augmentés de 20%.",
+        "4": "Les dégâts d'Aquarius sont augmentés de 40%. (Nécessite Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "luna-amara": {
+    "Phantom Sanctuary": {
+      "description": "Lune renforce le pouvoir d'Amara après le début du combat. Lorsque ses PV descendent sous 50%, elle restaure 30% de ses PV et repousse tous les ennemis autour d'elle. L'effet de renforcement disparaît une fois déclenché.",
+      "levels": {
+        "2": "Lorsqu'elle est renforcée, Amara gagne 6% d'augmentation des dégâts et de réduction des dégâts.",
+        "3": "L'augmentation des dégâts et la réduction des dégâts obtenues sont augmentées à 12%.",
+        "4": "L'augmentation des dégâts et la réduction des dégâts obtenues sont augmentées à 18%. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "medusa": {
+    "Gorgon's Bloodcurse": {
+      "description": "Libère des serpents pour attaquer les attributs des ennemis. Lorsque la compétence se déclenche, elle réduit d'abord l'augmentation des dégâts des cibles de 15%. Ensuite, toutes les 12s, elle réduit davantage les attributs d'une cible dans l'ordre suivant : deuxièmement, réduit la régénération d'Énergie déclenchée par les dégâts de 20%. Troisièmement, réduit la Robustesse de 20. Quatrièmement, réduit le Coup Fatal de 20. Cinquièmement, réduit leur Attaque de 20%.",
+      "levels": {
+        "2": "Pour chaque attribut différent réduit par cette compétence, l'effet de réduction de l'attribut est augmenté de 10%.",
+        "3": "La fréquence à laquelle les serpents réduisent un attribut des ennemis passe à toutes les 115.",
+        "4": "La fréquence à laquelle les serpents réduisent un attribut des ennemis passe à toutes les 10s. (Nécessite Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "melodic-lunabelle": {
+    "Roaring Metal": {
+      "description": "Inflige des dégâts égaux à 360% de l'Attaque aux ennemis dans une certaine portée, puis tire des notes sur 2 cibles aléatoires, infligeant des dégâts égaux à 25% de leurs PV max (ne peut pas dépasser 2500% de l'Attaque de Melodic Lunabelle). Chaque fois qu'une note est tirée, Melodic Lunabelle récupère en plus 100 Énergie pour elle-même. Chaque activation de cette compétence augmente de 1 le nombre de notes tirées lors des activations suivantes, jusqu'à un maximum de 6 notes.",
+      "levels": {
+        "2": "Étourdit les ennemis pendant 1s lorsqu'elle inflige des dégâts. La durée d'étourdissement répétée peut se cumuler.",
+        "3": "Les dégâts de zone sont augmentés à 430%.",
+        "4": "Les dégâts de zone sont augmentés à 500%."
+      }
+    }
+  }
+}

@@ -1,0 +1,625 @@
+{
+  "kryos-sinmara": {
+    "Chain Frenzy": {
+      "description": "Invoque des armes de la Prison des Ombres pour attaquer des ennemis aléatoires 4 fois. Pour chaque tranche de 5 charges de Givre Primordial possédées, consomme le nombre correspondant de charges de Givre Primordial pour effectuer une attaque supplémentaire sur les ennemis. Chaque attaque cible en priorité des ennemis différents, infligeant des dégâts égaux à 66% de l'Attaque à la cible et aux ennemis environnants.",
+      "levels": {
+        "2": "Lorsqu'une attaque de base ou Death Grip touche un ennemi, si les PV de l'ennemi sont encore supérieurs à 60%, Kryos Sinmara effectue une attaque de base supplémentaire sur l'ennemi, infligeant des dégâts égaux à 75% de l'Attaque. Cette attaque de base supplémentaire ne déclenche pas à nouveau cet effet.",
+        "3": "Les dégâts infligés sont augmentés à 75%.",
+        "4": "Les dégâts infligés sont augmentés à 84%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Death Grip": {
+      "description": "Inflige à l'ennemi le plus éloigné des dégâts égaux à 12% de ses PV max, plafonnés à 1200% de l'Attaque de Kryos Sinmara, et l'attire vers elle. En cas de résistance, la prochaine attaque de base se transforme en cette compétence. Pendant 3s après le lancement, cette compétence cible en priorité des ennemis différents.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 16% des PV max de l'ennemi, plafonnés à 1600% de l'Attaque de Kryos Sinmara.",
+        "3": "Lorsqu'elle touche des ennemis, Kryos Sinmara gagne un Bouclier égal à 400% de l'Attaque de l'ennemi, plafonné à 2000% de l'Attaque de Kryos Sinmara."
+      }
+    },
+    "Predator Strike": {
+      "description": "Kryos Sinmara se déplace en un éclair vers d'autres positions autour d'elle, tout en infligeant des dégâts d'attaque de base égaux à 100% de l'Attaque 3 fois à des ennemis aléatoires, puis gagne 3 charges de Givre Primordial.",
+      "levels": {
+        "2": "Lorsque cette compétence touche des ennemis, Kryos Sinmara gagne 10% de l'Attaque de l'ennemi, plafonné à 50% de sa propre Attaque, cumulable jusqu'à 6 fois pendant 8s.",
+        "3": "Les dégâts infligés sont augmentés à 120%.",
+        "4": "Les dégâts infligés sont augmentés à 140%. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Titan's Wrath": {
+      "description": "Lorsque Kryos Sinmara subit en un seul coup des dégâts dépassant 10% de ses propres PV, elle devient immunisée à ces dégâts, supprime la plupart des effets de contrôle et déclenche immédiatement Predator Strike. Cet effet a un temps de recharge de 8s.",
+      "levels": {
+        "2": "En mode non compétitif, augmente de 5% les dégâts subis par tous les ennemis. Après la mort du premier ennemi, cet effet disparaît et tous les héros alliés récupèrent 100 Énergie.",
+        "3": "Augmente les dégâts subis par les ennemis à 10%.",
+        "4": "Après la mort du premier ennemi, les héros alliés gagnent également 100 Agilité pendant 10s."
+      }
+    },
+    "Shackle Realm": {
+      "description": "Lorsque les héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier égaux à 30% de leurs PV max, leur Défense est réduite de 50% jusqu'à la fin du combat.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent +3% PV. (Débloqué à 32px)",
+        "3": "Lorsque les héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier égaux à 70% de leurs PV max, ils perdent 30 Énergie par seconde jusqu'à la fin du combat.",
+        "4": "Chaque fois que les héros ennemis ont cumulé des dégâts subis ou une réduction de Bouclier égaux à 60% de leurs PV max, immobilise cet ennemi pendant 3s et inflige des dégâts égaux à 50% de l'Attaque par seconde. Les dégâts subis pendant l'immobilisation ne déclenchent pas la prochaine immobilisation.",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent +3% Attaque. (Débloqué à 80px)",
+        "6": "À partir du deuxième déclenchement de l'immobilisation, chaque immobilisation suivante voit sa durée augmentée de 3s et ignore l'Immunité au Contrôle. (Débloqué à 16px)"
+      }
+    }
+  },
+  "lancelot": {
+    "Phantom Execution": {
+      "description": "Lancelot transperce vers l'avant avec toute sa force et devient temporairement invincible, infligeant des dégâts égaux à 375% de son Attaque à la cible touchée. Si les PV de la cible sont inférieurs à 35%, elle subit 130% des dégâts.",
+      "levels": {
+        "2": "Inflige 150% des dégâts aux ennemis dont les PV passent sous 50%.",
+        "3": "Augmente les dégâts à 450% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 525% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Puncture": {
+      "description": "Lancelot traverse les lignes ennemies et attaque directement l'ennemi de l'arrière-garde par derrière, infligeant des dégâts égaux à 335% de son Attaque. Pendant une courte période, Lancelot devient plus difficile à cibler par les ennemis à distance tout en étant immunisé aux effets de contrôle.",
+      "levels": {
+        "2": "Augmente les dégâts à 385% de l'Attaque.",
+        "3": "Réduit la Défense des ennemis de 40%.",
+        "4": "Augmente les dégâts à 435% de l'Attaque."
+      }
+    },
+    "Thorned Rose": {
+      "description": "Lancelot manie son épée avec une dextérité inimaginable, infligeant plusieurs fois des dégâts égaux à 75% de son Attaque à une cible unique.",
+      "levels": {
+        "2": "Éliminer une unité ennemie avec cette compétence soigne Lancelot d'un montant de PV égal à 25% de ses PV max.",
+        "3": "Augmente les dégâts à 90% de l'Attaque.",
+        "4": "Augmente les dégâts à 105% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Soul Cutter": {
+      "description": "Lancelot acquiert 15% de l'Attaque de sa cible après l'avoir éliminée. Le total d'Attaque acquis ne peut pas dépasser sa propre Attaque.",
+      "levels": {
+        "2": "L'Attaque acquise en éliminant un ennemi est augmentée à 20%.",
+        "3": "L'Attaque acquise en éliminant un ennemi est augmentée à 25%.",
+        "4": "L'Attaque acquise en éliminant un ennemi est augmentée à 30%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "lapu-lapu": {
+    "Chieftain's Rage": {
+      "description": "Lapu-Lapu combine ses deux lames en une Épée Lourde, augmentant son Attaque de 40%. L'état Épée Lourde dure 15s ; durant cet état, les attaques de base de Lapu-Lapu se transforment en Brave Stance.",
+      "levels": {
+        "2": "Augmente l'Agilité de Lapu-Lapu de 300.",
+        "3": "Le bonus d'Attaque est augmenté à 60%.",
+        "4": "Le bonus d'Attaque est augmenté à 90%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Justice Blade": {
+      "description": "Lapu-Lapu inflige des dégâts égaux à 250% de son Attaque aux ennemis devant lui.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 285%.",
+        "3": "Étourdit la cible touchée.",
+        "4": "Les dégâts sont augmentés à 320%."
+      }
+    },
+    "Brave Stance": {
+      "description": "Lapu-Lapu libère une onde de choc, infligeant des dégâts égaux à 205% de son Attaque aux ennemis dans la portée.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 250%.",
+        "3": "Les dégâts sont augmentés à 290%.",
+        "4": "Les dégâts sont augmentés à 330%. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Hero's Faith": {
+      "description": "Augmente la Défense de tous les alliés de 10%.",
+      "levels": {
+        "2": "Le bonus de Défense est augmenté à 15%.",
+        "3": "Le bonus de Défense est augmenté à 20%.",
+        "4": "Le bonus de Défense est augmenté à 30%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "layla": {
+    "Destruction Rush": {
+      "description": "Layla lance un Boulet d'Énergie vers l'avant, infligeant des dégâts égaux à 300% de son Attaque aux ennemis.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 360%."
+      }
+    },
+    "Malefic Bomb": {
+      "description": "Layla tire une Bombe d'Énergie Maléfique vers l'avant, infligeant des dégâts égaux à 170% de son Attaque aux ennemis dans le rayon d'explosion.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 185%.",
+        "3": "Les dégâts sont augmentés à 210%."
+      }
+    },
+    "Void Projectile": {
+      "description": "Layla tire une Boule d'Énergie sur un ennemi, infligeant des dégâts égaux à 240% de son Attaque aux ennemis dans le rayon d'explosion.",
+      "levels": {
+        "2": "Ralentit l'ennemi touché."
+      }
+    },
+    "Malefic Gun": {
+      "description": "Lorsqu'elle est déployée en arrière-garde, les attaques de base et les compétences de Layla infligent 25% de dégâts supplémentaires aux ennemis.",
+      "levels": {
+        "2": "Layla inflige des dégâts de compétence supplémentaires lorsqu'elle est déployée en arrière-garde."
+      }
+    }
+  },
+  "lesley": {
+    "Ultimate Snipe": {
+      "description": "Lesley verrouille l'ennemi ayant le moins de PV et tire 1 coup mortel, infligeant des dégâts égaux à 635% de son Attaque. Si les PV de la cible sont inférieurs à 40%, un coup critique est garanti. Lorsque Lesley élimine la cible avec son Ultime, elle récupère 150 points d'Énergie.",
+      "levels": {
+        "2": "Augmente l'Énergie récupérée après l'élimination d'une unité ennemie à 300 points.",
+        "3": "Les dégâts sont augmentés à 765% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 890% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Master of Camouflage": {
+      "description": "Lorsqu'un ennemi présent sur le champ de bataille a des PV inférieurs à 50%, Lesley le verrouille et en fait sa cible prioritaire. Dans le même temps, Lesley augmente son Attaque de 15%.",
+      "levels": {
+        "2": "Augmente le bonus d'Attaque à 25%.",
+        "3": "Augmente le Taux de coups critiques à 20%.",
+        "4": "Augmente le bonus d'Attaque à 35%."
+      }
+    },
+    "Tactical Grenade": {
+      "description": "Lesley lance une grenade tactique vers l'avant, infligeant des dégâts égaux à 270% de son Attaque et repoussant les cibles.",
+      "levels": {
+        "2": "Augmente les dégâts à 320% de l'Attaque.",
+        "3": "Augmente les dégâts à 375% de l'Attaque.",
+        "4": "Augmente les dégâts à 430% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Lethal Shot": {
+      "description": "Moins les cibles de Lesley ont de PV, plus les dégâts qu'elle inflige sont élevés. Les dégâts infligés par Lesley peuvent être augmentés jusqu'à 15%.",
+      "levels": {
+        "2": "Les alliés de type Tech bénéficient également de ce bonus, augmentant les dégâts jusqu'à 15%.",
+        "3": "Le bonus de dégâts est augmenté jusqu'à 25%, et le bonus de dégâts reçu par les alliés de type Tech est augmenté jusqu'à 25%.",
+        "4": "Le bonus de dégâts maximal est augmenté à 35%, et le bonus de dégâts maximal reçu par les alliés de type Tech est augmenté à 35%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "lionheart-sekhet": {
+    "Glorious Mane": {
+      "description": "",
+      "levels": {
+        "2": "Augmente également l'Attaque de tous les héros alliés de 20% pendant 10s.",
+        "3": "Augmente le bouclier gagné par tous les héros à 560%.",
+        "4": "Augmente le bouclier gagné par tous les héros à 660%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Leo Blitz": {
+      "description": "Inflige des dégâts égaux à 9% des PV max de l'ennemi 3 fois aux ennemis dans une petite zone devant elle. Chaque instance de dégâts ne peut dépasser 900% de son Attaque. Le dernier coup inflige des dégâts supplémentaires égaux à 25% de son propre bouclier.",
+      "levels": {
+        "2": "Augmente les dégâts infligés à 10% des PV max. Chaque instance de dégâts ne peut dépasser 1000% de son Attaque.",
+        "3": "La portée de l'attaque finale de cette compétence augmente en fonction du bouclier possédé, jusqu'à +100% de portée lorsque le bouclier équivaut à 100% de ses PV max.",
+        "4": "Augmente les dégâts infligés à 11% des PV max. Chaque instance de dégâts ne peut dépasser 1100% de son Attaque."
+      }
+    },
+    "King's Bulwark": {
+      "description": "Chaque fois que Lionheart Sekhet utilise son attaque de base ou Leo Blitz, elle accorde un bouclier égal à 110% de son Attaque au héros allié ayant le pourcentage de PV le plus bas, pendant 5s.",
+      "levels": {
+        "2": "Augmente de 20% tous les boucliers gagnés par les héros alliés.",
+        "3": "Augmente le bouclier gagné à 130% de l'Attaque de Lionheart Sekhet.",
+        "4": "Augmente le bouclier gagné à 150% de l'Attaque de Lionheart Sekhet. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Unyielding Fury": {
+      "description": "Réduit de 50% les effets de réduction d'Énergie subis par les héros alliés. Lorsque les boucliers fournis par Glorious Mane et King's Bulwark sont brisés, Lionheart Sekhet récupère 50 Énergie (les boucliers convertis à partir des dégâts pendant Glorious Mane ne déclenchent pas de récupération d'Énergie).",
+      "levels": {
+        "2": "Lorsque les PV d'un héros allié passent sous 60% pour la première fois, Lionheart Sekhet récupère 600 Énergie supplémentaires.",
+        "3": "Augmente l'Énergie récupérée par Lionheart Sekhet à 75.",
+        "4": "Augmente l'Énergie récupérée par Lionheart Sekhet à 100. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    },
+    "Royal Domain": {
+      "description": "Chaque fois qu'un héros allié subit ou résiste à des effets de contrôle spécifiques (étourdi, provoqué, projeté dans les airs, repoussé, terrifié, hypnotisé, charmé, immobilisé ou forcé d'attaquer), ce héros gagne un bouclier égal à 10% de ses PV max pendant 5s. Cet effet se déclenche une fois toutes les 5s pour chaque héros. S'il est déclenché par Lionheart Sekhet, elle gagne également l'Immunité au Contrôle et une immunité aux effets de changement de cible pendant 10s.",
+      "levels": {
+        "2": "[Bonus PV pour tous] Tous les alliés de la même équipe gagnent +3% PV. (Débloqué à 32px)",
+        "3": "Chaque fois qu'un héros allié perd un Bouclier équivalent à 60% de ses PV max, il devient immunisé à tous les dégâts pendant 1.5s. Cet effet peut se déclencher toutes les 16s pour chaque héros. (Débloqué à 48px)",
+        "4": "Toutes les 6 fois que l'effet d'immunité aux dégâts ou de bouclier de cette compétence est déclenché, réduit tous les ennemis au silence pendant 2s. (Débloqué à 64px)",
+        "5": "[Bonus Attaque pour tous] Tous les alliés de la même équipe gagnent +3% Attaque. (Débloqué à 80px)",
+        "6": "Chaque fois qu'un héros allié perd un Bouclier équivalent à 60% de ses PV max, il devient immunisé à tous les dégâts pendant 1.5s. Cet effet peut se déclencher une fois toutes les 12s pour chaque héros. (Débloqué à 16px)"
+      }
+    }
+  },
+  "lolita": {
+    "Noumenon Blast": {
+      "description": "Lolita acquiert un bouclier égal à 280% de son Attaque puis attaque les ennemis après avoir chargé, infligeant 280% de son Attaque et les étourdissant pendant 2s.",
+      "levels": {
+        "2": "La durée de l'étourdissement est augmentée à 3s.",
+        "3": "Augmente le bouclier à 560% de l'Attaque.",
+        "4": "Augmente le bouclier à 700% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Guardian's Bulwark": {
+      "description": "",
+      "levels": {
+        "2": "Acquiert 45% de Réduction des dégâts tant que le bouclier est actif.",
+        "3": "Augmente la Réduction des dégâts à 55%.",
+        "4": "Augmente la Réduction des dégâts à 65%."
+      }
+    },
+    "Smite": {
+      "description": "",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 480% de l'Attaque.",
+        "3": "Les dégâts sont augmentés à 565% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 645% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Noumenon Energy Core": {
+      "description": "",
+      "levels": {
+        "2": "Fournit un bouclier à l'allié le plus faible.",
+        "3": "Acquiert 20% de Réduction des dégâts tant que le bouclier est actif.",
+        "4": "Le bouclier est augmenté à 280% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "lucy": {
+    "Celestial Spirit Gate": {
+      "description": "Passif : Lucy déclenche son Ultime dès le début du combat.",
+      "levels": {
+        "2": "Les ennemis touchés par la vague déferlante perdront",
+        "3": "Les dégâts d'Aquarius sont augmentés de 20%.",
+        "4": "Les dégâts d'Aquarius sont augmentés de 40%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Aquarian Whirlpool": {
+      "description": "Crée un tourbillon de taille moyenne dans la zone comptant le plus d'ennemis, infligeant des dégâts égaux à 40% de l'Attaque par seconde et attirant continuellement les ennemis vers le centre du tourbillon. Ce processus dure 3s et n'interrompt pas les lancers de compétences ennemis.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 50% de l'Attaque.",
+        "3": "Si l'Énergie de Lucy dépasse 50% au moment où le tourbillon se dissipe, une trombe d'eau supplémentaire apparaît au centre initial du tourbillon, projetant les ennemis dans les airs pendant 1s.",
+        "4": "Les dégâts sont augmentés à 60% de l'Attaque."
+      }
+    },
+    "Water Barrier": {
+      "description": "Génère une barrière d'eau égale à 800% de l'Attaque, d'une durée de 8s. Les dégâts subis sont réduits de 40% tant que la barrière d'eau existe.",
+      "levels": {
+        "2": "L'augmentation des dégâts de Lucy est accrue de 40% tant que la barrière d'eau existe.",
+        "3": "La barrière d'eau est augmentée à 1000% de l'Attaque.",
+        "4": "La barrière d'eau est augmentée à 1200% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Celestial Spirit Magic": {
+      "description": "Sans Aquarius sur le champ de bataille, Lucy gagne 20% de Régénération d'Énergie et 20% de Réduction des dégâts. En présence d'Aquarius, lorsque l'Énergie de Lucy est pleine, elle consomme immédiatement 800 Énergie pour déclencher la vague déferlante d'Aquarius.",
+      "levels": {
+        "2": "En présence d'Aquarius, 100% du surplus de soin reçu par Lucy est transféré à Aquarius.",
+        "3": "Sans Aquarius sur le champ de bataille, Lucy gagne 25% de Régénération d'Énergie et 25% de Réduction des dégâts.",
+        "4": "Sans Aquarius sur le champ de bataille, Lucy gagne 30% de Régénération d'Énergie et 30% de Réduction des dégâts. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "luna-amara": {
+    "Spectral Bond": {
+      "description": "Invoque une chaîne géante qui concentre tout le pouvoir de son génie de la lampe Lune, attaquant tous les ennemis 4 fois, infligeant des dégâts égaux à 40% de l'Attaque à chaque fois. Passif : Amara attaque les 2 cibles ennemies les plus proches avec son attaque de base, et chaque attaque d'Amara et de Lune inflige 1 dégât supplémentaire égal à 5% des PV max de l'ennemi, jusqu'à 500% de l'Attaque d'Amara ou de Lune.",
+      "levels": {
+        "2": "Après avoir infligé des dégâts avec son Ultime, réduit la Défense de l'ennemi de 20% pendant 4s.",
+        "3": "Les dégâts infligés à chaque utilisation active de son Ultime par Amara sont augmentés de 45%.",
+        "4": "Les dégâts infligés à chaque utilisation active de son Ultime par Amara sont augmentés de 50%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Lu's Beckoning": {
+      "description": "Invoque son génie de la lampe Lune au milieu des ennemis, infligeant des dégâts égaux à 50% de l'Attaque, puis continue d'attaquer les ennemis proches. Chaque fois qu'Amara utilise son attaque de base, Lune l'accompagne et inflige des dégâts égaux à 30% de son Attaque à la cible.",
+      "levels": {
+        "2": "Après avoir invoqué Lune, gagne 40% de Réduction des dégâts qui diminue jusqu'à 0 sur 10s.",
+        "3": "Après avoir invoqué Lune, gagne 60% de Réduction des dégâts qui diminue jusqu'à 0 sur 10s.",
+        "4": "Après avoir invoqué Lune, gagne 80% de Réduction des dégâts qui diminue jusqu'à 0 sur 10s."
+      }
+    },
+    "Dark Projection": {
+      "description": "Lune suit les ordres d'Amara et attaque les ennemis proches, infligeant des dégâts égaux à 60% de son Attaque et augmentant de 15% les dégâts subis par les ennemis jusqu'à la fin du combat.",
+      "levels": {
+        "2": "Les ennemis touchés par l'explosion de Dark Projection subissent des dégâts accrus, cumulables jusqu'à 5 fois.",
+        "3": "Les dégâts infligés par Lune sont augmentés à 75% de son Attaque.",
+        "4": "Les dégâts infligés par Lune sont augmentés à 90% de son Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Phantom Sanctuary": {
+      "description": "",
+      "levels": {
+        "2": "Lorsqu'elle est améliorée, Amara gagne 6% d'Augmentation des dégâts et de Réduction des dégâts.",
+        "3": "L'Augmentation des dégâts et la Réduction des dégâts gagnées sont augmentées à 12%.",
+        "4": "L'Augmentation des dégâts et la Réduction des dégâts gagnées sont augmentées à 18%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "lunox": {
+    "Halo": {
+      "description": "Lunox intensifie le Pouvoir de l'Ordre jusqu'à sa mort, acquérant un bouclier égal à 20% de ses PV max et convertissant 90% de ses PV actuels en bouclier. Pendant ce temps, son attaque de base se transforme en Cosmic Fission, infligeant des dégâts égaux à 150% de son Attaque aux ennemis dans la portée.",
+      "levels": {
+        "2": "Augmente le Taux de coups critiques de 8% en entrant dans l'état amélioré.",
+        "3": "Augmente le Taux de coups critiques de 15% en entrant dans l'état amélioré.",
+        "4": "Les dégâts infligés par Cosmic Fission sont augmentés à 220% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Eternal Impact": {
+      "description": "Lunox libère le Pouvoir de l'Éternité, infligeant des dégâts égaux à 200% de son Attaque à un ennemi aléatoire. Le Pouvoir de l'Éternité est libéré plusieurs fois de suite si Lunox est dans son état amélioré.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 240%.",
+        "3": "Lunox se soigne à chaque fois qu'elle libère le Pouvoir de l'Éternité.",
+        "4": "Les dégâts sont augmentés à 280%."
+      }
+    },
+    "Cosmic Fission": {
+      "description": "Lunox se transforme en Rayon de l'Ordre lorsqu'elle subit des dégâts mortels ; durant cet état, elle régénère des PV égaux à 7% de ses PV max par seconde. Lorsque ses PV atteignent 50%, elle ressuscite et lance Halo sur les ennemis proches, infligeant des dégâts égaux à 200% de son Attaque. Chaque fois qu'elle se transforme en Rayon de l'Ordre, Lunox perd une partie de son Pouvoir de l'Ordre, ce qui réduit l'effet de soin de cette compétence.",
+      "levels": {
+        "2": "Les dégâts de Halo sont augmentés à 240% de l'Attaque.",
+        "3": "Les dégâts de Halo sont augmentés à 280% de l'Attaque.",
+        "4": "Les dégâts de Halo sont augmentés à 320% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Dreamland Twist": {
+      "description": "Pour chaque tranche de 10% de PV perdus par Lunox, elle soigne deux alliés d'un montant de PV égal à 100% de son Attaque.",
+      "levels": {
+        "2": "L'effet de soin est augmenté à 150% de l'Attaque.",
+        "3": "L'effet de soin est augmenté à 200% de l'Attaque.",
+        "4": "L'effet de soin est augmenté à 240% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "lylia": {
+    "Souls of Dreamland": {
+      "description": "Gloom dévore l'âme des ennemis et endort une large zone d'ennemis pendant 8 secondes. Après une seconde de sommeil, les ennemis se réveillent s'ils subissent des dégâts. Si un ennemi a déjà été endormi auparavant par l'Ultime de Lylia, la durée de son sommeil est réduite, sans jamais descendre sous 4 secondes.",
+      "levels": {
+        "2": "Les ennemis endormis par Lylia ne se réveillent pas s'ils subissent des dégâts durant les 2s suivant leur mise en sommeil.",
+        "3": "Les ennemis endormis par Lylia ne se réveillent pas s'ils subissent des dégâts durant les 3.5s suivant leur mise en sommeil.",
+        "4": "Les ennemis endormis par Lylia ne se réveillent pas s'ils subissent des dégâts durant les 4.5s suivant leur mise en sommeil. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Magic Shockwave": {
+      "description": "Libère Gloom sur l'ennemi le plus proche. Explose à l'impact et inflige des dégâts égaux à 275% de l'Attaque aux ennemis proches. Gloom rebondit également sur les ennemis marqués par l'Énergie des Ombres et explose. Les dégâts causés par cette compétence ne réveillent pas les ennemis endormis.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 350% de l'Attaque.",
+        "3": "Les dégâts infligés aux ennemis endormis augmentent de 25%.",
+        "4": "Les dégâts infligés aux ennemis endormis augmentent de 50%."
+      }
+    },
+    "Shadow Energy": {
+      "description": "Appose une Marque d'Énergie des Ombres sur l'ennemi ayant l'Attaque la plus élevée. Réduit sa Défense de 30% pendant 20 secondes. L'ennemi marqué subit des dégâts égaux à 40% de l'Attaque de Lylia toutes les 2 secondes. Les dégâts causés par cette compétence ne réveillent pas les ennemis endormis.",
+      "levels": {
+        "2": "Les dégâts infligés aux ennemis endormis augmentent de 100%.",
+        "3": "Chaque instance de dégâts est augmentée à 50% de l'Attaque.",
+        "4": "Chaque instance de dégâts est augmentée à 60% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Temporary Lifeline": {
+      "description": "Lorsque Lylia subit une attaque mortelle, elle récupère des PV égaux à 350% de son Attaque. Cette compétence ne peut se déclencher qu'une seule fois par combat.",
+      "levels": {
+        "2": "Lorsque Lylia récupère des PV après avoir subi des dégâts mortels, sa prochaine attaque de base se transforme en Magic Shockwave.",
+        "3": "La récupération de PV est augmentée à 500% de l'Attaque.",
+        "4": "La récupération de PV est augmentée à 700% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "martis": {
+    "Decimation (Martis)": {
+      "description": "Martis utilise Cross Slash pour infliger des dégâts égaux à 600% de son Attaque à l'unité ennemie la plus proche.",
+      "levels": {
+        "2": "Si les PV de la cible sont inférieurs à 50%, les dégâts causés par cette compétence se transforment en Dégâts véritables.",
+        "3": "Les dégâts de la compétence sont augmentés à 750% de l'Attaque.",
+        "4": "Les dégâts de la compétence sont augmentés à 900% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Blood Fetters": {
+      "description": "Pendant les 7 premières secondes, 20% des dégâts subis par Martis sont transférés à l'ennemi ayant la Défense la plus élevée. Les dégâts réels pour les deux héros sont calculés séparément en fonction de la Défense de chacun.",
+      "levels": {
+        "2": "La durée de cet effet est augmentée à 10s.",
+        "3": "Les dégâts transférés à l'ennemi sont augmentés à 25%.",
+        "4": "Les dégâts transférés à l'ennemi sont augmentés à 30%."
+      }
+    },
+    "Mortal Coil": {
+      "description": "Martis frappe l'ennemi le plus proche deux fois de suite, chaque coup infligeant des dégâts égaux à 100% de son Attaque. 100% des dégâts infligés par cette compétence sont convertis en PV pour le héros.",
+      "levels": {
+        "2": "Moins Martis a de PV, plus les dégâts causés par cette compétence sont élevés. Les dégâts peuvent être augmentés jusqu'à 50%.",
+        "3": "Les dégâts de base de cette compétence sont augmentés à 130% de l'Attaque.",
+        "4": "Les dégâts de base de cette compétence sont augmentés à 160% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Ashura's Wrath": {
+      "description": "Lorsque les PV de Martis sont inférieurs à 15%, il peut échanger son pourcentage de PV avec celui de l'ennemi ayant le pourcentage de PV le plus élevé. Il est garanti que les PV de Martis seront supérieurs à 25% après l'échange, et que les PV de l'ennemi ne seront pas plus élevés qu'avant. Cette compétence peut se déclencher toutes les 8.5s.",
+      "levels": {
+        "2": "Cette compétence peut se déclencher toutes les 7.5s.",
+        "3": "Cette compétence peut se déclencher toutes les 6.5s.",
+        "4": "Chaque fois qu'Ashura's Wrath se déclenche, la Défense de Martis augmente de 50% pendant 4s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "masha": {
+    "Ursine Rush": {
+      "description": "Masha invoque une meute d'ours qui inflige des dégâts à tous les ennemis égaux à 80% de l'Attaque, 5 fois.",
+      "levels": {
+        "2": "Pendant les 8s suivant son Ultime, Masha convertit 30% des dégâts infligés par ses Camarades en soin.",
+        "3": "Pendant les 8s suivant son Ultime, Masha convertit 50% des dégâts infligés par ses Camarades en soin.",
+        "4": "Les dégâts de la meute d'ours sont augmentés à 105% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Leadership": {
+      "description": "Au début du combat, Masha sélectionne 2 unités alliées (en priorité des héros de la ligne du milieu) pour devenir ses Camarades. Elle réduit grandement les effets de contrôle qu'ils subissent, cet effet ayant un temps de recharge de 2s pour chaque Camarade. Dès qu'un Camarade touche un ennemi, les dégâts que cet ennemi inflige à Masha pendant les 6s suivantes sont réduits de 12%.",
+      "levels": {
+        "2": "Les ennemis touchés par les attaques d'un Camarade infligent 16% de dégâts en moins à Masha pendant les 6s suivantes.",
+        "3": "Les dégâts subis par Masha de la part d'ennemis frappés par ses Camarades peuvent être réduits davantage, cet effet étant cumulable jusqu'à 2 fois.",
+        "4": "Les ennemis touchés par les attaques d'un Camarade infligent 20% de dégâts en moins à Masha pendant les 6s suivantes."
+      }
+    },
+    "Thunderstrike Combo": {
+      "description": "Masha enchaîne un triple coup, chaque frappe infligeant des dégâts égaux à 150% de l'Attaque.",
+      "levels": {
+        "2": "Si son enchaînement est interrompu, Masha récupère 5% de ses PV max.",
+        "3": "Pour chaque Camarade encore en vie, les dégâts de l'enchaînement de Masha sont augmentés de 25%.",
+        "4": "Les dégâts du triple coup sont augmentés à 180% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Primal Frenzy": {
+      "description": "La durée de la plupart des effets de contrôle subis par Masha est réduite de 50%, et dès qu'elle en est libérée, elle récupère immédiatement 3% de ses PV max. A un temps de recharge de 2s.",
+      "levels": {
+        "2": "La durée de la plupart des effets de contrôle subis par Masha est réduite de 80%.",
+        "3": "Masha récupère immédiatement 6% de ses PV max dès qu'elle se libère de la plupart des effets de contrôle. A un temps de recharge de 2s.",
+        "4": "Masha récupère immédiatement 8% de ses PV max dès qu'elle se libère de la plupart des effets de contrôle. A un temps de recharge de 2s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "mecha-layla": {
+    "Nowhere to Hide": {
+      "description": "Dès le début du combat, Mecha Layla installe son mécha en bordure du champ de bataille, rendant impossible pour l'ennemi de la cibler. Lorsque tous ses alliés sont vaincus, Mecha Layla abandonne son mécha et quitte le champ de bataille. En état mécha, Mecha Layla tire en continu des projectiles à la place de ses attaques de base sur des unités ennemies aléatoires, infligeant des dégâts égaux à 2% de ses PV max. Lorsqu'elle utilise son Ultime, elle emploie une sphère d'énergie pour étourdir l'ennemi le plus proche pendant 4s et lui infliger des dégâts continus égaux à 180% de son Attaque. Si la cible subit des dégâts égaux à 30% de ses PV max ou meurt pendant cette durée, la sphère d'énergie explose, infligeant des dégâts de zone égaux à 400% de son Attaque et réduisant au silence tout ennemi touché pendant 4s.",
+      "levels": {
+        "2": "Les dégâts infligés par l'explosion de la sphère d'énergie sont augmentés à 600% de l'Attaque.",
+        "3": "Les dégâts infligés sont augmentés à 235% de l'Attaque tant que la sphère d'énergie est active.",
+        "4": "Les dégâts infligés sont augmentés à 290% de l'Attaque tant que la sphère d'énergie est active. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Claw Machine": {
+      "description": "Mecha Layla capture l'ennemi ayant le pourcentage de PV le plus bas et l'entraîne dans un espace spécial, avant de le laisser tomber sur l'ennemi le plus proche, infligeant des dégâts égaux à 200% de son Attaque aux deux ennemis.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 280% de l'Attaque.",
+        "3": "Les deux ennemis ciblés sont également étourdis pendant 2s.",
+        "4": "Les dégâts infligés sont augmentés à 360% de l'Attaque."
+      }
+    },
+    "Laser Domain": {
+      "description": "Mecha Layla tire par intermittence un rayon laser traversant tout le champ de bataille, infligeant des dégâts égaux à 135% de son Attaque à tous les ennemis sur son passage.",
+      "levels": {
+        "2": "Les dégâts infligés par les projectiles de Mecha Layla aux ennemis touchés par le rayon laser sont augmentés de 50% pendant 4s.",
+        "3": "Les dégâts infligés sont augmentés à 160% de l'Attaque.",
+        "4": "Les dégâts infligés sont augmentés à 195% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Supply Strategy": {
+      "description": "Chaque fois que Mecha Layla inflige des dégâts égaux à 1000% de son Attaque, son Niveau de Puissance augmente de 1. Les différents Niveaux de Puissance confèrent des effets différents : Niveau de Puissance 1 : déclenche par intermittence une vague de soin qui soigne tous les alliés d'un montant de PV égal à 2.5% de ses PV max. Niveau de Puissance 2 : augmente les dégâts de Laser Domain de 100%. Niveau de Puissance 3 : augmente considérablement la fréquence des projectiles.",
+      "levels": {
+        "2": "Le montant de PV soigné par une vague de soin est augmenté à 3% des PV max de Mecha Layla.",
+        "3": "Le montant de PV soigné par la vague de soin est augmenté à 3.5% des PV max de Mecha Layla.",
+        "4": "Le montant de PV soigné par la vague de soin est augmenté à 4% des PV max de Mecha Layla. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "medusa": {
+    "Stone Gaze": {
+      "description": "Fixe du regard et étourdit les ennemis devant elle pendant 3s, tout en infligeant des dégâts égaux à 165% de son Attaque. Cela réduit également de façon permanente la Réduction des dégâts de la cible de 10%, cumulable jusqu'à 5 fois. Lorsque l'étourdissement prend fin, la cible perd de l'Énergie en fonction des PV perdus pendant l'étourdissement. Pour chaque tranche de 1% de PV max perdus, 4 Énergie est retirée.",
+      "levels": {
+        "2": "Après le premier lancer de Stone Gaze, le second lancer peut pénétrer l'immunité au contrôle. Cet effet s'applique en alternance.",
+        "3": "Les dégâts sont augmentés à 195% de son Attaque.",
+        "4": "Les dégâts sont augmentés à 230% de son Attaque. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Arrow of Woe": {
+      "description": "Tire 5 flèches, chacune infligeant des dégâts égaux à 87% de son Attaque et réduisant l'Énergie de la cible de 60. Les flèches ciblent en priorité des cibles différentes.",
+      "levels": {
+        "2": "Les dégâts des flèches sont augmentés à 110% de son Attaque.",
+        "3": "Pour chaque ennemi dont les caractéristiques sont réduites en dessous de leur niveau de base (jusqu'à 8 caractéristiques comptabilisées), les flèches de Medusa infligent des dégâts supplémentaires égaux à 1% de ses PV max, plafonnés à 800% de son Attaque.",
+        "4": "Les dégâts des flèches sont augmentés à 120% de son Attaque."
+      }
+    },
+    "Gorgon's Salvation": {
+      "description": "Bénit Medusa et l'allié ayant le moins de PV pendant 12s. Pendant cette bénédiction, 50% des dégâts subis sont infligés progressivement sur 5s. Lorsque la bénédiction prend fin, les dégâts restants sont neutralisés.",
+      "levels": {
+        "2": "Lorsque Medusa et ses alliés sont bénis, ils récupèrent des PV égaux à 160% de l'Attaque de Medusa. De plus, ils récupèrent des PV égaux à 40% de son Attaque toutes les 2s pendant la bénédiction.",
+        "3": "Les PV récupérés grâce à la bénédiction sont augmentés à 200% de son Attaque.",
+        "4": "Les PV récupérés grâce à la bénédiction sont augmentés à 220% de son Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Gorgon's Bloodcurse": {
+      "description": "Libère des serpents pour attaquer les caractéristiques des ennemis. Lorsque la compétence se déclenche, elle réduit d'abord de 15% l'Augmentation des dégâts des cibles. Puis, toutes les 12s, elle réduit davantage une caractéristique de la cible dans l'ordre suivant :",
+      "levels": {
+        "2": "Pour chaque caractéristique différente réduite par cette compétence, l'effet de réduction de caractéristique est augmenté de 10%.",
+        "3": "La fréquence à laquelle les serpents réduisent une caractéristique des ennemis passe à toutes les 115.",
+        "4": "La fréquence à laquelle les serpents réduisent une caractéristique des ennemis passe à toutes les 10s. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "melodic-lunabelle": {
+    "Roaring Metal": {
+      "description": "Inflige des dégâts égaux à 360% de l'Attaque aux ennemis dans une certaine portée, puis tire des notes sur 2 cibles aléatoires, infligeant des dégâts égaux à 25% de leurs PV max (ne pouvant excéder 2500% de l'Attaque de Melodic Lunabelle). Chaque note tirée permet également à Melodic Lunabelle de récupérer 100 Énergie. Chaque lancer de cette compétence augmente de 1 le nombre de notes tirées lors des lancers suivants, jusqu'à un maximum de 6 notes.",
+      "levels": {
+        "2": "Étourdit les ennemis pendant 1s en infligeant des dégâts. La durée d'étourdissement répétée peut se cumuler.",
+        "3": "Les dégâts de zone sont augmentés à 430%.|description-lv4=Les dégâts de zone sont augmentés à 500%.{{Warning"
+      }
+    },
+    "Distorted Electronic": {
+      "description": "Tire des notes électroniques sur deux ennemis, infligeant 150% de dégâts à chacun. Pour chaque tranche de 250 Énergie que possède Melodic Lunabelle au moment du tir, les notes électroniques rebondissent sur 1 cible supplémentaire. Les notes ne rebondissent pas plusieurs fois entre les mêmes ennemis.",
+      "levels": {
+        "2": "Les dégâts infligés sont augmentés à 170%.",
+        "3": "Lorsqu'elle possède 400 Énergie ou plus, inflige également des dégâts égaux à 15% des PV max de l'ennemi (ne pouvant excéder 1500% de son Attaque).",
+        "4": "Les dégâts infligés sont augmentés à 190%."
+      }
+    },
+    "Melancholy Blues": {
+      "description": "Tire des notes mélancoliques sur 3 ennemis, infligeant des dégâts égaux à 150% de l'Attaque et réduisant les ennemis au silence pendant 45.",
+      "levels": {
+        "2": "Lorsque l'ennemi est immunisé au silence, inflige des dégâts égaux à 15% de ses PV max (ne pouvant excéder 1500% de l'Attaque de Melodic Lunabelle).",
+        "3": "Les dégâts infligés sont augmentés à 170%.",
+        "4": "Les dégâts infligés sont augmentés à 190%. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Rhythmic Sonata": {
+      "description": "Augmente les dégâts de Melodic Lunabelle de 30%. Pour chaque tranche de 400 Énergie que possède l'ennemi au moment de subir des dégâts, augmente en plus les dégâts infligés de 10%.",
+      "levels": {
+        "2": "Pour chaque tranche de 400 Énergie que possède l'ennemi au moment de subir des dégâts, augmente en plus le Taux de coups critiques de cette attaque de 20%.",
+        "3": "Pour chaque tranche de 400 Énergie que possède l'ennemi au moment de subir des dégâts, augmente en plus les dégâts de 20%.",
+        "4": "Pour chaque tranche de 400 Énergie que possède l'ennemi au moment de subir des dégâts, augmente en plus les dégâts de 30%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "minsitthar": {
+    "King's Calling": {
+      "description": "Minsitthar charge sur une courte distance vers l'avant et appelle 4 Gardes Royaux pour combattre à ses côtés. Les Gardes Royaux infligent des dégâts égaux à 150% de l'Attaque de Minsitthar. Les Gardes Royaux restent sur le champ de bataille pendant 6s et ne peuvent pas se déplacer.",
+      "levels": {
+        "2": "Minsitthar augmente sa Défense de 30% pendant la durée de la compétence.",
+        "3": "Le bonus de Défense est augmenté à 50%.",
+        "4": "Le bonus de Défense est augmenté à 80%. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Spear of Glory": {
+      "description": "Minsitthar frappe vers l'avant avec la Lance de Gloire, infligeant des dégâts égaux à 185% de son Attaque aux ennemis sur son passage.",
+      "levels": {
+        "2": "Attire l'ennemi le plus éloigné vers lui.",
+        "3": "Augmente les dégâts à 210% de l'Attaque.",
+        "4": "Augmente les dégâts à 235% de l'Attaque."
+      }
+    },
+    "Shield Assault": {
+      "description": "Minsitthar éveille la force du Bouclier et inflige des dégâts égaux à 175% de son Attaque au premier ennemi touché, l'étourdissant pendant 2s.",
+      "levels": {
+        "2": "Génère un bouclier égal à 120% de son Attaque pour lui-même et pour l'allié ayant le moins de PV.",
+        "3": "Augmente le bouclier à 200% de l'Attaque.",
+        "4": "Le bouclier est augmenté à 280% de l'Attaque. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "All United": {
+      "description": "Lorsque Minsitthar est sur le champ de bataille, il accorde 20 points d'Énergie à tous les héros alliés toutes les 3s.",
+      "levels": {
+        "2": "Augmente l'Énergie restaurée à 30 points.",
+        "3": "Augmente l'Énergie restaurée à 40 points.",
+        "4": "La régénération d'Énergie est augmentée à 50 points. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  },
+  "miracle-clara": {
+    "Showtime": {
+      "description": "Clara restaure 8% des PV perdus par ses alliés au fil du temps, un total de 4 fois, tout en infligeant à tous les ennemis des dégâts égaux à 10% de leurs PV max (plafonnés à 100% des PV max de Clara).",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 12% des PV max de l'ennemi.",
+        "3": "Les dégâts sont augmentés à 14% des PV max de l'ennemi.",
+        "4": "Les dégâts sont augmentés à 16% des PV max de l'ennemi. (Nécessite le Crépuscule Ancien niveau 3)"
+      }
+    },
+    "Magic Dice": {
+      "description": "Clara inflige des dégâts égaux à 200% de son Attaque à l'ennemi ayant le plus d'Énergie et l'étourdit pendant 0.5s. Dans le même temps, Clara lance le dé une fois : chaque point obtenu augmente les dégâts de la compétence de 10% et prolonge la durée de l'étourdissement de 0.5s.",
+      "levels": {
+        "2": "Efface l'Énergie de l'ennemi si Clara obtient un 6.",
+        "3": "Les dégâts supplémentaires par point sont augmentés à 20%.",
+        "4": "Les dégâts supplémentaires par point sont augmentés à 30%."
+      }
+    },
+    "Clara's Wish": {
+      "description": "Clara encourage le héros allié ayant le pourcentage de PV le plus bas, lui accordant ainsi qu'à elle-même 25 points supplémentaires de Vol de vie et de Dégâts critiques pendant 5s. Plus le pourcentage de PV de l'allié est bas, plus le bonus de Dégâts critiques est élevé (plafonné à 15%).",
+      "levels": {
+        "2": "Le bonus de Dégâts critiques est plafonné à 30%.",
+        "3": "Le Vol de vie est augmenté de 50.",
+        "4": "Le Vol de vie est augmenté de 100. (Nécessite le Crépuscule Ancien niveau 1)"
+      }
+    },
+    "Attendant's Will": {
+      "description": "Les alliés gagnent jusqu'à 3% de Taux de coups critiques et d'Augmentation des dégâts à mesure qu'ils perdent des PV. Lorsqu'un héros allié est sur le point de mourir, il gagne une immunité à la mort pendant 2s. Cet effet ne peut se déclencher qu'une fois par héros et par combat.",
+      "levels": {
+        "2": "Les bonus de Taux de coups critiques et d'Augmentation des dégâts sont plafonnés à 6%.",
+        "3": "Les bonus de Taux de coups critiques et d'Augmentation des dégâts sont plafonnés à 9%.",
+        "4": "Les bonus de Taux de coups critiques et d'Augmentation des dégâts sont plafonnés à 12%. (Nécessite le Crépuscule Ancien niveau 2)"
+      }
+    }
+  }
+}

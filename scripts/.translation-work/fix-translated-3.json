@@ -1,0 +1,227 @@
+{
+  "morpheus": {
+    "Deep Coma": {
+      "description": "Cette compétence se déclenche lors de la première Attaque de Morpheus après que l'une des Nona ait récupéré tous ses PV pendant le repos, l'envoyant voler vers une cible ennemie pour l'endormir jusqu'à ce qu'elle soit vaincue. (Une Nona cible l'ennemi avec l'Attaque la plus élevée et l'autre cible celui avec le plus d'Énergie. Des cibles différentes sont prioritaires.) Nona vole des PV équivalents à 30% de son Attaque à la cible chaque seconde. Lorsque la cible est vaincue, elle retourne auprès de Morpheus et se repose avec ses PV actuels.",
+      "levels": {
+        "2": "Les PV des Nona sont augmentés à 35% des PV max de Morpheus.",
+        "3": "Les dégâts infligés par les Nona sont augmentés à 15%.",
+        "4": "Les dégâts infligés par les Nona sont augmentés à 30%."
+      }
+    },
+    "Interlaced Dreams": {
+      "description": "Libère l'Énergie du Cauchemar pour attaquer l'ennemi avec l'Attaque la plus élevée, infligeant des dégâts équivalents à 225% de son Attaque et faisant subir 20% de dégâts supplémentaires à la cible pendant 6s.",
+      "levels": {
+        "2": "Empêche la cible de gagner de l'Énergie pendant 2s.",
+        "3": "La cible de la compétence subit 30% de dégâts supplémentaires pendant 6s.",
+        "4": "Les dégâts sont augmentés à 300% de son Attaque. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Sweet Dreams": {
+      "description": "Lorsqu'un ennemi est vaincu, les deux Nona récupèrent 30% de leurs PV max et convertissent 30% de leur soin excédentaire en soin pour Morpheus.",
+      "levels": {
+        "2": "Morpheus gagne 10% de la régénération d'Énergie déclenchée par les dégâts des Nona.",
+        "3": "Les deux Nona récupèrent 50% de leurs PV max lorsqu'un ennemi est vaincu.",
+        "4": "Morpheus gagne 15% de la régénération d'Énergie déclenchée par les dégâts des Nona. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "naiad-rafaela": {
+    "Celestial Rejuvenation": {
+      "description": "Lance un sortilège pendant 5s, restaurant des PV équivalents à 170% de l'Attaque de Naiad Rafaela à tous les alliés. Toutes les 0.5s, restaure des PV équivalents à 180% de l'Attaque de Naiad Rafaela à l'allié ayant le moins de PV. Pendant le lancement de cette compétence, Naiad Rafaela devient immunisée à la plupart des effets de contrôle. Passif : lorsque les compétences de Naiad Rafaela soignent des alliés, 100% du soin excédentaire est converti en Boucliers.",
+      "levels": {
+        "2": "Chaque fois que cette compétence soigne une cible, elle augmente de 5% la quantité de soin reçue par la cible, pendant 5s.",
+        "3": "Lorsque Celestial Rejuvenation est active, augmente le soin de tous les alliés à 220% de l'Attaque de Naiad Rafaela.",
+        "4": "Lorsque Celestial Rejuvenation est active, augmente le soin de tous les alliés à 270% de l'Attaque de Naiad Rafaela. (Nécessite le Crépuscule Ancestral niveau 3.)"
+      }
+    },
+    "Ethereal Chant": {
+      "description": "Confère une bénédiction à l'allié ayant l'Attaque la plus élevée, augmentant son Attaque de 20% pendant 5s. Si les PV actuels de la cible sont supérieurs à 80%, elle gagne également 200 points d'Énergie.",
+      "levels": {
+        "2": "Confère des bénédictions aux 2 héros ayant l'Attaque la plus élevée.",
+        "3": "Accorde à la cible une augmentation de 25% d'Attaque.",
+        "4": "Accorde à la cible une augmentation de 30% d'Attaque. (Nécessite le Crépuscule Ancestral niveau 1.)"
+      }
+    },
+    "Divine Calling": {
+      "description": "Augmente le soin reçu et les Boucliers de tous les alliés de 12%.",
+      "levels": {
+        "2": "Lorsque des alliés protégés par un Bouclier sont attaqués, ils gagnent 80% de régénération d'Énergie déclenchée par les dégâts en fonction des dégâts subis. (Ne s'applique que si l'effet est plus fort que le bonus/malus actuel sur le même attribut.)",
+        "3": "Augmente le soin reçu et les Boucliers de tous les alliés de 14%.",
+        "4": "Augmente le soin reçu et les Boucliers de tous les alliés de 16%. (Nécessite le Crépuscule Ancestral niveau 2.)"
+      }
+    }
+  },
+  "nana": {
+    "Molina's Chanting": {
+      "description": "Nana ressuscite l'allié éliminé ayant l'Attaque la plus élevée et le soigne à hauteur de 25% de ses PV max. Le soin maximum ne dépassera pas 15 fois l'Attaque de Nana.",
+      "levels": {
+        "2": "L'allié ressuscité hérite de l'Énergie qu'il avait au moment de sa mort.",
+        "3": "La quantité de PV soignés est augmentée à 40% des PV max.",
+        "4": "La régénération de PV est augmentée à 50% des PV max. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Molina's Kiss": {
+      "description": "Nana invoque l'incarnation de Molina qui soigne continuellement toutes les unités alliées d'un montant de PV équivalent à 60% de leur Attaque pendant sa présence.",
+      "levels": {
+        "2": "La quantité de PV soignés est augmentée à 70% à chaque fois.",
+        "3": "Nana confère un bonus d'Attaque de 8% à l'allié lorsqu'elle le soigne.",
+        "4": "La quantité de PV soignés est augmentée à 85% à chaque fois."
+      }
+    },
+    "Magic Boomerang": {
+      "description": "Nana lance un boomerang magique qui inflige des dégâts équivalents à 145% de son Attaque aux ennemis touchés à l'aller comme au retour.",
+      "levels": {
+        "2": "Le boomerang magique réduit la Défense des ennemis de 12%.",
+        "3": "Les dégâts sont augmentés à 185% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 240% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Molina's Blessing": {
+      "description": "Nana accorde la bénédiction de Molina à tous les alliés du premier rang. Lorsqu'un allié béni subit des dégâts dépassant 10% de ses PV max, il utilise la bénédiction pour neutraliser les dégâts.",
+      "levels": {
+        "2": "Les alliés du rang intermédiaire et du dernier rang recevront également la Bénédiction de Molina.",
+        "3": "Nana restaure les PV de l'allié à hauteur de 200% de son Attaque lorsque la bénédiction se déclenche.",
+        "4": "Nana restaure les PV de l'allié à hauteur de 300% de son Attaque lorsque la bénédiction se déclenche. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "natalia": {
+    "Joint Operation": {
+      "description": "Tant que Natalia est en vie, augmente le Taux de coups critiques des alliés toutes les 5s en fonction du nombre de héros alliés survivants. Pour chaque héros allié survivant, tous les alliés gagnent 1% de Taux de coups critiques supplémentaire et Natalia gagne 1% de Dégâts critiques supplémentaires. L'effet peut cumuler jusqu'à 20% de Taux de coups critiques supplémentaire et 20% de Dégâts critiques supplémentaires.",
+      "levels": {
+        "2": "Pour chaque ennemi hypnotisé, Natalia gagne 20% de Taux de coups critiques supplémentaire pendant 6s. Cumulable jusqu'à 4 fois.",
+        "3": "Chaque héros allié survivant augmente le Taux de coups critiques de 1.25%, cumulable jusqu'à 25%. De plus, Natalia gagne 1.25% de Dégâts critiques supplémentaires, cumulable jusqu'à 25%.",
+        "4": "Chaque héros allié survivant augmente le Taux de coups critiques de 1.5%, cumulable jusqu'à 30%. De plus, Natalia gagne 1.5% de Dégâts critiques supplémentaires, cumulable jusqu'à 30%. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "natsu": {
+    "Fire Dragon's Constitution": {
+      "description": "Natsu convertit 100% des dégâts qu'il inflige en réserves de flammes, et gagne 14% de Réduction des dégâts pour chaque portion de réserves de flammes équivalente à 20% de ses PV max, cumulable jusqu'à 3 fois. Si les PV actuels de Natsu descendent sous 20% de ses PV max, il devient immunisé à tous les dégâts pendant 1s,",
+      "levels": {
+        "2": "Lorsque Fire Dragon's Constitution se déclenche, augmente le Taux de coups critiques de 100% et l'Agilité de 500 pendant 6s.",
+        "3": "Gagne 17% de Réduction des dégâts pour chaque portion de réserves de flammes équivalente à 20% de ses PV max.",
+        "4": "Gagne 20% de Réduction des dégâts pour chaque portion de réserves de flammes équivalente à 20% de ses PV max. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "nightseer-esmeralda": {
+    "Chain Frenzy": {
+      "description": "Invoque des armes de l'Umbral Prison pour attaquer des ennemis aléatoires 4 fois. Pour chaque groupe de 5 charges de Primordial Frost possédées, consomme le nombre correspondant de charges de Primordial Frost pour effectuer une attaque supplémentaire sur les ennemis. Chaque attaque cible en priorité des ennemis différents, infligeant des dégâts équivalents à 66% de l'Attaque à la cible et aux ennemis environnants. Passif : les attaques de base de Nightseer Esmeralda infligent des dégâts équivalents à 150% de l'Attaque et ciblent en priorité les ennemis avec le pourcentage de PV le plus bas. Après qu'une attaque de base ou Death Grip touche un ennemi, Nightseer Esmeralda gagne 1 charge de Primordial Frost, jusqu'à 30 charges.",
+      "levels": {
+        "2": "Après qu'une attaque de base ou Death Grip touche un ennemi, si les PV de l'ennemi sont toujours supérieurs à 60%, Nightseer Esmeralda effectue une attaque de base supplémentaire sur l'ennemi, infligeant des dégâts équivalents à 75% de l'Attaque. Cette attaque de base supplémentaire ne déclenchera pas cet effet à nouveau.",
+        "3": "Les dégâts infligés sont augmentés à 75%.",
+        "4": "Les dégâts infligés sont augmentés à 84%. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "odette": {
+    "Swan Song": {
+      "description": "Odette se concentre et s'entoure d'énergie, puis libère un orbe magique qui rebondit entre les ennemis 4 fois, chaque rebond infligeant des dégâts équivalents à 230% de son Attaque aux ennemis dans la zone. Les dégâts infligés par Odette ne réveilleront pas les ennemis endormis.",
+      "levels": {
+        "2": "L'orbe magique peut rebondir 5 fois.",
+        "3": "Les dégâts sont augmentés à 280% de l'Attaque.",
+        "4": "Les dégâts sont augmentés à 325% de l'Attaque. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    },
+    "Blue Nova": {
+      "description": "Odette libère un orbe magique vers l'avant, infligeant des dégâts équivalents à 115% de son Attaque à la cible. L'orbe magique se divise ensuite en deux et inflige la même quantité de dégâts aux ennemis alentour. Cette compétence bénéficie également d'un effet de vol de vie de 50%.",
+      "levels": {
+        "2": "Les dégâts sont augmentés à 135% de l'Attaque.",
+        "3": "Si un orbe magique divisé touche un ennemi endormi, il se divise à nouveau en deux orbes magiques et attaque les ennemis.",
+        "4": "Les dégâts sont augmentés à 160% de l'Attaque"
+      }
+    },
+    "Lakeshore Ambience": {
+      "description": "Odette envoie une onde sonore à l'unité ennemie ayant l'Attaque la plus élevée, infligeant des dégâts équivalents à 220% de son Attaque et l'endormant pendant 4s.",
+      "levels": {
+        "2": "Les ennemis endormis ne se réveilleront pas en subissant des dégâts durant les 2 premières secondes.",
+        "3": "La durée du sommeil est augmentée à 6s.",
+        "4": "Les dégâts sont augmentés à 340% de l'Attaque (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Swan Cantus": {
+      "description": "Chaque fois qu'elle endort un ennemi, Odette obtient temporairement 20% de l'Attaque de l'ennemi pendant 4s.",
+      "levels": {
+        "2": "Chaque fois qu'elle endort un ennemi, Odette obtient 250 points d'Énergie.",
+        "3": "L'Attaque acquise est augmentée à 30%.",
+        "4": "L'Attaque acquise est augmentée à 40%. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "silvanna": {
+    "Hawk of the Empire": {
+      "description": "Silvanna libère le Hawk of Light, qui vole vers l'allié ayant le plus d'Attaque et lui accorde un Bouclier équivalent à 250% de l'Attaque de Silvanna. Avant de revenir vers Silvanna en 4s, il lui offre un Bouclier équivalent à 80% des dégâts infligés par l'allié durant ces 4s.",
+      "levels": {
+        "2": "Lorsque le Hawk of Light revient vers Silvanna, il lui ajoute un Bouclier équivalent à 100% des dégâts infligés par l'allié durant ces 4s.",
+        "3": "Après que le Hawk of Light revient vers Silvanna, il augmente l'Agilité de Silvanna de 50 et son Taux de coups critiques de 20% pendant 6s.",
+        "4": "Lorsque le Hawk of Light revient vers Silvanna, il lui ajoute un Bouclier équivalent à 120% des dégâts infligés par l'allié durant ces 4s."
+      }
+    },
+    "Rapid Attack": {
+      "description": "Silvanna balaie de sa lance, infligeant des dégâts équivalents à 75% de son Attaque aux unités ennemies devant elle à plusieurs reprises.",
+      "levels": {
+        "2": "Les dégâts infligés par cette compétence augmentent en fonction du Bouclier actuel. Un Bouclier équivalent à 100% de ses PV max augmente les dégâts de 40%, avec un plafond de 50%.",
+        "3": "Les dégâts infligés par cette compétence augmentent en fonction du Bouclier actuel. Un Bouclier équivalent à 100% de ses PV max augmente les dégâts de 80%, avec un plafond de 100%.",
+        "4": "Les dégâts infligés par cette compétence augmentent en fonction du Bouclier actuel. Un Bouclier équivalent à 100% de ses PV max augmente les dégâts de 120%, avec un plafond de 150%. (Nécessite le Crépuscule Ancestral niveau 1)"
+      }
+    },
+    "Knightess's Path": {
+      "description": "Silvanna gagne un Bouclier équivalent à 1200% de son Attaque au début du combat. Lorsqu'elle n'a plus de Bouclier, elle cesse d'attaquer pendant une courte période afin de reconstituer son Bouclier, durant laquelle elle est immunisée à tous les dégâts. Cet effet peut se déclencher une fois toutes les 25s.",
+      "levels": {
+        "2": "Lorsque Silvanna est attaquée alors qu'elle possède un Bouclier, elle peut tout de même obtenir une régénération d'Énergie déclenchée par les dégâts équivalente à 60% de sa régénération normale.",
+        "3": "Lorsque Silvanna est attaquée alors qu'elle possède un Bouclier, elle peut tout de même obtenir une régénération d'Énergie déclenchée par les dégâts équivalente à 80% de sa régénération normale.",
+        "4": "Lorsque Silvanna est attaquée alors qu'elle possède un Bouclier, elle peut tout de même obtenir une régénération d'Énergie déclenchée par les dégâts équivalente à 100% de sa régénération normale. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "tidescale-kalea": {
+    "Tsunami Slam": {
+      "description": "Kalea agrippe un ennemi et le projette dans la zone à plus forte densité d'ennemis, infligeant des dégâts équivalents à 400% de son Attaque à tous les ennemis de la zone et projetant les autres ennemis dans les airs. Kalea provoque également tous les ennemis du champ de bataille pendant 4s. L'effet d'agrippement ignore la plupart des effets d'immunité au contrôle, et Kalea devient immunisée à la plupart des effets de contrôle pendant le lancement.",
+      "levels": {
+        "2": "Lorsqu'une Water Zone apparaît, elle réduit l'Attaque des ennemis qui s'y trouvent de 20% et leur Agilité de 100 pendant 5s.",
+        "3": "Les dégâts infligés sont augmentés à 465%.",
+        "4": "Les dégâts infligés sont augmentés à 510%. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "tsukuyomi": {
+    "Magatsu Sun": {
+      "description": "Inflige 56% de son attaque en dégâts aux ennemis proches, 4 fois. Le coup final inflige des dégâts supplémentaires équivalents à 15% des PV max de la cible, plafonnés à 1500% de l'attaque de Tsukuyomi. Gagne l'immunité au contrôle pendant le lancement de cette compétence. Passif : invoque un serpent squelettique au début du combat. Le serpent est immunisé à la plupart des effets de contrôle et possède des PV équivalents à 60% des PV max de Tsukuyomi. Il provoque les ennemis proches et les ennemis derrière lui pendant 2.5s, avec un temps de recharge de 8s par cible. Lorsque les PV du serpent tombent à 0, il",
+      "levels": {
+        "2": "Lorsque Tsukuyomi inflige des dégâts, 70% des dégâts sont convertis en Bouclier pour lui-même, jusqu'à 500% de ses PV max.",
+        "3": "Les dégâts sont augmentés à 64% de son attaque.",
+        "4": "Les dégâts sont augmentés à 72% de son attaque. (Nécessite le Crépuscule Ancestral niveau 3)"
+      }
+    }
+  },
+  "wanwan": {
+    "Tiger Pace": {
+      "description": "Chaque fois que Wanwan perd 45% de ses PV max, elle obtient le bonus Tiger Pace et ne peut plus être ciblée par les ennemis pendant les 2 secondes suivantes. Ce bonus se déclenche au maximum 5 fois par match.",
+      "levels": {
+        "2": "Wanwan bénéficiant du bonus Tiger Pace peut récupérer 60 points d'Énergie par seconde.",
+        "3": "Wanwan bénéficiant du bonus Tiger Pace peut récupérer 100 points d'Énergie par seconde.",
+        "4": "Wanwan bénéficiant du bonus Tiger Pace peut récupérer 125 points d'Énergie par seconde. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "yu-zhong": {
+    "Furious Dive": {
+      "description": "La Reverse Scale et le Dragon Blood de Yu Zhong lui confèrent un corps robuste. Reverse Scale : lorsque Yu Zhong subit des dégâts, il a 20% de chances de refléter le même montant de dégâts vers l'attaquant. Dragon Blood : lorsque les PV de Yu Zhong descendent sous 80%, Yu Zhong se soigne d'un montant de PV équivalent à 2% de ses PV max chaque seconde.",
+      "levels": {
+        "2": "La chance de réflexion des dégâts est augmentée à 30%",
+        "3": "La régénération de PV est augmentée à 3% des PV max / s.",
+        "4": "La régénération de PV est augmentée à 4% des PV max / s. (Nécessite le Crépuscule Ancestral niveau 2)"
+      }
+    }
+  },
+  "zhask": {
+    "Dominator's Descent": {
+      "description": "Zhask crée un vortex spatio-temporel sur le champ de bataille qui attire continuellement les ennemis d'une large zone vers son centre. Les ennemis dans la zone subissent des dégâts équivalents à 110% de l'Attaque de Zhask à plusieurs reprises. Le Nightmaric Spawn est également attiré vers le centre du vortex ; il explose après une courte pause, infligeant des dégâts à tous les ennemis alentour.",
+      "levels": {
+        "2": "Le Nightmaric Spawn désactive brièvement le déplacement de l'ennemi lors de son explosion",
+        "3": "Les dégâts du vortex sont augmentés à 140%"
+      }
+    }
+  }
+}

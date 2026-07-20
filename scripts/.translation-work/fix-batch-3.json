@@ -1,0 +1,551 @@
+[
+  {
+    "id": "morpheus",
+    "name": "Morpheus",
+    "abilities": [
+      {
+        "name": "Deep Coma",
+        "tier": "Skill",
+        "description": "The skill is triggered as Morpheus' first Attack after either Nona recovers all her HP during rest and makes her fly towards an enemy target, putting them to sleep until she is defeated. (One Nona will target the enemy with the highest Attack and the other will target the one with the most Energy. Different targets are prioritized.) Nona steals HP equal to 30% of her Attack from the target per second. When the target is defeated, she will return to Morpheus and take a rest with her current HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Nonas' HP is increased to 35% of Morpheus' Max HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt by Nonas is increased to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt by Nonas is increased to 30%."
+          }
+        ]
+      },
+      {
+        "name": "Interlaced Dreams",
+        "tier": "Skill",
+        "description": "Unleashes Nightmare Energy to attack the enemy with the highest Attack, dealing damage equal to 225% of her Attack and making the target take 20% more damage for 6s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Prevents the target from gaining Energy for 2s."
+          },
+          {
+            "level": "3",
+            "text": "The target of the skill takes 30% more damage for 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 300% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Sweet Dreams",
+        "tier": "Passive",
+        "description": "When an enemy is defeated, both Nonas recover 30% of their Max HP and convert 30% of their overheal into Morpheus' healing.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Morpheus gains 10% of Nonas' Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "Both Nonas recover 50% of their Max HP when an enemy is defeated."
+          },
+          {
+            "level": "4",
+            "text": "Morpheus gains 15% of Nonas' damage-triggered Energy Regen. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "naiad-rafaela",
+    "name": "Naiad Rafaela",
+    "abilities": [
+      {
+        "name": "Celestial Rejuvenation",
+        "tier": "Ultimate",
+        "description": "Casts spell for 5s, restoring HP equal to 170% of Naiad Rafaela's Attack to all allies. Every 0.5s, restores HP equal to 180% of Naiad Rafaela's Attack to the ally with the lowest HP. While casting this skill, Naiad Rafaela becomes immune to most control effects. Passive: When Naiad Rafaela's skills provide healing to allies, 100% of excess healing is converted into shields.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time this skill heals a target, it increases the amount of healing received by the target by 5%, lasting for 5s."
+          },
+          {
+            "level": "3",
+            "text": "When Celestial Rejuvenation is active, increases the healing for all allies to 220% of Naiad Rafaela's Attack."
+          },
+          {
+            "level": "4",
+            "text": "When Celestial Rejuvenation is active, increases the healing for all allies to 270% of Naiad Rafaela's Attack. (Requires Ancient Twilight Level 3.)"
+          }
+        ]
+      },
+      {
+        "name": "Ethereal Chant",
+        "tier": "Skill",
+        "description": "Bestows a blessing upon the ally with the highest Attack, increasing their Attack by 20% for 5s. If the target's current HP is higher than 80%, then also gain 200 points of Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Bestows blessings on 2 hero(es) with the highest Attack."
+          },
+          {
+            "level": "3",
+            "text": "Grants the target an increase of 25% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Grants the target an increase of 30% Attack. (Requires Ancient Twilight Level 1.)"
+          }
+        ]
+      },
+      {
+        "name": "Divine Calling",
+        "tier": "Passive",
+        "description": "Increases all allies' received healing and shields by 12%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When allies with shields are attacked, they gain 80% Damage-triggered Energy Regen based on the damage taken. (Takes effect only when stronger than the current buff/debuff on the same attribute.)"
+          },
+          {
+            "level": "3",
+            "text": "Increases all allies' received healing and shields by 14%."
+          },
+          {
+            "level": "4",
+            "text": "Increases all allies' received healing and shields by 16%. (Requires Ancient Twilight Level 2.)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nana",
+    "name": "Nana",
+    "abilities": [
+      {
+        "name": "Molina's Chanting",
+        "tier": "Ultimate",
+        "description": "Nana resurrects the eliminated ally with the highest Attack and heals them for 25% of their Max HP. The maximum HP healed won't exceed 15 times Nana's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The resurrected ally will inherit the Energy they had when they died."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased to 40% Max HP."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen is increased to 50% Max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Molina's Kiss",
+        "tier": "Skill",
+        "description": "Nana summons the Molina incarnate that constantly heals all allied units for an amount of HP equal to 60% of their Attack during its presence.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed is increased to 70% every single time."
+          },
+          {
+            "level": "3",
+            "text": "Nana provides 8% of Attack Bonus to the ally when she's healing them."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 85% every single time."
+          }
+        ]
+      },
+      {
+        "name": "Magic Boomerang",
+        "tier": "Skill",
+        "description": "Nana releases a magic boomerang that deals damage equal to 145% of her Attack to enemies hit on its way out and way back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Magic Boomerang reduces enemies' Defense by 12%."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 185% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 240% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Molina's Blessing",
+        "tier": "Passive",
+        "description": "Nana gives Molina's blessing to all front-row allies. When allies with the blessing take an amount of damage that exceeds 10% of their Max HP, they will use the blessing to neutralize the damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allies in the mid and back row will also receive Molina's Blessing."
+          },
+          {
+            "level": "3",
+            "text": "Nana restores the ally's HP for 200% of her Attack when the blessing is triggered."
+          },
+          {
+            "level": "4",
+            "text": "Nana restores the ally's HP for 300% of her Attack when the blessing is triggered. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natalia",
+    "name": "Natalia",
+    "abilities": [
+      {
+        "name": "Joint Operation",
+        "tier": "Passive",
+        "description": "As long as Natalia is alive, increases the allies' Crit Rate every 5s based on the number of surviving allied heroes. For each surviving allied hero, all allies gain 1% more Crit Rate and Natalia gains 1% more Crit Damage. The effect can stack up to 20% extra Crit Rate and 20% extra Crit Damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every enemy hypnotized, Natalia gains 20% more Crit Rate for 6s. Stacks up to 4 times."
+          },
+          {
+            "level": "3",
+            "text": "Each surviving allied hero increases Crit Rate by 1.25%, stacking up to 25%. Meanwhile, Natalia gains 1.25% more Crit Damage, stacking up to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Each surviving allied hero increases Crit Rate by 1.5%, stacking up to 30%. Meanwhile, Natalia gains 1.5% more Crit Damage, stacking up to 30%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "natsu",
+    "name": "Natsu",
+    "abilities": [
+      {
+        "name": "Fire Dragon's Constitution",
+        "tier": "Passive",
+        "description": "Natsu converts 100% of his damage dealt into flame reserves, and gains 14% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP, stacking up to 3 times. If Natsu's current HP drops below 20% of his Max HP, he becomes immune to all damage for 1s,",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Fire Dragon's Constitution is triggered, increases Crit Rate by 100% and Agility by 500 for 6s."
+          },
+          {
+            "level": "3",
+            "text": "Gains 17% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Gains 20% Damage Reduction for each portion of flame reserves equal to 20% of his Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nightseer-esmeralda",
+    "name": "Nightseer Esmeralda",
+    "abilities": [
+      {
+        "name": "Chain Frenzy",
+        "tier": "Ultimate",
+        "description": "Summons weapons from the Umbral Prison to attack random enemies 4 time(s). For every 5 stack(s) of Primordial Frost possessed, consumes the corresponding number of Primordial Frost stacks to perform an additional attack on enemies. Each attack prioritizes different enemies as targets, dealing damage equal to 66% of Attack to the target and surrounding enemies. Passive: Nightseer Esmeralda's Basic Attacks deal damage equal to 150% of Attack and prioritize enemies with the lowest HP percentage. After Basic Attacks or Death Grip hits an enemy, Nightseer Esmeralda gains 1 stack of Primordial Frost, up to 30 stack(s).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After Basic Attacks or Death Grip hits an enemy, if the enemy's HP is still higher than 60%, Nightseer Esmeralda performs an additional Basic Attack on the enemy, dealing damage equal to 75% of Attack. The additional Basic Attack will not trigger this effect again."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 75%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 84%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "odette",
+    "name": "Odette",
+    "abilities": [
+      {
+        "name": "Swan Song",
+        "tier": "Ultimate",
+        "description": "Odette channels and surrounds herself with energy, then releases a magic orb that bounces among enemies 4 times, each bounce dealing damage equal to 230% of her Attack to the enemies in the area. Damage dealt by Odette will not awaken the enemies asleep.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The magic orb can bounce 5 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 280% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 325% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Blue Nova",
+        "tier": "Skill",
+        "description": "Odette unleashes a magic orb forward, dealing damage equal to 115% of her Attack to the target. The magic orb then split into two and they will deal the same amount of damage to the enemies around. This Skill also comes with 50% of Lifesteal effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 135% Attack."
+          },
+          {
+            "level": "3",
+            "text": "If a split magic orb hits an enemy asleep, it will split again into two magic orbs and attack enemies."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 160% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Lakeshore Ambience",
+        "tier": "Skill",
+        "description": "Odette sends sound wave to the enemy unit with the highest Attack, dealing damage equal to 220% of her Attack and putting them to sleep for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemeies put to sleep won't be awakened when taking damage in the first 2s."
+          },
+          {
+            "level": "3",
+            "text": "The duration of sleep is increased to 6s."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 340% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Swan Cantus",
+        "tier": "Passive",
+        "description": "Every time she puts an enemy to sleep, Odette will temporarily obtain 20% of the enemy's Attack for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every time she puts an enemy to sleep, Odette obtains 250 points of Energy."
+          },
+          {
+            "level": "3",
+            "text": "Attack acquired is increased to 30%."
+          },
+          {
+            "level": "4",
+            "text": "Attack acquired is increased to 40%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "silvanna",
+    "name": "Silvanna",
+    "abilities": [
+      {
+        "name": "Hawk of the Empire",
+        "tier": "Skill",
+        "description": "Silvanna releases the Hawk of Light, which flies towards the ally with the most Attack and grants the ally a Shield equal to 250% of Silvanna's Attack. Before returning to Silvanna in 4s, it offers her a Shield equal to 80% of the damage dealt by the ally in the 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the Hawk of Light returns to Silvanna, it adds a Shield for her that is equal to 100% of the damage dealt by the ally in the 4s."
+          },
+          {
+            "level": "3",
+            "text": "After the Hawk of Light returns to Silvanna, it increases Silvanna's Agility by 50 and Crit Rate by 20% for 6s."
+          },
+          {
+            "level": "4",
+            "text": "When the Hawk of Light returns to Silvanna, it adds a Shield for her that is equal to 120% of the damage dealt by the ally in the 4s."
+          }
+        ]
+      },
+      {
+        "name": "Rapid Attack",
+        "tier": "Skill",
+        "description": "Silvanna waves her lance, dealing damage equal to 75% of her Attack to enemy units in front multiple times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 40%, capped at 50%."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 80%, capped at 100%."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt by this skill increases based on the Shield at the moment. Shield that is equal to 100% of her Max HP increases damage by 120%, capped at 150%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Knightess's Path",
+        "tier": "Passive",
+        "description": "Silvanna gains a Shield equal to 1200% of her Attack when the battle starts. When she no longer has any Shield, she will stop attacking for a short period and rebuild the Shield, during which she will be immune to all damage. This effect can be triggered once every 25s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 60% of her normal Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 80% of her normal Damage-triggered Energy Regen."
+          },
+          {
+            "level": "4",
+            "text": "When Silvanna is attacked with a Shield on, she can still obtain Damage-triggered Energy Regen that is equal to 100% of her normal Damage-triggered Energy Regen. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tidescale-kalea",
+    "name": "Tidescale Kalea",
+    "abilities": [
+      {
+        "name": "Tsunami Slam",
+        "tier": "Ultimate",
+        "description": "Kalea grabs an enemy and slams them into the area with the highest enemy density, dealing damage equal to 400% of her Attack to all enemies in the area and knocking other enemies airborne. Kalea also taunts all enemies in the battlefield for 4s.The grab effect ignores most CC immune effects, and Kalea gains immunity to most control effects during the cast.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When a Water Zone appears, it reduces the Attack of enemies within it by 20% and their Agility by 100 for 5s."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 465%."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 510%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "tsukuyomi",
+    "name": "Tsukuyomi",
+    "abilities": [
+      {
+        "name": "Magatsu Sun",
+        "tier": "Ultimate",
+        "description": "Deals 56% of his attack as damage to nearby enemies 4 times. The final hit deals additional damage equal to 15% of target's max HP, capped at 1500% of Tsukuyomi's attack. Gains control immunity while casting this skill. Passive: Summons a skeletal serpent when battle starts. The serpent is immune to most control effects and has HP equal to 60% of Tsukuyomi's max HP. It taunts nearby enemies and enemies behind it for 2.5s, with an 8s cooldown for each target. When the serpent's HP drops to 0. it",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Tsukuyomi deals damage, 70% of the damage is converted into a shield for himself, up to 500% of his max HP."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 64% of his attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 72% of his attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wanwan",
+    "name": "Wanwan",
+    "abilities": [
+      {
+        "name": "Tiger Pace",
+        "tier": "Passive",
+        "description": "Every time Wanwan loses 45% Max HP, she takes Tiger Pace buff and cannot be targeted by enemies for the next 2 seconds. This buff triggers no more than 5 times per match.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Wanwan with Tiger Pace buff can recover 60 Energy per second."
+          },
+          {
+            "level": "3",
+            "text": "Wanwan with Tiger Pace buff can recover 100 Energy per second."
+          },
+          {
+            "level": "4",
+            "text": "Wanwan with Tiger Pace buff can recover 125 Energy per second. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "yu-zhong",
+    "name": "Yu Zhong",
+    "abilities": [
+      {
+        "name": "Furious Dive",
+        "tier": "Passive",
+        "description": "Yu Zhong's Reverse Scale and his Dragon Blood grant him a strong body. Reverse Scale: When Yu Zhong takes damage, he has a 20% chance to reflect the same amount of damage to the damage dealer. Dragon Blood: When Yu Zhong's HP falls under 80%, Yu Zhong will heal himself for an amount of HP equal to 2% of his Max HP every second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The chance of Damage Reflection increases to 30%"
+          },
+          {
+            "level": "3",
+            "text": "HP Regen increases to 3% Max HP / s."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen increases to 4% Max HP / s. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zhask",
+    "name": "Zhask",
+    "abilities": [
+      {
+        "name": "Dominator's Descent",
+        "tier": "Ultimate",
+        "description": "Zhask creates a time-space vortex on the battlefield which continuously drags enemies in a large area towards its center. Enemies in the range take damage equal to 110% of Zhask's Attack for multiple times. The Nightmaric Spawn will be dragged to the center of the vortex as well, it will explode after a short pause, dealing damage to all enemies around.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Nightmaric Spawn will disable the enemy's movement shortly upon explosion"
+          },
+          {
+            "level": "3",
+            "text": "The damage of the vortex is increased to 140%"
+          }
+        ]
+      }
+    ]
+  }
+]

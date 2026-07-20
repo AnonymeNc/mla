@@ -1,0 +1,1392 @@
+[
+  {
+    "id": "darksteel-dullahan",
+    "name": "Darksteel Dullahan",
+    "abilities": [
+      {
+        "name": "Umbral Aegis",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When each allied hero's HP drops below 50% for the first time, Dullahan immediately gains 200 Energy."
+          },
+          {
+            "level": "3",
+            "text": "When Umbral Aegis is consumed, the bearer restores HP equal to 150% of Darksteel Dullahan's Attack."
+          },
+          {
+            "level": "4",
+            "text": "When Umbral Aegis is consumed, the bearer restores HP equal to 200% of Darksteel Dullahan's Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Darksteel Slam",
+        "tier": "Skill",
+        "description": "Targets the enemy closest to the allied half of the battlefield, dealing damage equal to 200% Attack. If the enemy is within the allied half, knocks the enemy far back.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 250% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals additional damage equal to 20% of the enemy's Max HP, not exceeding 1000% of Dullahan's Attack, and Dullahan restores HP equal to 100% of the additional damage dealt."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 300% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Dark Marrow",
+        "tier": "Skill",
+        "description": "Restores 100 Energy. For each allied hero on the battlefield (excluding herself) with their HP below 70%, increases casting time by 0.5% and restores an additional 60 Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Dullahan is immune to all damage and most control effects while casting."
+          },
+          {
+            "level": "3",
+            "text": "Initial Energy restoration is boosted to 150."
+          },
+          {
+            "level": "4",
+            "text": "Initial Energy restoration is boosted to 200. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Evernight Shroud",
+        "tier": "Passive",
+        "description": "When the battle starts, Darksteel Dullahan gains 2 stack(s) of Umbral Aegis. When Umbral Aegis on her is triggered, she gains 15% Damage Reduction for 8s, stacking up to 3 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the battle starts, other allied heroes gain 2 stack(s) of Umbral Aegis."
+          },
+          {
+            "level": "3",
+            "text": "When Umbral Aegis on Dullahan is triggered, she gains 20% Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "When Umbral Aegis on Dullahan is triggered, she gains 25% Damage Reduction. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "diggie",
+    "name": "Diggie",
+    "abilities": [
+      {
+        "name": "Time Journey",
+        "tier": "Ultimate",
+        "description": "Diggie utilizes Time Nest to provide all his allies with a shield equal to 295% of his Attack and a 25% Defense bonus.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Allies restore HP equal to 20% of Diggie Attack per sec while the shield is on"
+          },
+          {
+            "level": "3",
+            "text": "Increase the Shield to 355% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increase the Shield to 425% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Reverse Time",
+        "tier": "Skill",
+        "description": "Diggie heals the weakest melee ally for an amount of HP equal to 240% of his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed is increased to 265% Attack"
+          },
+          {
+            "level": "3",
+            "text": "Heals the allies whose HP falls under 50% for an extra amount of HP and increases Defense by 50% for 6s"
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased to 300% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Auto Alarm Bomb",
+        "tier": "Skill",
+        "description": "Diggie throws an alarm clock that explodes after a while, dealing damage equal to 205% of his Attack to enemies in the range and stunning them for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 2s"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 240% Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 290% Attack (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Young Again",
+        "tier": "Passive",
+        "description": "Within the duration of Reverse Time, Diggie provides 20% Damage Reduction to his allies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Diggie restores 20 points of Energy when the allies he's healing takes damage"
+          },
+          {
+            "level": "3",
+            "text": "Energy restored is boosted to 40 points"
+          },
+          {
+            "level": "4",
+            "text": "Damage reduction is increased to 30% (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eclipse-arlott",
+    "name": "Eclipse Arlott",
+    "abilities": [
+      {
+        "name": "Final Slash",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to 275% of his Attack to a target enemy and nearby enemies, and deals extra damage equal to 15% of his Max HP, capped at 1500% of Eclipse Arlott's Attack. This skill triggers an extra time on all enemies affected by Mark effect. Every 5s, inflicts Mark on an enemy for 7s, prioritizing enemy Mages and Marksmen. At the start of battle, inflicts Mark on 2 enemy heroes. For each hero of a different class deployed, Mark effect duration increases by 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the target for 1.5s upon hit. Multiple hits will stack the stun duration."
+          },
+          {
+            "level": "3",
+            "text": "Increases damage dealt to 340%."
+          },
+          {
+            "level": "4",
+            "text": "Increases damage dealt to 400%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dauntless Strike",
+        "tier": "Skill",
+        "description": "Deals damage equal to 180% of his Attack to enemies within the rectangular area ahead. Reduces their Energy by 100 when hitting enemies affected by Mark effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases damage dealt to 225%."
+          },
+          {
+            "level": "3",
+            "text": "Changed from reducing enemies' Energy to absorbing enemies' Energy."
+          },
+          {
+            "level": "4",
+            "text": "Increases damage dealt to 250%."
+          }
+        ]
+      },
+      {
+        "name": "Vengeance",
+        "tier": "Skill",
+        "description": "Swings his lance forward, dealing damage equal to 75% of his Attack, then attempts to pull enemies back, dealing damage equal to 75% of his Attack. Successfully pulls enemies closer if they are affected by Mark effect.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When hitting enemies affected by Mark effect, gains a Shield equal to 100% of the enemy's Attack, capped at 500% of his own Attack per stack for 15s. While shielded, Eclipse Arlott can gain 60% of Damage-triggered Energy Regen."
+          },
+          {
+            "level": "3",
+            "text": "Increases damage dealt per hit to 95%."
+          },
+          {
+            "level": "4",
+            "text": "Increases damage dealt per hit to 115%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Demon Gaze",
+        "tier": "Passive",
+        "description": "Reduces damage taken by Eclipse Arlott by 40%. Additionally reduces damage taken from enemies affected by Mark effect by 10%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Eclipse Arlott gains Immunity to most control effects from enemies affected by Mark."
+          },
+          {
+            "level": "3",
+            "text": "Increases the reduction of Eclipse Arlott's damage taken from enemies affected by Mark to 20%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the reduction of Eclipse Arlott's damage taken from enemies affected by Mark to 30%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "edith",
+    "name": "Edith",
+    "abilities": [
+      {
+        "name": "Roaring Thunder",
+        "tier": "Ultimate",
+        "description": "Edith can only cast Roaring Thunder in the mecha form, and the skill effect varies based on whether she is in the mecha or not. Passive: Edith enters battle in the mecha form. The mecha provides her with a shield equal to 60% HP. When the shield is broken, Edith ejects from the mecha and stops controlling enemies. For the next 6 seconds, Edith becomes immune to most control effects and casts lightning to nearby enemies that deals 70% damages every 0.5 seconds and greatly decreases their Agility. After the lightning, Edith enters the mecha and moves to where the enemies gather. Active: deals 200% damage to all enemies and taunts them for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each lightning strike has a 20% chance to lower the enemy's energy by 30."
+          },
+          {
+            "level": "3",
+            "text": "Mecha's basic shield is increased to 70% of Edith's max HP."
+          },
+          {
+            "level": "4",
+            "text": "Mecha's basic shield is increased to 80% of Edith's max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Ancient Rush",
+        "tier": "Skill",
+        "description": "Jumps into a group of enemies and smash the ground, becoming immune to most control effects. Deals damage equals to 200% Attack, and knocks nearby enemies airborne.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage dealt is increased to 220% Attack."
+          },
+          {
+            "level": "3",
+            "text": "The duration of enemies knocked up is increased and they will be pulled closer to Edith."
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 250% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Lightning Charge",
+        "tier": "Skill",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Absorb 6% defense from all enemies within the area for 6 seconds."
+          },
+          {
+            "level": "3",
+            "text": "Shield absorbed is increased to 9% of max HP."
+          },
+          {
+            "level": "4",
+            "text": "Shield absorbed is increased to 10% of max HP. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Eternal Guard",
+        "tier": "Passive",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "For every 20% damage absorbed by the mecha's shield, Edith restores energy by 100."
+          },
+          {
+            "level": "3",
+            "text": "Each stack provides 5% Damage Reduction."
+          },
+          {
+            "level": "4",
+            "text": "Each stack provides 6% Damage Reduction. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ember-irithel",
+    "name": "Ember Irithel",
+    "abilities": [
+      {
+        "name": "The Hunt Begins",
+        "tier": "Ultimate",
+        "description": "Ember Irithel builds up a cannon, dealing wide-range AoE damage equal to 320% of her Attack. Meanwhile, Leo attacks the hunted targets on the enemy half of the field, each time dealing damage equal to 75% his Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Ember Irithel acquires 460 point of Energy when the battle starts."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage detailt by Ember Irithel in Cannon Mode by 50%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage detailt by Ember Irithel in Cannon Mode by 60%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Hunter's Mark",
+        "tier": "Skill",
+        "description": "When the battle begins, fires a marking arrow at the nearest enemy, dealing damage equal to 140% of Attack, stunning them for 3s and marking them as the hunted target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases damage to 155% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Reduces the hunted target's HP regen and shield regen rate by 60%."
+          },
+          {
+            "level": "4",
+            "text": "Reduces the hunted target's HP regen and shield regen rate by 80%."
+          }
+        ]
+      },
+      {
+        "name": "Roar of Resilience",
+        "tier": "Skill",
+        "description": "Leo releases a battle roar, increasing allies' Crit Rate by 30% and Hit Rate by 60%, while also converting 50% of the damage dealt by allies' Basic Attacks into his HP, lasting for 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Converts 100% of the damage dealt by allies' Basic Attacks into his HP."
+          },
+          {
+            "level": "3",
+            "text": "Increases the allies' Crit Rate by 60%."
+          },
+          {
+            "level": "4",
+            "text": "Increases the allies' Crit Rate by 90%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Infernal Onset",
+        "tier": "Passive",
+        "description": "Ember Irithel fires 2 arrows with her Basic Attack, and Leo attacks twice with his.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Leo attacks 3 times with his Basic Attack."
+          },
+          {
+            "level": "3",
+            "text": "Ember Irithel fires 4 arrows with her Basic Attack."
+          },
+          {
+            "level": "4",
+            "text": "Enemies wounded by Ember Irithel and Leo take 12% more damage permanently. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Sylvan Shadows",
+        "tier": "Realm Effect",
+        "description": "Every 9 time(s) an enemy takes damage from her Basic Attacks, Ember Irithel ignores Control Immunity, stunning them for 3s and absorbing 300 points of their Energy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Increases Energy absorbed to 400 points. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "Every 15 time(s) an enemy takes damage from her Basic Attacks, they will become severely wounded. All of their current attributes, including Attack, Defense, Crit Rate, Damage Increase and Damage Reduction cannot exceed 80% of their Basic Attributes. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "Severely wounded enemy's Attack, Defense, Crit Rate, Damage Increase and Damage Reduction cannot exceed 60% of their Basic Attributes. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eos-silvanna",
+    "name": "Eos Silvanna",
+    "abilities": [
+      {
+        "name": "Moniyan! Advance!",
+        "tier": "Ultimate",
+        "description": "Eos Silvanna summons the Imperial Hawk behind her that swoops down on enemies in front and creates a powerful wave of air, interrupting their skills and dealimg damage equal to 250% of her Attack. Each time Eos Silvanna's Shield exceeds 50% of her Max HP, deals 50% damage to enemies in front (up to 3 times).",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each wave of air increases the damage that the enemy takes from Eos Silvanna by 15% for 10s (can stack)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Damage to 350% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases Damage to 400% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Follow the Light",
+        "tier": "Skill",
+        "description": "Eos Silvanna lifts up the nearest enemy, dealing damage equal to 210% of her Attack. When an ally uses their Basic Attack on the same enemy, the enemy takes extra damage equal to 5% of the ally's Shield for 6s. This effect triggers up to 6 times for each hero.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the unit is defeated, all allies gain a shield equal to 40% of the unit's Max HP (cannot exceed 100% of Eos Silvanna's Max HP)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Damage to 240% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases Damage to 270% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Bathe in Glory",
+        "tier": "Skill",
+        "description": "Both Eos Silvanna and the ally with the lowest HP gain a shield equal to 400% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time an ally is granted a Shield by this skill, permanently increases their Shield Bonus by 20% (up to 100%)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Shield to 500% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases Shield to 600% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Imperial Blessing",
+        "tier": "Passive",
+        "description": "Each time Eos Silvanna gains a Shield to 25% of her Max HP, her Attack permanently increases by 5%, up to 50%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time Eos Silvanna gains a Shield equal to 25% of her Max HP, her Attack is increased by 10% (up to 100%)."
+          },
+          {
+            "level": "3",
+            "text": "Increases Fortitude duration to 4s."
+          },
+          {
+            "level": "4",
+            "text": "Each time Eos Silvanna gains a Shield equal to 25% of her Max HP, her Attack is increased by 15% (up to 150%). (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Realm of Light",
+        "tier": "Realm Effect",
+        "description": "[Realm Skill I] Every 3s, recover all allies' Energy over time based on the ratio of their Shield to Max HP. When their Shield exceeds their Max HP, they reach the Max Energy Regen 20.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP +3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "[Realm Skill II] Increases the Max Energy Regen to 30. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "[Realm Skill III] When allies' used Shield reaches 505 of their average Max HP, the Imperial Hawk will swoop down on the enemy with the lowest HP. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "[Realm Skill IV] The Imperial Hawk's damage is increased to 360%. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eruditio-guard",
+    "name": "Eruditio Guard",
+    "abilities": [
+      {
+        "name": "Cleaving Strike",
+        "tier": "Ultimate",
+        "description": "Deals huge damage to the enemy and reduces its defense for a period of time.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "erza",
+    "name": "Erza",
+    "abilities": [
+      {
+        "name": "Righteous Sword",
+        "tier": "Ultimate",
+        "description": "Deals damage equal to of Attack to the Lv.4 nearest enemy, with Erza's Damage Reduction calculated as Damage Increase for this attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Restores 400 Energy upon killing an enemy with the Ultimate."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 1300% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 1500% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Royal Slash",
+        "tier": "Skill",
+        "description": "Knocks the nearest enemy airborne for 1.25, 10.4 dealing damage equal to of Attack multiple times. After 1.5s, a final strike deals damage equal to of the target's Max HP. The final strike damage won't exceed of Erza's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Converts 60% of this skill's damage into 3 self-healing."
+          },
+          {
+            "level": "3",
+            "text": "After 1.5s, deals damage equal to 15% of the target's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "After 1.5s, deals damage equal to 20% of the target's Max HP."
+          }
+        ]
+      },
+      {
+        "name": "The Strength of Allies",
+        "tier": "Passive",
+        "description": "For each hero defeated on the battlefield, Erza gains of their base Attack and extra Energy Regen. The Attack gained each time won't exceed 60% of Erza's base Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If the hero defeated is an ally, the gained Attack and Energy Regen are doubled."
+          },
+          {
+            "level": "3",
+            "text": "For each hero defeated on the battlefield, Erza gains 25% of their base Attack and 8% extra Energy Regen."
+          },
+          {
+            "level": "4",
+            "text": "For each hero defeated on the battlefield, Erza gains 30% of their base Attack and 10% extra Energy Regen. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Indomitable Will",
+        "tier": "Passive",
+        "description": "Whenever Erza's HP drops by 1% of her Max HP, her Damage Reduction increases by and Crit Rate increases by .",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "With HP below 50%, Erza gains 150 Lifesteal."
+          },
+          {
+            "level": "3",
+            "text": "Whenever Erza's HP drops by 1% of her Max HP, her Damage Reduction increases by 0.8% and Crit Rate increases by 0.8%."
+          },
+          {
+            "level": "4",
+            "text": "Whenever Erza's HP drops by 1% of her Max HP, her Damage Reduction increases by 1% and Crit Rate increases by 1%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Fairy Domain",
+        "tier": "Realm Effect",
+        "description": "Whenever an enemy is knocked airborne or displaced, they take damage equal to 280% of Erza's Attack, and all subsequent damage taken by them is permanently increased by 10%. This effect can only trigger once every 2s for each hero, up to 10 stacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "Permanently increases all damage taken by the enemy by 15%. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "For each defeat in the team, all the other allies on the battlefield gain an extra 40% Damage Reduction for 3s. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "For each defeat in the team, all the other allies on the battlefield gain an extra 60% Damage Reduction for 3s. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "esmeralda",
+    "name": "Esmeralda",
+    "abilities": [
+      {
+        "name": "Starmoon Radiance",
+        "tier": "Ultimate",
+        "description": "Esmeralda turns into the Star Ring that cannot be targeted and moves slowly toward the enemy with the highest Attack for 7s. Within the duration, the Star Ring deals continuous damage equal to 110% of her Attack to all enemies nearby. Once the Star Ring stops moving, Esmeralda will reappear at the Star Ring's location.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies near the Star Ring are silenced."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt while the Star Ring is active is continuously increased up to 45%."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt while the Star Ring is active is continuously increased up to 90%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Starmoon Strike",
+        "tier": "Skill",
+        "description": "Esmeralda deals damage equal to 60% of her Attack to the nearest enemy multiple times, each time stealing 10 - 20 points of Energy from the target.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt is increased to 72% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Energy stolen is boosted to 15 - 30 points."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 84% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Harmony of Starmoon",
+        "tier": "Skill",
+        "description": "Esmeralda hits the nearest enemy with Frostmoon, dealing damage equal to 185% of her Attack and silencing the enemy for 4s. Esmeralda uses Stardust to hit the enemy with the highest Attack at the same time, dealing damage equal to 185% of her Attack and forbidding the enemy from using Basic Attacks for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "If Stardust and Frostmoon hit the same target, Esmeralda gains 100 extra Agility for 8s and becomes less likely to be targeted by enemies."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt is increased to 220% Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt is increased to 270% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Arcane Astrology",
+        "tier": "Skill",
+        "description": "Esmeralda performs divination once when the battle starts, gaining one of the buffs below for the rest of the battle: Gains 15% extra Crit Rate and 20% extra Crit Damage; Gains 50 extra Agility and 50 extra Lifesteal; Gains 150 points of Energy and 15% extra Energy Regen Speed.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The first buff of Esmeralda's divination is increased to 20% Crit Rate and 30% Crit Damage."
+          },
+          {
+            "level": "3",
+            "text": "The second buff of Esmeralda's divination is increased to 100 Agity and 100 Lifesteal."
+          },
+          {
+            "level": "4",
+            "text": "The third buff of Esmeralda's divination is increased to 250 points of Energy and 25% Energy Regen Speed. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estarith",
+    "name": "Estarith",
+    "abilities": [
+      {
+        "name": "Manic Feast",
+        "tier": "Ultimate",
+        "description": "Estarith summons a cage in the area with the most enemies, dealing damage equal to 240% of her Attack to enemies within area and stunning them for 1s. Enemies within the cage enter a state of fear when their Energy reaches 700 or above, losing 100 Energy per second for 3s. The cage disappears after this effect is triggered 3 times. Each hero can only trigger it once every 5s. Up to 1 cage can be present on the battlefield at the same time.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the cage's fear effect is triggered, it also reduces enemies' Defense by 8% per second for 4s, lasting until the end of the battle and stacking up to 12 times."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage equal to 290% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 335% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Dark Maelstrom",
+        "tier": "Skill",
+        "description": "When the cage exists, Estarith deals damage equal to 160% of her Attack to the enemy hero furthest from the cage, pulling them closer to the center of the cage. When the cage doesn't exist, Estarith restores 100 Energy. Estarith restores an extra 30 Energy for each Chaos hero deployed.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Deals damage equal to 200% of Attack."
+          },
+          {
+            "level": "3",
+            "text": "Triggers this skill immediately when summoning the cage."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 240% of Attack."
+          }
+        ]
+      },
+      {
+        "name": "Dread Reprise",
+        "tier": "Passive",
+        "description": "The first time Estarith's HP drops below 60% and 30% respectively, she gains immunity to all damage for 2s and inflicts fear effect on the 2 closest random enemies for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each time it is triggered, restores 40% HP and grants 15% Damage Reduction until the end of the battle."
+          },
+          {
+            "level": "3",
+            "text": "Damage Reduction is increased to 20%."
+          },
+          {
+            "level": "4",
+            "text": "Damage Reduction is increased to 25%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Void Embrace",
+        "tier": "Passive",
+        "description": "Protects another allied hero, making them untargetable by enemies until Estarith dies or there are no targetable allies on the battlefield. Estarith prioritizes protecting aa hero deployed in the same row as her. When the cage's effect is triggered, this allied hero restores 10 Energy per second for 4s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "This allied hero obtains an Attack bonus equal to 40% of the Chaos Support's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Restores 15 Energy per second."
+          },
+          {
+            "level": "4",
+            "text": "Restores 15 Energy per second. (Requires Ancient Twilight Level 2.)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "estes",
+    "name": "Estes",
+    "abilities": [
+      {
+        "name": "Blessing of Moon Goddess",
+        "tier": "Ultimate",
+        "description": "Estes efficiently heals all allies in a short period of time. The total amount of HP to be restored equals 25% of Estes's Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The effect is increased by 30% against targets with HP lower than 20%."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased 30% of Estes's HP limit."
+          },
+          {
+            "level": "4",
+            "text": "HP Regen is increased to 35% of Estes's Max HP. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Moonlight Immersion",
+        "tier": "Skill",
+        "description": "Estes ties himself to an ally and heals them. The total amount of HP to be restored equals to 25% of Estes's Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The amount of HP healed is increased 30% of Estes's HP limit."
+          },
+          {
+            "level": "3",
+            "text": "The amount of HP healed is increased 35% of Estes's HP limit."
+          },
+          {
+            "level": "4",
+            "text": "The amount of HP healed is increased 40% of Estes's HP limit."
+          }
+        ]
+      },
+      {
+        "name": "Domain of Moon Goddess",
+        "tier": "Skill",
+        "description": "Estes summons the Domain of Moon Goddess at enemy's feet for 3s, dealing damage equal to 65% of his Attack per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 78% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 91% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 105% Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Code of Moon Elves",
+        "tier": "Passive",
+        "description": "The ally who's linked to Estes will acquire a shield equal to 2% of Estes's Max HP while being linked to him.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Linked allies restore Energy slowly while being linked."
+          },
+          {
+            "level": "3",
+            "text": "Linked allies will have their Defense increased by 15% when being linked."
+          },
+          {
+            "level": "4",
+            "text": "The Shield is increased to 3% of Estes's Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ethereal-zhuxin",
+    "name": "Ethereal Zhuxin",
+    "abilities": [
+      {
+        "name": "Crimson Beacon",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the enemy lands, deals damage equal to 6% of Max HP to other surrounding enemies. The damage won't exceed 600% of Ethereal Zhuxin's Attack."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage equal to 135% of Attack to all enemies within range every second."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 160% of Attack to all enemies within range every second. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Obstinate Whim",
+        "tier": "Skill",
+        "description": "Deals damage equal to 180% of Attack to enemies in front and inflicts 2 stack(s) of Soul Snare. For each enemy hit whose Attack is higher than hers, increases her own Attack by 20% until the battle ends, up to 200%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Deals damage equal to 220% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Ethereal Zhuxin gains 500 Energy when the battle starts."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 260% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Fluttering Grace",
+        "tier": "Skill",
+        "description": "Deals damage equal to 260% of Attack to 2 random enemies and inflicts 2 stack(s) of Soul Snare. Each time this skill is used, the number of attacks in subsequent uses increases by 1, up to 5 attacks.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After triggering the knock airborne effect of Soul Snare, Ethereal Zhuxin ignores 60% of the target's Defense when dealing damage to them within 6s."
+          },
+          {
+            "level": "3",
+            "text": "Deals damage equal to 335% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Deals damage equal to 410% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Myriad Lanterns",
+        "tier": "Passive",
+        "description": "Each time an allied Elemental or Dark hero casts their Ultimate, all enemies gain 4 stack(s) of Soul Snare.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "All allied Elemental or Dark heroes increase their Attack by 200% for 8s each time they cast their Ultimate."
+          },
+          {
+            "level": "3",
+            "text": "Increases Attack by 35%."
+          },
+          {
+            "level": "4",
+            "text": "Increases Attack by 50%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eudora",
+    "name": "Eudora",
+    "abilities": [
+      {
+        "name": "Thunderstruck",
+        "tier": "Ultimate",
+        "description": "Eudora summons lightning to deal damage equal to 370% of her Attack to the main target, enemies around the main target take damage equal to 185% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage dealt to the primary target is increased to 440% Attack. The damage dealt to enemies nearby is increased to 220% Attack"
+          }
+        ]
+      },
+      {
+        "name": "Forked Lightning",
+        "tier": "Skill",
+        "description": "Eudora controls a Forked Lightning to attack enemies in front, dealing damage equal to 135% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 155%"
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 175%"
+          }
+        ]
+      },
+      {
+        "name": "Thunderbolt",
+        "tier": "Skill",
+        "description": "Eudora summons Thunderbolt to stun enemies for 1s, dealing damage equal to 120% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The stun duration is increased to 2s"
+          }
+        ]
+      },
+      {
+        "name": "Superconductor",
+        "tier": "Passive",
+        "description": "Eudora's skills will mark the enemy units. Thunderstruck deals extra damage equal to 25% of her Attack to marked enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Thunderbolts stuns the enemy units around the marked enemy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "everblight-shah-torre",
+    "name": "Everblight Shah Torre",
+    "abilities": [
+      {
+        "name": "Everblight Apocalypse",
+        "tier": "Ultimate",
+        "description": "Deals 100% of Attack plus of the targets' current HP as damage to all enemies. This damage won't exceed of Everblight Shah Torre's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Lv.2:If an enemy retains 60% HP or more after hitting by this skill's active effect, permanently increases the damage they take by 20% until the end of the battle, stacking up to 5 times."
+          },
+          {
+            "level": "3",
+            "text": "Damage dealt is increased to 130% of Attack"
+          },
+          {
+            "level": "4",
+            "text": "Damage dealt is increased to 160% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Withering Siphon",
+        "tier": "Skill",
+        "description": "Absorbs of the Attack from all enemies in a circular area for s. The Attack absorbed from each enemy won't exceed 33% of the caster's own Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Absorbed Attack is increased to 9%."
+          },
+          {
+            "level": "3",
+            "text": "If the enemy's HP is higher than 60%, also absorbs 40 Energy from each enemy."
+          },
+          {
+            "level": "4",
+            "text": "Absorbed Attack is increased to 11%."
+          }
+        ]
+      },
+      {
+        "name": "Terror Grip",
+        "tier": "Passive",
+        "description": "Every Attack Bonus Everblight Shah Torre owns allows his Basic Attack to deal 1 more instance of damage per second, up to 3 additional instances per second.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Every 5 instance(s) of damage dealt by Basic Attack stun(s) the enemy for 1s."
+          },
+          {
+            "level": "3",
+            "text": "Every 40% Attack Bonus Everblight Shah Torre owns allows his Basic Attack to deal 1 more instance of damage per second."
+          },
+          {
+            "level": "4",
+            "text": "Every 30% Attack Bonus Everblight Shah Torre owns allows his Basic Attack to deal 1 more instance of damage per second. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Nether Devour",
+        "tier": "Passive",
+        "description": "If Everblight Shah Torre's HP is above 50%, the Nether Apep will swallow an enemy for s, prioritizing the enemy in the symmetric position. The swallowed enemy cannot act or be targeted. Everblight Shah Torre gains of the enemy's Attack and Defense and recovers 100% of his lost HP. When Everblight Shah Torre's HP drops below 40%, the enemy gets out early and Everblight Shah Torre loses the attributes gained from them. After the swallowed enemy returns to battle, Everblight Shah Torre must wait for 10s before using this skill again. Everblight Shah Torre is immune to the effect of Nether Devour. This skill ignores Control Immunity.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "After swallowing an enemy, Everblight Shah Torre becomes untargetable to enemies for 2s."
+          },
+          {
+            "level": "3",
+            "text": "Everblight Shah Torre gains 20% of the swallowed enemy's Attack and Defense."
+          },
+          {
+            "level": "4",
+            "text": "Everblight Shah Torre gains 30% of the swallowed enemy's Attack and Defense. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Predator's Domain",
+        "tier": "Realm Effect",
+        "description": "[Realm Skill I] When an enemy's HP drops below 50%, reduces the healing they receive by 80% until the end of the battle.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "[Realm Skill II] When an enemy's HP drops below 50%, reduces the Shield they gain by 80% until the end of the battle. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "[Realm Skill III] When an enemy's HP drops below 20%, stuns the enemy for 5s. This effect ignores Control Immunity and can only be triggered on each enemy once every 10s. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "[Realm Skill IV] When an enemy's HP drops below 20%, the enemy takes True Damage equal to 999% of Everblight Shah Torre's Attack per second for 5s, ignoring their shield. This effect can only be triggered on each enemy once every 10s. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eviscerater",
+    "name": "Eviscerater",
+    "abilities": [
+      {
+        "name": "Poison Fang",
+        "tier": "Ultimate",
+        "description": "Throws a poisonous dart on the enemy, poisoning them and dealing damage over time.",
+        "levelDescriptions": []
+      }
+    ]
+  },
+  {
+    "id": "fanny",
+    "name": "Fanny",
+    "abilities": [
+      {
+        "name": "Cut Throat",
+        "tier": "Ultimate",
+        "description": "Quickly attack the enemies, dealing damage equal to 100% Attack for 5 times and Final Damage equal to 200% Attack for 1 time. The damage of this Skill will increase according to the target's lost HP. The less HP the target has, the more damage can be caused by this Skill. The damage can be increased by up to 60%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Leave 10 Prey marks on the target when casting this Skill."
+          },
+          {
+            "level": "3",
+            "text": "Each Damage is increased to 130% Attack. Final Damage is increased to 260% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Each Damage is increased to 160% Attack. (Final Damage remains at 260% Attack.) (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Tornado Strike",
+        "tier": "Skill",
+        "description": "Fanny slashes the enemy twice, each time dealing damage equal to 100% Attack, and leaves 1 Prey mark on the target. The mark can stack up to 10 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage is increased to 125% Attack."
+          },
+          {
+            "level": "3",
+            "text": "This Skill turns into triple slash."
+          },
+          {
+            "level": "4",
+            "text": "While she is casting the Skill, Fanny has a 50% chance of being immune to damage."
+          }
+        ]
+      },
+      {
+        "name": "Steel Cable",
+        "tier": "Skill",
+        "description": "Fanny uses the grappling hooks to fly to the enemy back-row and pulls the farthest enemy towards her target location. For a short period of time, Fanny is less likely to be aimed by the enemies.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Stuns the target for 3s after pulling them back."
+          },
+          {
+            "level": "3",
+            "text": "Leaves 3 Prey marks on the target after pulling them back."
+          },
+          {
+            "level": "4",
+            "text": "Leaves 5 Prey marks on the target after pulling them back. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Hunter's Advantage",
+        "tier": "Passive",
+        "description": "Each Prey mark can reduce the enemy's damage dealt to Fanny by 3%. When an enemy dies with Prey marks on them, each mark can help Fanny restore HP equal to 50% of her Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Each Prey mark can reduce the enemy's damage dealt to Fanny by 5%."
+          },
+          {
+            "level": "3",
+            "text": "The HP restored by each mark is increased to 80% of Fanny's Attack."
+          },
+          {
+            "level": "4",
+            "text": "The HP restored by each mark is increased to 100% of Fanny's Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "feng",
+    "name": "Feng",
+    "abilities": [
+      {
+        "name": "Shadows Cleave",
+        "tier": "Ultimate",
+        "description": "",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Increases the extra damage dealt to enemies with HP below 50% to 6% of the target's Max HP per stack of Sword Energy."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 155% Attack."
+          },
+          {
+            "level": "4",
+            "text": "Damage is increased to 165% Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Skyward Wind",
+        "tier": "Skill",
+        "description": "Feng summons sword shadows to form a Sword Formation that lasts 4s. Damage dealt by enemies within the formation is reduced by 20%, and the Sword Formation inherits 100% of Feng's HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Reduces the damage dealt by enemies within the Sword Formation by 25%."
+          },
+          {
+            "level": "3",
+            "text": "When the Sword Formation is created, 1 stack of Sword Energy is applied to enemies within its range."
+          },
+          {
+            "level": "4",
+            "text": "Reduces the damage dealt by enemies within the Sword Formation by 30%."
+          }
+        ]
+      },
+      {
+        "name": "Will of Ethereality",
+        "tier": "Skill",
+        "description": "Applies a Swordseal for herself and the ally with the highest Attack, granting them an extra 20% Crit Rate, and 20% of the Attack of enemies inflicted with Sword Energy on the battlefield. The bonus Attack acquired from each Sword Energy carrier cannot exceed 50% of the Swordseal holder's Attack.Feng is immune to most control effects while casting this skill.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When the Swordseal is applied, its holder gains immunity to most control effects for 4s."
+          },
+          {
+            "level": "3",
+            "text": "Crit Rate Bonus is increased to 25%."
+          },
+          {
+            "level": "4",
+            "text": "Crit Rate Bonus is increased to 30%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Traceless",
+        "tier": "Passive",
+        "description": "When the battle starts, the Sword Chi of the Silent Shadows gathers behind Feng, capable of blocking the damage exceeding 10% of Feng's Max HP, and shatters after 3 blocks. Casting Shadows Cleave restores the 3 blocking chances.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Feng's Basic Attack inflicts 1 stack of Sword Energy on the target hit."
+          },
+          {
+            "level": "3",
+            "text": "Feng restores 15 points of Energy for each stack of Sword Energy carried by the target hit by her Basic Attack."
+          },
+          {
+            "level": "4",
+            "text": "Feng restores 30 points of Energy for each stack of Sword Energy carried by the target hit by her Basic Attack. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "florence",
+    "name": "Florence",
+    "abilities": [
+      {
+        "name": "Ensnare",
+        "tier": "Ultimate",
+        "description": "Gift: After Florence reaches Awakened - 2-Star, she will offer an extra free gift in the Market every day.",
+        "levelDescriptions": []
+      },
+      {
+        "name": "Wise Bet",
+        "tier": "Passive",
+        "description": "Florence gains 5 Gold per second.",
+        "levelDescriptions": []
+      },
+      {
+        "name": "Romantangle",
+        "tier": "Skill",
+        "description": "Applies a swirling mist to an enemy, dealing damage equal to 2% of their Max HP per second. The damage won't exceed 400% of Florence's Attack.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When cast, applies the swirling mist to all the enemy summons."
+          },
+          {
+            "level": "3",
+            "text": "Damage is increased to 3% of the Max HP."
+          },
+          {
+            "level": "4",
+            "text": "Lv.3:Damage is increased to 4% of the Max HP. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Investment Return",
+        "tier": "Passive",
+        "description": "Florence gains 40 Gold when the battle starts. Whenever an enemy takes damage based on their Max HP, Florence earns 1 Gold. She can earn up to 1 Gold per second from each enemy.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When Florence's Gold reaches 100, she removes and becomes immune to most control effects for 45."
+          },
+          {
+            "level": "3",
+            "text": "Florence gains 50 Gold when the battle starts."
+          },
+          {
+            "level": "4",
+            "text": "Florence gains 60 Gold when the battle starts. (Requires Ancient Twilight Level 2.)"
+          }
+        ]
+      }
+    ]
+  }
+]
