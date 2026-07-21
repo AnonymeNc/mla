@@ -481,5 +481,165 @@ window.guidesData = [
         ]
       }
     ]
+  },
+  {
+    id: 'soul-vessel',
+    icon: '🫙',
+    title: { en: 'Soul Vessel Upgrade Costs', fr: 'Coûts d’amélioration du Vaisseau d’Âme' },
+    summary: {
+      en: 'Resource cost per level from unlock (9★) up to level 40, plus the Ancient Twilight materials gating each bracket.',
+      fr: 'Coût en ressources par niveau, du déblocage (9★) jusqu’au niveau 40, ainsi que les matériaux Ancient Twilight qui conditionnent chaque palier.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'p', en: 'The Soul Vessel unlocks once a hero reaches 9 stars and can be leveled up to 40 (Order & Chaos heroes) using three resources in sequence: Soul Shard (levels 0-10), Soul Core (levels 11-20), and Soul Meteor (levels 21-40).', fr: 'Le Vaisseau d’Âme se débloque quand un héros atteint 9 étoiles et peut être monté jusqu’au niveau 40 (héros Ordre & Chaos) en utilisant trois ressources dans l’ordre : Fragment d’Âme (niveaux 0-10), Noyau d’Âme (niveaux 11-20), puis Météore d’Âme (niveaux 21-40).' },
+          { type: 'note', en: 'Levels 31-40 costs can also be paid with Soul Meteor Jadeite instead of regular Soul Meteor.', fr: 'Les coûts des niveaux 31 à 40 peuvent aussi être payés avec du Météore d’Âme Jadéite à la place du Météore d’Âme classique.' },
+          { type: 'table', headers: [{ en: 'Bracket', fr: 'Palier' }, { en: 'Material', fr: 'Matériau' }, { en: 'Total cost', fr: 'Coût total' }], rows: [
+            ['0 → 10', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '220'],
+            ['11 → 20', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '240'],
+            ['21 → 30', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '300'],
+            ['31 → 35', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '280'],
+            ['36 → 40', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '770']
+          ] },
+          { type: 'note', en: 'Reaching SV10 / SV20 / SV30 / SV35 / SV40 also each require 10 units of the matching Ancient Twilight material (Ancient Crystal for AT1 at SV10, Ancient Glass for AT2 at SV20, Ancient Lens for AT3/4/5 at SV30/35/40) — see the Feature Unlocks guide for where each one drops.', fr: 'Atteindre SV10 / SV20 / SV30 / SV35 / SV40 demande aussi, à chaque fois, 10 unités du matériau Ancient Twilight correspondant (Cristal Ancestral pour AT1 à SV10, Verre Ancestral pour AT2 à SV20, Lentille Ancestrale pour AT3/4/5 à SV30/35/40) — voir le guide Déblocages par chapitre pour savoir où les obtenir.' },
+          { type: 'p', en: 'Per-level breakdown:', fr: 'Détail par niveau :' },
+          { type: 'table', headers: [{ en: 'Level', fr: 'Niveau' }, { en: 'Material', fr: 'Matériau' }, { en: 'Cost', fr: 'Coût' }], rows: [
+            ['0 (unlock)', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '20'],
+            ['1', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '10'], ['2', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '10'], ['3', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '10'], ['4', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '10'], ['5', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '15'], ['6', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '20'], ['7', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '20'], ['8', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '25'], ['9', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '30'], ['10', { en: 'Soul Shard', fr: 'Fragment d’Âme' }, '50'],
+            ['11', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '10'], ['12', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '10'], ['13', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '15'], ['14', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '15'], ['15', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '20'], ['16', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '25'], ['17', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '25'], ['18', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '30'], ['19', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '40'], ['20', { en: 'Soul Core', fr: 'Noyau d’Âme' }, '50'],
+            ['21', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '10'], ['22', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '20'], ['23', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '20'], ['24', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '20'], ['25', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '30'], ['26', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '30'], ['27', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '40'], ['28', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '40'], ['29', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '40'], ['30', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '50'],
+            ['31', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '50'], ['32', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '50'], ['33', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '50'], ['34', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '60'], ['35', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '70'],
+            ['36', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '80'], ['37', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '90'], ['38', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '120'], ['39', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '180'], ['40', { en: 'Soul Meteor', fr: 'Météore d’Âme' }, '300']
+          ] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'sacred-oath-faq',
+    icon: '🕯️',
+    title: { en: 'Sacred Oath & Sacred Blessing FAQ', fr: 'FAQ Sacred Oath & Sacred Blessing' },
+    summary: {
+      en: 'How Sacred Scrolls work, and what the Sacred Blessing event gives you.',
+      fr: 'Comment fonctionnent les Parchemins Sacrés, et ce que rapporte l’événement Sacred Blessing.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'p', en: 'Sacred Scrolls are used in the Wishing Shrine\'s Sacred Oath section, which unlocks after you beat Campaign Stage 26-40.', fr: 'Les Parchemins Sacrés s’utilisent dans la section Sacred Oath du Sanctuaire des Vœux, qui se débloque après avoir terminé le niveau 26-40 de la Campagne.' },
+          { type: 'note', en: 'You should never use Diamonds directly on Sacred Oath — use only Sacred Scrolls. If you need to convert Diamonds to Sacred Scrolls, do it in the VIP shop or via popup deals during Tinted Mirage while clearing stages (4,000 Diamonds for 10 scrolls).', fr: 'Il ne faut jamais dépenser de Diamants directement sur le Sacred Oath — utilisez uniquement des Parchemins Sacrés. Si vous devez convertir des Diamants en Parchemins Sacrés, faites-le à la boutique VIP ou via les offres popup pendant le Mirage Teinté en terminant des niveaux (4 000 Diamants pour 10 parchemins).' },
+          { type: 'p', en: 'What is Sacred Blessing?', fr: 'Qu’est-ce que le Sacred Blessing ?' },
+          { type: 'p', en: 'It is an irregularly occurring event that rewards you with one Order/Chaos selection chest for every 100 Sacred Oath summons made during the event. The event typically lasts 7 days. Up to 5 selection chests can be obtained in total (500 summons during the event).', fr: 'C’est un événement qui survient de façon irrégulière et qui offre un coffre au choix Ordre/Chaos toutes les 100 invocations Sacred Oath effectuées pendant l’événement. L’événement dure généralement 7 jours. On peut obtenir jusqu’à 5 coffres au choix au total (500 invocations pendant l’événement).' },
+          { type: 'p', en: 'When will Sacred Blessing come back?', fr: 'Quand le Sacred Blessing revient-il ?' },
+          { type: 'p', en: 'There is no exact schedule, but it usually happens once every 2 to 3 months — this is up to the developers and subject to change. Keep checking the event calendar; it will eventually happen. Keep saving your Sacred Scrolls until then.', fr: 'Il n’y a pas de calendrier fixe, mais cela arrive généralement tous les 2 à 3 mois — c’est à la discrétion des développeurs et sujet à changement. Surveillez le calendrier des événements, ça finira par arriver. Gardez vos Parchemins Sacrés de côté en attendant.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'summon-odds',
+    icon: '🎲',
+    title: { en: 'Summon Costs & Odds', fr: 'Coûts et probabilités d’invocation' },
+    summary: {
+      en: 'Approximate gem/scroll cost per copy across each summon banner, based on published rates and average pulls.',
+      fr: 'Coût approximatif en gemmes/parchemins par exemplaire pour chaque bannière d’invocation, basé sur les taux publiés et le nombre moyen de tirages.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'table', headers: [{ en: 'Banner', fr: 'Bannière' }, { en: 'Odds', fr: 'Probabilité' }, { en: 'Cost per pull', fr: 'Coût par tirage' }, { en: 'Average cost per copy', fr: 'Coût moyen par exemplaire' }], rows: [
+            [{ en: 'Sacred Oath — SSR', fr: 'Sacred Oath — SSR' }, '2%', { en: '500 gems (avg. 50 pulls)', fr: '500 gemmes (moy. 50 tirages)' }, { en: '~25,000 gems / ~50 Sacred Scrolls', fr: '~25 000 gemmes / ~50 Parchemins Sacrés' }],
+            [{ en: 'Sacred Oath — UR', fr: 'Sacred Oath — UR' }, '1.4%', { en: '500 gems (avg. ~72 pulls)', fr: '500 gemmes (moy. ~72 tirages)' }, { en: '~36,000 gems / ~72 Sacred Scrolls', fr: '~36 000 gemmes / ~72 Parchemins Sacrés' }],
+            [{ en: 'Eternal Oath', fr: 'Eternal Oath' }, '2%', { en: 'avg. 50 pulls', fr: 'moy. 50 tirages' }, { en: '~50 Eternal Scrolls', fr: '~50 Parchemins Éternels' }],
+            [{ en: 'Premium Summon', fr: 'Invocation Premium' }, '4.61%', { en: '250 gems (avg. ~22 pulls)', fr: '250 gemmes (moy. ~22 tirages)' }, { en: '~5,500 gems per wishlist hero', fr: '~5 500 gemmes par héros de la liste de souhaits' }],
+            [{ en: 'Prophecy Summon — SSR', fr: 'Invocation de Prophétie — SSR' }, '4.61%', { en: '280 gems (avg. ~22 pulls)', fr: '280 gemmes (moy. ~22 tirages)' }, { en: '~6,000 gems', fr: '~6 000 gemmes' }],
+            [{ en: 'Prophecy Summon — Order/Chaos/Astral (?)', fr: 'Invocation de Prophétie — Ordre/Chaos/Astral (?)' }, '4.61%', { en: '400 gems (avg. ~22 pulls)', fr: '400 gemmes (moy. ~22 tirages)' }, { en: '~9,000 gems', fr: '~9 000 gemmes' }],
+            [{ en: 'Limited Summon (excl. milestones)', fr: 'Invocation Limitée (hors paliers)' }, '2.2%', { en: '450 gems (avg. ~45 pulls)', fr: '450 gemmes (moy. ~45 tirages)' }, { en: '~20,000 gems', fr: '~20 000 gemmes' }]
+          ] },
+          { type: 'note', en: 'The "(?)" on Prophecy Summon Order/Chaos/Astral rate reflects uncertainty in the original community source — treat that specific figure as approximate.', fr: 'Le « (?) » sur le taux Ordre/Chaos/Astral de l’Invocation de Prophétie reflète une incertitude dans la source communautaire d’origine — considérez ce chiffre précis comme approximatif.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'ur-build-order',
+    icon: '🌟',
+    title: { en: 'UR Hero Build Order', fr: 'Ordre de développement des héros UR' },
+    summary: {
+      en: 'Which UR heroes to invest in first, tiered by overall value, plus which ones are worth grabbing at a single copy early.',
+      fr: 'Quels héros UR développer en premier, classés par valeur globale, et lesquels valent le coup en un seul exemplaire dès le début.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'note', en: 'Heroes within the same tier can be built in whichever order suits your roster — it is not recommended to build a lower-tier hero before finishing the tiers above it.', fr: 'Les héros d’un même palier peuvent être développés dans l’ordre qui vous arrange — il n’est pas recommandé de développer un héros d’un palier inférieur avant de finir les paliers au-dessus.' }
+        ]
+      },
+      {
+        heading: { en: 'Tier 1: Singularity Lunox / Skuld Norns', fr: 'Palier 1 : Singularity Lunox / Skuld Norns' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Singularity Lunox (Slunox) is a versatile hero used in many modes, with a very strong Realm ability you want upgraded ASAP for fast revives.', fr: 'Singularity Lunox (Slunox) est un héros polyvalent utilisé dans de nombreux modes, avec une capacité de Royaume très puissante à améliorer au plus vite pour des résurrections rapides.' },
+            { en: 'Skuld Norns is also used in many modes, with great durability and big damage potential — a very strong hero overall.', fr: 'Skuld Norns est aussi utilisée dans de nombreux modes, avec une grande durabilité et un fort potentiel de dégâts — un héros très solide dans l’ensemble.' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Tier 2: Infinia Crocell / Heartcore Angela / Sentient Alina / Genesis Shar', fr: 'Palier 2 : Infinia Crocell / Heartcore Angela / Sentient Alina / Genesis Shar' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Sentient Alina is a solid all-around hero with a very powerful Realm, best paired with burst damage heroes (like Infinia Crocell and Agnes).', fr: 'Sentient Alina est une héroïne solide et polyvalente avec un Royaume très puissant, idéale associée à des héros de dégâts en burst (comme Infinia Crocell et Agnes).' },
+            { en: 'Infinia Crocell is a powerful carry for Campaign and towers — bonus points for being Astral if paired with Skuld — and also pairs very well with Alina.', fr: 'Infinia Crocell est un excellent carry pour la Campagne et les tours — un bonus d’être Astral si associée à Skuld — et se marie aussi très bien avec Alina.' },
+            { en: 'Genesis Shar (Gshar) is highly useful in her respective towers, Campaign, and Tinted Mirage.', fr: 'Genesis Shar (Gshar) est très utile dans ses tours dédiées, en Campagne et pendant le Mirage Teinté.' },
+            { en: 'Heartcore Angela (HAngela) is very durable and offers a very strong Realm ability — she can be left at 8★ and finished later.', fr: 'Heartcore Angela (HAngela) est très résistante et offre un Royaume très puissant — elle peut être laissée à 8★ et terminée plus tard.' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Tier 3: Mystic Mystia / Everblight Shah / Apexis Cluster / Lionheart Sekhet / Omniversal Akashic / Aeon Rista', fr: 'Palier 3 : Mystic Mystia / Everblight Shah / Apexis Cluster / Lionheart Sekhet / Omniversal Akashic / Aeon Rista' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Mystic Mystia offers great disruptive utility while keeping your team alive — usable in Guild Boss, overall a good support.', fr: 'Mystic Mystia offre un excellent contrôle perturbateur tout en maintenant son équipe en vie — utilisable au Boss de Guilde, bon soutien dans l’ensemble.' },
+            { en: 'Lionheart Sekhet (LSekhet) is close to her SSR counterpart in performance, offering great protection for your team plus crowd control.', fr: 'Lionheart Sekhet (LSekhet) est proche de son équivalent SSR en performance, offrant une excellente protection pour l’équipe et du contrôle de foule.' },
+            { en: 'Everblight Shah (EShah) has limited usefulness in PvE — generally 1 copy is enough.', fr: 'Everblight Shah (EShah) a une utilité limitée en JcE — un seul exemplaire suffit généralement.' },
+            { en: 'Apexis Cluster does very well in Tinted Mirage if built, and can also be used for general PvE.', fr: 'Apexis Cluster excelle en Mirage Teinté une fois développée, et peut aussi servir en JcE général.' },
+            { en: 'Omniversal Akashic (Omni Akashic) is great for Minos and some specific Campaign teams, but far less broadly used than his SSR counterpart to be worth pursuing early.', fr: 'Omniversal Akashic (Omni Akashic) est excellent pour Minos et certaines équipes de Campagne spécifiques, mais bien moins utilisé que son équivalent SSR pour justifier d’être développé tôt.' },
+            { en: 'Aeon Rista (Arista) is incredible, but in most cases one copy (for GBR / Minos) — which you can and should get early — is enough; fully committing to her isn\'t strictly necessary before other heroes.', fr: 'Aeon Rista (Arista) est incroyable, mais dans la plupart des cas un seul exemplaire (pour le GBR / Minos) — que vous pouvez et devriez obtenir tôt — suffit ; s’y investir pleinement n’est pas strictement nécessaire avant les autres héros.' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Tier 4: Noctis Tokinibara / Achlys Alice / Eos Silvanna / Kryos Sinmara', fr: 'Palier 4 : Noctis Tokinibara / Achlys Alice / Eos Silvanna / Kryos Sinmara' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Noctis Tokinibara (NToki) does well in Minos, but 1 copy is enough and can be substituted for Tefnut.', fr: 'Noctis Tokinibara (NToki) est efficace à Minos, mais un seul exemplaire suffit et peut être remplacé par Tefnut.' },
+            { en: 'Achlys Alice (AAlice) is not very impressive in PvE content as she needs a lot of support to work — she\'s fine in Dark Tower.', fr: 'Achlys Alice (AAlice) n’est pas très impressionnante en JcE car elle a besoin de beaucoup de soutien pour fonctionner — elle est correcte en Tour des Ténèbres.' },
+            { en: 'Eos Silvanna is good for pushing towers and can be delayed — get 1 copy of her.', fr: 'Eos Silvanna est bonne pour pousser les tours et peut être retardée — prenez-en un exemplaire.' },
+            { en: 'Kryos Sinmara is only worth considering for her (so far) unique Legion Skill that boosts global PvE damage — otherwise not a very useful hero (her Realm has some potential).', fr: 'Kryos Sinmara ne vaut le coup que pour sa Compétence de Légion unique (pour l’instant) qui augmente les dégâts JcE globaux — sinon ce n’est pas un héros très utile (son Royaume a un certain potentiel).' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Tier 5: Ember Irithel / Helia Karihmet', fr: 'Palier 5 : Ember Irithel / Helia Karihmet' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Both of these heroes can be slowly built from the Commerce Office — not recommended to summon for them directly.', fr: 'Ces deux héros peuvent être développés lentement via le Bureau du Commerce — il n’est pas recommandé d’invoquer directement pour eux.' },
+            { en: 'Ember Irithel finds use in Miracle Towers and used to be good in Minos (could come back).', fr: 'Ember Irithel trouve une utilité dans les Tours Miracles et était autrefois bonne à Minos (pourrait revenir).' },
+            { en: 'Helia Karihmet is really bad everywhere — get her only as your last UR, for Sanctuary/Eagle Statue levels.', fr: 'Helia Karihmet est vraiment mauvaise partout — ne la prenez qu’en dernier UR, pour les niveaux de Sanctuaire/Statue de l’Aigle.' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Worth grabbing at a single copy early', fr: 'Valent le coup en un seul exemplaire dès le début' },
+        blocks: [
+          { type: 'p', en: 'These heroes can help even as a single copy in modes like Tower of Babel or Minos Trial, or are just generally useful — it\'s not a bad idea to grab one copy when you have the option.', fr: 'Ces héros peuvent aider même en un seul exemplaire dans des modes comme la Tour de Babel ou l’Épreuve de Minos, ou sont simplement utiles en général — ce n’est pas une mauvaise idée d’en prendre un exemplaire quand l’occasion se présente.' },
+          { type: 'ul', items: [
+            { en: 'High priority: Singularity Lunox, Skuld Norns, Aeon Rista.', fr: 'Haute priorité : Singularity Lunox, Skuld Norns, Aeon Rista.' },
+            { en: 'Lower priority (not recommended unless you have a specific reason): Everblight Shah, Genesis Shar, Noctis Tokinibara, Eos Silvanna, Infinia Crocell, Heartcore Angela, Apexis Cluster, Omniversal Akashic.', fr: 'Priorité plus faible (déconseillé sauf raison particulière) : Everblight Shah, Genesis Shar, Noctis Tokinibara, Eos Silvanna, Infinia Crocell, Heartcore Angela, Apexis Cluster, Omniversal Akashic.' }
+          ] }
+        ]
+      }
+    ]
   }
 ];
