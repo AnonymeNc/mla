@@ -28,7 +28,9 @@ window.guidesData = [
               { term: 'oX — Orlay Cards (o3, o6, o9…)', en: 'Every 3 cards unlock a new skill (e.g. o3 = 3 cards = first skill unlocked). Unlocks once the hero is Awakened and chapter 29 is beaten.', fr: 'Toutes les 3 cartes débloquent une nouvelle compétence (ex. o3 = 3 cartes = 1ère compétence débloquée). Se débloque une fois le héros Éveillé et le chapitre 29 terminé.' },
               { term: 'AT1–AT5 — Ancient Twilight', en: 'Level 1 unlocks around chapter 38-45, level 2 around 44-45, level 3 around 49-45 (levels 4 and 5 are for Order & Chaos heroes only). Used to upgrade the Soul Vessel further, at SV 10/20/30/35/40.', fr: 'Le niveau 1 se débloque vers le chapitre 38-45, le 2 vers 44-45, le 3 vers 49-45 (les niveaux 4 et 5 sont réservés aux héros Ordre & Chaos). Sert à améliorer encore le Vaisseau d’Âme, aux paliers SV 10/20/30/35/40.' },
               { term: 'GGX — Glory Gems (gg2, gg4, gg6, gg8, gg16…)', en: 'Unlocks once the hero is Awakened 2 and chapter 41-45 is beaten. Further upgrades come from Prismatic Glory Gems (Myriad Glory).', fr: 'Se débloque une fois le héros Éveillé 2 et le chapitre 41-45 terminé. Des améliorations supplémentaires viennent des Gemmes de Gloire Prismatiques (Gloire Multiple).' },
-              { term: 'eX — Elevation Level (e1–e6)', en: 'Pets only. Unlocks once the pet\'s hero is Awakened 3.', fr: 'Réservé aux familiers (pets). Se débloque une fois le héros associé Éveillé 3.' }
+              { term: 'eX — Elevation Level (e1–e6)', en: 'Pets only. Unlocks once the pet\'s hero is Awakened 3.', fr: 'Réservé aux familiers (pets). Se débloque une fois le héros associé Éveillé 3.' },
+              { term: 'AX — Awaken level (A0–A8)', en: 'Shorthand for a hero\'s Awaken rank, e.g. A3 means Awakened 3. Higher ranks need more duplicate copies and unlock further passives.', fr: 'Abréviation du rang d’Éveil d’un héros, par ex. A3 = Éveillé 3. Les rangs plus élevés demandent plus d’exemplaires en double et débloquent davantage de passifs.' },
+              { term: 'NX — Nexus level', en: 'A further hero upgrade tier past Awakening (e.g. N10), pushed mainly with event rewards and chests over time rather than direct farming.', fr: 'Un palier d’amélioration supplémentaire au-delà de l’Éveil (ex. N10), que l’on fait surtout progresser avec le temps via les récompenses d’événements et les coffres plutôt qu’en le farmant directement.' }
             ]
           }
         ]
@@ -328,6 +330,154 @@ window.guidesData = [
             { en: 'Borderline value per $ spent: Weekly Packs, Daily Packs, and time-limited Event Packs — except the customizable weekly offers or refreshable randomized daily offers, which are decent value.', fr: 'Rapport limite : Packs Hebdomadaires, Packs Quotidiens, et Packs d’Événement limités dans le temps — sauf les offres hebdomadaires personnalisables ou les offres quotidiennes aléatoires rafraîchissables, qui restent correctes.' },
             { en: 'Avoid: buying Diamonds/gems directly.', fr: 'À éviter : acheter des Diamants/gemmes directement.' }
           ] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'oca-build-order',
+    icon: '🌗',
+    title: { en: 'Order / Chaos / Astral Build Order', fr: 'Ordre du bâti Ordre / Chaos / Astral' },
+    summary: {
+      en: 'Which Order, Chaos, and Astral (O/C/A) heroes to invest in, and in what order.',
+      fr: 'Quels héros Ordre, Chaos et Astral (O/C/A) développer, et dans quel ordre.'
+    },
+    sections: [
+      {
+        heading: { en: 'Which O/C/A hero should I build?', fr: 'Quel héros O/C/A développer en premier ?' },
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'One ⭐ copy of Beatrice (Astral) and one ⭐ copy of Rista (Chaos) to help your early game.', fr: 'Un exemplaire ⭐ de Beatrice (Astral) et un exemplaire ⭐ de Rista (Chaos) pour vous aider en début de partie.' },
+            { en: 'Akashic (Order) to A3.', fr: 'Akashic (Ordre) jusqu’à A3.' },
+            { en: 'Agnes (Chaos) to A3.', fr: 'Agnes (Chaos) jusqu’à A3.' },
+            { en: 'Feng (Order) to A3.', fr: 'Feng (Ordre) jusqu’à A3.' },
+            { en: 'Florence (Chaos) to A3.', fr: 'Florence (Chaos) jusqu’à A3.' },
+            { en: 'Estarith to A0 or A3.', fr: 'Estarith jusqu’à A0 ou A3.' },
+            { en: 'Beatrice (Astral) to A0 or A3.', fr: 'Beatrice (Astral) jusqu’à A0 ou A3.' },
+            { en: 'After this point, you may instead focus on UR heroes and build the remaining O/C heroes with Prophecy pulls and/or chests from Sacred Blessing.', fr: 'À partir de là, vous pouvez plutôt vous concentrer sur les héros UR et développer les héros O/C restants avec les tirages Prophétie et/ou les coffres du Sacred Blessing.' },
+            { en: 'Sekhet (Chaos) to A3.', fr: 'Sekhet (Chaos) jusqu’à A3.' },
+            { en: 'Crocell (Order) to A3.', fr: 'Crocell (Ordre) jusqu’à A3.' }
+          ] },
+          { type: 'p', en: 'You will also want to finish your Rista to A3 over time — this can and should be done with shops and chests.', fr: 'Vous voudrez aussi finir Rista jusqu’à A3 avec le temps — cela peut et doit se faire via les boutiques et les coffres.' },
+          { type: 'p', en: 'Pushing your important heroes (like Akashic, Feng, Agnes, or Florence) to Nexus N10 is a luxury that can be done over time via event rewards and chests. However, it might be more economical to build a different character instead.', fr: 'Pousser vos héros importants (comme Akashic, Feng, Agnes ou Florence) jusqu’à Nexus N10 est un luxe qui peut se faire avec le temps via les récompenses d’événements et les coffres. Cela dit, il peut être plus rentable de développer un autre personnage à la place.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'pets',
+    icon: '🐾',
+    title: { en: 'Pets (Companions) Guide', fr: 'Guide des familiers (Compagnons)' },
+    summary: {
+      en: 'Which companion to pick per hero, and when Legendary pets are worth committing to.',
+      fr: 'Quel compagnon choisir pour quel héros, et quand investir dans un familier Légendaire.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'note', en: 'Do not spread partial Elevation investment across many heroes\' Griffins — this is highly inefficient. Focus on one hero at a time.', fr: 'Ne répartissez pas un investissement partiel d’Élévation sur les Griffons de plusieurs héros — c’est très inefficace. Concentrez-vous sur un héros à la fois.' }
+        ]
+      },
+      {
+        heading: { en: 'Which companion should I go for?', fr: 'Quel compagnon choisir ?' },
+        blocks: [
+          { type: 'p', en: 'For most heroes, you can use the Rare pet (Cat) or one of the Epic pets (Wolf, Sandram, Ferret). These pets can be freely swapped around (with a full refund) and the difference between them is fairly minimal.', fr: 'Pour la plupart des héros, vous pouvez utiliser le familier Rare (Chat) ou l’un des familiers Épiques (Loup, Sandram, Furet). Ces familiers peuvent être librement réattribués (avec remboursement complet) et la différence entre eux est assez minime.' },
+          { type: 'p', en: 'Wolf is very universal and may go on pretty much anyone (usually damage dealers). Ferret has some synergy with support-type heroes. Sandram is an ok choice on frontliners.', fr: 'Le Loup est très polyvalent et convient à presque tout le monde (généralement les dégâts). Le Furet a une certaine synergie avec les héros de soutien. Sandram est un choix correct sur les héros de première ligne.' }
+        ]
+      },
+      {
+        heading: { en: 'Legendary pets', fr: 'Familiers Légendaires' },
+        blocks: [
+          { type: 'p', en: 'For Legendary pets, it is highly recommended you go only for Griffin. Stag and Ninetails are lacking in PvE content and are very situational. Griffin has priority on many high-tier heroes.', fr: 'Pour les familiers Légendaires, il est fortement recommandé de ne viser que le Griffon. Cerf and Renard-à-neuf-queues manquent de contenu JcE et restent très situationnels. Le Griffon est prioritaire sur beaucoup de héros de haut niveau.' },
+          { type: 'p', en: 'Legendary pets cannot be downgraded back to Epic — you may only change them to another Legendary pet by sacrificing 20 orbs, making the choice of who gets your Legendary companion permanent.', fr: 'Les familiers Légendaires ne peuvent pas redescendre en Épique — vous pouvez seulement les échanger contre un autre familier Légendaire en sacrifiant 20 orbes, ce qui rend définitif le choix du porteur de votre compagnon Légendaire.' },
+          { type: 'p', en: 'It is recommended you only equip Griffin once you can bring it straight to E4 (Elevation Level 4). Until then, it is strictly better to use an E6 Epic companion.', fr: 'Il est recommandé de n’équiper le Griffon qu’une fois capable de le monter directement à E4 (Niveau d’Élévation 4). En attendant, mieux vaut toujours utiliser un familier Épique en E6.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'relics',
+    icon: '🔮',
+    title: { en: 'Relics Guide', fr: 'Guide des Reliques' },
+    summary: {
+      en: 'What to pull for during Relic Wishlist events, and how Unique relics work.',
+      fr: 'Quoi tirer pendant les événements Liste de Souhaits de Reliques, et comment fonctionnent les Reliques Uniques.'
+    },
+    sections: [
+      {
+        heading: { en: 'Epic relics', fr: 'Reliques Épiques' },
+        blocks: [
+          { type: 'note', en: 'Don\'t pull for relics outside a Wishlist event — you risk getting bad relics. Keep checking the event calendar for the next Relic Wishlist event.', fr: 'Ne tirez pas de reliques en dehors d’un événement Liste de Souhaits — vous risquez d’obtenir de mauvaises reliques. Surveillez le calendrier pour le prochain événement Liste de Souhaits de Reliques.' },
+          { type: 'p', en: 'What relics should I pull for in the Wishlist event (PvE)?', fr: 'Quelles reliques choisir dans la Liste de Souhaits (JcE) ?' },
+          { type: 'ul', items: [
+            { en: '1st and 2nd slot: keep Lifeform 6 and Biophoton Reactor in your wishlist at all times — they are the best PvE-oriented relics.', fr: '1er et 2e emplacement : gardez toujours Forme de Vie 6 et Réacteur Biophotonique dans votre liste — ce sont les meilleures reliques orientées JcE.' },
+            { en: '3rd slot: Organic Continuum or Dark Whisperer.', fr: '3e emplacement : Continuum Organique ou Murmureur des Ténèbres.' },
+            { en: 'Other options for the 3rd slot: Leviathan Head, Microcosmos.', fr: 'Autres options pour le 3e emplacement : Tête de Léviathan, Microcosmos.' }
+          ] }
+        ]
+      },
+      {
+        heading: { en: 'Unique relics', fr: 'Reliques Uniques' },
+        blocks: [
+          { type: 'p', en: 'These relics are special because you cannot actively deploy them in combat. Instead, they offer a passive stat increase that is always active for everyone.', fr: 'Ces reliques sont spéciales car vous ne pouvez pas les déployer activement au combat. Elles offrent à la place une augmentation de statistique passive, toujours active pour tout le monde.' },
+          { type: 'p', en: 'It is recommended to get a copy of each one whenever you can. Each Unique relic has a different acquisition method — you can find out how to get them from the Relic gallery by tapping on them. More sources for these relics will supposedly be added over time.', fr: 'Il est recommandé d’en obtenir un exemplaire de chaque dès que possible. Chaque Relique Unique a une méthode d’acquisition différente — vous pouvez la découvrir dans la Galerie de Reliques en appuyant dessus. D’autres sources pour ces reliques seront a priori ajoutées avec le temps.' },
+          { type: 'p', en: 'Once you have at least one copy of a Unique relic, you can further level up the bonus stat it gives by completing the daily mission specific to that relic — each relic has a different daily mission tied to it, described in the relic\'s own description.', fr: 'Une fois que vous avez au moins un exemplaire d’une Relique Unique, vous pouvez encore augmenter le bonus qu’elle procure en accomplissant sa mission quotidienne spécifique — chaque relique a une mission quotidienne différente, décrite dans sa propre fiche.' }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'shops',
+    icon: '🛒',
+    title: { en: 'Shop Priority Guide', fr: 'Guide de priorité des boutiques' },
+    summary: {
+      en: 'What to prioritize buying in each of the game\'s shops.',
+      fr: 'Quoi prioriser dans chacune des boutiques du jeu.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'table', headers: [{ en: 'Shop', fr: 'Boutique' }, { en: 'Priority', fr: 'Priorité' }], rows: [
+            [{ en: 'Market', fr: 'Marché' }, { en: 'Buy anything that costs Gold (Battle Points). Items costing Diamonds are not worth it.', fr: 'Achetez tout ce qui coûte de l’Or (Points de Combat). Les objets coûtant des Diamants ne valent pas le coup.' }],
+            [{ en: 'Guild Shop', fr: 'Boutique de Guilde' }, { en: 'Bloodstained Collar → Stellar Essence (M6) and Stellar Cloud (M5). With enough coins, also Oberon (recommended) or Anna.', fr: 'Collier Taché de Sang → Essence Stellaire (M6) et Nuage Stellaire (M5). Avec assez de pièces, aussi Oberon (recommandé) ou Anna.' }],
+            [{ en: 'Dungeon Shop', fr: 'Boutique du Donjon' }, { en: 'Dungeon Coins → Angela. Nightmare Coins → Rista. Other options: Odette, Vexana, Irithel, Gord, Forsetti, Amaterasu, Karihmet. Red Meteor Chests only once you\'ve stopped building heroes here. Nightmare dungeon unlocks after 15 normal runs; Sweep unlocks after 25 normal runs (normal) / 15 nightmare runs (nightmare).', fr: 'Pièces de Donjon → Angela. Pièces de Cauchemar → Rista. Autres options : Odette, Vexana, Irithel, Gord, Forsetti, Amaterasu, Karihmet. Coffres Météore Rouge seulement une fois que vous ne développez plus de héros ici. Le Donjon Cauchemar se débloque après 15 runs normaux ; le Nettoyage auto après 25 runs normaux (normal) / 15 runs Cauchemar (cauchemar).' }],
+            [{ en: 'Brawl Shop', fr: 'Boutique de Rixe' }, { en: 'Zhask (recommended) or Martis. Red Meteor Chests after finishing both.', fr: 'Zhask (recommandé) ou Martis. Coffres Météore Rouge une fois les deux terminés.' }],
+            [{ en: 'Dawn Shop', fr: 'Boutique de l’Aube' }, { en: 'Red Meteor Chests, Ancient Lens, or Ultimate/Eternal Crystals.', fr: 'Coffres Météore Rouge, Lentille Ancestrale, ou Cristaux Ultimes/Éternels.' }],
+            [{ en: 'Tavern Shop', fr: 'Boutique de la Taverne' }, { en: 'Aureate Rune Stone until you reach maximum Soul Root Level 34, then Hwang Jini, then Red Meteor Chests.', fr: 'Pierre-Rune Dorée jusqu’au niveau maximum de Racine d’Âme 34, puis Hwang Jini, puis Coffres Météore Rouge.' }],
+            [{ en: 'Tael Shop', fr: 'Boutique Tael' }, { en: 'Weird Lucky Coin → Xeno (recommended) or Tia. Red Meteor Chests after finishing both.', fr: 'Étrange Pièce Porte-Bonheur → Xeno (recommandé) ou Tia. Coffres Météore Rouge une fois les deux terminés.' }],
+            [{ en: 'Cloud Depot', fr: 'Dépôt Céleste' }, { en: 'Golden Feathers → Legendary/Epic Pet Selection Chest, then Energy Casket, Glory Boxes, or Red Meteor Chests. White Feathers → Sacred Scrolls, then Red Meteor Chests.', fr: 'Plumes Dorées → Coffre au choix de familier Légendaire/Épique, puis Coffret d’Énergie, Boîtes de Gloire ou Coffres Météore Rouge. Plumes Blanches → Parchemins Sacrés, puis Coffres Météore Rouge.' }],
+            [{ en: 'Battle Supply', fr: 'Ravitaillement de Combat' }, { en: 'Morpheus and Sacred Scrolls. Other options: Apostae (skip if building from Alchemy Shop), Red Meteor Chests, Glory Box, Token of Valor, Advanced Essence, Ancient Lens.', fr: 'Morpheus et Parchemins Sacrés. Autres options : Apostae (à ignorer si développé via la Boutique d’Alchimie), Coffres Météore Rouge, Boîte de Gloire, Jeton de Bravoure, Essence Avancée, Lentille Ancestrale.' }],
+            [{ en: 'Realm of Samsara (Tinted Mirage)', fr: 'Royaume du Samsara (Mirage Teinté)' }, { en: 'Purple currency: all FEATURED (new hero) fragments → Sacred Scrolls → cheap Spirit Sand packages → whatever else you need. Blue currency: Ether Stone for artifacts you haven\'t maxed (follow the artifact priority guide) → Spirit Crystal once everything offered is maxed.', fr: 'Monnaie violette : tous les fragments du héros VEDETTE (nouveau héros) → Parchemins Sacrés → packs de Sable d’Esprit bon marché → le reste selon vos besoins. Monnaie bleue : Pierre d’Éther pour les artefacts non maximisés (suivez le guide de priorité des artefacts) → Cristal d’Esprit une fois tout maximisé.' }],
+            [{ en: 'Pioneer Shop', fr: 'Boutique du Pionnier' }, { en: 'Myriad Glory Gems → Legendary Pet Selection Chest → Chrono Entropy → Jadeite or Red Meteor Chests.', fr: 'Gemmes de Gloire Multiple → Coffre au choix de familier Légendaire → Chrono Entropie → Jadéite ou Coffres Météore Rouge.' }],
+            [{ en: 'Honor Shop', fr: 'Boutique de Bravoure' }, { en: 'Fast Idle and Premium Scrolls.', fr: 'Ralenti Rapide et Parchemins Premium.' }],
+            [{ en: 'Shrine Shop', fr: 'Boutique du Sanctuaire' }, { en: '5-Star Hero Fragments.', fr: 'Fragments de héros 5 étoiles.' }],
+            [{ en: 'Cactus Shop', fr: 'Boutique Cactus' }, { en: 'Myriad Glory Gems → Sacred Scrolls. Hero shards aren\'t advised before you have another source of Myriad Glory.', fr: 'Gemmes de Gloire Multiple → Parchemins Sacrés. Les fragments de héros sont déconseillés tant que vous n’avez pas une autre source de Gloire Multiple.' }],
+            [{ en: 'Alchemy Shop (Guild)', fr: 'Boutique d’Alchimie (Guilde)' }, { en: 'Construction Goods: Ancient Lens (red), Mythic Equipment if needed. Exchange Goods: Apostae (monthly) → Stellar Cloud (M5) Selection Chest → Ancient Lens.', fr: 'Biens de Construction : Lentille Ancestrale (rouge), Équipement Mythique si besoin. Biens d’Échange : Apostae (mensuel) → Coffre au choix Nuage Stellaire (M5) → Lentille Ancestrale.' }]
+          ] }
+        ]
+      }
+    ]
+  },
+  {
+    id: 'server-swap',
+    icon: '🔄',
+    title: { en: 'How to Swap Servers', fr: 'Comment changer de serveur' },
+    summary: {
+      en: 'How to leave the Return Server and go back to your original account/division.',
+      fr: 'Comment quitter le serveur de retour et revenir à votre compte/division d’origine.'
+    },
+    sections: [
+      {
+        blocks: [
+          { type: 'ul', items: [
+            { en: 'Click on your profile.', fr: 'Cliquez sur votre profil.' },
+            { en: 'Go to Settings.', fr: 'Allez dans Paramètres.' },
+            { en: 'Click on "Server".', fr: 'Cliquez sur « Server ».' },
+            { en: 'Click the swap arrow icon in the top-left.', fr: 'Cliquez sur l’icône flèche d’échange en haut à gauche.' },
+            { en: 'Choose another division (choose anything other than Division 10 if you wish to leave the Return Server).', fr: 'Choisissez une autre division (choisissez autre chose que la Division 10 si vous voulez quitter le serveur de retour).' },
+            { en: 'Done.', fr: 'C’est terminé.' }
+          ] },
+          { type: 'note', en: 'Division 10 in the screenshots is the special "Return Server" pool — switching to a different division takes you back to a regular server.', fr: 'La Division 10 dans les captures est le pool spécial du « serveur de retour » — passer à une autre division vous ramène sur un serveur classique.' }
         ]
       }
     ]
