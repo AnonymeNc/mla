@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>MLA Hero Details</title>
+    <title>MLA Guides &amp; FAQ</title>
     <link rel="stylesheet" href="./src/styles/main.css?v=20260721-1" />
   </head>
-  <body data-page="detail">
+  <body data-page="guides">
     <header class="topbar">
       <div class="brand-block">
         <p class="eyebrow" data-i18n="siteTagline">Mobile Legends: Adventure</p>
-        <h1 data-i18n="heroProfileTitle">Hero Profile</h1>
+        <h1 data-i18n="guidesPageTitle">Guides &amp; FAQ</h1>
       </div>
       <div class="topbar__actions">
         <label class="lang-switch" for="language-switcher">
@@ -23,16 +23,23 @@
             <option value="ru">Русский</option>
           </select>
         </label>
-        <a class="nav-link" href="./guides.html" data-i18n="guidesNavLabel">Guides &amp; FAQ</a>
         <a class="nav-link" href="./index.html" data-i18n="backToCatalog">Back to catalog</a>
       </div>
     </header>
 
     <main class="page-shell">
-      <section id="detail-root"></section>
+      <section class="hero-summary">
+        <div>
+          <p class="eyebrow" data-i18n="guidesEyebrow">Community knowledge base</p>
+          <h2 data-i18n="guidesPageTitle">Guides &amp; FAQ</h2>
+          <p data-i18n="guidesPageDescription">Mechanics explainers, glossary, and beginner tips sourced from the community — sorted by topic.</p>
+        </div>
+      </section>
+
+      <div id="guides-root" class="guides-layout"></div>
     </main>
 
-    <script src="./src/data/heroes.js?v=20260721-1"></script>
+    <script src="./src/data/guides.js?v=20260721-1"></script>
     <script type="module" src="./src/app.js?v=20260721-1"></script>
   </body>
 </html>

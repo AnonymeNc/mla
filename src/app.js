@@ -1,10 +1,12 @@
-import { renderCatalog } from './components/catalog.js?v=20260720-2';
-import { renderHeroDetail } from './components/detail.js?v=20260720-2';
-import { getHeroTier, renderTierList } from './components/tier-list.js?v=20260720-2';
-import { applyLanguageToStaticContent, getCurrentLanguage, setLanguage, t, translateValue } from './i18n.js?v=20260720-2';
+import { renderCatalog } from './components/catalog.js?v=20260721-1';
+import { renderHeroDetail } from './components/detail.js?v=20260721-1';
+import { getHeroTier, renderTierList } from './components/tier-list.js?v=20260721-1';
+import { renderGuides } from './components/guides.js?v=20260721-1';
+import { applyLanguageToStaticContent, getCurrentLanguage, setLanguage, t, translateValue } from './i18n.js?v=20260721-1';
 
 const favoritesKey = 'mla-favorites';
 const heroes = Array.isArray(window.heroCatalogData) ? window.heroCatalogData : [];
+const guides = Array.isArray(window.guidesData) ? window.guidesData : [];
 
 function readFavorites() {
   try {
@@ -187,8 +189,28 @@ function applyDetailPage() {
   render();
 }
 
+function applyGuidesPage() {
+  const languageSwitcher = document.getElementById('language-switcher');
+
+  function render() {
+    const currentLang = setLanguage(getCurrentLanguage());
+    applyLanguageToStaticContent(currentLang);
+    if (languageSwitcher) languageSwitcher.value = currentLang;
+    renderGuides({ guides, lang: currentLang });
+  }
+
+  languageSwitcher?.addEventListener('change', (event) => {
+    setLanguage(event.target.value);
+    render();
+  });
+
+  render();
+}
+
 if (document.body.dataset.page === 'catalog') {
   applyCatalogPage();
 } else if (document.body.dataset.page === 'detail') {
   applyDetailPage();
+} else if (document.body.dataset.page === 'guides') {
+  applyGuidesPage();
 }

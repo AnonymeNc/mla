@@ -1,4 +1,4 @@
-import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260720-2';
+import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260721-1';
 
 function escapeHtml(value = '') {
   return String(value)

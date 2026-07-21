@@ -54,6 +54,13 @@ const translations = {
     tierC: 'C Tier',
     titlePrefix: 'MLA Hero Catalog',
     detailTitlePrefix: 'MLA Hero Details',
+    guidesTitlePrefix: 'MLA Guides & FAQ',
+    guidesNavLabel: 'Guides & FAQ',
+    guidesLabel: 'Guide',
+    guidesEyebrow: 'Community knowledge base',
+    guidesPageTitle: 'Guides & FAQ',
+    guidesPageDescription: 'Mechanics explainers, glossary, and beginner tips sourced from the community — sorted by topic.',
+    guidesEmpty: 'No guides available yet.',
     english: 'English',
     french: 'Français',
     vietnamese: 'Tiếng Việt',
@@ -109,6 +116,13 @@ const translations = {
     tierC: 'Tier C',
     titlePrefix: 'Catalogue des héros MLA',
     detailTitlePrefix: 'Fiche héros MLA',
+    guidesTitlePrefix: 'Guides & FAQ MLA',
+    guidesNavLabel: 'Guides & FAQ',
+    guidesLabel: 'Guide',
+    guidesEyebrow: 'Base de connaissances communautaire',
+    guidesPageTitle: 'Guides & FAQ',
+    guidesPageDescription: 'Explications des mécaniques, glossaire et conseils pour débuter, tirés de la communauté — classés par thème.',
+    guidesEmpty: 'Aucun guide disponible pour le moment.',
     english: 'Anglais',
     french: 'Français',
     vietnamese: 'Vietnamien',
@@ -491,5 +505,6 @@ export function applyLanguageToStaticContent(lang = getCurrentLanguage()) {
   if (languageSwitcher) {
     languageSwitcher.value = normalized;
   }
-  document.title = normalized === 'fr' ? `${t('titlePrefix', normalized)} — MLA` : normalized === 'vi' ? `${t('titlePrefix', normalized)} — MLA` : normalized === 'zh' ? `${t('titlePrefix', normalized)} — MLA` : normalized === 'ru' ? `${t('titlePrefix', normalized)} — MLA` : `${t('titlePrefix', normalized)} — MLA`;
+  const titleKey = document.body.dataset.page === 'detail' ? 'detailTitlePrefix' : document.body.dataset.page === 'guides' ? 'guidesTitlePrefix' : 'titlePrefix';
+  document.title = `${t(titleKey, normalized)} — MLA`;
 }
