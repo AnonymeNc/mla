@@ -1,0 +1,52 @@
+name: Validate Pull Request
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Syntax-check all JS files
+        run: |
+          find src scripts -name '*.js' -not -path '*/.translation-work/*' -print0 \
+            | xargs -0 -n1 node --check
+
+      - name: Run unit tests
+        run: node --test scripts/build-hero-data.test.js
+
+      - name: Validate hero data
+        run: node scripts/validate-heroes.js
+
+      - name: Sanity-check site data loads without errors
+        run: |
+          node -e "
+            global.window = {};
+            require('./src/data/heroes.js');
+            require('./src/data/guides.js');
+            require('./src/data/changelog.js');
+            require('./src/data/translations/fr-abilities.js');
+            require('./src/data/translations/fr-heroes.js');
+            if (!Array.isArray(window.heroCatalogData) || window.heroCatalogData.length < 100) {
+              throw new Error('heroCatalogData looks wrong');
+            }
+            if (!Array.isArray(window.guidesData) || !window.guidesData.length) {
+              throw new Error('guidesData looks wrong');
+            }
+            window.guidesData.forEach((guide) => {
+              if (!guide.id || !guide.title || !guide.title.en || !guide.title.fr) {
+                throw new Error('Malformed guide: ' + JSON.stringify(guide.id));
+              }
+            });
+            console.log('Data sanity checks passed.');
+          "
+
+      - name: Regenerate sitemap (dry run, fails if it errors)
+        run: node scripts/generate-sitemap.js
