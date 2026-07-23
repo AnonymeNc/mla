@@ -3,11 +3,13 @@ import { renderHeroDetail } from './components/detail.js?v=20260723-2';
 import { getHeroTier, renderTierList } from './components/tier-list.js?v=20260723-2';
 import { renderGuideIndex, renderGuideDetail, guideMatchesQuery } from './components/guides.js?v=20260723-2';
 import { renderChangelog } from './components/changelog.js?v=20260723-2';
+import { renderComparison } from './components/compare.js?v=20260723-2';
 import { applyLanguageToStaticContent, getCurrentLanguage, setLanguage, t, translateValue } from './i18n.js?v=20260723-2';
 
 const favoritesKey = 'mla-favorites';
 const heroes = Array.isArray(window.heroCatalogData) ? window.heroCatalogData : [];
 const guides = Array.isArray(window.guidesData) ? window.guidesData : [];
+const guideCategories = window.guideCategories || {};
 const changelog = Array.isArray(window.changelogData) ? window.changelogData : [];
 
 function readFavorites() {
@@ -201,7 +203,7 @@ function applyGuidesPage() {
     if (languageSwitcher) languageSwitcher.value = currentLang;
     const query = searchInput?.value || '';
     const filteredGuides = guides.filter((guide) => guideMatchesQuery(guide, currentLang, query));
-    renderGuideIndex({ guides: filteredGuides, lang: currentLang, query });
+    renderGuideIndex({ guides: filteredGuides, categories: guideCategories, lang: currentLang, query });
   }
 
   languageSwitcher?.addEventListener('change', (event) => {
@@ -270,6 +272,67 @@ function applyChangelogPage() {
   render();
 }
 
+function applyComparePage() {
+  const languageSwitcher = document.getElementById('language-switcher');
+  const datalist = document.getElementById('hero-datalist');
+  const slotInputs = {
+    a: document.getElementById('compare-slot-a'),
+    b: document.getElementById('compare-slot-b'),
+    c: document.getElementById('compare-slot-c')
+  };
+
+  if (datalist) {
+    datalist.innerHTML = heroes.map((hero) => `<option value="${hero.name}"></option>`).join('');
+  }
+
+  function findHeroByName(name) {
+    if (!name) return null;
+    const normalized = name.trim().toLowerCase();
+    return heroes.find((hero) => hero.name.toLowerCase() === normalized) || null;
+  }
+
+  function syncUrl(selected) {
+    const url = new URL(window.location.href);
+    ['a', 'b', 'c'].forEach((slot) => {
+      if (selected[slot]) url.searchParams.set(slot, selected[slot].id);
+      else url.searchParams.delete(slot);
+    });
+    window.history.replaceState({}, '', `${url.pathname}${url.search}`);
+  }
+
+  function render() {
+    const currentLang = setLanguage(getCurrentLanguage());
+    applyLanguageToStaticContent(currentLang);
+    if (languageSwitcher) languageSwitcher.value = currentLang;
+
+    const selected = {
+      a: findHeroByName(slotInputs.a?.value),
+      b: findHeroByName(slotInputs.b?.value),
+      c: findHeroByName(slotInputs.c?.value)
+    };
+    syncUrl(selected);
+    renderComparison({ heroes: [selected.a, selected.b, selected.c], lang: currentLang });
+  }
+
+  const params = new URLSearchParams(window.location.search);
+  ['a', 'b', 'c'].forEach((slot) => {
+    const hero = heroes.find((entry) => entry.id === params.get(slot));
+    if (hero && slotInputs[slot]) slotInputs[slot].value = hero.name;
+  });
+
+  Object.values(slotInputs).filter(Boolean).forEach((input) => {
+    input.addEventListener('input', render);
+    input.addEventListener('change', render);
+  });
+
+  languageSwitcher?.addEventListener('change', (event) => {
+    setLanguage(event.target.value);
+    render();
+  });
+
+  render();
+}
+
 if (document.body.dataset.page === 'catalog') {
   applyCatalogPage();
 } else if (document.body.dataset.page === 'detail') {
@@ -282,4 +345,6 @@ if (document.body.dataset.page === 'catalog') {
   applyStaticPage();
 } else if (document.body.dataset.page === 'changelog') {
   applyChangelogPage();
+} else if (document.body.dataset.page === 'compare') {
+  applyComparePage();
 }

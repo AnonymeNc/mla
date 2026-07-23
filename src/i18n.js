@@ -88,6 +88,15 @@ const translations = {
     viewGuide: 'Read guide',
     guideNotFound: 'This guide could not be found. Return to the guides list and try again.',
     backToGuides: 'Back to guides',
+    compareNavLabel: 'Compare Heroes',
+    compareTitlePrefix: 'MLA Compare Heroes',
+    comparePageTitle: 'Compare Heroes',
+    comparePageDescription: 'Pick two or three heroes to compare their rarity, faction, role, and abilities side by side.',
+    compareSlotA: 'Hero A',
+    compareSlotB: 'Hero B',
+    compareSlotC: 'Hero C (optional)',
+    compareSelectHero: 'Type a hero name',
+    compareEmptyState: 'Pick at least two heroes above to compare them.',
     english: 'English',
     french: 'Français',
     vietnamese: 'Tiếng Việt',
@@ -177,6 +186,15 @@ const translations = {
     viewGuide: 'Lire le guide',
     guideNotFound: 'Ce guide est introuvable. Retournez à la liste des guides et réessayez.',
     backToGuides: 'Retour aux guides',
+    compareNavLabel: 'Comparer des héros',
+    compareTitlePrefix: 'Comparer des héros MLA',
+    comparePageTitle: 'Comparer des héros',
+    comparePageDescription: 'Choisissez deux ou trois héros pour comparer leur rareté, faction, rôle et compétences côte à côte.',
+    compareSlotA: 'Héros A',
+    compareSlotB: 'Héros B',
+    compareSlotC: 'Héros C (optionnel)',
+    compareSelectHero: 'Tapez un nom de héros',
+    compareEmptyState: 'Choisissez au moins deux héros ci-dessus pour les comparer.',
     english: 'Anglais',
     french: 'Français',
     vietnamese: 'Vietnamien',
@@ -559,7 +577,7 @@ export function applyLanguageToStaticContent(lang = getCurrentLanguage()) {
   if (languageSwitcher) {
     languageSwitcher.value = normalized;
   }
-  const titleKeyByPage = { detail: 'detailTitlePrefix', guides: 'guidesTitlePrefix', guide: 'guideTitlePrefix', about: 'aboutTitlePrefix', changelog: 'changelogTitlePrefix' };
+  const titleKeyByPage = { detail: 'detailTitlePrefix', guides: 'guidesTitlePrefix', guide: 'guideTitlePrefix', about: 'aboutTitlePrefix', changelog: 'changelogTitlePrefix', compare: 'compareTitlePrefix' };
   const titleKey = titleKeyByPage[document.body.dataset.page] || 'titlePrefix';
   document.title = `${t(titleKey, normalized)} — MLA`;
 }
