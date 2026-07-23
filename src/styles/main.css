@@ -85,7 +85,8 @@ input, select {
 .hero-card, .detail-card, .empty-state {
   border: 1px solid var(--border); border-radius: 24px; overflow: hidden; background: rgba(8, 13, 28, 0.95); box-shadow: var(--shadow);
 }
-.hero-card__media { aspect-ratio: 4 / 3; background: linear-gradient(135deg, rgba(95,124,255,0.24), rgba(31,182,182,0.12)); }
+.hero-card__media { aspect-ratio: 4 / 3; overflow: hidden; background: linear-gradient(135deg, rgba(95,124,255,0.24), rgba(31,182,182,0.12)); }
+.hero-card__media img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .hero-card__body { padding: 1rem; display: flex; flex-direction: column; gap: 0.8rem; }
 .hero-card__top { display: flex; justify-content: space-between; gap: 0.6rem; align-items: flex-start; }
 .hero-card__top h3 { margin: 0.15rem 0 0; font-size: 1.05rem; }

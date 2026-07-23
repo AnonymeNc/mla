@@ -68,7 +68,7 @@ export function renderHeroDetail({ hero, heroes, favorites, onToggleFavorite, la
   root.innerHTML = `
     <article class="detail-card">
       <div class="detail-hero">
-        <img class="detail-hero__image" src="${hero.image}" alt="${hero.name}" />
+        <img class="detail-hero__image" src="${hero.image}" alt="${hero.name}" decoding="async" width="400" height="400" />
         <div class="detail-meta">
           <div class="hero-card__top">
             <div>

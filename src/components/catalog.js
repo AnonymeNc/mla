@@ -17,17 +17,19 @@ export function renderCatalog({ heroes, favorites = readFavorites(), onToggleFav
     return;
   }
 
-  root.innerHTML = heroes.map((hero) => {
+  root.innerHTML = heroes.map((hero, index) => {
     const isFavorite = favorites.includes(hero.id);
     const description = getLocalizedDescription(hero, lang) || hero.description || '';
     const translatedType = translateValue(hero.type, lang);
     const translatedClass = translateValue(hero.class, lang);
     const translatedEquipment = translateValue(hero.equipmentSize, lang);
     const translatedRarity = translateValue(hero.rarity, lang);
+    // First row of cards is likely the LCP element — load those eagerly, lazy-load the rest.
+    const loadingStrategy = index < 8 ? 'eager' : 'lazy';
     return `
       <article class="hero-card">
         <div class="hero-card__media">
-          <img src="${hero.image}" alt="${hero.name}" />
+          <img src="${hero.image}" alt="${hero.name}" loading="${loadingStrategy}" decoding="async" width="400" height="300" />
         </div>
         <div class="hero-card__body">
           <div class="hero-card__top">
