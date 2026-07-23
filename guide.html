@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mechanics explainers, glossary, and beginner tips for Mobile Legends: Adventure, sourced from the community — sorted by topic." />
-    <meta property="og:title" content="Guides & FAQ — Mobile Legends: Adventure" />
-    <meta property="og:description" content="Mechanics explainers, glossary, and beginner tips for Mobile Legends: Adventure, sourced from the community." />
-    <meta property="og:type" content="website" />
+    <meta name="description" content="Mobile Legends: Adventure guide — mechanics explainer sourced from the community." />
+    <meta property="og:title" content="Guide — Mobile Legends: Adventure" />
+    <meta property="og:description" content="Mobile Legends: Adventure guide — mechanics explainer sourced from the community." />
+    <meta property="og:type" content="article" />
     <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
     <link rel="manifest" href="./public/manifest.json" />
-    <title>MLA Guides &amp; FAQ</title>
+    <title>MLA Guide</title>
     <link rel="stylesheet" href="./src/styles/main.css?v=20260723-2" />
   </head>
-  <body data-page="guides">
+  <body data-page="guide">
     <header class="topbar">
       <div class="brand-block">
         <p class="eyebrow" data-i18n="siteTagline">Mobile Legends: Adventure</p>
-        <h1 data-i18n="guidesPageTitle">Guides &amp; FAQ</h1>
+        <h1 data-i18n="guidesLabel">Guide</h1>
       </div>
       <div class="topbar__actions">
         <label class="lang-switch" for="language-switcher">
@@ -29,27 +29,12 @@
             <option value="ru">Русский</option>
           </select>
         </label>
-        <a class="nav-link" href="./index.html" data-i18n="backToCatalog">Back to catalog</a>
+        <a class="nav-link" href="./guides.html" data-i18n="backToGuides">Back to guides</a>
       </div>
     </header>
 
     <main class="page-shell">
-      <section class="hero-summary">
-        <div>
-          <p class="eyebrow" data-i18n="guidesEyebrow">Community knowledge base</p>
-          <h2 data-i18n="guidesPageTitle">Guides &amp; FAQ</h2>
-          <p data-i18n="guidesPageDescription">Mechanics explainers, glossary, and beginner tips sourced from the community — sorted by topic.</p>
-        </div>
-      </section>
-
-      <section class="controls" aria-label="Guide search">
-        <label class="control-field control-field--wide">
-          <span data-i18n="searchLabel">Search</span>
-          <input id="guide-search-input" type="search" data-i18n-placeholder="guideSearchPlaceholder" placeholder="Search guides…" />
-        </label>
-      </section>
-
-      <div id="guides-root" class="guide-card-grid"></div>
+      <section id="guide-detail-root"></section>
     </main>
 
     <footer class="site-footer">

@@ -1,4 +1,4 @@
-import { t } from '../i18n.js?v=20260723-1';
+import { t } from '../i18n.js?v=20260723-2';
 
 function escapeHtml(value = '') {
   return String(value)
@@ -72,7 +72,7 @@ export function guideMatchesQuery(guide, lang, query) {
   return flattenGuideText(guide, lang).includes(normalizedQuery);
 }
 
-export function renderGuides({ guides, lang = 'en', query = '' }) {
+export function renderGuideIndex({ guides, lang = 'en', query = '' }) {
   const root = document.getElementById('guides-root');
   if (!root) return;
 
@@ -81,15 +81,33 @@ export function renderGuides({ guides, lang = 'en', query = '' }) {
     return;
   }
 
-  const toc = guides.map((guide) => `
-    <a class="guide-toc__link" href="#${guide.id}">
-      <span class="guide-toc__icon" aria-hidden="true">${guide.icon || '📘'}</span>
-      ${escapeHtml(localize(guide.title, lang))}
-    </a>
+  root.innerHTML = guides.map((guide) => `
+    <article class="guide-card">
+      <p class="eyebrow">${guide.icon || '📘'} ${t('guidesLabel', lang)}</p>
+      <h3>${escapeHtml(localize(guide.title, lang))}</h3>
+      ${guide.summary ? `<p class="card-description">${escapeHtml(localize(guide.summary, lang))}</p>` : ''}
+      <div class="card-actions">
+        <a class="btn btn--primary" href="./guide.html?g=${guide.id}">${t('viewGuide', lang)}</a>
+      </div>
+    </article>
   `).join('');
+}
 
-  const articles = guides.map((guide) => `
-    <article class="guide-article detail-card" id="${guide.id}">
+export function renderGuideDetail({ guide, guides, lang = 'en' }) {
+  const root = document.getElementById('guide-detail-root');
+  if (!root) return;
+
+  if (!guide) {
+    root.innerHTML = `<div class="empty-state">${t('guideNotFound', lang)}</div>`;
+    return;
+  }
+
+  const index = guides.findIndex((entry) => entry.id === guide.id);
+  const previousGuide = guides[(index - 1 + guides.length) % guides.length];
+  const nextGuide = guides[(index + 1) % guides.length];
+
+  root.innerHTML = `
+    <article class="guide-article detail-card">
       <header class="guide-article__header">
         <p class="eyebrow">${guide.icon || '📘'} ${t('guidesLabel', lang)}</p>
         <h2>${escapeHtml(localize(guide.title, lang))}</h2>
@@ -102,11 +120,13 @@ export function renderGuides({ guides, lang = 'en', query = '' }) {
           ${section.blocks.map((block) => renderBlock(block, lang)).join('')}
         </section>
       `).join('')}
+      <div class="card-actions">
+        <a class="btn" href="./guides.html">${t('backToGuides', lang)}</a>
+      </div>
     </article>
-  `).join('');
-
-  root.innerHTML = `
-    <nav class="guide-toc" aria-label="${t('guidesLabel', lang)}">${toc}</nav>
-    <div class="guide-articles">${articles}</div>
+    <div class="detail-nav">
+      <a class="nav-link" href="./guide.html?g=${previousGuide.id}">← ${escapeHtml(localize(previousGuide.title, lang))}</a>
+      <a class="nav-link" href="./guide.html?g=${nextGuide.id}">${escapeHtml(localize(nextGuide.title, lang))} →</a>
+    </div>
   `;
 }

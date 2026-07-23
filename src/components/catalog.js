@@ -1,4 +1,4 @@
-import { getLocalizedDescription, t, translateValue } from '../i18n.js?v=20260723-1';
+import { getLocalizedDescription, t, translateValue } from '../i18n.js?v=20260723-2';
 
 function readFavorites() {
   try {

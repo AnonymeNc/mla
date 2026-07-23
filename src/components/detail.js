@@ -1,4 +1,4 @@
-import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260723-1';
+import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260723-2';
 
 function reportIssueUrl(subject) {
   const title = encodeURIComponent(`[Content] ${subject}`);

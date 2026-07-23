@@ -25,12 +25,12 @@ const heroUrls = heroes.map((hero) => ({
   priority: '0.6'
 }));
 
-const guideAnchors = guides.map((guide) => ({
-  loc: `${baseUrl}/guides.html#${guide.id}`,
+const guideUrls = guides.map((guide) => ({
+  loc: `${baseUrl}/guide.html?g=${guide.id}`,
   priority: '0.5'
 }));
 
-const urls = [...staticUrls, ...heroUrls, ...guideAnchors];
+const urls = [...staticUrls, ...heroUrls, ...guideUrls];
 
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">

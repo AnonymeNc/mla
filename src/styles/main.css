@@ -133,12 +133,9 @@ input, select {
 .tier-card--c { border-color: rgba(255, 107, 123, 0.35); }
 .detail-nav { display: flex; justify-content: space-between; gap: 0.75rem; flex-wrap: wrap; }
 
-.guides-layout { display: grid; grid-template-columns: 260px 1fr; gap: 1.25rem; align-items: start; }
-.guide-toc { position: sticky; top: 5.5rem; display: flex; flex-direction: column; gap: 0.4rem; padding: 1rem; border-radius: 18px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); }
-.guide-toc__link { display: flex; align-items: center; gap: 0.5rem; padding: 0.5rem 0.6rem; border-radius: 12px; color: var(--muted); font-size: 0.92rem; }
-.guide-toc__link:hover { background: var(--bg-soft); color: var(--text); }
-.guide-toc__icon { font-size: 1rem; }
-.guide-articles { display: flex; flex-direction: column; gap: 1.25rem; }
+.guide-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1rem; }
+.guide-card { padding: 1rem; display: flex; flex-direction: column; gap: 0.7rem; border-radius: 20px; border: 1px solid var(--border); background: var(--bg-soft); }
+.guide-card h3 { margin: 0.1rem 0 0; font-size: 1.05rem; }
 .guide-article { scroll-margin-top: 5.5rem; }
 .guide-article__header { display: flex; flex-direction: column; gap: 0.3rem; }
 .guide-article__header h2 { margin: 0.1rem 0 0; }
@@ -164,8 +161,7 @@ input, select {
 @media (max-width: 860px) {
   .hero-summary { flex-direction: column; align-items: flex-start; }
   .controls { grid-template-columns: 1fr 1fr; }
-  .guides-layout { grid-template-columns: 1fr; }
-  .guide-toc { position: static; flex-direction: row; flex-wrap: wrap; }
+  .guide-card-grid { grid-template-columns: 1fr; }
 }
 @media (max-width: 640px) {
   .topbar { flex-direction: column; align-items: flex-start; gap: 0.75rem; }

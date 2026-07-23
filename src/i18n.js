@@ -84,6 +84,10 @@ const translations = {
     changelogPageTitle: "What's New",
     changelogPageDescription: 'Notable additions and changes to the site over time.',
     reportIssue: 'Report an error',
+    guideTitlePrefix: 'MLA Guide',
+    viewGuide: 'Read guide',
+    guideNotFound: 'This guide could not be found. Return to the guides list and try again.',
+    backToGuides: 'Back to guides',
     english: 'English',
     french: 'Français',
     vietnamese: 'Tiếng Việt',
@@ -169,6 +173,10 @@ const translations = {
     changelogPageTitle: 'Nouveautés',
     changelogPageDescription: 'Les ajouts et changements notables du site au fil du temps.',
     reportIssue: 'Signaler une erreur',
+    guideTitlePrefix: 'Guide MLA',
+    viewGuide: 'Lire le guide',
+    guideNotFound: 'Ce guide est introuvable. Retournez à la liste des guides et réessayez.',
+    backToGuides: 'Retour aux guides',
     english: 'Anglais',
     french: 'Français',
     vietnamese: 'Vietnamien',
@@ -551,7 +559,7 @@ export function applyLanguageToStaticContent(lang = getCurrentLanguage()) {
   if (languageSwitcher) {
     languageSwitcher.value = normalized;
   }
-  const titleKeyByPage = { detail: 'detailTitlePrefix', guides: 'guidesTitlePrefix', about: 'aboutTitlePrefix', changelog: 'changelogTitlePrefix' };
+  const titleKeyByPage = { detail: 'detailTitlePrefix', guides: 'guidesTitlePrefix', guide: 'guideTitlePrefix', about: 'aboutTitlePrefix', changelog: 'changelogTitlePrefix' };
   const titleKey = titleKeyByPage[document.body.dataset.page] || 'titlePrefix';
   document.title = `${t(titleKey, normalized)} — MLA`;
 }

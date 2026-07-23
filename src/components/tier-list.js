@@ -1,4 +1,4 @@
-import { t } from '../i18n.js?v=20260723-1';
+import { t } from '../i18n.js?v=20260723-2';
 
 export function getHeroTier(hero) {
   if (hero.rarity === 'UR') return 'S';

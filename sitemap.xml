@@ -16,6 +16,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://anonymenc.github.io/mla/changelog.html</loc>
+    <lastmod>2026-07-23</lastmod>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://anonymenc.github.io/mla/hero.html?hero=achlys-alice</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.6</priority>
@@ -826,87 +831,87 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#glossary</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=glossary</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#beginner-tips</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=beginner-tips</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#feature-unlocks</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=feature-unlocks</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#artifacts</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=artifacts</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#constellations</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=constellations</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#fusion</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=fusion</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#diamonds</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=diamonds</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#spending</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=spending</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#oca-build-order</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=oca-build-order</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#pets</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=pets</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#relics</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=relics</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#shops</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=shops</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#server-swap</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=server-swap</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#soul-vessel</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=soul-vessel</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#sacred-oath-faq</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=sacred-oath-faq</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#summon-odds</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=summon-odds</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://anonymenc.github.io/mla/guides.html#ur-build-order</loc>
+    <loc>https://anonymenc.github.io/mla/guide.html?g=ur-build-order</loc>
     <lastmod>2026-07-23</lastmod>
     <priority>0.5</priority>
   </url>
