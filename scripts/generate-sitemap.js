@@ -16,6 +16,7 @@ const today = new Date().toISOString().slice(0, 10);
 const staticUrls = [
   { loc: `${baseUrl}/index.html`, priority: '1.0' },
   { loc: `${baseUrl}/guides.html`, priority: '0.8' },
+  { loc: `${baseUrl}/compare.html`, priority: '0.6' },
   { loc: `${baseUrl}/about.html`, priority: '0.3' },
   { loc: `${baseUrl}/changelog.html`, priority: '0.3' }
 ];

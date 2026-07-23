@@ -72,16 +72,8 @@ export function guideMatchesQuery(guide, lang, query) {
   return flattenGuideText(guide, lang).includes(normalizedQuery);
 }
 
-export function renderGuideIndex({ guides, lang = 'en', query = '' }) {
-  const root = document.getElementById('guides-root');
-  if (!root) return;
-
-  if (!Array.isArray(guides) || !guides.length) {
-    root.innerHTML = `<div class="empty-state">${t(query ? 'guidesNoResults' : 'guidesEmpty', lang)}</div>`;
-    return;
-  }
-
-  root.innerHTML = guides.map((guide) => `
+function guideCard(guide, lang) {
+  return `
     <article class="guide-card">
       <p class="eyebrow">${guide.icon || '📘'} ${t('guidesLabel', lang)}</p>
       <h3>${escapeHtml(localize(guide.title, lang))}</h3>
@@ -90,7 +82,40 @@ export function renderGuideIndex({ guides, lang = 'en', query = '' }) {
         <a class="btn btn--primary" href="./guide.html?g=${guide.id}">${t('viewGuide', lang)}</a>
       </div>
     </article>
-  `).join('');
+  `;
+}
+
+export function renderGuideIndex({ guides, categories = {}, lang = 'en', query = '' }) {
+  const root = document.getElementById('guides-root');
+  if (!root) return;
+
+  if (!Array.isArray(guides) || !guides.length) {
+    root.innerHTML = `<div class="empty-state">${t(query ? 'guidesNoResults' : 'guidesEmpty', lang)}</div>`;
+    return;
+  }
+
+  const groups = new Map();
+  guides.forEach((guide) => {
+    const key = guide.category && categories[guide.category] ? guide.category : '_other';
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(guide);
+  });
+
+  const orderedKeys = [...groups.keys()].sort((a, b) => {
+    const orderA = a === '_other' ? Infinity : (categories[a]?.order ?? Infinity);
+    const orderB = b === '_other' ? Infinity : (categories[b]?.order ?? Infinity);
+    return orderA - orderB;
+  });
+
+  root.innerHTML = orderedKeys.map((key) => {
+    const label = key === '_other' ? t('guidesLabel', lang) : localize(categories[key], lang);
+    return `
+      <section class="guide-category">
+        <h3 class="guide-category__title">${escapeHtml(label)}</h3>
+        <div class="guide-card-grid">${groups.get(key).map((guide) => guideCard(guide, lang)).join('')}</div>
+      </section>
+    `;
+  }).join('');
 }
 
 export function renderGuideDetail({ guide, guides, lang = 'en' }) {

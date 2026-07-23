@@ -1,10 +1,19 @@
 // Community-sourced game guides (FAQ, mechanics, glossary), bilingual EN/FR.
 // Sourced from the community Discord's guide channel. Sets window.guidesData,
 // consumed by src/components/guides.js. Append new guide objects to extend —
-// each guide is self-contained (id, title, sections of blocks).
+// each guide is self-contained (id, category, title, sections of blocks).
+window.guideCategories = {
+  beginner: { en: 'Beginner', fr: 'Débutant', order: 1 },
+  systems: { en: 'Game Systems', fr: 'Systèmes de jeu', order: 2 },
+  progression: { en: 'Hero Progression', fr: 'Progression des héros', order: 3 },
+  economy: { en: 'Economy & Shops', fr: 'Économie & boutiques', order: 4 },
+  account: { en: 'Account', fr: 'Compte', order: 5 }
+};
+
 window.guidesData = [
   {
     id: 'glossary',
+    category: 'beginner',
     icon: '📖',
     title: { en: 'Glossary & Abbreviations', fr: 'Glossaire & Abréviations' },
     summary: {
@@ -39,6 +48,7 @@ window.guidesData = [
   },
   {
     id: 'beginner-tips',
+    category: 'beginner',
     icon: '🧭',
     title: { en: 'Beginner Tips', fr: 'Conseils pour débuter' },
     summary: {
@@ -81,6 +91,7 @@ window.guidesData = [
   },
   {
     id: 'feature-unlocks',
+    category: 'systems',
     icon: '🔓',
     title: { en: 'Feature Unlocks by Chapter', fr: 'Déblocages par chapitre' },
     summary: {
@@ -176,6 +187,7 @@ window.guidesData = [
   },
   {
     id: 'artifacts',
+    category: 'systems',
     icon: '🗡️',
     title: { en: 'Artifacts Priority Guide', fr: 'Guide de priorité des artefacts' },
     summary: {
@@ -223,6 +235,7 @@ window.guidesData = [
   },
   {
     id: 'constellations',
+    category: 'systems',
     icon: '✨',
     title: { en: 'Constellations Guide', fr: 'Guide des Constellations' },
     summary: {
@@ -258,6 +271,7 @@ window.guidesData = [
   },
   {
     id: 'fusion',
+    category: 'progression',
     icon: '⭐',
     title: { en: 'Hero Fusion & Star-Up', fr: 'Fusion de héros & montée en étoiles' },
     summary: {
@@ -292,6 +306,7 @@ window.guidesData = [
   },
   {
     id: 'diamonds',
+    category: 'economy',
     icon: '💎',
     title: { en: 'How to Use Your Diamonds', fr: 'Comment utiliser ses Diamants' },
     summary: {
@@ -313,6 +328,7 @@ window.guidesData = [
   },
   {
     id: 'spending',
+    category: 'economy',
     icon: '💳',
     title: { en: 'Real-Money Spending Guide', fr: 'Guide des achats en argent réel' },
     summary: {
@@ -336,6 +352,7 @@ window.guidesData = [
   },
   {
     id: 'oca-build-order',
+    category: 'progression',
     icon: '🌗',
     title: { en: 'Order / Chaos / Astral Build Order', fr: 'Ordre du bâti Ordre / Chaos / Astral' },
     summary: {
@@ -366,6 +383,7 @@ window.guidesData = [
   },
   {
     id: 'pets',
+    category: 'progression',
     icon: '🐾',
     title: { en: 'Pets (Companions) Guide', fr: 'Guide des familiers (Compagnons)' },
     summary: {
@@ -397,6 +415,7 @@ window.guidesData = [
   },
   {
     id: 'relics',
+    category: 'progression',
     icon: '🔮',
     title: { en: 'Relics Guide', fr: 'Guide des Reliques' },
     summary: {
@@ -428,6 +447,7 @@ window.guidesData = [
   },
   {
     id: 'shops',
+    category: 'economy',
     icon: '🛒',
     title: { en: 'Shop Priority Guide', fr: 'Guide de priorité des boutiques' },
     summary: {
@@ -460,6 +480,7 @@ window.guidesData = [
   },
   {
     id: 'server-swap',
+    category: 'account',
     icon: '🔄',
     title: { en: 'How to Swap Servers', fr: 'Comment changer de serveur' },
     summary: {
@@ -484,6 +505,7 @@ window.guidesData = [
   },
   {
     id: 'soul-vessel',
+    category: 'progression',
     icon: '🫙',
     title: { en: 'Soul Vessel Upgrade Costs', fr: 'Coûts d’amélioration du Vaisseau d’Âme' },
     summary: {
@@ -518,6 +540,7 @@ window.guidesData = [
   },
   {
     id: 'sacred-oath-faq',
+    category: 'systems',
     icon: '🕯️',
     title: { en: 'Sacred Oath & Sacred Blessing FAQ', fr: 'FAQ Sacred Oath & Sacred Blessing' },
     summary: {
@@ -539,6 +562,7 @@ window.guidesData = [
   },
   {
     id: 'summon-odds',
+    category: 'economy',
     icon: '🎲',
     title: { en: 'Summon Costs & Odds', fr: 'Coûts et probabilités d’invocation' },
     summary: {
@@ -564,6 +588,7 @@ window.guidesData = [
   },
   {
     id: 'ur-build-order',
+    category: 'progression',
     icon: '🌟',
     title: { en: 'UR Hero Build Order', fr: 'Ordre de développement des héros UR' },
     summary: {
