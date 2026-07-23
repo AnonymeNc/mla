@@ -1,0 +1,30 @@
+name: New guide suggestion
+description: Suggest a new guide topic, or content to add to an existing one.
+title: "[Guide] "
+labels: ["guide", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have a guide idea, or more community knowledge to add? Paste it in as
+        plain text below — formatting and translation will be handled during
+        review, no need to match the site's exact structure.
+  - type: input
+    id: topic
+    attributes:
+      label: Guide topic
+      placeholder: e.g. Guild Boss Rush team comps
+    validations:
+      required: true
+  - type: textarea
+    id: content
+    attributes:
+      label: Content
+      description: Paste the guide content, tips, or corrections here.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source (optional)
+      description: Where this comes from (Discord channel, wiki page, personal testing, etc.)

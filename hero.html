@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hero profile for Mobile Legends: Adventure — abilities, stats, story, and skill comparison, in English and French." />
+    <meta property="og:title" content="Hero Profile — MLA" />
+    <meta property="og:description" content="Hero profile for Mobile Legends: Adventure — abilities, stats, story, and skill comparison." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <link rel="manifest" href="./public/manifest.json" />
     <title>MLA Hero Details</title>
-    <link rel="stylesheet" href="./src/styles/main.css?v=20260721-1" />
+    <link rel="stylesheet" href="./src/styles/main.css?v=20260723-1" />
   </head>
   <body data-page="detail">
     <header class="topbar">
@@ -32,7 +38,16 @@
       <section id="detail-root"></section>
     </main>
 
-    <script src="./src/data/heroes.js?v=20260721-1"></script>
-    <script type="module" src="./src/app.js?v=20260721-1"></script>
+    <footer class="site-footer">
+      <p data-i18n="footerDisclaimer">Fan-made site, not affiliated with the game's publisher.</p>
+      <nav class="site-footer__links">
+        <a href="./about.html" data-i18n="footerAbout">About</a>
+        <a href="./changelog.html" data-i18n="changelogNavLabel">What's New</a>
+        <a href="https://github.com/AnonymeNc/mla" target="_blank" rel="noreferrer" data-i18n="footerSourceCode">Source code</a>
+      </nav>
+    </footer>
+
+    <script src="./src/data/heroes.js?v=20260723-1"></script>
+    <script type="module" src="./src/app.js?v=20260723-1"></script>
   </body>
 </html>

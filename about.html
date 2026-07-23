@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Unofficial, fan-made hero catalog and guides for Mobile Legends: Adventure — sources, credits, and how to contribute." />
+    <meta property="og:title" content="About — MLA Hero Catalog & Guides" />
+    <meta property="og:description" content="Unofficial, fan-made hero catalog and guides for Mobile Legends: Adventure — sources, credits, and how to contribute." />
+    <meta property="og:type" content="website" />
+    <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
+    <link rel="manifest" href="./public/manifest.json" />
+    <title>MLA About</title>
+    <link rel="stylesheet" href="./src/styles/main.css?v=20260723-1" />
+  </head>
+  <body data-page="about">
+    <header class="topbar">
+      <div class="brand-block">
+        <p class="eyebrow" data-i18n="siteTagline">Mobile Legends: Adventure</p>
+        <h1 data-i18n="aboutPageTitle">About This Site</h1>
+      </div>
+      <div class="topbar__actions">
+        <label class="lang-switch" for="language-switcher">
+          <span class="lang-switch__label" data-i18n="languageLabel">Language</span>
+          <select id="language-switcher">
+            <option value="en">English</option>
+            <option value="fr">Français</option>
+            <option value="vi">Tiếng Việt</option>
+            <option value="zh">中文</option>
+            <option value="ru">Русский</option>
+          </select>
+        </label>
+        <a class="nav-link" href="./index.html" data-i18n="backToCatalog">Back to catalog</a>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <article class="detail-card">
+        <section class="detail-section">
+          <h3 data-i18n="aboutDisclaimerTitle">Fan-made, not official</h3>
+          <p data-i18n="aboutDisclaimerBody">This is an unofficial, fan-made reference site for Mobile Legends: Adventure. It is not affiliated with, endorsed by, or sponsored by the game's publisher. All game assets, hero names, and artwork belong to their respective owners.</p>
+        </section>
+        <section class="detail-section">
+          <h3 data-i18n="aboutSourcesTitle">Sources &amp; credits</h3>
+          <p data-i18n="aboutSourcesBody">Hero data is sourced from the community wiki and kept up to date automatically. Guides and FAQ content are compiled from the community Discord's guide channels, with contributions and corrections from players.</p>
+        </section>
+        <section class="detail-section">
+          <h3 data-i18n="aboutContributeTitle">Open source &amp; contributions</h3>
+          <p data-i18n="aboutContributeBody">This site is open source and free to use. Found an error, an outdated hero, or want to suggest a guide? See the Contributing guide on GitHub — anyone can submit a fix.</p>
+          <div class="card-actions">
+            <a class="btn btn--primary" href="https://github.com/AnonymeNc/mla/blob/main/CONTRIBUTING.md" target="_blank" rel="noreferrer" data-i18n="aboutContributingGuide">Read the contributing guide</a>
+            <a class="btn" href="https://github.com/AnonymeNc/mla" target="_blank" rel="noreferrer" data-i18n="aboutViewOnGithub">View source on GitHub</a>
+          </div>
+        </section>
+        <section class="detail-section">
+          <h3 data-i18n="aboutTechTitle">How this site is built</h3>
+          <p data-i18n="aboutTechBody">Built as a plain static site (no framework, no tracking, no ads), hosted for free on GitHub Pages. Source code is available on GitHub.</p>
+        </section>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <p data-i18n="footerDisclaimer">Fan-made site, not affiliated with the game's publisher.</p>
+      <nav class="site-footer__links">
+        <a href="./about.html" data-i18n="footerAbout">About</a>
+        <a href="./changelog.html" data-i18n="changelogNavLabel">What's New</a>
+        <a href="https://github.com/AnonymeNc/mla" target="_blank" rel="noreferrer" data-i18n="footerSourceCode">Source code</a>
+      </nav>
+    </footer>
+
+    <script type="module" src="./src/app.js?v=20260723-1"></script>
+  </body>
+</html>

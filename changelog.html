@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Mechanics explainers, glossary, and beginner tips for Mobile Legends: Adventure, sourced from the community — sorted by topic." />
-    <meta property="og:title" content="Guides & FAQ — Mobile Legends: Adventure" />
-    <meta property="og:description" content="Mechanics explainers, glossary, and beginner tips for Mobile Legends: Adventure, sourced from the community." />
+    <meta name="description" content="Notable additions and changes to the MLA Hero Catalog & Guides site over time." />
+    <meta property="og:title" content="What's New — MLA" />
+    <meta property="og:description" content="Notable additions and changes to the MLA Hero Catalog & Guides site over time." />
     <meta property="og:type" content="website" />
     <link rel="icon" type="image/svg+xml" href="./public/favicon.svg" />
     <link rel="manifest" href="./public/manifest.json" />
-    <title>MLA Guides &amp; FAQ</title>
+    <title>MLA What's New</title>
     <link rel="stylesheet" href="./src/styles/main.css?v=20260723-1" />
   </head>
-  <body data-page="guides">
+  <body data-page="changelog">
     <header class="topbar">
       <div class="brand-block">
         <p class="eyebrow" data-i18n="siteTagline">Mobile Legends: Adventure</p>
-        <h1 data-i18n="guidesPageTitle">Guides &amp; FAQ</h1>
+        <h1 data-i18n="changelogPageTitle">What's New</h1>
       </div>
       <div class="topbar__actions">
         <label class="lang-switch" for="language-switcher">
@@ -37,19 +37,12 @@
       <section class="hero-summary">
         <div>
           <p class="eyebrow" data-i18n="guidesEyebrow">Community knowledge base</p>
-          <h2 data-i18n="guidesPageTitle">Guides &amp; FAQ</h2>
-          <p data-i18n="guidesPageDescription">Mechanics explainers, glossary, and beginner tips sourced from the community — sorted by topic.</p>
+          <h2 data-i18n="changelogPageTitle">What's New</h2>
+          <p data-i18n="changelogPageDescription">Notable additions and changes to the site over time.</p>
         </div>
       </section>
 
-      <section class="controls" aria-label="Guide search">
-        <label class="control-field control-field--wide">
-          <span data-i18n="searchLabel">Search</span>
-          <input id="guide-search-input" type="search" data-i18n-placeholder="guideSearchPlaceholder" placeholder="Search guides…" />
-        </label>
-      </section>
-
-      <div id="guides-root" class="guides-layout"></div>
+      <div id="changelog-root"></div>
     </main>
 
     <footer class="site-footer">
@@ -61,7 +54,7 @@
       </nav>
     </footer>
 
-    <script src="./src/data/guides.js?v=20260723-1"></script>
+    <script src="./src/data/changelog.js?v=20260723-1"></script>
     <script type="module" src="./src/app.js?v=20260723-1"></script>
   </body>
 </html>

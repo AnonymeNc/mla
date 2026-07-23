@@ -25,14 +25,17 @@ jobs:
       - name: Validate hero data
         run: node scripts/validate-heroes.js
 
+      - name: Regenerate sitemap
+        run: node scripts/generate-sitemap.js
+
       - name: Commit and push if changed
         run: |
-          if git diff --quiet -- src/data/heroes.js; then
+          if git diff --quiet -- src/data/heroes.js sitemap.xml; then
             echo "No changes to hero data."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/heroes.js
+          git add src/data/heroes.js sitemap.xml
           git commit -m "Auto-update hero data from wiki"
           git push

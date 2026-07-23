@@ -1,0 +1,13 @@
+{
+  "name": "MLA Hero Catalog & Guides",
+  "short_name": "MLA Guide",
+  "description": "Community-run hero catalog and guides for Mobile Legends: Adventure.",
+  "start_url": "../index.html",
+  "scope": "../",
+  "display": "standalone",
+  "background_color": "#060913",
+  "theme_color": "#060913",
+  "icons": [
+    { "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

@@ -1,4 +1,9 @@
-import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260721-1';
+import { getLocalizedAbility, getLocalizedDescription, getLocalizedHeroField, t, translateValue } from '../i18n.js?v=20260723-1';
+
+function reportIssueUrl(subject) {
+  const title = encodeURIComponent(`[Content] ${subject}`);
+  return `https://github.com/AnonymeNc/mla/issues/new?template=content-error.yml&title=${title}`;
+}
 
 function escapeHtml(value = '') {
   return String(value)
@@ -123,6 +128,7 @@ export function renderHeroDetail({ hero, heroes, favorites, onToggleFavorite, la
             <a class="btn btn--primary" href="${hero.wikiUrl}" target="_blank" rel="noreferrer">${t('openWiki', lang)}</a>
             <a class="btn" href="./index.html">${t('backToCatalog', lang)}</a>
           </div>
+          <a class="report-issue-link" href="${reportIssueUrl(hero.name)}" target="_blank" rel="noreferrer">${t('reportIssue', lang)}</a>
         </div>
       </div>
       <div class="detail-nav">

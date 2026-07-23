@@ -172,3 +172,18 @@ input, select {
   .controls { grid-template-columns: 1fr; }
   .detail-hero { flex-direction: column; }
 }
+
+.site-footer { width: min(1200px, calc(100% - 2rem)); margin: 1rem auto 2.5rem; padding-top: 1.25rem; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; gap: 0.75rem; flex-wrap: wrap; color: var(--muted); font-size: 0.85rem; }
+.site-footer p { margin: 0; }
+.site-footer__links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.site-footer__links a { color: var(--muted); }
+.site-footer__links a:hover { color: var(--text); }
+.report-issue-link { color: var(--muted); font-size: 0.85rem; }
+.report-issue-link:hover { color: var(--text); }
+.changelog-list { display: flex; flex-direction: column; gap: 1rem; }
+.changelog-entry { display: grid; grid-template-columns: 110px 1fr; gap: 0.75rem; padding: 0.9rem 1rem; border-radius: 18px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); }
+.changelog-entry time { color: var(--accent-2); font-size: 0.85rem; }
+.changelog-entry p { margin: 0; color: var(--muted); line-height: 1.55; }
+@media (max-width: 640px) {
+  .changelog-entry { grid-template-columns: 1fr; }
+}

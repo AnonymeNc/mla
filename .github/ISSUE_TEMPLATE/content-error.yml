@@ -1,0 +1,42 @@
+name: Content error (hero data, translation, or guide)
+description: Report a wrong, outdated, or missing piece of content.
+title: "[Content] "
+labels: ["content"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this — you don't need to know how to code to fill this in.
+  - type: input
+    id: page
+    attributes:
+      label: Page or hero/guide affected
+      description: Paste the URL, or the hero/guide name.
+      placeholder: e.g. https://anonymenc.github.io/mla/hero.html?hero=achlys-alice
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language affected
+      options:
+        - English
+        - French
+        - Vietnamese
+        - Chinese
+        - Russian
+        - Not language-specific (data/mechanics error)
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong?
+      description: What does it currently say, and what should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source (optional)
+      description: A link or reference backing up the correction, if you have one.

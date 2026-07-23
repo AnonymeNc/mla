@@ -1,4 +1,4 @@
-import { t } from '../i18n.js?v=20260721-1';
+import { t } from '../i18n.js?v=20260723-1';
 
 function escapeHtml(value = '') {
   return String(value)
@@ -7,6 +7,11 @@ function escapeHtml(value = '') {
     .replace(/>/g, '&gt;')
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&#39;');
+}
+
+function reportIssueUrl(subject) {
+  const title = encodeURIComponent(`[Content] ${subject}`);
+  return `https://github.com/AnonymeNc/mla/issues/new?template=content-error.yml&title=${title}`;
 }
 
 function localize(entry, lang) {
@@ -44,12 +49,35 @@ function renderBlock(block, lang) {
   }
 }
 
-export function renderGuides({ guides, lang = 'en' }) {
+function flattenGuideText(guide, lang) {
+  const parts = [localize(guide.title, lang), localize(guide.summary, lang)];
+  guide.sections.forEach((section) => {
+    parts.push(localize(section.heading, lang));
+    section.blocks.forEach((block) => {
+      if (block.type === 'p' || block.type === 'note') parts.push(localize(block, lang));
+      if (block.type === 'ul') block.items.forEach((item) => parts.push(localize(item, lang)));
+      if (block.type === 'glossary') block.items.forEach((item) => { parts.push(item.term); parts.push(localize(item, lang)); });
+      if (block.type === 'table') {
+        block.headers.forEach((h) => parts.push(localize(h, lang)));
+        block.rows.forEach((row) => row.forEach((cell) => parts.push(localize(cell, lang))));
+      }
+    });
+  });
+  return parts.join(' \n ').toLowerCase();
+}
+
+export function guideMatchesQuery(guide, lang, query) {
+  const normalizedQuery = query.trim().toLowerCase();
+  if (!normalizedQuery) return true;
+  return flattenGuideText(guide, lang).includes(normalizedQuery);
+}
+
+export function renderGuides({ guides, lang = 'en', query = '' }) {
   const root = document.getElementById('guides-root');
   if (!root) return;
 
   if (!Array.isArray(guides) || !guides.length) {
-    root.innerHTML = `<div class="empty-state">${t('guidesEmpty', lang)}</div>`;
+    root.innerHTML = `<div class="empty-state">${t(query ? 'guidesNoResults' : 'guidesEmpty', lang)}</div>`;
     return;
   }
 
@@ -66,6 +94,7 @@ export function renderGuides({ guides, lang = 'en' }) {
         <p class="eyebrow">${guide.icon || '📘'} ${t('guidesLabel', lang)}</p>
         <h2>${escapeHtml(localize(guide.title, lang))}</h2>
         ${guide.summary ? `<p class="guide-article__summary">${escapeHtml(localize(guide.summary, lang))}</p>` : ''}
+        <a class="report-issue-link" href="${reportIssueUrl(localize(guide.title, 'en'))}" target="_blank" rel="noreferrer">${t('reportIssue', lang)}</a>
       </header>
       ${guide.sections.map((section) => `
         <section class="detail-section guide-section">

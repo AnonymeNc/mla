@@ -1,12 +1,14 @@
-import { renderCatalog } from './components/catalog.js?v=20260721-1';
-import { renderHeroDetail } from './components/detail.js?v=20260721-1';
-import { getHeroTier, renderTierList } from './components/tier-list.js?v=20260721-1';
-import { renderGuides } from './components/guides.js?v=20260721-1';
-import { applyLanguageToStaticContent, getCurrentLanguage, setLanguage, t, translateValue } from './i18n.js?v=20260721-1';
+import { renderCatalog } from './components/catalog.js?v=20260723-1';
+import { renderHeroDetail } from './components/detail.js?v=20260723-1';
+import { getHeroTier, renderTierList } from './components/tier-list.js?v=20260723-1';
+import { renderGuides, guideMatchesQuery } from './components/guides.js?v=20260723-1';
+import { renderChangelog } from './components/changelog.js?v=20260723-1';
+import { applyLanguageToStaticContent, getCurrentLanguage, setLanguage, t, translateValue } from './i18n.js?v=20260723-1';
 
 const favoritesKey = 'mla-favorites';
 const heroes = Array.isArray(window.heroCatalogData) ? window.heroCatalogData : [];
 const guides = Array.isArray(window.guidesData) ? window.guidesData : [];
+const changelog = Array.isArray(window.changelogData) ? window.changelogData : [];
 
 function readFavorites() {
   try {
@@ -191,12 +193,52 @@ function applyDetailPage() {
 
 function applyGuidesPage() {
   const languageSwitcher = document.getElementById('language-switcher');
+  const searchInput = document.getElementById('guide-search-input');
 
   function render() {
     const currentLang = setLanguage(getCurrentLanguage());
     applyLanguageToStaticContent(currentLang);
     if (languageSwitcher) languageSwitcher.value = currentLang;
-    renderGuides({ guides, lang: currentLang });
+    const query = searchInput?.value || '';
+    const filteredGuides = guides.filter((guide) => guideMatchesQuery(guide, currentLang, query));
+    renderGuides({ guides: filteredGuides, lang: currentLang, query });
+  }
+
+  languageSwitcher?.addEventListener('change', (event) => {
+    setLanguage(event.target.value);
+    render();
+  });
+
+  searchInput?.addEventListener('input', render);
+
+  render();
+}
+
+function applyStaticPage() {
+  const languageSwitcher = document.getElementById('language-switcher');
+
+  function render() {
+    const currentLang = setLanguage(getCurrentLanguage());
+    applyLanguageToStaticContent(currentLang);
+    if (languageSwitcher) languageSwitcher.value = currentLang;
+  }
+
+  languageSwitcher?.addEventListener('change', (event) => {
+    setLanguage(event.target.value);
+    render();
+  });
+
+  render();
+}
+
+function applyChangelogPage() {
+  const languageSwitcher = document.getElementById('language-switcher');
+
+  function render() {
+    const currentLang = setLanguage(getCurrentLanguage());
+    applyLanguageToStaticContent(currentLang);
+    if (languageSwitcher) languageSwitcher.value = currentLang;
+    renderChangelog({ entries: changelog, lang: currentLang });
   }
 
   languageSwitcher?.addEventListener('change', (event) => {
@@ -213,4 +255,8 @@ if (document.body.dataset.page === 'catalog') {
   applyDetailPage();
 } else if (document.body.dataset.page === 'guides') {
   applyGuidesPage();
+} else if (document.body.dataset.page === 'about') {
+  applyStaticPage();
+} else if (document.body.dataset.page === 'changelog') {
+  applyChangelogPage();
 }
