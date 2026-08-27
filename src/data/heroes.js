@@ -17650,6 +17650,125 @@ window.heroCatalogData = [
     ]
   },
   {
+    "id": "yuri",
+    "name": "Yuri",
+    "type": "Chaos",
+    "rarity": "SSR",
+    "class": "Marksman",
+    "advancedClass": "Oracle",
+    "equipmentSize": "Medium",
+    "description": "TBA",
+    "story": "TBA",
+    "faction": "Chaos",
+    "subFactions": [],
+    "capabilities": "TBA",
+    "abilities": [
+      {
+        "name": "Blazing Hearthfire",
+        "tier": "Ultimate",
+        "types": [
+          "Heal",
+          "Buff"
+        ],
+        "description": "100%Restores all allies' HP to full and increases their Crit Rates and Crit Damage for 8s based on each ally's HP percentage. Allies with more HP gain greater Crit Rate and Crit Damage bonuses, stacking up to 8% Crit Rate and 15% Crit Damage.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Provides 30% of Yuri's Damage Increase to every other ally."
+          },
+          {
+            "level": "3",
+            "text": "Crit Rate Bonus can stack up to 15%."
+          },
+          {
+            "level": "4",
+            "text": "Crit Rate Bonus can stack up to 30%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Holy Blessing",
+        "tier": "Skill",
+        "types": [
+          "Buff"
+        ],
+        "description": "Reduces damage taken by the two allies with the least HP percentages by 4% of Yuri's Attack for 6s, stacking up to 30%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Damage Reduction increases to 6% Attack."
+          },
+          {
+            "level": "3",
+            "text": "Selected allies are immune to most control effects for 2s after the skill takes effect."
+          },
+          {
+            "level": "4",
+            "text": "Damage Reduction increases to 8% Attack."
+          }
+        ]
+      },
+      {
+        "name": "Prioritized Offerings",
+        "tier": "Skill",
+        "types": [
+          "Heal",
+          "Buff"
+        ],
+        "description": "Yuri selects 2 extra targets with each Basic Attacks and increases HP Regen based on the targets' lost HP, stacking up to 20%.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Healed allies gain extra Attack based on their real-time HP percentages over 45, stacking up to 15%."
+          },
+          {
+            "level": "3",
+            "text": "Regen based on the targets' lost HP can stack up to 40%."
+          },
+          {
+            "level": "4",
+            "text": "Regen based on the targets' lost HP can stack up to 60%. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Goddess's Might",
+        "tier": "Passive",
+        "types": [
+          "Heal",
+          "Buff"
+        ],
+        "description": "Instead of leaving battle, Yuri continues to heal allies with Basic Attacks after she is defeated, but her Attack is reduced to 50%. Yuri cannot be targeted by enemies in this state.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Yuri can also cast Holy Blessing in this state."
+          },
+          {
+            "level": "3",
+            "text": "Attack increased to 60%."
+          },
+          {
+            "level": "4",
+            "text": "Attack increased to 70%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ],
+    "title": "Foxfire Kitsune",
+    "releaseDate": "August 21",
+    "releaseYear": "2026",
+    "image": "https://static.wikia.nocookie.net/mobile-legends-adventure/images/d/da/Yuri_portrait_awakened_upscale.png/revision/latest?cb=20260824031848",
+    "wikiUrl": "https://mla.fandom.com/wiki/Yuri",
+    "tags": [
+      "Chaos",
+      "Marksman",
+      "Medium",
+      "SSR",
+      "Oracle"
+    ]
+  },
+  {
     "id": "zhask",
     "name": "Zhask",
     "type": "Chaos",
