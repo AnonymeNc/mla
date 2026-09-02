@@ -17664,93 +17664,93 @@ window.heroCatalogData = [
     "capabilities": "TBA",
     "abilities": [
       {
-        "name": "Blazing Hearthfire",
+        "name": "Needle of Torment",
         "tier": "Ultimate",
         "types": [
-          "Heal",
-          "Buff"
+          "Control",
+          "Damage"
         ],
-        "description": "100%Restores all allies' HP to full and increases their Crit Rates and Crit Damage for 8s based on each ally's HP percentage. Allies with more HP gain greater Crit Rate and Crit Damage bonuses, stacking up to 8% Crit Rate and 15% Crit Damage.",
+        "description": "Deals 70% Attack damage 4 times per second to the enemy with the lowest HP percentage for 6s. If the target dies, she locks onto another enemy with the lowest HP percentage to continue attacking and recovers 400Energy.Passive: Yuri's skills and Basic Attacks have a 20% chance to stun the targer for 1s when dealing damage.",
         "levelDescriptions": [
           {
             "level": "2",
-            "text": "Provides 30% of Yuri's Damage Increase to every other ally."
+            "text": "The number of times damage is dealt per second is increased to 5."
           },
           {
             "level": "3",
-            "text": "Crit Rate Bonus can stack up to 15%."
+            "text": "Damage is increased to 80% Attack."
           },
           {
             "level": "4",
-            "text": "Crit Rate Bonus can stack up to 30%. (Requires Ancient Twilight Level 3)"
+            "text": "Damage is increased to 90% Attack. (Requires Ancient Twilight Level 3)"
           }
         ]
       },
       {
-        "name": "Holy Blessing",
+        "name": "Orb Flare",
         "tier": "Skill",
         "types": [
-          "Buff"
+          "Damage"
         ],
-        "description": "Reduces damage taken by the two allies with the least HP percentages by 4% of Yuri's Attack for 6s, stacking up to 30%.",
+        "description": "Unleashes the Chaos Orb towards the area with the most enemies. The orb deals damage equal to 160% of her Attack to enemies within an area, and deals extra damage equal to 50% of her Attack 4 times to random enemies.",
         "levelDescriptions": [
           {
             "level": "2",
-            "text": "Damage Reduction increases to 6% Attack."
+            "text": "AoE Damage is increased to 180% of Attack."
           },
           {
             "level": "3",
-            "text": "Selected allies are immune to most control effects for 2s after the skill takes effect."
+            "text": "When the Chaos Orb deals damage, it deals extra damage equal to 5% of the target's Max HP, capped at 500% of Yuri's Attack."
           },
           {
             "level": "4",
-            "text": "Damage Reduction increases to 8% Attack."
+            "text": "AoE Damage is increased to 200% of Attack."
           }
         ]
       },
       {
-        "name": "Prioritized Offerings",
+        "name": "Crimson Halo",
         "tier": "Skill",
         "types": [
-          "Heal",
+          "Shield",
           "Buff"
         ],
-        "description": "Yuri selects 2 extra targets with each Basic Attacks and increases HP Regen based on the targets' lost HP, stacking up to 20%.",
+        "description": "Surrounds herself with foxfire, gaining a(n) 40% Attack bonus, 300 Energy, and a Shield equal to 600% f her Attack, as well as Control Immunity to most effects for 10s. This skill can be cast or triggered up to 3 times per battle. Each time it is triggered, her Basic Attack deals extra damage equal to 60% of her Attack to a random enemy, lasting until the end of the battle.Upon taking lethal damage, she immediately triggers the Crimson Halo effects and recovers 30% of her lost HP. This effect triggers at most once every 6s.",
         "levelDescriptions": [
           {
             "level": "2",
-            "text": "Healed allies gain extra Attack based on their real-time HP percentages over 45, stacking up to 15%."
+            "text": "When cast for the last time, Crimson Halo's Attack Bonus and Shield last until the end of the battle."
           },
           {
             "level": "3",
-            "text": "Regen based on the targets' lost HP can stack up to 40%."
+            "text": "The Attack bonus gained is increased to 50%."
           },
           {
             "level": "4",
-            "text": "Regen based on the targets' lost HP can stack up to 60%. (Requires Ancient Twilight Level 1)"
+            "text": "The Attack bonus gained is increased to 60%. (Requires Ancient Twilight Level 1)"
           }
         ]
       },
       {
-        "name": "Goddess's Might",
+        "name": "Foxfire Feast",
         "tier": "Passive",
         "types": [
-          "Heal",
+          "Debuff",
           "Buff"
         ],
-        "description": "Instead of leaving battle, Yuri continues to heal allies with Basic Attacks after she is defeated, but her Attack is reduced to 50%. Yuri cannot be targeted by enemies in this state.",
+        "description": "Every 15 times Yuri's Ultimate or Basic Attacks deal damage to enemies, she immediately triggers the Choas Orb.After the Chaos Orb deals damage, Yuri ignores 6% of the target's Defense for the rest of the battle, stacking up to 10 times.",
         "levelDescriptions": [
           {
             "level": "2",
-            "text": "Yuri can also cast Holy Blessing in this state."
+            "text": "The number of times the Chaos Orb deals AoE Damage is increased to 2."
           },
           {
             "level": "3",
-            "text": "Attack increased to 60%."
+            "text": "The Defense ignored is increased to 7%."
           },
           {
             "level": "4",
-            "text": "Attack increased to 70%. (Requires Ancient Twilight Level 2)"
+            "text": "The Defense ignored is increased to 8%. (Requires Ancient Twilight Level 2)"
           }
         ]
       }
