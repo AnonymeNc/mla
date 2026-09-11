@@ -4535,6 +4535,157 @@ window.heroCatalogData = [
     ]
   },
   {
+    "id": "empyrean-ingrid",
+    "name": "Empyrean Ingrid",
+    "type": "Hybrid",
+    "rarity": "UR",
+    "class": "Mage",
+    "advancedClass": "Warlock",
+    "equipmentSize": "Medium",
+    "description": "TBA",
+    "story": "TBA",
+    "faction": "Hybrid",
+    "subFactions": [
+      "Light",
+      "Order"
+    ],
+    "capabilities": "TBA",
+    "abilities": [
+      {
+        "name": "Empyrean Starfall",
+        "tier": "Ultimate",
+        "types": [
+          "Debuff",
+          "Control",
+          "Damage"
+        ],
+        "description": "Before Empyrean Ingrid takes action, she switches to Solar Mode if there are 4 or more surviving enemy heroes, or Stellar Mode otherwise. She enters Solar Mode at the start of the battle.When casting her Ultimate, Empyrean Ingrid unleashes different effects based on her current mode:In Solar Mode, Empyrean Ingrid deals damage equal to of her Attack to all enemies 3 times and stuns them for s.In Stellar Mode, Empyrean Ingrid attacks random enemy heroes times, dealing damage equal to of her Attack with each hit. Each hit permanently reduces the target's Damage Reduction by , stacking up to times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Empyrean Ingrid's Ultimate deals extra damage equal to 10% of the enemy's Max HP, but not exceeding 1000% of her Attack."
+          },
+          {
+            "level": "3",
+            "text": "The Damage dealt in Solar Mode is increased to 300% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "The Damage dealt in Stellar Mode is increased to 300% of her Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Celestial Alignment",
+        "tier": "Passive",
+        "types": [
+          "Debuff",
+          "Damage"
+        ],
+        "description": "In Solar Mode, Empyrean Ingrid inflicts the Solar Blight on the 2 enemies with the highest Attack, reducing the damage the deal to her by and their healing received by . This state lasts until Empyrean Ingrid dies or exits Solar Mode.In Stellar Mode, every 5 times Empyrean Ingrid hits enemies with her skills or Basic Attack, she launches an extra attack at the enemy with the",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The damage of the extra attack in Stellar Mode is increased to 250%."
+          },
+          {
+            "level": "3",
+            "text": "Solar Blight also reduces the shield effects enemies receive by 70%."
+          },
+          {
+            "level": "4",
+            "text": "The damage of the extra attack in Stellar Mode is increased to 300%."
+          }
+        ]
+      },
+      {
+        "name": "Zenith Flux",
+        "tier": "Skill",
+        "types": [
+          "Control",
+          "Damage"
+        ],
+        "description": "In Solar Mode, deals damage equal to of her Attack to all enemies in front.In Stellar Mode, attacks the nearest enemy 3 times, dealing damage equal to of her Attack with each hit.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "In Solar Mode, this skill stuns enemies with the Solar Blight for 2s when hitting them."
+          },
+          {
+            "level": "3",
+            "text": "The damage dealt in Solar Mode is increased to 260% of her Attack."
+          },
+          {
+            "level": "4",
+            "text": "The damage dealt in Stellar Mode is increased to 260% of her Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Shifting Star",
+        "tier": "Passive",
+        "types": [
+          "Buff"
+        ],
+        "description": "Empyrean Ingrid gains Damage Reduction in Solar Mode. After casting her Ultimate in Stellar Mode, she cannot be targeted by enemies for s. She loses this effect if there are no targetable allies on the battlefield during this period.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Empyrean Ingrid ignores 40% of the enemies' Defense."
+          },
+          {
+            "level": "3",
+            "text": "Defense ignored is increased to 50%."
+          },
+          {
+            "level": "4",
+            "text": "Defense ignored is increased to 60%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      },
+      {
+        "name": "Imperial Realm",
+        "tier": "Realm Effect",
+        "types": [],
+        "description": "In Solar Mode, when an allied hero casts their Ultimate, an extra enemy is inflicted with the Solar Blight, and all enemies with the Solar Blight cannot cast their Ultimates for 4s. This effect can only trigger once every 5s per allied hero.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "[All HP Boost] All allies in the same team gain HP+3%. (Unlocks at 32px)"
+          },
+          {
+            "level": "3",
+            "text": "In Stellar Mode, when an allied hero casts their Ultimate, Empyrean Ingrid recovers 200 Energy. This effect can only trigger once every 5s per allied hero. (Unlocks at 48px)"
+          },
+          {
+            "level": "4",
+            "text": "In Solar Mode, when an allied hero casts their Ultimate, all enemies with Solar Blight take damage equal to 5% of their Max HP per second, capped at 500% of Empyrean Ingrid's Attack. This effect lasts for 4s. This effect can only trigger once every 5s per allied hero. (Unlocks at 64px)"
+          },
+          {
+            "level": "5",
+            "text": "[All Attack Boost] All allies in the same team gain Attack +3%. (Unlocks at 80px)"
+          },
+          {
+            "level": "6",
+            "text": "In Stellar Mode, the extra attack of Celestial Alignment deals extra damage equal to 70% of enemies' lost HP, capped at 3500% of Empyrean Ingrid's Attack. (Unlocks at 16px)"
+          }
+        ]
+      }
+    ],
+    "title": "Regalis Excelsa",
+    "releaseDate": "September 4",
+    "releaseYear": "2026",
+    "image": "https://static.wikia.nocookie.net/mobile-legends-adventure/images/e/e0/Empyrean_Ingrid_portrait_awakened_upscale.png/revision/latest?cb=20260905012639",
+    "wikiUrl": "https://mla.fandom.com/wiki/Empyrean_Ingrid",
+    "tags": [
+      "Hybrid",
+      "Mage",
+      "Medium",
+      "UR",
+      "Warlock"
+    ]
+  },
+  {
     "id": "eos-silvanna",
     "name": "Eos Silvanna",
     "type": "Hybrid",
@@ -10045,11 +10196,11 @@ window.heroCatalogData = [
           },
           {
             "level": "3",
-            "text": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 70% of their Max HP, they lose 30 Energy per second until the end of the battle."
+            "text": "After enemy heroes have cumulatively taken damage or Shield reduction equal to 70% of their Max HP, they lose 30 Energy per second until the end of the battle. (Unlocks at 48px)"
           },
           {
             "level": "4",
-            "text": "Each time after enemy heroes have cumulatively taken damage or Shield reduction equal to 60% of their Max HP, immobilizes that enemy for 3s and deals damage equal to 50% Attack per second. Damage taken during immobilization will not trigger the next immobilization."
+            "text": "Each time after enemy heroes have cumulatively taken damage or Shield reduction equal to 60% of their Max HP, immobilizes that enemy for 3s and deals damage equal to 50% Attack per second. Damage taken during immobilization will not trigger the next immobilization. (Unlocks at 64px)"
           },
           {
             "level": "5",
