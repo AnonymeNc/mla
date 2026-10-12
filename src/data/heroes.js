@@ -12560,6 +12560,130 @@ window.heroCatalogData = [
     ]
   },
   {
+    "id": "mustang-johnson",
+    "name": "Mustang Johnson",
+    "type": "Hybrid",
+    "rarity": "SSR",
+    "class": "Tank",
+    "advancedClass": "Iron Guard",
+    "equipmentSize": "Heavy",
+    "description": "To be added",
+    "story": "To be added",
+    "faction": "Hybrid",
+    "subFactions": [
+      "Tect",
+      "Martical"
+    ],
+    "capabilities": "To be added",
+    "abilities": [
+      {
+        "name": "Full Throttle",
+        "tier": "Ultimate",
+        "types": [
+          "AoE",
+          "Buff",
+          "Control"
+        ],
+        "description": "When his HP drops below 80% and 60%, Johnson gains 1 and 2 charges respectively. Each charge allows him to recover 80 extra Energy per second and enhances his other skills.When cast actively, he deals damage equal to 400% of his Attack to enemies in a rectangular area in front, slightly knocking them back and stunning them for 2s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Johnson is immune to all damage while casting his Ultimate. Upon hitting an enemy, he gains a Shield equal to 10% of the enemy's Max HP (won't exceed 50% of his own HP), stacking up to 10 times."
+          },
+          {
+            "level": "3",
+            "text": "When cast actively, damage dealt by the Ultimate is increased to 460% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "When cast actively, damage dealt by the Ultimate is increased to 500% of Attack. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Electro Airbag",
+        "tier": "Skill",
+        "types": [
+          "Shield",
+          "Buff"
+        ],
+        "description": "Grants a shield equal to 280% of his Attack to himself and the allied hero with the lowest HP for 24s. Each charge grants an extra shield equal to 300% of his Attack.When his HP is above 60%, he consumes 25% of his current HP to gain an extra shield equal to 25% of his Max HP.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "The Shield granted to himself and the allied hero with the lowest HP is increased to 340% of his Attack."
+          },
+          {
+            "level": "3",
+            "text": "Before granting the Shield, also increases Johnson's and the hero's Attack by 20% for 12s."
+          },
+          {
+            "level": "4",
+            "text": "The Shield granted to himself and the allied hero with the lowest HP is increased to 400% of his Attack."
+          }
+        ]
+      },
+      {
+        "name": "Impact Wrench",
+        "tier": "Skill",
+        "types": [
+          "Debuff",
+          "Control"
+        ],
+        "description": "Throws a wrench at a random enemy. Upon hitting the target, it deals damage equal to 110% of his Attack to nearby enemies and inflicts the Shock effect on them for 10s (can stack). Every 2s, each stack of Shock stuns the target for 0.5s or reduces their Energy by 40. When he has 2 charges, Johnson throws an extra wrench.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Upon hitting an enemy, the wrench stuns them for 1s."
+          },
+          {
+            "level": "3",
+            "text": "Increases the damage dealt by the wrench to 130% of Attack."
+          },
+          {
+            "level": "4",
+            "text": "Increases the damage dealt by the wrench to 150% of Attack. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Peak Horsepower",
+        "tier": "Passive",
+        "types": [
+          "Shield",
+          "Buff"
+        ],
+        "description": "For each charge he has, Johnson gains 15% Damage Reduction and increases all allied Tech heroes' Attack by 15%.When his HP drops below 40%, Johnson immediately gains a shield equal to 800% of his Attack, lasting until the end of the battle. This effect cannot stack and can be triggered once every 10s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "When his HP drops below 40% for the first time, Johnson is immune to all damage for 3s and can cast his Ultimate once without consuming Energy."
+          },
+          {
+            "level": "3",
+            "text": "The Damage Reduction granted by each charge is increased to 20%."
+          },
+          {
+            "level": "4",
+            "text": "The Damage Reduction granted by each charge is increased to 25%. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ],
+    "title": "Wild Engine",
+    "releaseDate": "October 2",
+    "releaseYear": "2026",
+    "image": "https://static.wikia.nocookie.net/mobile-legends-adventure/images/9/96/Mustang_Johnson_portrait_awakened_upscale.png/revision/latest?cb=20261005010316",
+    "wikiUrl": "https://mla.fandom.com/wiki/Mustang_Johnson",
+    "tags": [
+      "Hybrid",
+      "Tank",
+      "Heavy",
+      "SSR",
+      "Iron Guard"
+    ]
+  },
+  {
     "id": "mystic-mystia",
     "name": "Mystic Mystia",
     "type": "Hybrid",
