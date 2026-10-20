@@ -12571,8 +12571,8 @@ window.heroCatalogData = [
     "story": "To be added",
     "faction": "Hybrid",
     "subFactions": [
-      "Tect",
-      "Martical"
+      "Tech",
+      "Martial"
     ],
     "capabilities": "To be added",
     "abilities": [
@@ -16060,6 +16060,126 @@ window.heroCatalogData = [
       "Fighter",
       "Heavy",
       "R"
+    ]
+  },
+  {
+    "id": "stillframe-marcel",
+    "name": "Stillframe Marcel",
+    "type": "Hybrid",
+    "rarity": "SSR",
+    "class": "Support",
+    "advancedClass": "Spirit",
+    "equipmentSize": "Medium",
+    "description": "To be added",
+    "story": "To be added",
+    "faction": "Hybrid",
+    "subFactions": [
+      "Tech",
+      "Dark"
+    ],
+    "capabilities": "To be added",
+    "abilities": [
+      {
+        "name": "Picture Perfect",
+        "tier": "Ultimate",
+        "types": [
+          "Shield",
+          "Buff"
+        ],
+        "description": "Marcel grants all allied heroes a Shield equal to 700% of his Attack for 8s. When the Shield expires or is destroyed, its holder recovers 250 Energy and becomes immune to all damage for 1s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Marcel gains this skill's active effect at the start of the battle. The effect lasts until the battle ends."
+          },
+          {
+            "level": "3",
+            "text": "Shield granted is increased to 750%."
+          },
+          {
+            "level": "4",
+            "text": "Shield granted is increased to 800%. (Requires Ancient Twilight Level 3)"
+          }
+        ]
+      },
+      {
+        "name": "Tracking Shot",
+        "tier": "Skill",
+        "types": [
+          "Control"
+        ],
+        "description": "Marcel dashes to the farthest enemy. If another targetable allied hero is on the battlefield, Marcel becomes untargetable for 3s.Passive: Marcel stuns enemy heroes for 1s when they enter a certain range around him. He can stun each enemy this way once every 7s.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies take 30% more damage while stunned."
+          },
+          {
+            "level": "3",
+            "text": "The untargetable effect lasts 3s longer for the first 3 casts."
+          },
+          {
+            "level": "4",
+            "text": "Enemies take 60% more damage while stunned."
+          }
+        ]
+      },
+      {
+        "name": "Platinum Snap",
+        "tier": "Skill",
+        "types": [
+          "Debuff"
+        ],
+        "description": "Marcel takes a rapid series of close-up shots of an enemy hero, applying Negative for 3s. Whenever the target would gain Energy while affected, they instead lose Energy equal to 80% of that amount.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Enemies afflicted by Negative deal 60% less damage and provide 60% less healing."
+          },
+          {
+            "level": "3",
+            "text": "Negative's duration is increased to 4s."
+          },
+          {
+            "level": "4",
+            "text": "Negative's duration is increased to 5s. (Requires Ancient Twilight Level 1)"
+          }
+        ]
+      },
+      {
+        "name": "Golden Framing",
+        "tier": "Passive",
+        "types": [
+          "Shield"
+        ],
+        "description": "When Marcel's Tracking Shot or Platinum Snap applies Stun or Negative to an enemy, Marcel grants a Shield to the allied hero with the lowest HP percentage. The Shield equals 12% of that enemy's Max HP. It won't exceed 60% of its holder's Max HP and can stack up to 5 times.",
+        "levelDescriptions": [
+          {
+            "level": "2",
+            "text": "Marcel also gains a Shield equal to 12% of that enemy's Max HP, up to 60% of his own Max HP."
+          },
+          {
+            "level": "3",
+            "text": "The Shield granted is increases to 15% of Max HP, but won't exceed 75% of the holder's Max HP."
+          },
+          {
+            "level": "4",
+            "text": "The Shield granted is increases to 18% of Max HP, but won't exceed 90% of the holder's Max HP. (Requires Ancient Twilight Level 2)"
+          }
+        ]
+      }
+    ],
+    "title": "Soul Photographer",
+    "releaseDate": "October 16",
+    "releaseYear": "2026",
+    "image": "https://static.wikia.nocookie.net/mobile-legends-adventure/images/b/b4/Stillframe_Marcel_portrait_awakened_upscale.png/revision/latest?cb=20261018012546",
+    "wikiUrl": "https://mla.fandom.com/wiki/Stillframe_Marcel",
+    "tags": [
+      "Hybrid",
+      "Support",
+      "Medium",
+      "SSR",
+      "Spirit"
     ]
   },
   {
